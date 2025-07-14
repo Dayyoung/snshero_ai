@@ -8,6 +8,7 @@ gdjs.Card_32scenesCode.GDcardObjectObjects1= [];
 gdjs.Card_32scenesCode.GDcardObjectObjects2= [];
 
 
+gdjs.Card_32scenesCode.mapOfGDgdjs_9546Card_959532scenesCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.Card_32scenesCode.GDNewTiledSpriteObjects1});
 gdjs.Card_32scenesCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -71,7 +72,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-}
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.Card_32scenesCode.GDNewTiledSpriteObjects1);
+{gdjs.evtsExt__AlignObject__ToSceneCentered.func(runtimeScene, gdjs.Card_32scenesCode.mapOfGDgdjs_9546Card_959532scenesCode_9546GDNewTiledSpriteObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
 
 }
 
