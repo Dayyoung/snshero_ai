@@ -1,0 +1,203 @@
+.webpage,
+.webpage * {
+  box-sizing: border-box;
+}
+.webpage {
+  background: linear-gradient(
+    227.18deg,
+    rgba(250, 189, 1, 1) 0%,
+    rgba(231, 95, 9, 1) 100%
+  );
+  border-radius: 35px;
+  height: 1117px;
+  position: relative;
+  overflow: hidden;
+}
+.bg {
+  background: #ffe1cc;
+  width: 1728px;
+  height: 1117px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.vector-6 {
+  width: 341px;
+  height: 323.82px;
+  position: absolute;
+  left: -21px;
+  top: -40px;
+  overflow: visible;
+}
+.vector-4 {
+  width: 159.1px;
+  height: 470.52px;
+  position: absolute;
+  left: 1583.9px;
+  top: 299.5px;
+  overflow: visible;
+}
+.vector {
+  width: 78.3px;
+  height: 190.95px;
+  position: absolute;
+  left: 1651px;
+  top: 636px;
+  overflow: visible;
+}
+.vector-2 {
+  width: 369px;
+  height: 366px;
+  position: absolute;
+  left: -27px;
+  top: 755px;
+  overflow: visible;
+}
+.vector-3 {
+  width: 551.5px;
+  height: 381.05px;
+  position: absolute;
+  left: 284.5px;
+  top: 739.45px;
+  overflow: visible;
+}
+.vector2 {
+  width: 174.08px;
+  height: 137.72px;
+  position: absolute;
+  left: 195.51px;
+  top: 994px;
+  overflow: visible;
+}
+.vector-5 {
+  width: 254.07px;
+  height: 308.66px;
+  position: absolute;
+  left: 1478px;
+  top: 1112.5px;
+  transform: translate(9.32px, -231.96px);
+  overflow: visible;
+}
+.vector-7 {
+  width: 126px;
+  height: 322px;
+  position: absolute;
+  left: -34px;
+  top: 190px;
+  overflow: visible;
+}
+.vector-8 {
+  width: 179px;
+  height: 341px;
+  position: absolute;
+  left: 949px;
+  top: 1147px;
+  transform: translate(-341.91px, -180px);
+  overflow: visible;
+}
+.leaf {
+  width: 187.3px;
+  height: 216.56px;
+  position: absolute;
+  left: 1517px;
+  top: 1026.76px;
+  transform-origin: 0 0;
+  transform: rotate(-60.968deg) scale(1, 1);
+  object-fit: cover;
+}
+.vector-1 {
+  width: 225.28px;
+  height: 302.91px;
+  position: absolute;
+  left: -12px;
+  top: 862px;
+  overflow: visible;
+}
+.leaf2 {
+  width: 187.3px;
+  height: 216.56px;
+  position: absolute;
+  left: 40.46px;
+  top: 901px;
+  transform-origin: 0 0;
+  transform: rotate(19.549deg) scale(1, 1);
+  object-fit: cover;
+}
+.kids-in-balloon {
+  width: 468px;
+  height: 549px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 238px;
+  object-fit: cover;
+}
+.kids-in-balloon2 {
+  width: 418px;
+  height: 229px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  object-fit: cover;
+}
+.buy-now-button {
+  width: 220px;
+  height: 39px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1003px;
+}
+.rectangle {
+  background: #332623;
+  border-radius: 12px;
+  width: 220px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.comming-soon {
+  color: #ffe1cc;
+  text-align: center;
+  font-family: "Baloo2-SemiBold", sans-serif;
+  font-size: 31px;
+  line-height: 115.4%;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 220px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.humanity-joined-forces-to-defeat-the-black-dragon-and-a-peaceful-world-was-created-but-that-was-only-for-a-moment-a-virus-began-to-spread-in-the-robot-world-and-the-a-is-began-to-rebel {
+  color: #332623;
+  text-align: center;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 21.687110900878906px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 741px;
+  width: 333px;
+}
+.ai-rebellion {
+  color: #332623;
+  text-align: center;
+  font-family: "Baloo2-SemiBold", sans-serif;
+  font-size: 50px;
+  line-height: 140%;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 229px;
+  width: 559px;
+}
