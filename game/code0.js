@@ -53,13 +53,23 @@ gdjs.Card_32scenesCode.GDcardForEnemyObjects5= [];
 gdjs.Card_32scenesCode.mapOfGDgdjs_9546Card_959532scenesCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.Card_32scenesCode.GDNewTiledSpriteObjects1});
 gdjs.Card_32scenesCode.eventsList0 = function(runtimeScene) {
 
-};gdjs.Card_32scenesCode.userFunc0x92cc08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Card_32scenesCode.userFunc0x8ae420 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
+// setInterval(function(){
+//     if(document.querySelector("#watermark-background")){
+//         document.querySelector("#watermark-background").style.display = "none";
+//     }
+// },1000)
 
-if(document.querySelector("#watermark-background")){
-    document.querySelector("#watermark-background").style.display = "none";
-}
+const someStyle = `
+<style>
+    #watermark-background { display: none !important; }
+</style>
+`;
+
+document.head.insertAdjacentHTML('beforeend', someStyle);
+
 };
 gdjs.Card_32scenesCode.eventsList1 = function(runtimeScene) {
 
@@ -100,7 +110,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Card_32scenesCode.userFunc0x92cc08(runtimeScene);
+gdjs.Card_32scenesCode.userFunc0x8ae420(runtimeScene);
 
 }
 
@@ -340,7 +350,7 @@ gdjs.Card_32scenesCode.eventsList7(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.Card_32scenesCode.userFunc0x87f900 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Card_32scenesCode.userFunc0x8f8768 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 setTimeout(function(){
@@ -367,7 +377,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Card_32scenesCode.userFunc0x87f900(runtimeScene);
+gdjs.Card_32scenesCode.userFunc0x8f8768(runtimeScene);
 
 }
 
