@@ -295,7 +295,7 @@ gdjs.Card_32scenesCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.Card_32scenesCode.userFunc0x934bf0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Card_32scenesCode.userFunc0xb3ca20 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -489,7 +489,7 @@ gdjs.copyArray(gdjs.Card_32scenesCode.GDNewTiledSpriteObjects1, gdjs.Card_32scen
 
 var objects = [];
 objects.push.apply(objects,gdjs.Card_32scenesCode.GDNewTiledSpriteObjects2);
-gdjs.Card_32scenesCode.userFunc0x934bf0(runtimeScene, objects);
+gdjs.Card_32scenesCode.userFunc0xb3ca20(runtimeScene, objects);
 
 }
 
@@ -1053,7 +1053,7 @@ gdjs.Card_32scenesCode.eventsList8(runtimeScene);} //Subevents end.
 
 };gdjs.Card_32scenesCode.eventsList11 = function(runtimeScene) {
 
-};gdjs.Card_32scenesCode.userFunc0xb45ac8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Card_32scenesCode.userFunc0xb34f20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
 
@@ -1148,13 +1148,13 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Card_32scenesCode.userFunc0xb45ac8(runtimeScene);
+gdjs.Card_32scenesCode.userFunc0xb34f20(runtimeScene);
 
 }
 
 
 };gdjs.Card_32scenesCode.mapOfGDgdjs_9546Card_959532scenesCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.Card_32scenesCode.GDLeft_9595arrowObjects1});
-gdjs.Card_32scenesCode.userFunc0xb46150 = function GDJSInlineCode(runtimeScene) {
+gdjs.Card_32scenesCode.userFunc0xb35650 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1176,12 +1176,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Card_32scenesCode.userFunc0xb46150(runtimeScene);
+gdjs.Card_32scenesCode.userFunc0xb35650(runtimeScene);
 
 }
 
 
-};gdjs.Card_32scenesCode.userFunc0xb465d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Card_32scenesCode.userFunc0xb35ad8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1483,7 +1483,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Card_32scenesCode.userFunc0xb465d8(runtimeScene);
+gdjs.Card_32scenesCode.userFunc0xb35ad8(runtimeScene);
 
 }
 
