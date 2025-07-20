@@ -1,0 +1,84 @@
+{
+  "name": "SNSHero - AI",
+  "short_name": "SNSHero - AI",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "ef61813934f3f32ef235c275a1c79b3672ed23b580430d037e5bc1fc52f0c842-ios-icon-20.png",
+        "sizes": "20x20"
+      },{
+        "src": "f19be88fa044e76dee6c7e6f77acc838aea3e72514c0092a54274e883e59543a-ios-icon-29.png",
+        "sizes": "29x29"
+      },{
+        "src": "7d3f7332312b42d93adcb84a2df5c6e912fccff96d0f4a68edca93d1119aeb5a-android-icon-36.png",
+        "sizes": "36x36"
+      },{
+        "src": "3d88da2351adc8aa04de05b7b12bb9d3ddc6d0f9a284651c6d608dfde51d9336-ios-icon-40.png",
+        "sizes": "40x40"
+      },{
+        "src": "6f6b5f0ed9d4eb13fd036e7a09b8d92c5ee6a86fe80c7e7ec85034c6063b0d40-android-icon-48.png",
+        "sizes": "48x48"
+      },{
+        "src": "1ea326771feb0397cbcb83ea0be7afee86574df3ee1e51119c7ddd6ecf43411d-ios-icon-50.png",
+        "sizes": "50x50"
+      },{
+        "src": "c24de445e3c1fd7d9f1cfae59ffd6e8984b810c4913436776daa6f8ac065f166-ios-icon-57.png",
+        "sizes": "57x57"
+      },{
+        "src": "8941e10de36691fe9bc239ed4ebe90cff927016de5ed64b293c4aea6f0ff3fc5-ios-icon-58.png",
+        "sizes": "58x58"
+      },{
+        "src": "08b26d5b654d7e75bdfafe04ca347febcf49ba38e5bd1c382d457ab702e0768d-ios-icon-60.png",
+        "sizes": "60x60"
+      },{
+        "src": "623689667add0b8313ab9cff0b3bf2bae3cbc5005bbc6657e2be233a82f2c766-android-icon-72.png",
+        "sizes": "72x72"
+      },{
+        "src": "30eb9c1593f18ee09b80162790eff807722c2806733395d3c95a2a4882cca533-ios-icon-76.png",
+        "sizes": "76x76"
+      },{
+        "src": "bae945378f658aacb9e7ad9d9a5a6cfa118ad785e0684ebe32e78a8d3eec7f30-ios-icon-80.png",
+        "sizes": "80x80"
+      },{
+        "src": "ac29f425b53a4871dff80b655c87aa2b8cad9422024c0bfd544e21d6520741d4-ios-icon-87.png",
+        "sizes": "87x87"
+      },{
+        "src": "354a3ed1746d894f15890877e272181862b08d88b4db44eab2b3df2ba9680461-android-icon-96.png",
+        "sizes": "96x96"
+      },{
+        "src": "602169af41cd3a987ec4fd6d1798d8ffb6d44f2812663fe3b74df8b518d461c7-ios-icon-100.png",
+        "sizes": "100x100"
+      },{
+        "src": "22cb185035e00361557f354575c743237737b075b0070b12c6ad7eb277512475-ios-icon-114.png",
+        "sizes": "114x114"
+      },{
+        "src": "fcc0c3ca6141d878f587e302475355d533df73bc87f6d25155b6938ba77c609f-ios-icon-120.png",
+        "sizes": "120x120"
+      },{
+        "src": "5ddda56656ac6d7d1ccc23a3236b26ccf6c6339162a6dcfcd4d9a1f1c25162a4-android-icon-144.png",
+        "sizes": "144x144"
+      },{
+        "src": "27c541f2f1b606db418cc91ae55014233bb45bc32d99ef9b82f3cbed80e6e313-ios-icon-152.png",
+        "sizes": "152x152"
+      },{
+        "src": "751b3666f8d06e8dd8050b1c358b51c2838cc097f1e62829e6c34d309b38cff4-ios-icon-167.png",
+        "sizes": "167x167"
+      },{
+        "src": "be3cce714b65e54e505a8fdd89780ea5f2147b99853ff02b450c4b869bfecd82-ios-icon-180.png",
+        "sizes": "180x180"
+      },{
+        "src": "4d33c9688e04c9ac49554ef10fcab1703324e0eb533d3dcf1a5e7705b3a36398-android-icon-192.png",
+        "sizes": "192x192"
+      },{
+        "src": "517d88fb78621ec78bd042962961a456c51e90cee5f94b2541dd0920bac45f3a-desktop-icon-512.png",
+        "sizes": "512x512"
+      },{
+        "src": "d1e44e65af5c01a4b9660ff2d54657d0adab13928835aaa3ef1e8e3344a06f0c-ios-icon-1024.png",
+        "sizes": "1024x1024"
+      }]
+}
