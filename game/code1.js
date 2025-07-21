@@ -303,7 +303,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0xdcf6a0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0x1650d28 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -511,7 +511,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0xdcf6a0(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0x1650d28(runtimeScene, objects);
 
 }
 
@@ -1121,7 +1121,7 @@ gdjs.playSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0xdd8400 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x9b49f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1143,12 +1143,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xdd8400(runtimeScene);
+gdjs.playSceneCode.userFunc0x9b49f8(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0xdd8888 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x9f7b38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1448,7 +1448,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xdd8888(runtimeScene);
+gdjs.playSceneCode.userFunc0x9f7b38(runtimeScene);
 
 }
 
@@ -1827,7 +1827,7 @@ let isConditionTrue_0 = false;
 
 };gdjs.playSceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.playSceneCode.userFunc0xddc8f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xaa2d28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -1919,7 +1919,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xddc8f0(runtimeScene);
+gdjs.playSceneCode.userFunc0xaa2d28(runtimeScene);
 
 }
 
