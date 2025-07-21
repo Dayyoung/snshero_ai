@@ -302,7 +302,7 @@ gdjs.homeSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.homeSceneCode.userFunc0xcff690 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.homeSceneCode.userFunc0xa8a3d0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -496,7 +496,7 @@ gdjs.copyArray(gdjs.homeSceneCode.GDNewTiledSpriteObjects1, gdjs.homeSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.homeSceneCode.GDNewTiledSpriteObjects2);
-gdjs.homeSceneCode.userFunc0xcff690(runtimeScene, objects);
+gdjs.homeSceneCode.userFunc0xa8a3d0(runtimeScene, objects);
 
 }
 
@@ -1057,7 +1057,7 @@ gdjs.homeSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.homeSceneCode.GDLeft_9595arrowObjects1});
-gdjs.homeSceneCode.userFunc0xd14d38 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xaa5b18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1079,12 +1079,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.homeSceneCode.userFunc0xd14d38(runtimeScene);
+gdjs.homeSceneCode.userFunc0xaa5b18(runtimeScene);
 
 }
 
 
-};gdjs.homeSceneCode.userFunc0xd0bbd8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.homeSceneCode.userFunc0xaa5fa0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1384,7 +1384,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.homeSceneCode.userFunc0xd0bbd8(runtimeScene);
+gdjs.homeSceneCode.userFunc0xaa5fa0(runtimeScene);
 
 }
 
@@ -1763,7 +1763,7 @@ let isConditionTrue_0 = false;
 
 };gdjs.homeSceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.homeSceneCode.userFunc0xd02478 = function GDJSInlineCode(runtimeScene) {
+};gdjs.homeSceneCode.userFunc0xa3b5b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -1855,7 +1855,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.homeSceneCode.userFunc0xd02478(runtimeScene);
+gdjs.homeSceneCode.userFunc0xa3b5b8(runtimeScene);
 
 }
 

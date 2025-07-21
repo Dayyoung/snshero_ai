@@ -302,7 +302,7 @@ gdjs.settingSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1325138 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.settingSceneCode.userFunc0x1397a90 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -496,7 +496,7 @@ gdjs.copyArray(gdjs.settingSceneCode.GDNewTiledSpriteObjects1, gdjs.settingScene
 
 var objects = [];
 objects.push.apply(objects,gdjs.settingSceneCode.GDNewTiledSpriteObjects2);
-gdjs.settingSceneCode.userFunc0x1325138(runtimeScene, objects);
+gdjs.settingSceneCode.userFunc0x1397a90(runtimeScene, objects);
 
 }
 
@@ -1057,7 +1057,7 @@ gdjs.settingSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.settingSceneCode.GDLeft_9595arrowObjects1});
-gdjs.settingSceneCode.userFunc0x132d8b8 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x887d88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1079,12 +1079,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x132d8b8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x887d88(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x132dd40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x888210 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1384,7 +1384,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x132dd40(runtimeScene);
+gdjs.settingSceneCode.userFunc0x888210(runtimeScene);
 
 }
 
@@ -1763,7 +1763,7 @@ let isConditionTrue_0 = false;
 
 };gdjs.settingSceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.settingSceneCode.userFunc0x1331da8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xa3b6d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -1855,7 +1855,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x1331da8(runtimeScene);
+gdjs.settingSceneCode.userFunc0xa3b6d8(runtimeScene);
 
 }
 
