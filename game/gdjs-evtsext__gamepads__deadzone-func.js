@@ -1,22 +1,26 @@
 
-if (typeof gdjs.evtsExt__PinchGesture__TransformToSceneX !== "undefined") {
-  gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Gamepads__Deadzone !== "undefined") {
+  gdjs.evtsExt__Gamepads__Deadzone.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX = {};
+gdjs.evtsExt__Gamepads__Deadzone = {};
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__Deadzone.userFunc0x196c138 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const x = eventsFunctionContext.getArgument("PositionX");
-const y = eventsFunctionContext.getArgument("PositionY");
-const layer = runtimeScene.getLayer(eventsFunctionContext.getArgument("Layer"));
+//Get function parameter
+const playerId = eventsFunctionContext.getArgument("player_ID") - 1;
 
-eventsFunctionContext.returnValue = layer.convertCoords(x, y)[0];
+if (playerId < 0 || playerId > 4) {
+    console.error('Parameter gamepad identifier in expression: "Gamepad deadzone for sticks", is not valid number, must be between 0 and 4.');
+    return;
+}
+///Return the deadzone value for a given player
+eventsFunctionContext.returnValue = gdjs._extensionController.players[playerId].deadzone;
 };
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__Deadzone.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -31,14 +35,14 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__Deadzone.userFunc0x196c138(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.func = function(runtimeScene, PositionX, PositionY, Layer, parentEventsFunctionContext) {
+gdjs.evtsExt__Gamepads__Deadzone.func = function(runtimeScene, player_ID, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -46,8 +50,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PinchGesture"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PinchGesture"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -86,19 +90,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "PositionX") return PositionX;
-if (argName === "PositionY") return PositionY;
-if (argName === "Layer") return Layer;
+if (argName === "player_ID") return player_ID;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__Deadzone.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Gamepads__Deadzone.registeredGdjsCallbacks = [];

@@ -1,44 +1,42 @@
 
-if (typeof gdjs.evtsExt__PinchGesture__TransformToSceneX !== "undefined") {
-  gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Gamepads__A_Set_deadzone !== "undefined") {
+  gdjs.evtsExt__Gamepads__A_Set_deadzone.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX = {};
+gdjs.evtsExt__Gamepads__A_Set_deadzone = {};
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0x196c138 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const x = eventsFunctionContext.getArgument("PositionX");
-const y = eventsFunctionContext.getArgument("PositionY");
-const layer = runtimeScene.getLayer(eventsFunctionContext.getArgument("Layer"));
+//Get function parameter
+const playerId = eventsFunctionContext.getArgument("player_ID") - 1;
+const newDeadzone = eventsFunctionContext.getArgument("deadzone");
 
-eventsFunctionContext.returnValue = layer.convertCoords(x, y)[0];
+if (playerId < 0 || playerId > 4) {
+    console.error('Parameter gamepad identifier in action: "Set gamepad deadzone for sticks", is not valid, must be between 0 and 4.');
+    return;
+}
+
+// clamp the newDeadzone in range [0, 1].
+// https://github.com/4ian/GDevelop-extensions/pull/33#issuecomment-618224857
+gdjs._extensionController.players[playerId].deadzone = gdjs.evtTools.common.clamp(newDeadzone, 0, 1);
+
 };
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Set_deadzone.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0x196c138(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.func = function(runtimeScene, PositionX, PositionY, Layer, parentEventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Set_deadzone.func = function(runtimeScene, player_ID, deadzone, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -46,8 +44,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PinchGesture"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PinchGesture"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -86,19 +84,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "PositionX") return PositionX;
-if (argName === "PositionY") return PositionY;
-if (argName === "Layer") return Layer;
+if (argName === "player_ID") return player_ID;
+if (argName === "deadzone") return deadzone;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__A_Set_deadzone.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return Number(eventsFunctionContext.returnValue) || 0;
+return;
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Gamepads__A_Set_deadzone.registeredGdjsCallbacks = [];

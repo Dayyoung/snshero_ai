@@ -1,44 +1,43 @@
 
-if (typeof gdjs.evtsExt__PinchGesture__TransformToSceneX !== "undefined") {
-  gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Gamepads__GamepadCount !== "undefined") {
+  gdjs.evtsExt__Gamepads__GamepadCount.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX = {};
+gdjs.evtsExt__Gamepads__GamepadCount = {};
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__GamepadCount.userFunc0xa106c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const x = eventsFunctionContext.getArgument("PositionX");
-const y = eventsFunctionContext.getArgument("PositionY");
-const layer = runtimeScene.getLayer(eventsFunctionContext.getArgument("Layer"));
+const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
 
-eventsFunctionContext.returnValue = layer.convertCoords(x, y)[0];
-};
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+//Get the last activated controller
+const controllerId = gdjs._extensionController.lastActiveController;
 
-{
-
-
-let isConditionTrue_0 = false;
-{
+// Check if controller is active
+const gamepad = gamepads[controllerId];
+if (gamepad == null) {
+    eventsFunctionContext.returnValue = 0;
+} else {
+    // Return active controller id
+    eventsFunctionContext.returnValue = controllerId + 1;
 }
-
-}
-
-
-{
-
-
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xa4ff78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
-
-}
-
 
 };
+gdjs.evtsExt__Gamepads__GamepadCount.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.func = function(runtimeScene, PositionX, PositionY, Layer, parentEventsFunctionContext) {
+{
+
+
+gdjs.evtsExt__Gamepads__GamepadCount.userFunc0xa106c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+
+}
+
+
+};
+
+gdjs.evtsExt__Gamepads__GamepadCount.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -46,8 +45,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PinchGesture"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PinchGesture"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -86,19 +85,16 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "PositionX") return PositionX;
-if (argName === "PositionY") return PositionY;
-if (argName === "Layer") return Layer;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__GamepadCount.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Gamepads__GamepadCount.registeredGdjsCallbacks = [];
