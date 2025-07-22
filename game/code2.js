@@ -133,7 +133,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.deckSceneCode.userFunc0x8b05a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.deckSceneCode.userFunc0x919f80 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myCardList = []
 for(let i = 0; i<=4; i++){
@@ -157,7 +157,7 @@ gdjs.deckSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.deckSceneCode.userFunc0x8b05a0(runtimeScene);
+gdjs.deckSceneCode.userFunc0x919f80(runtimeScene);
 
 }
 
