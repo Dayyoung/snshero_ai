@@ -303,7 +303,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0x9ebc98 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0x1ab2748 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -511,7 +511,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0x9ebc98(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0x1ab2748(runtimeScene, objects);
 
 }
 
@@ -1121,7 +1121,7 @@ gdjs.playSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0x1092080 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0xc6db08 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1143,12 +1143,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x1092080(runtimeScene);
+gdjs.playSceneCode.userFunc0xc6db08(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0x935d80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xc6df90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1448,7 +1448,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x935d80(runtimeScene);
+gdjs.playSceneCode.userFunc0xc6df90(runtimeScene);
 
 }
 
@@ -1827,7 +1827,7 @@ let isConditionTrue_0 = false;
 
 };gdjs.playSceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.playSceneCode.userFunc0xc6bf70 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xed8d20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -1940,7 +1940,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xc6bf70(runtimeScene);
+gdjs.playSceneCode.userFunc0xed8d20(runtimeScene);
 
 }
 
@@ -2106,9 +2106,6 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.playSceneCode.GDcard
 }{for(var i = 0, len = gdjs.playSceneCode.GDConfigObjects1.length ;i < len;++i) {
     gdjs.playSceneCode.GDConfigObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.playSceneCode.GDConfigObjects1[i].getPointX("")));
 }
-}{for(var i = 0, len = gdjs.playSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.playSceneCode.GDbottomMenuObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.playSceneCode.GDbottomMenuObjects1[i].getPointX("")));
-}
 }{gdjs.evtTools.debuggerTools.log(gdjs.evtTools.common.toString((( gdjs.playSceneCode.GDcardObject2Objects1.length === 0 ) ? 0 :gdjs.playSceneCode.GDcardObject2Objects1[0].getPointX(""))), "info", "");
 }{for(var i = 0, len = gdjs.playSceneCode.GDcardObjectObjects1.length ;i < len;++i) {
     gdjs.playSceneCode.GDcardObjectObjects1[i].getBehavior("Animation").pauseAnimation();
@@ -2127,7 +2124,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.playSceneCode.GDcard
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.playSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.playSceneCode.GDbottomMenuObjects1[i].setY((gdjs.playSceneCode.GDbottomMenuObjects1[i].getPointY("")) + 40);
+    gdjs.playSceneCode.GDbottomMenuObjects1[i].setY((gdjs.playSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
 }
 }
 { //Subevents

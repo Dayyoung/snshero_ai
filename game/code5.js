@@ -366,9 +366,6 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.settingSceneCode.GDc
 }{for(var i = 0, len = gdjs.settingSceneCode.GDConfigObjects1.length ;i < len;++i) {
     gdjs.settingSceneCode.GDConfigObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDConfigObjects1[i].getPointX("")));
 }
-}{for(var i = 0, len = gdjs.settingSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDbottomMenuObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDbottomMenuObjects1[i].getPointX("")));
-}
 }{gdjs.evtTools.debuggerTools.log(gdjs.evtTools.common.toString((( gdjs.settingSceneCode.GDcardObject2Objects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDcardObject2Objects1[0].getPointX(""))), "info", "");
 }{for(var i = 0, len = gdjs.settingSceneCode.GDcardObjectObjects1.length ;i < len;++i) {
     gdjs.settingSceneCode.GDcardObjectObjects1[i].getBehavior("Animation").pauseAnimation();
@@ -386,7 +383,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.settingSceneCode.GDc
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "click.mp3");
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.settingSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDbottomMenuObjects1[i].setY((gdjs.settingSceneCode.GDbottomMenuObjects1[i].getPointY("")) + 40);
+    gdjs.settingSceneCode.GDbottomMenuObjects1[i].setY((gdjs.settingSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
 }
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
 }

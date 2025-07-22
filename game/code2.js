@@ -121,7 +121,19 @@ gdjs.deckSceneCode.GDInformLabelObjects3= [];
 
 gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.deckSceneCode.GDNewTiledSpriteObjects1});
 gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.deckSceneCode.GDbottomMenuObjects1});
-gdjs.deckSceneCode.userFunc0x9ebc98 = function GDJSInlineCode(runtimeScene) {
+gdjs.deckSceneCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};gdjs.deckSceneCode.userFunc0xafc8d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myCardList = []
 for(let i = 0; i<=4; i++){
@@ -140,12 +152,12 @@ for(let i = 0; i<=4; i++){
     runtimeScene.getVariables().get(keyText).getChild("title_en").setString(myCardList[i].title_en)
 }
 };
-gdjs.deckSceneCode.eventsList0 = function(runtimeScene) {
+gdjs.deckSceneCode.eventsList1 = function(runtimeScene) {
 
 {
 
 
-gdjs.deckSceneCode.userFunc0x9ebc98(runtimeScene);
+gdjs.deckSceneCode.userFunc0xafc8d0(runtimeScene);
 
 }
 
@@ -271,7 +283,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.deckSceneCode.GDbottomMenuObjects1});
-gdjs.deckSceneCode.eventsList1 = function(runtimeScene) {
+gdjs.deckSceneCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -359,7 +371,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects = Hashtable.newFrom({"cardObject2": gdjs.deckSceneCode.GDcardObject2Objects1});
-gdjs.deckSceneCode.eventsList2 = function(runtimeScene) {
+gdjs.deckSceneCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -372,7 +384,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.deckSceneCode.eventsList3 = function(runtimeScene) {
+};gdjs.deckSceneCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -447,12 +459,15 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.deckSceneCode.GDcard
 }
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "click.mp3");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "click.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDbottomMenuObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.deckSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.deckSceneCode.GDbottomMenuObjects1[i].setY((gdjs.deckSceneCode.GDbottomMenuObjects1[i].getPointY("")) + 40);
+    gdjs.deckSceneCode.GDbottomMenuObjects1[i].setY((gdjs.deckSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
 }
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
-}}
+}
+{ //Subevents
+gdjs.deckSceneCode.eventsList0(runtimeScene);} //End of subevents
+}
 gdjs.deckSceneCode.localVariables.pop();
 
 }
@@ -475,7 +490,7 @@ let isConditionTrue_0 = false;
 {runtimeScene.getScene().getVariables().getFromIndex(40).setBoolean(false);
 }
 { //Subevents
-gdjs.deckSceneCode.eventsList0(runtimeScene);} //End of subevents
+gdjs.deckSceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 gdjs.deckSceneCode.localVariables.pop();
 
@@ -507,7 +522,7 @@ if (isConditionTrue_0) {
 {gdjs.deckSceneCode.localVariables[0].getFromIndex(0).setNumber((( gdjs.deckSceneCode.GDbottomMenuObjects1.length === 0 ) ? 0 :gdjs.deckSceneCode.GDbottomMenuObjects1[0].getWidth()));
 }
 { //Subevents
-gdjs.deckSceneCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.deckSceneCode.eventsList2(runtimeScene);} //End of subevents
 }
 gdjs.deckSceneCode.localVariables.pop();
 
@@ -540,7 +555,7 @@ if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(0);
 }
 { //Subevents
-gdjs.deckSceneCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.deckSceneCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -679,7 +694,7 @@ gdjs.deckSceneCode.GDInformLabelObjects1.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects2.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects3.length = 0;
 
-gdjs.deckSceneCode.eventsList3(runtimeScene);
+gdjs.deckSceneCode.eventsList4(runtimeScene);
 gdjs.deckSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.deckSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.deckSceneCode.GDNewSprite3Objects3.length = 0;

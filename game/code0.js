@@ -299,7 +299,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcard
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.homeSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.homeSceneCode.GDbottomMenuObjects1[i].setY((gdjs.homeSceneCode.GDbottomMenuObjects1[i].getPointY("")) + 40);
+    gdjs.homeSceneCode.GDbottomMenuObjects1[i].setY((gdjs.homeSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
 }
 }
 { //Subevents

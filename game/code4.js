@@ -130,7 +130,7 @@ gdjs.cardSceneCode.GDtopButtonObjects2= [];
 gdjs.cardSceneCode.GDtopButtonObjects3= [];
 
 
-gdjs.cardSceneCode.userFunc0x1092210 = function GDJSInlineCode(runtimeScene) {
+gdjs.cardSceneCode.userFunc0x1aa8db0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 var cardList = 
@@ -166,7 +166,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.cardSceneCode.userFunc0x1092210(runtimeScene);
+gdjs.cardSceneCode.userFunc0x1aa8db0(runtimeScene);
 
 }
 
