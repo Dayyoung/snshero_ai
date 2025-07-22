@@ -129,6 +129,9 @@ gdjs.settingSceneCode.GDbgmLabel2Objects3= [];
 gdjs.settingSceneCode.GDbgmLabel3Objects1= [];
 gdjs.settingSceneCode.GDbgmLabel3Objects2= [];
 gdjs.settingSceneCode.GDbgmLabel3Objects3= [];
+gdjs.settingSceneCode.GDborderLayoutObjects1= [];
+gdjs.settingSceneCode.GDborderLayoutObjects2= [];
+gdjs.settingSceneCode.GDborderLayoutObjects3= [];
 
 
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
@@ -434,7 +437,7 @@ gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmO
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDbgmOnOffObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.settingSceneCode.GDbgmOnOffObjects1[i].HasJustBeenChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.settingSceneCode.GDbgmOnOffObjects1[k] = gdjs.settingSceneCode.GDbgmOnOffObjects1[i];
         ++k;
@@ -443,6 +446,7 @@ for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;+
 gdjs.settingSceneCode.GDbgmOnOffObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "daisy.mp3", 1, true, 30, 1);
 }}
 
 }
@@ -455,7 +459,7 @@ gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmO
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;++i) {
-    if ( !(gdjs.settingSceneCode.GDbgmOnOffObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+    if ( gdjs.settingSceneCode.GDbgmOnOffObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.settingSceneCode.GDbgmOnOffObjects1[k] = gdjs.settingSceneCode.GDbgmOnOffObjects1[i];
         ++k;
@@ -464,6 +468,7 @@ for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;+
 gdjs.settingSceneCode.GDbgmOnOffObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
+}{gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
 }}
 
 }
@@ -476,7 +481,7 @@ gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDso
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsoundOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDsoundOnOffObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.settingSceneCode.GDsoundOnOffObjects1[i].HasJustBeenChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.settingSceneCode.GDsoundOnOffObjects1[k] = gdjs.settingSceneCode.GDsoundOnOffObjects1[i];
         ++k;
@@ -485,6 +490,7 @@ for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsoundOnOffObjects1.length;i<l
 gdjs.settingSceneCode.GDsoundOnOffObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setBoolean(true);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "flip.mp3", false, 100, 1);
 }}
 
 }
@@ -497,7 +503,7 @@ gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDso
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsoundOnOffObjects1.length;i<l;++i) {
-    if ( !(gdjs.settingSceneCode.GDsoundOnOffObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+    if ( gdjs.settingSceneCode.GDsoundOnOffObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.settingSceneCode.GDsoundOnOffObjects1[k] = gdjs.settingSceneCode.GDsoundOnOffObjects1[i];
         ++k;
@@ -645,6 +651,9 @@ gdjs.settingSceneCode.GDbgmLabel2Objects3.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects1.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects2.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects3.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects1.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects2.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects3.length = 0;
 
 gdjs.settingSceneCode.eventsList3(runtimeScene);
 gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
@@ -776,6 +785,9 @@ gdjs.settingSceneCode.GDbgmLabel2Objects3.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects1.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects2.length = 0;
 gdjs.settingSceneCode.GDbgmLabel3Objects3.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects1.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects2.length = 0;
+gdjs.settingSceneCode.GDborderLayoutObjects3.length = 0;
 
 
 return;

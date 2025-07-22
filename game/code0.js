@@ -127,8 +127,16 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
 }
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "daisy.mp3", 1, true, 30, 1);
+}}
 
 }
 
@@ -301,6 +309,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcard
 }{for(var i = 0, len = gdjs.homeSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
     gdjs.homeSceneCode.GDbottomMenuObjects1[i].setY((gdjs.homeSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
 }
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "daisy.mp3");
 }
 { //Subevents
 gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents

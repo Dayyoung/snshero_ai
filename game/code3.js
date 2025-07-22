@@ -133,7 +133,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.shopSceneCode.userFunc0x1aa91e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0x92b8b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myCardList = []
 for(let i = 0; i<=4; i++){
@@ -157,7 +157,7 @@ gdjs.shopSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.shopSceneCode.userFunc0x1aa91e8(runtimeScene);
+gdjs.shopSceneCode.userFunc0x92b8b0(runtimeScene);
 
 }
 

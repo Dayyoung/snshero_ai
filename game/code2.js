@@ -133,7 +133,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.deckSceneCode.userFunc0xafc8d0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.deckSceneCode.userFunc0x8b05a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myCardList = []
 for(let i = 0; i<=4; i++){
@@ -157,7 +157,7 @@ gdjs.deckSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.deckSceneCode.userFunc0xafc8d0(runtimeScene);
+gdjs.deckSceneCode.userFunc0x8b05a0(runtimeScene);
 
 }
 
@@ -384,7 +384,63 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.deckSceneCode.eventsList4 = function(runtimeScene) {
+};gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects = Hashtable.newFrom({"cardObject2": gdjs.deckSceneCode.GDcardObject2Objects1});
+gdjs.deckSceneCode.eventsList4 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "cardScene", false);
+}}
+
+}
+
+
+};gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects = Hashtable.newFrom({"cardObject2": gdjs.deckSceneCode.GDcardObject2Objects1});
+gdjs.deckSceneCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "cardScene", false);
+}}
+
+}
+
+
+};gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects = Hashtable.newFrom({"cardObject2": gdjs.deckSceneCode.GDcardObject2Objects1});
+gdjs.deckSceneCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "cardScene", false);
+}}
+
+}
+
+
+};gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects = Hashtable.newFrom({"cardObject2": gdjs.deckSceneCode.GDcardObject2Objects1});
+gdjs.deckSceneCode.eventsList7 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "cardScene", false);
+}}
+
+}
+
+
+};gdjs.deckSceneCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -563,6 +619,134 @@ gdjs.deckSceneCode.eventsList3(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.deckSceneCode.GDcardObject2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.deckSceneCode.GDcardObject2Objects1.length;i<l;++i) {
+    if ( gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariableNumber(gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariables().getFromIndex(0)) == 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.deckSceneCode.GDcardObject2Objects1[k] = gdjs.deckSceneCode.GDcardObject2Objects1[i];
+        ++k;
+    }
+}
+gdjs.deckSceneCode.GDcardObject2Objects1.length = k;
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(1);
+}
+{ //Subevents
+gdjs.deckSceneCode.eventsList4(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.deckSceneCode.GDcardObject2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.deckSceneCode.GDcardObject2Objects1.length;i<l;++i) {
+    if ( gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariableNumber(gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariables().getFromIndex(0)) == 2 ) {
+        isConditionTrue_0 = true;
+        gdjs.deckSceneCode.GDcardObject2Objects1[k] = gdjs.deckSceneCode.GDcardObject2Objects1[i];
+        ++k;
+    }
+}
+gdjs.deckSceneCode.GDcardObject2Objects1.length = k;
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(2);
+}
+{ //Subevents
+gdjs.deckSceneCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.deckSceneCode.GDcardObject2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.deckSceneCode.GDcardObject2Objects1.length;i<l;++i) {
+    if ( gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariableNumber(gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariables().getFromIndex(0)) == 3 ) {
+        isConditionTrue_0 = true;
+        gdjs.deckSceneCode.GDcardObject2Objects1[k] = gdjs.deckSceneCode.GDcardObject2Objects1[i];
+        ++k;
+    }
+}
+gdjs.deckSceneCode.GDcardObject2Objects1.length = k;
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(3);
+}
+{ //Subevents
+gdjs.deckSceneCode.eventsList6(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.deckSceneCode.GDcardObject2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDcardObject2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.deckSceneCode.GDcardObject2Objects1.length;i<l;++i) {
+    if ( gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariableNumber(gdjs.deckSceneCode.GDcardObject2Objects1[i].getVariables().getFromIndex(0)) == 4 ) {
+        isConditionTrue_0 = true;
+        gdjs.deckSceneCode.GDcardObject2Objects1[k] = gdjs.deckSceneCode.GDcardObject2Objects1[i];
+        ++k;
+    }
+}
+gdjs.deckSceneCode.GDcardObject2Objects1.length = k;
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(4);
+}
+{ //Subevents
+gdjs.deckSceneCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 {
@@ -694,7 +878,7 @@ gdjs.deckSceneCode.GDInformLabelObjects1.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects2.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects3.length = 0;
 
-gdjs.deckSceneCode.eventsList4(runtimeScene);
+gdjs.deckSceneCode.eventsList8(runtimeScene);
 gdjs.deckSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.deckSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.deckSceneCode.GDNewSprite3Objects3.length = 0;
