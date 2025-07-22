@@ -119,7 +119,6 @@ gdjs.homeSceneCode.GDborderLabelObjects2= [];
 gdjs.homeSceneCode.GDborderLabelObjects3= [];
 
 
-gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.homeSceneCode.GDNewTiledSpriteObjects1});
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
 gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 
@@ -272,7 +271,6 @@ gdjs.copyArray(runtimeScene.getObjects("cardForEnemy"), gdjs.homeSceneCode.GDcar
 gdjs.copyArray(runtimeScene.getObjects("cardObject"), gdjs.homeSceneCode.GDcardObjectObjects1);
 gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcardObject2Objects1);
 {runtimeScene.getScene().getVariables().getFromIndex(23).setNumber((( gdjs.homeSceneCode.GDNewTiledSpriteObjects1.length === 0 ) ? 0 :gdjs.homeSceneCode.GDNewTiledSpriteObjects1[0].getX()));
-}{gdjs.evtsExt__AlignObject__ToSceneCentered.func(runtimeScene, gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewTiledSpriteObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{runtimeScene.getScene().getVariables().getFromIndex(23).setNumber((( gdjs.homeSceneCode.GDNewTiledSpriteObjects1.length === 0 ) ? 0 :gdjs.homeSceneCode.GDNewTiledSpriteObjects1[0].getX()));
 }{for(var i = 0, len = gdjs.homeSceneCode.GDNewSprite3Objects1.length ;i < len;++i) {
     gdjs.homeSceneCode.GDNewSprite3Objects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.homeSceneCode.GDNewSprite3Objects1[i].getPointX("")));
@@ -347,6 +345,26 @@ if (isConditionTrue_0) {
 gdjs.homeSceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 gdjs.homeSceneCode.localVariables.pop();
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.homeSceneCode.GDNewSprite3Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.homeSceneCode.GDNewSprite3Objects1.length;i<l;++i) {
+    if ( gdjs.homeSceneCode.GDNewSprite3Objects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.homeSceneCode.GDNewSprite3Objects1[k] = gdjs.homeSceneCode.GDNewSprite3Objects1[i];
+        ++k;
+    }
+}
+gdjs.homeSceneCode.GDNewSprite3Objects1.length = k;
+if (isConditionTrue_0) {
+}
 
 }
 
