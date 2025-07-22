@@ -114,12 +114,13 @@ gdjs.homeSceneCode.GDNewSpriteObjects3= [];
 gdjs.homeSceneCode.GDNewSprite4Objects1= [];
 gdjs.homeSceneCode.GDNewSprite4Objects2= [];
 gdjs.homeSceneCode.GDNewSprite4Objects3= [];
+gdjs.homeSceneCode.GDborderLabelObjects1= [];
+gdjs.homeSceneCode.GDborderLabelObjects2= [];
+gdjs.homeSceneCode.GDborderLabelObjects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.homeSceneCode.GDNewTiledSpriteObjects1});
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.homeSceneCode.GDNewSpriteObjects1});
-gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewSprite4Objects1Objects = Hashtable.newFrom({"NewSprite4": gdjs.homeSceneCode.GDNewSprite4Objects1});
 gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -255,9 +256,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Config"), gdjs.homeSceneCode.GDConfigObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Left_arrow"), gdjs.homeSceneCode.GDLeft_9595arrowObjects1);
-gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.homeSceneCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.homeSceneCode.GDNewSprite3Objects1);
-gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.homeSceneCode.GDNewSprite4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.homeSceneCode.GDNewTiledSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aiDialog"), gdjs.homeSceneCode.GDaiDialogObjects1);
 gdjs.copyArray(runtimeScene.getObjects("bottomMenu"), gdjs.homeSceneCode.GDbottomMenuObjects1);
@@ -282,9 +281,6 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcard
 }{for(var i = 0, len = gdjs.homeSceneCode.GDConfigObjects1.length ;i < len;++i) {
     gdjs.homeSceneCode.GDConfigObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.homeSceneCode.GDConfigObjects1[i].getPointX("")));
 }
-}{for(var i = 0, len = gdjs.homeSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.homeSceneCode.GDbottomMenuObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.homeSceneCode.GDbottomMenuObjects1[i].getPointX("")));
-}
 }{gdjs.evtTools.debuggerTools.log(gdjs.evtTools.common.toString((( gdjs.homeSceneCode.GDcardObject2Objects1.length === 0 ) ? 0 :gdjs.homeSceneCode.GDcardObject2Objects1[0].getPointX(""))), "info", "");
 }{for(var i = 0, len = gdjs.homeSceneCode.GDcardObjectObjects1.length ;i < len;++i) {
     gdjs.homeSceneCode.GDcardObjectObjects1[i].getBehavior("Animation").pauseAnimation();
@@ -305,8 +301,6 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcard
 }{for(var i = 0, len = gdjs.homeSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
     gdjs.homeSceneCode.GDbottomMenuObjects1[i].setY((gdjs.homeSceneCode.GDbottomMenuObjects1[i].getPointY("")) + 40);
 }
-}{gdjs.evtsExt__AlignObject__ToSceneCenter.func(runtimeScene, gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewSpriteObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__AlignObject__ToSceneCenter.func(runtimeScene, gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDNewSprite4Objects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
 gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
@@ -467,6 +461,9 @@ gdjs.homeSceneCode.GDNewSpriteObjects3.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects1.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects2.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects3.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects1.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects2.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects3.length = 0;
 
 gdjs.homeSceneCode.eventsList2(runtimeScene);
 gdjs.homeSceneCode.GDNewSprite3Objects1.length = 0;
@@ -583,6 +580,9 @@ gdjs.homeSceneCode.GDNewSpriteObjects3.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects1.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects2.length = 0;
 gdjs.homeSceneCode.GDNewSprite4Objects3.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects1.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects2.length = 0;
+gdjs.homeSceneCode.GDborderLabelObjects3.length = 0;
 
 
 return;
