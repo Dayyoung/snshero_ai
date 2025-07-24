@@ -129,6 +129,15 @@ gdjs.settingSceneCode.GDsoundLabel2Objects3= [];
 gdjs.settingSceneCode.GDbgmLabelObjects1= [];
 gdjs.settingSceneCode.GDbgmLabelObjects2= [];
 gdjs.settingSceneCode.GDbgmLabelObjects3= [];
+gdjs.settingSceneCode.GDlogoutLabelObjects1= [];
+gdjs.settingSceneCode.GDlogoutLabelObjects2= [];
+gdjs.settingSceneCode.GDlogoutLabelObjects3= [];
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1= [];
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2= [];
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3= [];
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1= [];
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2= [];
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3= [];
 
 
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
@@ -514,6 +523,29 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("logoutLabel"), gdjs.settingSceneCode.GDlogoutLabelObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDlogoutLabelObjects1.length;i<l;++i) {
+    if ( gdjs.settingSceneCode.GDlogoutLabelObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.settingSceneCode.GDlogoutLabelObjects1[k] = gdjs.settingSceneCode.GDlogoutLabelObjects1[i];
+        ++k;
+    }
+}
+gdjs.settingSceneCode.GDlogoutLabelObjects1.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).setString("0");
+}{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
+}}
+
+}
+
+
 };
 
 gdjs.settingSceneCode.func = function(runtimeScene) {
@@ -648,6 +680,15 @@ gdjs.settingSceneCode.GDsoundLabel2Objects3.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects1.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects2.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
 
 gdjs.settingSceneCode.eventsList3(runtimeScene);
 gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
@@ -779,6 +820,15 @@ gdjs.settingSceneCode.GDsoundLabel2Objects3.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects1.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects2.length = 0;
 gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
+gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2.length = 0;
+gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
+gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
 
 
 return;

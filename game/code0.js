@@ -117,10 +117,13 @@ gdjs.homeSceneCode.GDNewSprite4Objects3= [];
 gdjs.homeSceneCode.GDborderLabelObjects1= [];
 gdjs.homeSceneCode.GDborderLabelObjects2= [];
 gdjs.homeSceneCode.GDborderLabelObjects3= [];
+gdjs.homeSceneCode.GDborderLabel2Objects1= [];
+gdjs.homeSceneCode.GDborderLabel2Objects2= [];
+gdjs.homeSceneCode.GDborderLabel2Objects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x1b24fc0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xc4e4a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var UID = localStorage.getItem("UID")
 var GID = localStorage.getItem("GID")
@@ -155,14 +158,19 @@ document.head.appendChild(dep);
   elemDiv.style.cssText = 'width: 400px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 17px;margin: 4px 2px;cursor: pointer;position:absolute;bottom:300px;left:calc('+screenCenter+'px - 400px / 2 ); z-index:99999;border-radius: 2px;';
   //document.body.appendChild(elemDiv);
   document.body.insertBefore(elemDiv, document.body.firstChild);
-
-
       function handleCredentialResponse(response) {
       const responsePayload = decodeJwtResponse(response.credential);
-      localStorage.setItem("GID",responsePayload.sub)
+      localStorage.setItem("UID",responsePayload.sub)
+      localStorage.setItem("UTYPE","G")
+
       document.getElementById("buttonDiv").style.display = "none";
       document.getElementById("buttonDiv2").style.display = "none";
       //window.location.href = "/redirectFromGoogle.php?response=" + JSON.stringify(responsePayload)    
+
+    runtimeScene.getGame().getVariables().get("UID").setString(responsePayload.sub)
+    runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
+    runtimeScene.getGame().getVariables().get("CP").setNumber(99990)
+
       }
       
      function decodeJwtResponse(token) {
@@ -204,6 +212,10 @@ jqueryLib.onload = function () {
     $('#buttonDiv2').click(function(){      
       var UID = Math.random().toString(36).substr(2,11);
       localStorage.setItem("UID",UID)
+      localStorage.setItem("UTYPE","GE")
+      runtimeScene.getGame().getVariables().get("UID").setString(UID)
+      runtimeScene.getGame().getVariables().get("UTYPE").setString("GE")
+      runtimeScene.getGame().getVariables().get("CP").setNumber(99990)
 
       document.getElementById("buttonDiv").style.display = "none";
       document.getElementById("buttonDiv2").style.display = "none";
@@ -218,7 +230,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x1b24fc0(runtimeScene);
+gdjs.homeSceneCode.userFunc0xc4e4a0(runtimeScene);
 
 }
 
@@ -256,9 +268,8 @@ gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x1b264d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1283a18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
-
       document.getElementById("buttonDiv").style.display = "none";
       document.getElementById("buttonDiv2").style.display = "none";
 };
@@ -267,7 +278,7 @@ gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x1b264d0(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1283a18(runtimeScene);
 
 }
 
@@ -620,6 +631,9 @@ gdjs.homeSceneCode.GDNewSprite4Objects3.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects1.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects2.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects3.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects1.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects2.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects3.length = 0;
 
 gdjs.homeSceneCode.eventsList3(runtimeScene);
 gdjs.homeSceneCode.GDNewSprite3Objects1.length = 0;
@@ -739,6 +753,9 @@ gdjs.homeSceneCode.GDNewSprite4Objects3.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects1.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects2.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects3.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects1.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects2.length = 0;
+gdjs.homeSceneCode.GDborderLabel2Objects3.length = 0;
 
 
 return;
