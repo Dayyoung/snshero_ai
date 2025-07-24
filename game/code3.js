@@ -452,7 +452,7 @@ if (isConditionTrue_0) {
 };gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButtonObjects1Objects = Hashtable.newFrom({"goButton": gdjs.shopSceneCode.GDgoButtonObjects1});
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButtonObjects1Objects = Hashtable.newFrom({"goButton": gdjs.shopSceneCode.GDgoButtonObjects1});
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButtonObjects1Objects = Hashtable.newFrom({"goButton": gdjs.shopSceneCode.GDgoButtonObjects1});
-gdjs.shopSceneCode.userFunc0x1292128 = function GDJSInlineCode(runtimeScene) {
+gdjs.shopSceneCode.userFunc0xb3b418 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 };
@@ -499,7 +499,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDN
 {
 
 
-gdjs.shopSceneCode.userFunc0x1292128(runtimeScene);
+gdjs.shopSceneCode.userFunc0xb3b418(runtimeScene);
 
 }
 
@@ -544,7 +544,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.shopSceneCode.GDcard
 }
 
 
-};gdjs.shopSceneCode.userFunc0x11e6e58 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xbc0750 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GPBQBSBYHRNKE", "_blank");
 };
@@ -563,12 +563,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0x11e6e58(runtimeScene);
+gdjs.shopSceneCode.userFunc0xbc0750(runtimeScene);
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0x11e72c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xc754f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6LKTRBWFK4XFG", "_blank");
 };
@@ -587,12 +587,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0x11e72c8(runtimeScene);
+gdjs.shopSceneCode.userFunc0xc754f8(runtimeScene);
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0x11e7760 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xc75990 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53K9SBPXLBABE", "_blank");
 };
@@ -611,7 +611,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0x11e7760(runtimeScene);
+gdjs.shopSceneCode.userFunc0xc75990(runtimeScene);
 
 }
 

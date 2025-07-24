@@ -120,7 +120,124 @@ gdjs.homeSceneCode.GDborderLabelObjects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
+gdjs.homeSceneCode.userFunc0x7d4278 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+
+var meta = document.createElement('meta');
+meta.name = 'google-signin-client_id';
+meta.content = '150094404384-jmoj4eeb30l30ciedg1hltod5nl007o6.apps.googleusercontent.com'
+
+var dep = document.createElement("script");
+dep.src = "https://apis.google.com/js/platform.js";
+document.head.appendChild(dep);
+
+var dep = document.createElement("script");
+dep.src = "https://accounts.google.com/gsi/client";
+document.head.appendChild(dep);
+
+  var browserWidth = document.body.clientWidth;  
+  var screenCenter = browserWidth / 2
+
+
+  var elemDiv = document.createElement('div');
+  elemDiv.id = "buttonDiv"
+  elemDiv.style.cssText = 'position:absolute;bottom:250px;left:calc('+screenCenter+'px - 400px / 2 );z-index:99999;';
+  //document.body.appendChild(elemDiv);
+  document.body.insertBefore(elemDiv, document.body.firstChild);
+
+  var elemDiv = document.createElement('button');
+  elemDiv.id = "buttonDiv2"
+  elemDiv.innerHTML = "Log in as a guest"
+  elemDiv.style.cssText = 'width: 400px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 17px;margin: 4px 2px;cursor: pointer;position:absolute;bottom:300px;left:calc('+screenCenter+'px - 400px / 2 ); z-index:99999;border-radius: 2px;';
+  //document.body.appendChild(elemDiv);
+  document.body.insertBefore(elemDiv, document.body.firstChild);
+
+
+      function handleCredentialResponse(response) {
+      const responsePayload = decodeJwtResponse(response.credential);
+      localStorage.setItem("GID",responsePayload.sub)
+      //window.location.href = "/redirectFromGoogle.php?response=" + JSON.stringify(responsePayload)    
+      }
+      
+     function decodeJwtResponse(token) {
+        let base64Url = token.split('.')[1];
+        let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+        let jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+
+        return JSON.parse(jsonPayload);
+      }      
+  dep.onload = function () {
+       console.log("LOAD")
+
+        google.accounts.id.initialize({
+          client_id: "150094404384-jmoj4eeb30l30ciedg1hltod5nl007o6.apps.googleusercontent.com",
+          callback: handleCredentialResponse
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("buttonDiv"),
+          { 
+            theme: "outline", 
+            size: "large", 
+            'width': 400,
+            'height': 170, 
+            }  // customization attributes
+        );
+        google.accounts.id.prompt(); // also display the One Tap dialog
+  }
+
+
+const jqueryLib = document.createElement("script");
+jqueryLib.src = "https://code.jquery.com/jquery-3.7.1.min.js";
+document.head.appendChild(jqueryLib);
+
+jqueryLib.onload = function () {
+  $(function(){
+    console.log("redy")
+    $('#buttonDiv2').click(function(){
+      alert('test')
+    })
+  })
+}
+
+
+
+};
+gdjs.homeSceneCode.userFunc0xb3ab80 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+
+
+};
 gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+gdjs.homeSceneCode.userFunc0x7d4278(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.homeSceneCode.userFunc0xb3ab80(runtimeScene);
+
+}
+
+
+};gdjs.homeSceneCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -134,14 +251,16 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "daisy.mp3", 1, true, 30, 1);
-}}
+
+{ //Subevents
+gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
+}
 
 }
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.eventsList1 = function(runtimeScene) {
+gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -228,7 +347,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
+};gdjs.homeSceneCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -310,7 +429,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.homeSceneCode.GDcard
 }{gdjs.evtTools.sound.preloadMusic(runtimeScene, "daisy.mp3");
 }
 { //Subevents
-gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
+gdjs.homeSceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 gdjs.homeSceneCode.localVariables.pop();
 
@@ -342,7 +461,7 @@ if (isConditionTrue_0) {
 {gdjs.homeSceneCode.localVariables[0].getFromIndex(0).setNumber((( gdjs.homeSceneCode.GDbottomMenuObjects1.length === 0 ) ? 0 :gdjs.homeSceneCode.GDbottomMenuObjects1[0].getWidth()));
 }
 { //Subevents
-gdjs.homeSceneCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.homeSceneCode.eventsList2(runtimeScene);} //End of subevents
 }
 gdjs.homeSceneCode.localVariables.pop();
 
@@ -492,7 +611,7 @@ gdjs.homeSceneCode.GDborderLabelObjects1.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects2.length = 0;
 gdjs.homeSceneCode.GDborderLabelObjects3.length = 0;
 
-gdjs.homeSceneCode.eventsList2(runtimeScene);
+gdjs.homeSceneCode.eventsList3(runtimeScene);
 gdjs.homeSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.homeSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.homeSceneCode.GDNewSprite3Objects3.length = 0;
