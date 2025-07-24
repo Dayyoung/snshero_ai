@@ -117,6 +117,9 @@ gdjs.deckSceneCode.GDTransparentButtonWithWhiteBlueBorderObjects3= [];
 gdjs.deckSceneCode.GDInformLabelObjects1= [];
 gdjs.deckSceneCode.GDInformLabelObjects2= [];
 gdjs.deckSceneCode.GDInformLabelObjects3= [];
+gdjs.deckSceneCode.GDtitleLabelObjects1= [];
+gdjs.deckSceneCode.GDtitleLabelObjects2= [];
+gdjs.deckSceneCode.GDtitleLabelObjects3= [];
 
 
 gdjs.deckSceneCode.mapOfGDgdjs_9546deckSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.deckSceneCode.GDNewTiledSpriteObjects1});
@@ -133,7 +136,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.deckSceneCode.userFunc0xc7cb70 = function GDJSInlineCode(runtimeScene) {
+};gdjs.deckSceneCode.userFunc0xabfbe0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 var cardList = 
@@ -183,7 +186,7 @@ gdjs.deckSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.deckSceneCode.userFunc0xc7cb70(runtimeScene);
+gdjs.deckSceneCode.userFunc0xabfbe0(runtimeScene);
 
 }
 
@@ -903,6 +906,9 @@ gdjs.deckSceneCode.GDTransparentButtonWithWhiteBlueBorderObjects3.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects1.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects2.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects3.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects1.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects2.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects3.length = 0;
 
 gdjs.deckSceneCode.eventsList8(runtimeScene);
 gdjs.deckSceneCode.GDNewSprite3Objects1.length = 0;
@@ -1022,6 +1028,9 @@ gdjs.deckSceneCode.GDTransparentButtonWithWhiteBlueBorderObjects3.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects1.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects2.length = 0;
 gdjs.deckSceneCode.GDInformLabelObjects3.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects1.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects2.length = 0;
+gdjs.deckSceneCode.GDtitleLabelObjects3.length = 0;
 
 
 return;

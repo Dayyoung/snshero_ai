@@ -120,8 +120,12 @@ gdjs.homeSceneCode.GDborderLabelObjects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x7d4278 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1b24fc0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
+var UID = localStorage.getItem("UID")
+var GID = localStorage.getItem("GID")
+
+//if(UID || GID) return
 
 var meta = document.createElement('meta');
 meta.name = 'google-signin-client_id';
@@ -156,6 +160,8 @@ document.head.appendChild(dep);
       function handleCredentialResponse(response) {
       const responsePayload = decodeJwtResponse(response.credential);
       localStorage.setItem("GID",responsePayload.sub)
+      document.getElementById("buttonDiv").style.display = "none";
+      document.getElementById("buttonDiv2").style.display = "none";
       //window.location.href = "/redirectFromGoogle.php?response=" + JSON.stringify(responsePayload)    
       }
       
@@ -195,17 +201,15 @@ document.head.appendChild(jqueryLib);
 jqueryLib.onload = function () {
   $(function(){
     console.log("redy")
-    $('#buttonDiv2').click(function(){
-      alert('test')
+    $('#buttonDiv2').click(function(){      
+      var UID = Math.random().toString(36).substr(2,11);
+      localStorage.setItem("UID",UID)
+
+      document.getElementById("buttonDiv").style.display = "none";
+      document.getElementById("buttonDiv2").style.display = "none";
     })
   })
 }
-
-
-
-};
-gdjs.homeSceneCode.userFunc0xb3ab80 = function GDJSInlineCode(runtimeScene) {
-"use strict";
 
 
 };
@@ -214,7 +218,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x7d4278(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1b24fc0(runtimeScene);
 
 }
 
@@ -225,14 +229,6 @@ gdjs.homeSceneCode.userFunc0x7d4278(runtimeScene);
 let isConditionTrue_0 = false;
 {
 }
-
-}
-
-
-{
-
-
-gdjs.homeSceneCode.userFunc0xb3ab80(runtimeScene);
 
 }
 
@@ -260,7 +256,21 @@ gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
+gdjs.homeSceneCode.userFunc0x1b264d0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+
+      document.getElementById("buttonDiv").style.display = "none";
+      document.getElementById("buttonDiv2").style.display = "none";
+};
 gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+gdjs.homeSceneCode.userFunc0x1b264d0(runtimeScene);
+
+}
+
 
 {
 
