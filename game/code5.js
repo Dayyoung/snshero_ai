@@ -315,7 +315,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1acaa40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x1ae1730 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -346,7 +346,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x1acaa40(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1ae1730(runtimeScene);
 
 }
 

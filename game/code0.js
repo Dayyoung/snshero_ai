@@ -123,7 +123,7 @@ gdjs.homeSceneCode.GDborderLabel2Objects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x1b124d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1b1d7b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 var cardList = 
@@ -254,7 +254,7 @@ try{
 
 
 };
-gdjs.homeSceneCode.userFunc0x1b12540 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1b1d820 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var UID = localStorage.getItem("UID")
 
@@ -273,19 +273,23 @@ dep.src = "https://accounts.google.com/gsi/client";
 document.head.appendChild(dep);
 
   var browserWidth = document.body.clientWidth;  
-  var screenCenter = browserWidth / 2
+  var browserHeight = document.documentElement.clientHeight
+  var screenWidthCenter = browserWidth / 2
+  var screenHeightCenter = browserHeight / 2
+
+  //alert(screenHeightCenter)
 
 
   var elemDiv = document.createElement('div');
-  elemDiv.id = "buttonDiv"
-  elemDiv.style.cssText = 'position:absolute;bottom:240px;left:calc('+screenCenter+'px - 300px / 2 );z-index:99999;';
+  elemDiv.id = "buttonDiv" //230
+  elemDiv.style.cssText = 'position:absolute;top:'+(screenHeightCenter+100)+'px;left:calc('+screenWidthCenter+'px - 300px / 2 );z-index:99999;';
   //document.body.appendChild(elemDiv);
   document.body.insertBefore(elemDiv, document.body.firstChild);
 
   var elemDiv = document.createElement('button');
   elemDiv.id = "buttonDiv2"
   elemDiv.innerHTML = "Log in as a guest"
-  elemDiv.style.cssText = 'width: 300px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 17px;margin: 4px 2px;cursor: pointer;position:absolute;bottom:290px;left:calc('+screenCenter+'px - 300px / 2 ); z-index:99999;border-radius: 2px;';
+  elemDiv.style.cssText = 'width: 300px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 17px;margin: 4px 2px;cursor: pointer;position:absolute;top:'+(screenHeightCenter+150)+'px;left:calc('+screenWidthCenter+'px - 300px / 2 ); z-index:99999;border-radius: 2px;';
   //document.body.appendChild(elemDiv);
   document.body.insertBefore(elemDiv, document.body.firstChild);
       function handleCredentialResponse(response) {
@@ -363,7 +367,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x1b124d8(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1b1d7b8(runtimeScene);
 
 }
 
@@ -371,7 +375,7 @@ gdjs.homeSceneCode.userFunc0x1b124d8(runtimeScene);
 {
 
 
-gdjs.homeSceneCode.userFunc0x1b12540(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1b1d820(runtimeScene);
 
 }
 
@@ -419,7 +423,7 @@ let isConditionTrue_0 = false;
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0xbc6158 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xb727d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -432,7 +436,7 @@ gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0xbc6158(runtimeScene);
+gdjs.homeSceneCode.userFunc0xb727d0(runtimeScene);
 
 }
 
