@@ -315,7 +315,56 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.eventsList3 = function(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8c34a8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+localStorage.removeItem("myCard1")
+localStorage.removeItem("myCard2")
+localStorage.removeItem("myCard3")
+localStorage.removeItem("myCard4")
+localStorage.removeItem("myCard5")
+
+localStorage.removeItem("UID")
+localStorage.removeItem("UTYPE")
+localStorage.removeItem("myAllCard")
+localStorage.removeItem("myCardPower")
+};
+gdjs.settingSceneCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
+}}
+
+}
+
+
+};gdjs.settingSceneCode.eventsList4 = function(runtimeScene) {
+
+{
+
+
+gdjs.settingSceneCode.userFunc0x8c34a8(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+
+{ //Subevents
+gdjs.settingSceneCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.settingSceneCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -540,8 +589,10 @@ gdjs.settingSceneCode.GDlogoutLabelObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString("0");
 }{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
-}}
+}
+{ //Subevents
+gdjs.settingSceneCode.eventsList4(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -690,7 +741,7 @@ gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.lengt
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
 
-gdjs.settingSceneCode.eventsList3(runtimeScene);
+gdjs.settingSceneCode.eventsList5(runtimeScene);
 gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects3.length = 0;
