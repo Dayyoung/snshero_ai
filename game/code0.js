@@ -123,7 +123,7 @@ gdjs.homeSceneCode.GDborderLabel2Objects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0xc4e4a0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1009f60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var UID = localStorage.getItem("UID")
 var GID = localStorage.getItem("GID")
@@ -198,7 +198,7 @@ document.head.appendChild(dep);
             'height': 170, 
             }  // customization attributes
         );
-        google.accounts.id.prompt(); // also display the One Tap dialog
+        //google.accounts.id.prompt(); // also display the One Tap dialog
   }
 
 
@@ -230,7 +230,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0xc4e4a0(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1009f60(runtimeScene);
 
 }
 
@@ -268,7 +268,7 @@ gdjs.homeSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x1283a18 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x100a5a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       document.getElementById("buttonDiv").style.display = "none";
       document.getElementById("buttonDiv2").style.display = "none";
@@ -278,7 +278,7 @@ gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x1283a18(runtimeScene);
+gdjs.homeSceneCode.userFunc0x100a5a0(runtimeScene);
 
 }
 
