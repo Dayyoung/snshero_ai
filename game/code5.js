@@ -132,9 +132,9 @@ gdjs.settingSceneCode.GDbgmLabelObjects3= [];
 gdjs.settingSceneCode.GDlogoutLabelObjects1= [];
 gdjs.settingSceneCode.GDlogoutLabelObjects2= [];
 gdjs.settingSceneCode.GDlogoutLabelObjects3= [];
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1= [];
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2= [];
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3= [];
+gdjs.settingSceneCode.GDsaveDataLabelObjects1= [];
+gdjs.settingSceneCode.GDsaveDataLabelObjects2= [];
+gdjs.settingSceneCode.GDsaveDataLabelObjects3= [];
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1= [];
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2= [];
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3= [];
@@ -315,7 +315,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1ae1730 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xbc0548 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -323,6 +323,7 @@ localStorage.removeItem("myCard3")
 localStorage.removeItem("myCard4")
 localStorage.removeItem("myCard5")
 
+localStorage.removeItem("SNS")
 localStorage.removeItem("UID")
 localStorage.removeItem("UTYPE")
 localStorage.removeItem("myAllCard")
@@ -346,7 +347,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x1ae1730(runtimeScene);
+gdjs.settingSceneCode.userFunc0xbc0548(runtimeScene);
 
 }
 
@@ -364,7 +365,56 @@ gdjs.settingSceneCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.eventsList5 = function(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xbc0b30 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var Http = new XMLHttpRequest()
+
+var UID = localStorage.getItem("UID")
+
+var myCard1 = JSON.parse(localStorage.getItem('myCard1'))
+var myCard2 = JSON.parse(localStorage.getItem('myCard2'))
+var myCard3 = JSON.parse(localStorage.getItem('myCard3'))
+var myCard4 = JSON.parse(localStorage.getItem('myCard4'))
+var myCard5 = JSON.parse(localStorage.getItem('myCard5'))
+var myCardList = []
+myCardList.push(myCard1)
+myCardList.push(myCard2)
+myCardList.push(myCard3)
+myCardList.push(myCard4)
+myCardList.push(myCard5)
+console.log(myCardList)
+
+var UDATA = JSON.stringify(myCardList)
+var CDATA = localStorage.getItem("myAllCard")
+var SNS = localStorage.getItem("SNS")
+
+var url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScBiRCBDsBRdfuVdna7sYNoIH9f84ZbwylGk9GiYQm9WEal3g/formResponse'
+url += '?entry.666607724='+UID+'&entry.1280968874='+UDATA+'&entry.2017061005='+CDATA+'&entry.183500206='+SNS
+Http.open('GET', url);
+Http.send();
+                
+};
+gdjs.settingSceneCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.settingSceneCode.userFunc0xbc0b30(runtimeScene);
+
+}
+
+
+};gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -597,6 +647,29 @@ gdjs.settingSceneCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("saveDataLabel"), gdjs.settingSceneCode.GDsaveDataLabelObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsaveDataLabelObjects1.length;i<l;++i) {
+    if ( gdjs.settingSceneCode.GDsaveDataLabelObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.settingSceneCode.GDsaveDataLabelObjects1[k] = gdjs.settingSceneCode.GDsaveDataLabelObjects1[i];
+        ++k;
+    }
+}
+gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.settingSceneCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
 gdjs.settingSceneCode.func = function(runtimeScene) {
@@ -734,14 +807,14 @@ gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects2.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects3.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
 
-gdjs.settingSceneCode.eventsList5(runtimeScene);
+gdjs.settingSceneCode.eventsList6(runtimeScene);
 gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects3.length = 0;
@@ -874,9 +947,9 @@ gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
 gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects1.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects2.length = 0;
-gdjs.settingSceneCode.GDSave_9595Data_9595_9595Overried_9595_9595Objects3.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects2.length = 0;
+gdjs.settingSceneCode.GDsaveDataLabelObjects3.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
 gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;

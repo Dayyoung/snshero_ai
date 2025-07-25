@@ -123,7 +123,7 @@ gdjs.homeSceneCode.GDborderLabel2Objects3= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0x1b1d7b8 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0x1a82e28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 var cardList = 
@@ -139,17 +139,18 @@ localStorage.setItem("myCard5",JSON.stringify(cardList[4]))
 
 var UID = localStorage.getItem("UID")
 var UTYPE = localStorage.getItem("UTYPE")
-var isLoggined = false
 
-if(UID){
-    isLoggined = true
-    runtimeScene.getGame().getVariables().get("UID").setString(UID)
-    if(UTYPE=="G"){
-        runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
-    }else{
-        runtimeScene.getGame().getVariables().get("UTYPE").setString("GE")
-    }
-}
+var USER
+var USERDATA
+
+// if(UID){
+//     runtimeScene.getGame().getVariables().get("UID").setString(UID)
+//     if(UTYPE=="G"){
+//         runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
+//     }else{
+//         runtimeScene.getGame().getVariables().get("UTYPE").setString("GE")
+//     }
+// }
 
 function getJsonList(url) {
    
@@ -183,12 +184,24 @@ function tsvToJSON(csv_string) {
   }
   return jsonArray;
 }
+
+function checkMyCardPower(myTotalCardList){
+    var myCardPower = 0
+    for (let i = 0; i < myTotalCardList.length; i++) {
+        console.log(myTotalCardList[i])
+        for (let j = 0; j < cardList.length; j++) {
+            if(i == cardList[j].index){
+                myCardPower = myCardPower + parseInt(cardList[j].type * myTotalCardList[i])
+            }
+        }
+    }
+    localStorage.setItem("myCardPower",myCardPower)
+}
  
 var myCardList = []
-
 var myTotalCardList = []
 
-if(isLoggined){
+if(UID) return;
 
 
 try{
@@ -198,75 +211,10 @@ try{
     jqueryLib.onload = function () {
     $(function(){
         var userDataTSV = getJsonList("https://docs.google.com/spreadsheets/d/e/2PACX-1vQvSwLKNKIdfpTZFyAVjxKGS82_QxZHOAmTfOYs6pboG8HWvNqbJKoCSgGYm4X9o0KGLFkoovbWUbtS/pub?gid=798197911&single=true&output=tsv")
-        var userData = tsvToJSON(userDataTSV)
-            var isFind = false
-            for(var user of userData){
-
-                if(!isFind && user.UID && UID.indexOf(user.UID) != -1){
-                    
-                    isFind = true
-
-                    console.log(user)
-
-                    myCardList = JSON.parse(user.UDATA)
-                    console.log(myCardList)
-
-                    if(myCardList.length == 0){
-                        myCardList[0] = cardList[0]
-                        myCardList[1] = cardList[1]
-                        myCardList[2] = cardList[2]
-                        myCardList[3] = cardList[3]
-                        myCardList[4] = cardList[4]
-                    }
-                    localStorage.setItem("myCard1",JSON.stringify(myCardList[0]))
-                    localStorage.setItem("myCard2",JSON.stringify(myCardList[1]))
-                    localStorage.setItem("myCard3",JSON.stringify(myCardList[2]))
-                    localStorage.setItem("myCard4",JSON.stringify(myCardList[3]))
-                    localStorage.setItem("myCard5",JSON.stringify(myCardList[4]))
-
-                    localStorage.setItem("myAllCard",JSON.stringify(user.CDATA))
-                    
-                    myTotalCardList = user.CDATA.split(",")
-                    checkMyCardPower(myTotalCardList)
-                }                
-            }
+           USERDATA = tsvToJSON(userDataTSV)            
         })
     }
 }catch(e){}
-
-    function checkMyCardPower(myTotalCardList){
-    console.log(myTotalCardList)
-
-    var myCardPower = 0
-
-    for (let i = 0; i < myTotalCardList.length; i++) {
-        console.log(myTotalCardList[i])
-        for (let j = 0; j < cardList.length; j++) {
-            if(i == cardList[j].index){
-                myCardPower = myCardPower + parseInt(cardList[j].type * myTotalCardList[i])
-            }
-        }
-    }
-    //   console.log(myCardPower + "!!!")
-    localStorage.setItem("myCardPower",myCardPower)
-    }
-}
-
-
-};
-gdjs.homeSceneCode.userFunc0x1b1d820 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-var UID = localStorage.getItem("UID")
-
-if(UID) return
-
-var meta = document.createElement('meta');
-meta.name = 'google-signin-client_id';
-meta.content = '150094404384-jmoj4eeb30l30ciedg1hltod5nl007o6.apps.googleusercontent.com'
-
-var dep = document.createElement("script");
-dep.src = "https://apis.google.com/js/platform.js";
-document.head.appendChild(dep);
 
 var dep = document.createElement("script");
 dep.src = "https://accounts.google.com/gsi/client";
@@ -279,7 +227,6 @@ document.head.appendChild(dep);
 
   //alert(screenHeightCenter)
 
-
   var elemDiv = document.createElement('div');
   elemDiv.id = "buttonDiv" //230
   elemDiv.style.cssText = 'position:absolute;top:'+(screenHeightCenter+100)+'px;left:calc('+screenWidthCenter+'px - 300px / 2 );z-index:99999;';
@@ -289,23 +236,74 @@ document.head.appendChild(dep);
   var elemDiv = document.createElement('button');
   elemDiv.id = "buttonDiv2"
   elemDiv.innerHTML = "Log in as a guest"
-  elemDiv.style.cssText = 'width: 300px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 17px;margin: 4px 2px;cursor: pointer;position:absolute;top:'+(screenHeightCenter+150)+'px;left:calc('+screenWidthCenter+'px - 300px / 2 ); z-index:99999;border-radius: 2px;';
+  elemDiv.style.cssText = 'width: 300px; height: 40px; background-color: #4052D6; border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size:      17px;margin: 4px 2px;cursor: pointer;position:absolute;top:'+(screenHeightCenter+150)+'px;left:calc('+screenWidthCenter+'px - 300px / 2 ); z-index:99999;border-radius: 2px;';
   //document.body.appendChild(elemDiv);
   document.body.insertBefore(elemDiv, document.body.firstChild);
       function handleCredentialResponse(response) {
       const responsePayload = decodeJwtResponse(response.credential);
-      localStorage.setItem("UID",responsePayload.sub)
-      localStorage.setItem("UTYPE","G")
+      var googleID = responsePayload.sub
 
       document.getElementById("buttonDiv").style.display = "none";
       document.getElementById("buttonDiv2").style.display = "none";
       //window.location.href = "/redirectFromGoogle.php?response=" + JSON.stringify(responsePayload)    
 
-      runtimeScene.getGame().getVariables().get("UID").setString(responsePayload.sub)
-      runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
-      //runtimeScene.getGame().getVariables().get("CP").setNumber(99990)
+      var isFind = false
+    
+        for(var user of USERDATA){
+            
+            console.log(user)
+            
+            if(!isFind && googleID.indexOf(user.UID) != -1){
+            
+                isFind = true
+                console.log("FIND!!")
+                
+                localStorage.setItem("UID",googleID)
+                localStorage.setItem("UTYPE","G")
+                USER = user
+                if(user.UDATA != ""){
+                    var myCardList = JSON.parse(user.UDATA)
+                    if(myCardList.length == 0){
+                        localStorage.setItem("myCard1",JSON.stringify(myCardList[0]))
+                        localStorage.setItem("myCard2",JSON.stringify(myCardList[1]))
+                        localStorage.setItem("myCard3",JSON.stringify(myCardList[2]))
+                        localStorage.setItem("myCard4",JSON.stringify(myCardList[3]))
+                        localStorage.setItem("myCard5",JSON.stringify(myCardList[4]))
+                    }
+                } 
+                var myAllCard = user.CDATA
+                myAllCard = myAllCard.replace(/['"]+/g, '') //remove. ""
+                localStorage.setItem("myAllCard",JSON.stringify(myAllCard))
+                localStorage.setItem("SNS",user.SNS)
+                //alert(user.SNS)
 
-      window.location.reload()
+                runtimeScene.getGame().getVariables().get("SNS").setNumber(user.SNS)
+                
+                myTotalCardList = user.CDATA.split(",")
+                
+                checkMyCardPower(myTotalCardList)
+
+                runtimeScene.getGame().getVariables().get("UID").setString(googleID)
+                runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
+            }
+        }
+   
+        if(!USER){
+            var Http = new XMLHttpRequest()
+            var url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScBiRCBDsBRdfuVdna7sYNoIH9f84ZbwylGk9GiYQm9WEal3g/formResponse'
+            url += '?entry.666607724='+googleID+'&entry.1280968874=&entry.2017061005=1,1,1,1,1&entry.183500206=1000'
+            Http.open('GET', url);
+            Http.send();
+                
+            localStorage.setItem("UID",googleID)
+            localStorage.setItem("UTYPE","G")
+            localStorage.setItem("myAllCard","1,1,1,1,1")
+            localStorage.setItem("SNS",1000)
+
+            runtimeScene.getGame().getVariables().get("UID").setString(googleID)
+            runtimeScene.getGame().getVariables().get("UTYPE").setString("G")
+        }
+      //window.location.reload()
       }
       
      function decodeJwtResponse(token) {
@@ -317,7 +315,8 @@ document.head.appendChild(dep);
 
         return JSON.parse(jsonPayload);
       }      
-  dep.onload = function () {
+      
+      dep.onload = function () {
        console.log("LOAD")
 
         google.accounts.id.initialize({
@@ -337,7 +336,7 @@ document.head.appendChild(dep);
   }
 
 
-const jqueryLib = document.createElement("script");
+var jqueryLib = document.createElement("script");
 jqueryLib.src = "https://code.jquery.com/jquery-3.7.1.min.js";
 document.head.appendChild(jqueryLib);
 
@@ -351,14 +350,18 @@ jqueryLib.onload = function () {
       runtimeScene.getGame().getVariables().get("UID").setString(UID)
       runtimeScene.getGame().getVariables().get("UTYPE").setString("GE")
       
-      window.location.reload()
+      //window.location.reload()
       //runtimeScene.getGame().getVariables().get("CP").setNumber(99990)
 
-      // document.getElementById("buttonDiv").style.display = "none";
-      // document.getElementById("buttonDiv2").style.display = "none";
+      document.getElementById("buttonDiv").style.display = "none";
+      document.getElementById("buttonDiv2").style.display = "none";
     })
   })
 }
+
+
+
+
 
 
 };
@@ -367,15 +370,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0x1b1d7b8(runtimeScene);
-
-}
-
-
-{
-
-
-gdjs.homeSceneCode.userFunc0x1b1d820(runtimeScene);
+gdjs.homeSceneCode.userFunc0x1a82e28(runtimeScene);
 
 }
 
@@ -423,7 +418,7 @@ let isConditionTrue_0 = false;
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0xb727d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xd56688 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -436,7 +431,7 @@ gdjs.homeSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0xb727d0(runtimeScene);
+gdjs.homeSceneCode.userFunc0xd56688(runtimeScene);
 
 }
 
