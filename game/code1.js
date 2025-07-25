@@ -286,7 +286,7 @@ gdjs.playSceneCode.GDNewTwoChoicesDialogBoxObjects7= [];
 
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.playSceneCode.GDNewTiledSpriteObjects1});
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
-gdjs.playSceneCode.userFunc0x96ed78 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0xa6eff8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -330,7 +330,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0xa302a0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0xa54248 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -469,7 +469,7 @@ gdjs.playSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.playSceneCode.userFunc0x96ed78(runtimeScene);
+gdjs.playSceneCode.userFunc0xa6eff8(runtimeScene);
 
 }
 
@@ -580,7 +580,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0xa302a0(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0xa54248(runtimeScene, objects);
 
 }
 
@@ -1190,7 +1190,7 @@ gdjs.playSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0xeff630 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0xa51200 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1212,12 +1212,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xeff630(runtimeScene);
+gdjs.playSceneCode.userFunc0xa51200(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0xeffab8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xa51688 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1517,7 +1517,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xeffab8(runtimeScene);
+gdjs.playSceneCode.userFunc0xa51688(runtimeScene);
 
 }
 
@@ -1896,7 +1896,7 @@ let isConditionTrue_0 = false;
 
 };gdjs.playSceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.playSceneCode.userFunc0xbdfa20 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xcfdcb8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -2048,7 +2048,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xbdfa20(runtimeScene);
+gdjs.playSceneCode.userFunc0xcfdcb8(runtimeScene);
 
 }
 
