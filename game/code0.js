@@ -163,7 +163,7 @@ gdjs.homeSceneCode.GDborderLabel2Objects4= [];
 
 
 gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0xd233f8 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xb47f70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -176,7 +176,7 @@ gdjs.homeSceneCode.userFunc0xd233f8 = function GDJSInlineCode(runtimeScene) {
     isSound = JSON.parse(isSound)
     runtimeScene.getGame().getVariables().get("isSound").setBoolean(isSound)
 };
-gdjs.homeSceneCode.userFunc0xa71aa0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xb46a40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 
 
@@ -431,7 +431,7 @@ gdjs.homeSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.homeSceneCode.userFunc0xa71aa0(runtimeScene);
+gdjs.homeSceneCode.userFunc0xb46a40(runtimeScene);
 
 }
 
@@ -451,7 +451,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.homeSceneCode.userFunc0xd233f8(runtimeScene);
+gdjs.homeSceneCode.userFunc0xb47f70(runtimeScene);
 
 }
 
@@ -516,7 +516,7 @@ let isConditionTrue_0 = false;
 
 
 };gdjs.homeSceneCode.mapOfGDgdjs_9546homeSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.homeSceneCode.GDbottomMenuObjects1});
-gdjs.homeSceneCode.userFunc0xa71bc0 = function GDJSInlineCode(runtimeScene) {
+gdjs.homeSceneCode.userFunc0xb46e10 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -575,7 +575,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 {
 
 
-gdjs.homeSceneCode.userFunc0xa71bc0(runtimeScene);
+gdjs.homeSceneCode.userFunc0xb46e10(runtimeScene);
 
 }
 
