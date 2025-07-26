@@ -190,9 +190,17 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 
+gdjs.settingSceneCode.userFunc0x9005a0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+      var buttonDiv = document.getElementById("buttonDiv")
+      var buttonDiv2 = document.getElementById("buttonDiv2")
+      
+      if(buttonDiv)buttonDiv.style.display = "none";
+      if(buttonDiv2)buttonDiv2.style.display = "none";
+};
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0x10f5d18 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0xf6ac28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -222,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f5d18(runtimeScene);
+gdjs.settingSceneCode.userFunc0xf6ac28(runtimeScene);
 
 }
 
@@ -455,7 +463,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x159f320 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x16ae560 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -474,12 +482,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x159f320(runtimeScene);
+gdjs.settingSceneCode.userFunc0x16ae560(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x10f2f18 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x16ae960 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -488,12 +496,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f2f18(runtimeScene);
+gdjs.settingSceneCode.userFunc0x16ae960(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x10f3310 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xb17690 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -502,7 +510,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f3310(runtimeScene);
+gdjs.settingSceneCode.userFunc0xb17690(runtimeScene);
 
 }
 
@@ -517,7 +525,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0x10f3778 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8dcb98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -526,12 +534,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f3778(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8dcb98(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x10f3b68 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8dcf88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -563,7 +571,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f3b68(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8dcf88(runtimeScene);
 
 }
 
@@ -581,7 +589,7 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0x10f41c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x902e88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
@@ -670,7 +678,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSc
 {
 
 
-gdjs.settingSceneCode.userFunc0x10f41c8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x902e88(runtimeScene);
 
 }
 
@@ -689,6 +697,27 @@ gdjs.settingSceneCode.eventsList11(runtimeScene);} //End of subevents
 
 
 };gdjs.settingSceneCode.eventsList13 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.window.isFullScreen(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "settingScene");
+}}
+
+}
+
+
+{
+
+
+gdjs.settingSceneCode.userFunc0x9005a0(runtimeScene);
+
+}
+
 
 {
 
