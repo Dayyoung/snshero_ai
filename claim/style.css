@@ -1,0 +1,194 @@
+.webpage,
+.webpage * {
+  box-sizing: border-box;
+}
+.webpage {
+  background: linear-gradient(
+    227.18deg,
+    rgba(250, 146, 1, 1) 0%,
+    rgba(177, 215, 217, 1) 100%
+  );
+  border-radius: 35px;
+  height: 1117px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-6 {
+  width: 341px;
+  height: 323.82px;
+  position: absolute;
+  left: -21px;
+  top: -40px;
+  overflow: visible;
+}
+.vector-4 {
+  width: 159.1px;
+  height: 470.52px;
+  position: absolute;
+  right: -0.1px;
+  top: 298.5px;
+  overflow: visible;
+}
+.vector {
+  width: 78.3px;
+  height: 190.95px;
+  position: absolute;
+  left: 1651px;
+  top: 636px;
+  overflow: visible;
+}
+.vector-2 {
+  width: 369px;
+  height: 366px;
+  position: absolute;
+  left: -27px;
+  top: 755px;
+  overflow: visible;
+}
+.vector-3 {
+  width: 551.5px;
+  height: 381.05px;
+  position: absolute;
+  left: 284.5px;
+  top: 739.45px;
+  overflow: visible;
+}
+.vector2 {
+  width: 174.08px;
+  height: 137.72px;
+  position: absolute;
+  left: 195.51px;
+  top: 994px;
+  overflow: visible;
+}
+.vector-5 {
+  width: 254.07px;
+  height: 308.66px;
+  position: absolute;
+  right: 80.93px;
+  top: 1112.5px;
+  transform: translate(9.32px, -231.96px);
+  overflow: visible;
+}
+.vector-7 {
+  width: 126px;
+  height: 322px;
+  position: absolute;
+  left: -34px;
+  top: 190px;
+  overflow: visible;
+}
+.vector-8 {
+  width: 179px;
+  height: 341px;
+  position: absolute;
+  left: 949px;
+  top: 1147px;
+  transform: translate(-341.91px, -180px);
+  overflow: visible;
+}
+.leaf {
+  width: 187.3px;
+  height: 216.56px;
+  position: absolute;
+  right: 26.7px;
+  top: 1012.76px;
+  transform-origin: 0 0;
+  transform: rotate(-60.968deg) scale(1, 1);
+  object-fit: cover;
+}
+.vector-1 {
+  width: 225.28px;
+  height: 302.91px;
+  position: absolute;
+  left: -12px;
+  top: 862px;
+  overflow: visible;
+}
+.leaf2 {
+  width: 187.3px;
+  height: 216.56px;
+  position: absolute;
+  left: 40.46px;
+  top: 901px;
+  transform-origin: 0 0;
+  transform: rotate(19.549deg) scale(1, 1);
+  object-fit: cover;
+}
+.kids-in-balloon {
+  width: 188px;
+  height: 224px;
+  position: absolute;
+  left: calc(50% - 230px);
+  top: 288px;
+  object-fit: cover;
+}
+.kids-in-balloon2 {
+  width: 210px;
+  height: 211px;
+  position: absolute;
+  left: calc(50% - -20px);
+  top: 297px;
+  object-fit: cover;
+}
+.kids-in-balloon3 {
+  width: 178px;
+  height: 207px;
+  position: absolute;
+  left: calc(50% - 144px);
+  top: 291px;
+  object-fit: cover;
+}
+.kids-in-balloon4 {
+  width: 205px;
+  height: 174px;
+  position: absolute;
+  left: calc(50% - 64px);
+  top: 295px;
+  object-fit: cover;
+}
+.buy-now-button {
+  width: 220px;
+  height: 39px;
+  position: absolute;
+  left: calc(50% - 114px);
+  top: 755px;
+}
+.rectangle {
+  background: #332623;
+  border-radius: 12px;
+  width: 220px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.go-game {
+  color: #ffe1cc;
+  text-align: center;
+  font-family: "Baloo2-SemiBold", sans-serif;
+  font-size: 31px;
+  line-height: 115.4%;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 220px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thanks-for-purchasing {
+  color: #332623;
+  text-align: center;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 77px;
+  line-height: 130%;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 230px);
+  top: 531px;
+  width: 452px;
+}
