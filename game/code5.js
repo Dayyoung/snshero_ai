@@ -192,7 +192,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0x995270 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x1244fb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -220,7 +220,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x995270(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1244fb0(runtimeScene);
 
 }
 
@@ -453,7 +453,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x134bca0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x994e90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -472,12 +472,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x134bca0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x994e90(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x134bf70 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x95c698 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -486,12 +486,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x134bf70(runtimeScene);
+gdjs.settingSceneCode.userFunc0x95c698(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa64808 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x9d1398 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -500,7 +500,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xa64808(runtimeScene);
+gdjs.settingSceneCode.userFunc0x9d1398(runtimeScene);
 
 }
 
@@ -515,7 +515,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa64c40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x9d1948 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -524,12 +524,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xa64c40(runtimeScene);
+gdjs.settingSceneCode.userFunc0x9d1948(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa65000 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xa79f40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -561,7 +561,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xa65000(runtimeScene);
+gdjs.settingSceneCode.userFunc0xa79f40(runtimeScene);
 
 }
 
@@ -579,11 +579,15 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa65630 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x1244450 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
 var UID = localStorage.getItem("UID")
+
+if(UID){
+runtimeScene.getVariables().get("loginRequired").setBoolean(false)
+
 
 var myCard1 = JSON.parse(localStorage.getItem('myCard1'))
 var myCard2 = JSON.parse(localStorage.getItem('myCard2'))
@@ -606,7 +610,10 @@ var url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScBiRCBDsBRdfuVdna7sYNoI
 url += '?entry.666607724='+UID+'&entry.1280968874='+UDATA+'&entry.2017061005='+CDATA+'&entry.183500206='+SNS
 Http.open('GET', url);
 Http.send();
-                
+
+}else{
+    runtimeScene.getVariables().get("loginRequired").setBoolean(true)
+}
 };
 gdjs.settingSceneCode.eventsList11 = function(runtimeScene) {
 
@@ -614,7 +621,35 @@ gdjs.settingSceneCode.eventsList11 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(43).getAsBoolean();
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2);
+gdjs.copyArray(gdjs.settingSceneCode.GDsaveDataLabelObjects1, gdjs.settingSceneCode.GDsaveDataLabelObjects2);
+
+{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects2[0].getX()));
+}
+}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].getBehavior("Text").setText("Login is required.");
+}
+}}
+
+}
+
+
 {
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(43).getAsBoolean();
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1);
 /* Reuse gdjs.settingSceneCode.GDsaveDataLabelObjects1 */
 {for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
@@ -633,7 +668,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSc
 {
 
 
-gdjs.settingSceneCode.userFunc0xa65630(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1244450(runtimeScene);
 
 }
 
