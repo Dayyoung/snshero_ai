@@ -307,7 +307,7 @@ gdjs.playSceneCode.GDgameLabelObjects7= [];
 
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.playSceneCode.GDNewTiledSpriteObjects1});
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
-gdjs.playSceneCode.userFunc0x162d388 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0xa67848 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -357,7 +357,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0xa53380 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0x1e38218 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -496,7 +496,7 @@ gdjs.playSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.playSceneCode.userFunc0x162d388(runtimeScene);
+gdjs.playSceneCode.userFunc0xa67848(runtimeScene);
 
 }
 
@@ -616,7 +616,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0xa53380(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0x1e38218(runtimeScene, objects);
 
 }
 
@@ -1228,7 +1228,7 @@ gdjs.playSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0x126be38 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x1de0c58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1250,12 +1250,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x126be38(runtimeScene);
+gdjs.playSceneCode.userFunc0x1de0c58(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0x126c2c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x1de10e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1555,7 +1555,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x126c2c0(runtimeScene);
+gdjs.playSceneCode.userFunc0x1de10e0(runtimeScene);
 
 }
 
@@ -2020,7 +2020,7 @@ gdjs.playSceneCode.eventsList20(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.userFunc0xe607a8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xbe1810 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -2219,7 +2219,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xe607a8(runtimeScene);
+gdjs.playSceneCode.userFunc0xbe1810(runtimeScene);
 
 }
 
@@ -2237,8 +2237,50 @@ gdjs.playSceneCode.eventsList22(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
+};gdjs.playSceneCode.userFunc0xbe1f68 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+
+var nowGo = runtimeScene.getVariables().get("nowGo").getAsString()
+if(nowGo) window.location.href = "https://snshero.com/game"
+};
 gdjs.playSceneCode.eventsList24 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};gdjs.playSceneCode.eventsList25 = function(runtimeScene) {
+
+{
+
+
+gdjs.playSceneCode.userFunc0xbe1f68(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
+}
+{ //Subevents
+gdjs.playSceneCode.eventsList24(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
+gdjs.playSceneCode.eventsList26 = function(runtimeScene) {
 
 {
 
@@ -2325,7 +2367,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.playSceneCode.eventsList25 = function(runtimeScene) {
+};gdjs.playSceneCode.eventsList27 = function(runtimeScene) {
 
 {
 
@@ -2965,9 +3007,10 @@ for (var i = 0, k = 0, l = gdjs.playSceneCode.GDbackButtonObjects1.length;i<l;++
 }
 gdjs.playSceneCode.GDbackButtonObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
-}}
+
+{ //Subevents
+gdjs.playSceneCode.eventsList25(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -2997,7 +3040,7 @@ if (isConditionTrue_0) {
 {gdjs.playSceneCode.localVariables[0].getFromIndex(0).setNumber((( gdjs.playSceneCode.GDbottomMenuObjects1.length === 0 ) ? 0 :gdjs.playSceneCode.GDbottomMenuObjects1[0].getWidth()));
 }
 { //Subevents
-gdjs.playSceneCode.eventsList24(runtimeScene);} //End of subevents
+gdjs.playSceneCode.eventsList26(runtimeScene);} //End of subevents
 }
 gdjs.playSceneCode.localVariables.pop();
 
@@ -3345,7 +3388,7 @@ gdjs.playSceneCode.GDgameLabelObjects5.length = 0;
 gdjs.playSceneCode.GDgameLabelObjects6.length = 0;
 gdjs.playSceneCode.GDgameLabelObjects7.length = 0;
 
-gdjs.playSceneCode.eventsList25(runtimeScene);
+gdjs.playSceneCode.eventsList27(runtimeScene);
 gdjs.playSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.playSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.playSceneCode.GDNewSprite3Objects3.length = 0;

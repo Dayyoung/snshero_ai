@@ -192,7 +192,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0x162d388 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x162d940 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -222,7 +222,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x162d388(runtimeScene);
+gdjs.settingSceneCode.userFunc0x162d940(runtimeScene);
 
 }
 
@@ -455,7 +455,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x162cc98 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17ab360 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -474,12 +474,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x162cc98(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17ab360(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x162d070 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17ab738 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -488,12 +488,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x162d070(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17ab738(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa645f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17abb30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -502,7 +502,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xa645f0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17abb30(runtimeScene);
 
 }
 
@@ -517,7 +517,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa64a58 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17abf98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -526,12 +526,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xa64a58(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17abf98(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa64e48 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17ac388 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -563,7 +563,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xa64e48(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17ac388(runtimeScene);
 
 }
 
@@ -581,7 +581,7 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa6cfd8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17ac880 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
@@ -670,7 +670,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSc
 {
 
 
-gdjs.settingSceneCode.userFunc0xa6cfd8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17ac880(runtimeScene);
 
 }
 
