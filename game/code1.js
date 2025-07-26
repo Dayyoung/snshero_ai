@@ -305,7 +305,7 @@ gdjs.playSceneCode.GDgameLabelObjects6= [];
 gdjs.playSceneCode.GDgameLabelObjects7= [];
 
 
-gdjs.playSceneCode.userFunc0x8de558 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0xac6ff8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -315,7 +315,7 @@ gdjs.playSceneCode.userFunc0x8de558 = function GDJSInlineCode(runtimeScene) {
 };
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.playSceneCode.GDNewTiledSpriteObjects1});
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
-gdjs.playSceneCode.userFunc0xd86ea8 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x1069208 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -365,7 +365,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0xfeb088 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0xac3880 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -504,7 +504,7 @@ gdjs.playSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.playSceneCode.userFunc0xd86ea8(runtimeScene);
+gdjs.playSceneCode.userFunc0x1069208(runtimeScene);
 
 }
 
@@ -635,7 +635,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0xfeb088(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0xac3880(runtimeScene, objects);
 
 }
 
@@ -1247,7 +1247,7 @@ gdjs.playSceneCode.eventsList8(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0xd85458 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x11263e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1269,12 +1269,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xd85458(runtimeScene);
+gdjs.playSceneCode.userFunc0x11263e8(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0xd859e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x1126978 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1574,7 +1574,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xd859e8(runtimeScene);
+gdjs.playSceneCode.userFunc0x1126978(runtimeScene);
 
 }
 
@@ -2039,7 +2039,7 @@ gdjs.playSceneCode.eventsList20(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.userFunc0x11d9980 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x106dfb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -2239,7 +2239,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x11d9980(runtimeScene);
+gdjs.playSceneCode.userFunc0x106dfb0(runtimeScene);
 
 }
 
@@ -2257,7 +2257,7 @@ gdjs.playSceneCode.eventsList22(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.userFunc0x11da0e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x106e718 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // var nowGo = runtimeScene.getVariables().get("nowGo").getAsString()
 // if(nowGo) window.location.href = "https://snshero.com/game"
@@ -2279,7 +2279,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x11da0e8(runtimeScene);
+gdjs.playSceneCode.userFunc0x106e718(runtimeScene);
 
 }
 
@@ -2391,7 +2391,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.playSceneCode.userFunc0x8de558(runtimeScene);
+gdjs.playSceneCode.userFunc0xac6ff8(runtimeScene);
 
 }
 
