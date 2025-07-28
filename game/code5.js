@@ -190,7 +190,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 
-gdjs.settingSceneCode.userFunc0xbdf1a0 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x1c257c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -200,7 +200,7 @@ gdjs.settingSceneCode.userFunc0xbdf1a0 = function GDJSInlineCode(runtimeScene) {
 };
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0x105de18 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x1c2a168 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -230,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x105de18(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1c2a168(runtimeScene);
 
 }
 
@@ -319,7 +319,7 @@ gdjs.settingSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.asyncCallback33755044 = function (runtimeScene, asyncObjectsList) {
+gdjs.settingSceneCode.asyncCallback32493916 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "playScene", false);
 }gdjs.settingSceneCode.localVariables.length = 0;
@@ -334,14 +334,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback33755044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32493916(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.settingSceneCode.asyncCallback33754660 = function (runtimeScene, asyncObjectsList) {
+};gdjs.settingSceneCode.asyncCallback32493532 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "game-level-complete-143022.mp3", false, 30, 1);
 }
@@ -358,7 +358,7 @@ gdjs.settingSceneCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback33754660(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32493532(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -463,7 +463,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x72a6e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x1c318a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -482,12 +482,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x72a6e0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1c318a8(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xbe0ea8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x952058 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -496,12 +496,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xbe0ea8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x952058(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xa12780 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x1c21ef8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -510,7 +510,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xa12780(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1c21ef8(runtimeScene);
 
 }
 
@@ -525,7 +525,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0x9424c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x7f7d70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -534,12 +534,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x9424c0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x7f7d70(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x984a80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x905ec0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -571,7 +571,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x984a80(runtimeScene);
+gdjs.settingSceneCode.userFunc0x905ec0(runtimeScene);
 
 }
 
@@ -589,13 +589,14 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0xaae240 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x1c30c50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
 var UID = localStorage.getItem("UID")
+var UTYPE = localStorage.getItem("UTYPE")
 
-if(UID){
+if(UID && UTYPE && UTYPE=="G"){
 runtimeScene.getVariables().get("loginRequired").setBoolean(false)
 
 
@@ -625,7 +626,37 @@ Http.send();
     runtimeScene.getVariables().get("loginRequired").setBoolean(true)
 }
 };
+gdjs.settingSceneCode.asyncCallback30083324 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2);
+gdjs.copyArray(asyncObjectsList.getObjects("saveDataLabel"), gdjs.settingSceneCode.GDsaveDataLabelObjects2);
+
+{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects2[0].getX()));
+}
+}gdjs.settingSceneCode.localVariables.length = 0;
+}
 gdjs.settingSceneCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
+for (const obj of gdjs.settingSceneCode.GDsaveDataLabelObjects1) asyncObjectsList.addObject("saveDataLabel", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback30083324(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.settingSceneCode.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -645,7 +676,7 @@ gdjs.copyArray(gdjs.settingSceneCode.GDsaveDataLabelObjects1, gdjs.settingSceneC
     gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects2[0].getX()));
 }
 }{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].getBehavior("Text").setText("Login is required.");
+    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].getBehavior("Text").setText("Google Login is required.");
 }
 }}
 
@@ -660,25 +691,20 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(43).getAsBoolean();
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1);
-/* Reuse gdjs.settingSceneCode.GDsaveDataLabelObjects1 */
-{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide(false);
+
+{ //Subevents
+gdjs.settingSceneCode.eventsList11(runtimeScene);} //End of subevents
 }
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects1[0].getX()));
-}
-}}
 
 }
 
 
-};gdjs.settingSceneCode.eventsList12 = function(runtimeScene) {
+};gdjs.settingSceneCode.eventsList13 = function(runtimeScene) {
 
 {
 
 
-gdjs.settingSceneCode.userFunc0xaae240(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1c30c50(runtimeScene);
 
 }
 
@@ -690,13 +716,13 @@ let isConditionTrue_0 = false;
 {
 
 { //Subevents
-gdjs.settingSceneCode.eventsList11(runtimeScene);} //End of subevents
+gdjs.settingSceneCode.eventsList12(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.settingSceneCode.eventsList13 = function(runtimeScene) {
+};gdjs.settingSceneCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -714,7 +740,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xbdf1a0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x1c257c0(runtimeScene);
 
 }
 
@@ -987,7 +1013,7 @@ gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.settingSceneCode.eventsList12(runtimeScene);} //End of subevents
+gdjs.settingSceneCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
@@ -1211,7 +1237,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length = 0;
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3.length = 0;
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4.length = 0;
 
-gdjs.settingSceneCode.eventsList13(runtimeScene);
+gdjs.settingSceneCode.eventsList14(runtimeScene);
 gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.settingSceneCode.GDNewSprite3Objects3.length = 0;
