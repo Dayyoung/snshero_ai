@@ -190,7 +190,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 
-gdjs.settingSceneCode.userFunc0xac6ff8 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x8fdab0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -200,7 +200,7 @@ gdjs.settingSceneCode.userFunc0xac6ff8 = function GDJSInlineCode(runtimeScene) {
 };
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0xac2e10 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x17f21f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -230,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xac2e10(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17f21f8(runtimeScene);
 
 }
 
@@ -463,7 +463,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0x112aa48 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x10ee5c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -482,12 +482,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x112aa48(runtimeScene);
+gdjs.settingSceneCode.userFunc0x10ee5c0(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x15c26a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8fe490 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -496,12 +496,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x15c26a0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8fe490(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1128900 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x17f0548 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -510,7 +510,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x1128900(runtimeScene);
+gdjs.settingSceneCode.userFunc0x17f0548(runtimeScene);
 
 }
 
@@ -525,7 +525,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1128d18 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xd77678 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -534,12 +534,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x1128d18(runtimeScene);
+gdjs.settingSceneCode.userFunc0xd77678(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1069768 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x10f1a30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -571,7 +571,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0x1069768(runtimeScene);
+gdjs.settingSceneCode.userFunc0x10f1a30(runtimeScene);
 
 }
 
@@ -589,7 +589,7 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0xac8e40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0xc6f928 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
@@ -678,7 +678,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSc
 {
 
 
-gdjs.settingSceneCode.userFunc0xac8e40(runtimeScene);
+gdjs.settingSceneCode.userFunc0xc6f928(runtimeScene);
 
 }
 
@@ -714,7 +714,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xac6ff8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8fdab0(runtimeScene);
 
 }
 

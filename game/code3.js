@@ -380,9 +380,49 @@ gdjs.shopSceneCode.GDtitleLabel12Objects2= [];
 gdjs.shopSceneCode.GDtitleLabel12Objects3= [];
 gdjs.shopSceneCode.GDtitleLabel12Objects4= [];
 gdjs.shopSceneCode.GDtitleLabel12Objects5= [];
+gdjs.shopSceneCode.GDtitle6Objects1= [];
+gdjs.shopSceneCode.GDtitle6Objects2= [];
+gdjs.shopSceneCode.GDtitle6Objects3= [];
+gdjs.shopSceneCode.GDtitle6Objects4= [];
+gdjs.shopSceneCode.GDtitle6Objects5= [];
+gdjs.shopSceneCode.GDtitleLabel13Objects1= [];
+gdjs.shopSceneCode.GDtitleLabel13Objects2= [];
+gdjs.shopSceneCode.GDtitleLabel13Objects3= [];
+gdjs.shopSceneCode.GDtitleLabel13Objects4= [];
+gdjs.shopSceneCode.GDtitleLabel13Objects5= [];
+gdjs.shopSceneCode.GDgoButton4Objects1= [];
+gdjs.shopSceneCode.GDgoButton4Objects2= [];
+gdjs.shopSceneCode.GDgoButton4Objects3= [];
+gdjs.shopSceneCode.GDgoButton4Objects4= [];
+gdjs.shopSceneCode.GDgoButton4Objects5= [];
+gdjs.shopSceneCode.GDNewSprite9Objects1= [];
+gdjs.shopSceneCode.GDNewSprite9Objects2= [];
+gdjs.shopSceneCode.GDNewSprite9Objects3= [];
+gdjs.shopSceneCode.GDNewSprite9Objects4= [];
+gdjs.shopSceneCode.GDNewSprite9Objects5= [];
+gdjs.shopSceneCode.GDtitleLabel14Objects1= [];
+gdjs.shopSceneCode.GDtitleLabel14Objects2= [];
+gdjs.shopSceneCode.GDtitleLabel14Objects3= [];
+gdjs.shopSceneCode.GDtitleLabel14Objects4= [];
+gdjs.shopSceneCode.GDtitleLabel14Objects5= [];
+gdjs.shopSceneCode.GDNewSprite10Objects1= [];
+gdjs.shopSceneCode.GDNewSprite10Objects2= [];
+gdjs.shopSceneCode.GDNewSprite10Objects3= [];
+gdjs.shopSceneCode.GDNewSprite10Objects4= [];
+gdjs.shopSceneCode.GDNewSprite10Objects5= [];
+gdjs.shopSceneCode.GDNewSprite11Objects1= [];
+gdjs.shopSceneCode.GDNewSprite11Objects2= [];
+gdjs.shopSceneCode.GDNewSprite11Objects3= [];
+gdjs.shopSceneCode.GDNewSprite11Objects4= [];
+gdjs.shopSceneCode.GDNewSprite11Objects5= [];
+gdjs.shopSceneCode.GDtitleLabel15Objects1= [];
+gdjs.shopSceneCode.GDtitleLabel15Objects2= [];
+gdjs.shopSceneCode.GDtitleLabel15Objects3= [];
+gdjs.shopSceneCode.GDtitleLabel15Objects4= [];
+gdjs.shopSceneCode.GDtitleLabel15Objects5= [];
 
 
-gdjs.shopSceneCode.userFunc0xac6ff8 = function GDJSInlineCode(runtimeScene) {
+gdjs.shopSceneCode.userFunc0x8fdab0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -391,7 +431,7 @@ gdjs.shopSceneCode.userFunc0xac6ff8 = function GDJSInlineCode(runtimeScene) {
       if(buttonDiv2)buttonDiv2.style.display = "none";
 };
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.shopSceneCode.GDbottomMenuObjects1});
-gdjs.shopSceneCode.userFunc0xdc98e8 = function GDJSInlineCode(runtimeScene) {
+gdjs.shopSceneCode.userFunc0x17f1b98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(SNS)
@@ -412,7 +452,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0xdc98e8(runtimeScene);
+gdjs.shopSceneCode.userFunc0x17f1b98(runtimeScene);
 
 }
 
@@ -540,7 +580,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.shopSceneCode.GDbottomMenuObjects1});
-gdjs.shopSceneCode.asyncCallback31101764 = function (runtimeScene, asyncObjectsList) {
+gdjs.shopSceneCode.asyncCallback9722244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.shopSceneCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "playScene", false);
 }gdjs.shopSceneCode.localVariables.length = 0;
@@ -555,14 +595,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.shopSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.shopSceneCode.asyncCallback31101764(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.shopSceneCode.asyncCallback9722244(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.shopSceneCode.asyncCallback8302748 = function (runtimeScene, asyncObjectsList) {
+};gdjs.shopSceneCode.asyncCallback9722100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.shopSceneCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "game-level-complete-143022.mp3", false, 30, 1);
 }
@@ -579,7 +619,7 @@ gdjs.shopSceneCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.shopSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.shopSceneCode.asyncCallback8302748(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.shopSceneCode.asyncCallback9722100(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -710,7 +750,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() > 2980 - (1280 / 2));
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(2980 - (1280 / 2));
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(3800 - (1280 / 2));
 }}
 
 }
@@ -722,6 +762,8 @@ gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton2Objects1Objects 
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton2Objects1Objects = Hashtable.newFrom({"goButton2": gdjs.shopSceneCode.GDgoButton2Objects1});
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects1Objects = Hashtable.newFrom({"goButton3": gdjs.shopSceneCode.GDgoButton3Objects1});
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects1Objects = Hashtable.newFrom({"goButton3": gdjs.shopSceneCode.GDgoButton3Objects1});
+gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects = Hashtable.newFrom({"goButton4": gdjs.shopSceneCode.GDgoButton4Objects1});
+gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects = Hashtable.newFrom({"goButton4": gdjs.shopSceneCode.GDgoButton4Objects1});
 gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButtonObjects2Objects = Hashtable.newFrom({"goButton": gdjs.shopSceneCode.GDgoButtonObjects2});
 gdjs.shopSceneCode.eventsList7 = function(runtimeScene) {
 
@@ -948,9 +990,25 @@ gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDN
 
 
 };gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton2Objects2Objects = Hashtable.newFrom({"goButton2": gdjs.shopSceneCode.GDgoButton2Objects2});
-gdjs.shopSceneCode.userFunc0xac2218 = function GDJSInlineCode(runtimeScene) {
+gdjs.shopSceneCode.userFunc0x10eff58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
-window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GPBQBSBYHRNKE", "_blank");
+
+var  popupUrl = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GPBQBSBYHRNKE"
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+
 };
 gdjs.shopSceneCode.eventsList8 = function(runtimeScene) {
 
@@ -967,12 +1025,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0xac2218(runtimeScene);
+gdjs.shopSceneCode.userFunc0x10eff58(runtimeScene);
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0x106a888 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0x10f04e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6LKTRBWFK4XFG", "_blank");
 };
@@ -991,12 +1049,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0x106a888(runtimeScene);
+gdjs.shopSceneCode.userFunc0x10f04e0(runtimeScene);
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0x1069058 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0x10f08a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53K9SBPXLBABE", "_blank");
 };
@@ -1015,7 +1073,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0x1069058(runtimeScene);
+gdjs.shopSceneCode.userFunc0x10f08a0(runtimeScene);
 
 }
 
@@ -1070,8 +1128,8 @@ gdjs.shopSceneCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects1Objects = Hashtable.newFrom({"goButton3": gdjs.shopSceneCode.GDgoButton3Objects1});
-gdjs.shopSceneCode.userFunc0x1069d90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects2Objects = Hashtable.newFrom({"goButton3": gdjs.shopSceneCode.GDgoButton3Objects2});
+gdjs.shopSceneCode.userFunc0x10f1018 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(!SNS)SNS=0
@@ -1086,208 +1144,10 @@ gdjs.shopSceneCode.eventsList12 = function(runtimeScene) {
 {
 
 
-gdjs.shopSceneCode.userFunc0x1069d90(runtimeScene);
+gdjs.shopSceneCode.userFunc0x10f1018(runtimeScene);
 
 }
 
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects2);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects2);
-{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()));
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 70);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 45);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].getBehavior("Text").setText("Already claimed.");
-}
-}}
-
-}
-
-
-};gdjs.shopSceneCode.userFunc0x1128328 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-var SNS = localStorage.getItem("SNS")
-if(!SNS)SNS=0
-localStorage.setItem("SNS",parseInt(SNS)+100)
-
-window.open("https://snshero.com", "_blank");
-
-
-};
-gdjs.shopSceneCode.eventsList13 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
-{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.shopSceneCode.userFunc0x1128328(runtimeScene);
-
-}
-
-
-};gdjs.shopSceneCode.userFunc0x112a5e8 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-window.open("https://www.youtube.com/@snshero", "_blank");
-};
-gdjs.shopSceneCode.eventsList14 = function(runtimeScene) {
-
-{
-
-
-gdjs.shopSceneCode.userFunc0x112a5e8(runtimeScene);
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects2);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects2);
-{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()));
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 70);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 45);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].getBehavior("Text").setText("Already claimed.");
-}
-}}
-
-}
-
-
-};gdjs.shopSceneCode.userFunc0x1128ca0 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-var SNS = localStorage.getItem("SNS")
-if(!SNS)SNS=0
-localStorage.setItem("SNS",parseInt(SNS)+100)
-
-window.open("https://www.youtube.com/@snshero", "_blank");
-};
-gdjs.shopSceneCode.eventsList15 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
-{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
-}
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.shopSceneCode.userFunc0x1128ca0(runtimeScene);
-
-}
-
-
-};gdjs.shopSceneCode.userFunc0x1069cb8 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-window.open("https://www.youtube.com/watch?v=C9J3gKMh0zc", "_blank");
-};
-gdjs.shopSceneCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -1324,15 +1184,213 @@ gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDN
 }
 
 
+};gdjs.shopSceneCode.userFunc0x17ed448 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var SNS = localStorage.getItem("SNS")
+if(!SNS)SNS=0
+localStorage.setItem("SNS",parseInt(SNS)+100)
+
+window.open("https://snshero.com", "_blank");
+
+
+};
+gdjs.shopSceneCode.eventsList13 = function(runtimeScene) {
+
 {
 
 
-gdjs.shopSceneCode.userFunc0x1069cb8(runtimeScene);
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects4);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects4);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}
+}}
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0xac2430 = function GDJSInlineCode(runtimeScene) {
+{
+
+
+gdjs.shopSceneCode.userFunc0x17ed448(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0x17ed838 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+window.open("https://www.youtube.com/@snshero", "_blank");
+};
+gdjs.shopSceneCode.eventsList14 = function(runtimeScene) {
+
+{
+
+
+gdjs.shopSceneCode.userFunc0x17ed838(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("Already claimed.");
+}
+}}
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0x17ee868 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var SNS = localStorage.getItem("SNS")
+if(!SNS)SNS=0
+localStorage.setItem("SNS",parseInt(SNS)+100)
+
+window.open("https://www.youtube.com/@snshero", "_blank");
+};
+gdjs.shopSceneCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects4);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects4);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0x17ee868(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0x15989b0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+window.open("https://www.youtube.com/watch?v=C9J3gKMh0zc", "_blank");
+};
+gdjs.shopSceneCode.eventsList16 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects4);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects4);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects4[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects4.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects4[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects4.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects4[i].getBehavior("Text").setText("Already claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0x15989b0(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0x1599430 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(!SNS)SNS=0
@@ -1347,30 +1405,30 @@ gdjs.shopSceneCode.eventsList17 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects2);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects2);
-{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].hide(false);
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].hide(false);
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()));
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 70);
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDDialogBackObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 45);
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
 }
-}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
-    gdjs.shopSceneCode.GDAlertObjects2[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
 }
 }}
 
@@ -1380,7 +1438,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDN
 {
 
 
-gdjs.shopSceneCode.userFunc0xac2430(runtimeScene);
+gdjs.shopSceneCode.userFunc0x1599430(runtimeScene);
 
 }
 
@@ -1510,7 +1568,444 @@ gdjs.shopSceneCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.shopSceneCode.eventsList19 = function(runtimeScene) {
+};gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects = Hashtable.newFrom({"goButton4": gdjs.shopSceneCode.GDgoButton4Objects1});
+gdjs.shopSceneCode.userFunc0x159a198 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+window.open("https://www.blockchain.com/explorer/addresses/btc/bc1pctdc0htf4creydjhl32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8", "_blank");
+
+
+};
+gdjs.shopSceneCode.eventsList19 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("Already claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0x159a198(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0x159abd8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var SNS = localStorage.getItem("SNS")
+if(!SNS)SNS=0
+localStorage.setItem("SNS",parseInt(SNS)+100)
+
+window.open("https://www.blockchain.com/explorer/addresses/btc/bc1pctdc0htf4creydjhl32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8", "_blank");
+
+
+};
+gdjs.shopSceneCode.eventsList20 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0x159abd8(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0xd7a828 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+window.open("https://etherscan.io/address/0x59448a8bb4d0944568b7344519f59e2960b8d8c6", "_blank");
+};
+gdjs.shopSceneCode.eventsList21 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("Already claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0xd7a828(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0xd7b238 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var SNS = localStorage.getItem("SNS")
+if(!SNS)SNS=0
+localStorage.setItem("SNS",parseInt(SNS)+100)
+
+
+window.open("https://etherscan.io/address/0x59448a8bb4d0944568b7344519f59e2960b8d8c6", "_blank");
+};
+gdjs.shopSceneCode.eventsList22 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0xd7b238(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0xd7bbe8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+window.open("https://paypal.me/dogebell", "_blank");
+};
+gdjs.shopSceneCode.eventsList23 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects3);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects3);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects3[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects3.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects3[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects3.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects3[i].getBehavior("Text").setText("Already claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0xd7bbe8(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.userFunc0xd7c5e8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var SNS = localStorage.getItem("SNS")
+if(!SNS)SNS=0
+localStorage.setItem("SNS",parseInt(SNS)+100)
+
+window.open("https://paypal.me/dogebell", "_blank");
+};
+gdjs.shopSceneCode.eventsList24 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Alert"), gdjs.shopSceneCode.GDAlertObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DialogBack"), gdjs.shopSceneCode.GDDialogBackObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DialogLayer3"), gdjs.shopSceneCode.GDDialogLayer3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDNewTiledSpriteObjects2);
+{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogLayer3Objects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogLayer3Objects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()));
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 70);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDDialogBackObjects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDDialogBackObjects2[i].setX((( gdjs.shopSceneCode.GDNewTiledSpriteObjects2.length === 0 ) ? 0 :gdjs.shopSceneCode.GDNewTiledSpriteObjects2[0].getX()) + 45);
+}
+}{for(var i = 0, len = gdjs.shopSceneCode.GDAlertObjects2.length ;i < len;++i) {
+    gdjs.shopSceneCode.GDAlertObjects2[i].getBehavior("Text").setText("100 SNS Coin is claimed.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.shopSceneCode.userFunc0xd7c5e8(runtimeScene);
+
+}
+
+
+};gdjs.shopSceneCode.eventsList25 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("claim", "btc");
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.shopSceneCode.eventsList19(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("claim", "btc"));
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.storage.writeNumberInJSONFile("claim", "btc", 1);
+}
+{ //Subevents
+gdjs.shopSceneCode.eventsList20(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("claim", "eth");
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.shopSceneCode.eventsList21(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("claim", "eth"));
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.storage.writeNumberInJSONFile("claim", "eth", 1);
+}
+{ //Subevents
+gdjs.shopSceneCode.eventsList22(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 2);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("claim", "paypal");
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.shopSceneCode.eventsList23(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(50).getAsNumber() == 2);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("claim", "paypal"));
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.storage.writeNumberInJSONFile("claim", "paypal", 2);
+}
+{ //Subevents
+gdjs.shopSceneCode.eventsList24(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.shopSceneCode.eventsList26 = function(runtimeScene) {
 
 {
 
@@ -1572,7 +2067,7 @@ gdjs.shopSceneCode.localVariables.pop();
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("goButton3"), gdjs.shopSceneCode.GDgoButton3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("goButton3"), gdjs.shopSceneCode.GDgoButton3Objects2);
 
 {
 const variables = new gdjs.VariablesContainer();
@@ -1585,10 +2080,10 @@ gdjs.shopSceneCode.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton3Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-/* Reuse gdjs.shopSceneCode.GDgoButton3Objects1 */
-{runtimeScene.getScene().getVariables().getFromIndex(50).setNumber(((gdjs.shopSceneCode.GDgoButton3Objects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.shopSceneCode.GDgoButton3Objects1[0].getVariables()).getFromIndex(0).getAsNumber());
+/* Reuse gdjs.shopSceneCode.GDgoButton3Objects2 */
+{runtimeScene.getScene().getVariables().getFromIndex(50).setNumber(((gdjs.shopSceneCode.GDgoButton3Objects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.shopSceneCode.GDgoButton3Objects2[0].getVariables()).getFromIndex(0).getAsNumber());
 }{gdjs.evtTools.debuggerTools.log("click" + runtimeScene.getScene().getVariables().getFromIndex(50).getAsString(), "info", "");
 }
 { //Subevents
@@ -1599,7 +2094,36 @@ gdjs.shopSceneCode.localVariables.pop();
 }
 
 
-};gdjs.shopSceneCode.eventsList20 = function(runtimeScene) {
+{
+
+gdjs.copyArray(runtimeScene.getObjects("goButton4"), gdjs.shopSceneCode.GDgoButton4Objects1);
+
+{
+const variables = new gdjs.VariablesContainer();
+{
+const variable = new gdjs.Variable();
+variable.setBoolean(false);
+variables._declare("goNext", variable);
+}
+gdjs.shopSceneCode.localVariables.push(variables);
+}
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+/* Reuse gdjs.shopSceneCode.GDgoButton4Objects1 */
+{runtimeScene.getScene().getVariables().getFromIndex(50).setNumber(((gdjs.shopSceneCode.GDgoButton4Objects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.shopSceneCode.GDgoButton4Objects1[0].getVariables()).getFromIndex(0).getAsNumber());
+}{gdjs.evtTools.debuggerTools.log("click" + runtimeScene.getScene().getVariables().getFromIndex(50).getAsString(), "info", "");
+}
+{ //Subevents
+gdjs.shopSceneCode.eventsList25(runtimeScene);} //End of subevents
+}
+gdjs.shopSceneCode.localVariables.pop();
+
+}
+
+
+};gdjs.shopSceneCode.eventsList27 = function(runtimeScene) {
 
 {
 
@@ -1626,7 +2150,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.shopSceneCode.GDcard
 }
 
 
-};gdjs.shopSceneCode.eventsList21 = function(runtimeScene) {
+};gdjs.shopSceneCode.eventsList28 = function(runtimeScene) {
 
 {
 
@@ -1752,7 +2276,7 @@ gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.shopSceneCode.GDcard
 }
 
 
-};gdjs.shopSceneCode.userFunc0xac1400 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xac4da8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = 
 [{"index":"1","category":"1","type":"1","level":"1","title":"물조각","title_en":"Water1","delete":"0","top":"1","left":"5","bottom":"1","right":"4","updated":"2013-06-29 14:22:54"},{"index":"2","category":"1","type":"1","level":"1","title":"불조각","title_en":"Fire1","delete":"0","top":"5","left":"3","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"3","category":"1","type":"1","level":"1","title":"바람조각","title_en":"Wind1","delete":"0","top":"1","left":"5","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"4","category":"1","type":"1","level":"1","title":"대지조각","title_en":"Land1","delete":"0","top":"6","left":"2","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"5","category":"1","type":"1","level":"1","title":"보병","title_en":"Human1","delete":"0","top":"2","left":"5","bottom":"1","right":"3","updated":"2013-06-29 14:22:54"},{"index":"6","category":"1","type":"1","level":"1","title":"좀비","title_en":"Undead1","delete":"0","top":"2","left":"4","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"7","category":"1","type":"1","level":"1","title":"소형로봇A","title_en":"Robot1","delete":"0","top":"1","left":"1","bottom":"4","right":"5","updated":"2013-06-29 14:22:54"},{"index":"8","category":"1","type":"1","level":"1","title":"늑대개","title_en":"Monster1","delete":"0","top":"3","left":"1","bottom":"2","right":"5","updated":"2013-06-29 14:22:54"},{"index":"9","category":"1","type":"1","level":"1","title":"엘프병사","title_en":"Elf1","delete":"0","top":"2","left":"1","bottom":"6","right":"1","updated":"2013-06-29 14:22:54"},{"index":"10","category":"1","type":"1","level":"1","title":"호빗","title_en":"Dwarf1","delete":"0","top":"4","left":"3","bottom":"4","right":"2","updated":"2013-06-29 14:22:54"},{"index":"11","category":"1","type":"1","level":"1","title":"궁수","title_en":"Human2","delete":"0","top":"2","left":"6","bottom":"2","right":"1","updated":"2013-06-29 14:22:54"},{"index":"12","category":"1","type":"1","level":"2","title":"물정령","title_en":"Water2","delete":"0","top":"7","left":"1","bottom":"3","right":"1","updated":"2013-06-29 14:22:54"},{"index":"13","category":"1","type":"1","level":"2","title":"불정령","title_en":"Fire2","delete":"0","top":"6","left":"3","bottom":"2","right":"2","updated":"2013-06-29 14:22:54"},{"index":"14","category":"1","type":"1","level":"2","title":"바람정령","title_en":"Wind2","delete":"0","top":"5","left":"4","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"15","category":"1","type":"1","level":"2","title":"대지정령","title_en":"Land2","delete":"0","top":"6","left":"3","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"16","category":"1","type":"1","level":"2","title":"정예병","title_en":"Human3","delete":"0","top":"3","left":"3","bottom":"5","right":"4","updated":"2013-06-29 14:22:54"},{"index":"17","category":"1","type":"1","level":"2","title":"악성좀비","title_en":"Undead2","delete":"0","top":"5","left":"5","bottom":"2","right":"3","updated":"2013-08-09 6:36:34"},{"index":"18","category":"1","type":"1","level":"2","title":"시계로봇","title_en":"Robot2","delete":"0","top":"5","left":"5","bottom":"3","right":"1","updated":"2013-08-09 6:37:13"},{"index":"19","category":"1","type":"1","level":"2","title":"불황소","title_en":"Monster2","delete":"0","top":"5","left":"2","bottom":"5","right":"2","updated":"2013-08-09 6:37:44"},{"index":"20","category":"1","type":"1","level":"2","title":"엘프궁수","title_en":"Elf2","delete":"0","top":"4","left":"2","bottom":"5","right":"4","updated":"2013-08-09 7:03:10"},{"index":"21","category":"1","type":"1","level":"2","title":"전투호빗","title_en":"Dwarf2","delete":"0","top":"3","left":"7","bottom":"1","right":"2","updated":"2013-08-09 7:03:38"},{"index":"22","category":"1","type":"1","level":"2","title":"폭탄좀비","title_en":"Undead3","delete":"0","top":"5","left":"3","bottom":"5","right":"2","updated":"2013-08-09 7:04:26"},{"index":"23","category":"1","type":"1","level":"3","title":"상위물정령","title_en":"Water3","delete":"0","top":"6","left":"2","bottom":"3","right":"6","updated":"2013-08-09 7:05:30"},{"index":"24","category":"1","type":"1","level":"3","title":"불상위정령","title_en":"Fire3","delete":"0","top":"6","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:05:39"},{"index":"25","category":"1","type":"1","level":"3","title":"바람상위정령","title_en":"Wind3","delete":"0","top":"3","left":"5","bottom":"5","right":"5","updated":"2013-08-09 7:05:58"},{"index":"26","category":"1","type":"1","level":"3","title":"대지상위정령","title_en":"Land3","delete":"0","top":"7","left":"3","bottom":"1","right":"5","updated":"2013-08-09 7:06:59"},{"index":"27","category":"1","type":"1","level":"3","title":"암살자","title_en":"Human4","delete":"0","top":"7","left":"3","bottom":"5","right":"1","updated":"2013-08-09 7:27:10"},{"index":"28","category":"1","type":"1","level":"3","title":"시체거미","title_en":"Undead4","delete":"0","top":"5","left":"3","bottom":"3","right":"6","updated":"2013-08-09 7:27:56"},{"index":"29","category":"1","type":"1","level":"3","title":"대형로봇A","title_en":"Robot3","delete":"0","top":"5","left":"4","bottom":"2","right":"6","updated":"2013-08-09 7:31:30"},{"index":"30","category":"1","type":"1","level":"3","title":"아나콘다","title_en":"Monster3","delete":"0","top":"4","left":"2","bottom":"7","right":"4","updated":"2013-08-09 7:32:09"},{"index":"31","category":"1","type":"1","level":"3","title":"엘프마법사","title_en":"Elf3","delete":"0","top":"6","left":"3","bottom":"6","right":"2","updated":"2013-08-09 7:32:53"},{"index":"32","category":"1","type":"1","level":"3","title":"도둑호빗","title_en":"Dwarf3","delete":"0","top":"3","left":"4","bottom":"4","right":"6","updated":"2013-08-09 7:33:56"},{"index":"33","category":"1","type":"1","level":"3","title":"엘프군주","title_en":"Elf4","delete":"0","top":"7","left":"5","bottom":"3","right":"2","updated":"2013-08-09 7:34:26"},{"index":"34","category":"2","type":"1","level":"4","title":"물소환수","title_en":"Water4","delete":"0","top":"2","left":"7","bottom":"6","right":"3","updated":"2013-08-09 7:35:22"},{"index":"35","category":"2","type":"1","level":"4","title":"불소환수","title_en":"Fire4","delete":"0","top":"6","left":"5","bottom":"4","right":"5","updated":"2013-08-09 7:38:35"},{"index":"36","category":"2","type":"1","level":"4","title":"바람소환수","title_en":"Wind4","delete":"0","top":"4","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:38:43"},{"index":"37","category":"2","type":"1","level":"4","title":"대지소환수","title_en":"Land4","delete":"0","top":"2","left":"3","bottom":"6","right":"7","updated":"2013-08-09 7:39:45"},{"index":"38","category":"2","type":"1","level":"4","title":"나이트","title_en":"Human5","delete":"0","top":"1","left":"7","bottom":"4","right":"6","updated":"2013-08-09 7:40:18"},{"index":"39","category":"2","type":"1","level":"4","title":"어보미네이션","title_en":"Undead5","delete":"0","top":"7","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:40:34"},{"index":"40","category":"2","type":"1","level":"4","title":"자폭로봇","title_en":"Robot4","delete":"0","top":"7","left":"4","bottom":"4","right":"4","updated":"2013-08-09 7:41:30"},{"index":"41","category":"2","type":"1","level":"4","title":"독수리","title_en":"Monster4","delete":"0","top":"3","left":"6","bottom":"3","right":"7","updated":"2013-08-09 7:43:03"},{"index":"42","category":"2","type":"1","level":"4","title":"엘프대마법사","title_en":"Elf5","delete":"0","top":"6","left":"3","bottom":"7","right":"2","updated":"2013-08-09 7:43:56"},{"index":"43","category":"2","type":"1","level":"4","title":"전투드워프","title_en":"Dwarf4","delete":"0","top":"4","left":"6","bottom":"5","right":"5","updated":"2013-08-09 7:44:43"},{"index":"44","category":"2","type":"1","level":"4","title":"골드드워프","title_en":"Dwarf5","delete":"0","top":"7","left":"3","bottom":"4","right":"5","updated":"2013-08-09 7:48:14"},{"index":"45","category":"2","type":"1","level":"5","title":"물군주","title_en":"Water5","delete":"0","top":"6","left":"5","bottom":"6","right":"5","updated":"2013-08-09 7:49:39"},{"index":"46","category":"2","type":"1","level":"5","title":"불군주","title_en":"Fire5","delete":"0","top":"3","left":"7","bottom":"5","right":"6","updated":"2013-08-09 7:50:25"},{"index":"47","category":"2","type":"1","level":"5","title":"바람군주","title_en":"Wind5","delete":"0","top":"7","left":"3","bottom":"5","right":"6","updated":"2013-08-09 7:51:02"},{"index":"48","category":"2","type":"1","level":"5","title":"대지군주","title_en":"Land5","delete":"0","top":"3","left":"1","bottom":"2","right":"10","updated":"2013-08-09 7:51:30"},{"index":"49","category":"2","type":"1","level":"5","title":"대장군","title_en":"Human6","delete":"0","top":"6","left":"7","bottom":"6","right":"2","updated":"2013-08-09 7:52:15"},{"index":"50","category":"2","type":"1","level":"5","title":"네크로멘서","title_en":"Undead6","delete":"0","top":"5","left":"4","bottom":"7","right":"5","updated":"2013-08-09 7:52:57"},{"index":"51","category":"2","type":"1","level":"5","title":"거대로봇","title_en":"Robot5","delete":"0","top":"7","left":"2","bottom":"4","right":"7","updated":"2013-08-09 7:53:28"},{"index":"52","category":"2","type":"1","level":"5","title":"호랑이","title_en":"Monster5","delete":"0","top":"7","left":"4","bottom":"7","right":"2","updated":"2013-08-09 7:54:20"},{"index":"53","category":"2","type":"1","level":"5","title":"엘프소환사","title_en":"Elf6","delete":"0","top":"5","left":"6","bottom":"7","right":"3","updated":"2013-08-09 7:55:05"},{"index":"54","category":"2","type":"1","level":"5","title":"폭탄드워프","title_en":"Dwarf6","delete":"0","top":"4","left":"4","bottom":"7","right":"8","updated":"2013-08-09 7:55:30"},{"index":"55","category":"2","type":"1","level":"5","title":"공성전차로봇","title_en":"Robot6","delete":"0","top":"6","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:56:16"},{"index":"56","category":"3","type":"2","level":"6","title":"물대군주","title_en":"Water6","delete":"0","top":"2","left":"4","bottom":"8","right":"8","updated":"2013-08-09 8:00:03"},{"index":"57","category":"3","type":"2","level":"6","title":"불대군주","title_en":"Fire6","delete":"0","top":"7","left":"4","bottom":"3","right":"8","updated":"2013-08-09 8:29:12"},{"index":"58","category":"3","type":"2","level":"6","title":"바람대군주","title_en":"Wind6","delete":"0","top":"4","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:29:52"},{"index":"59","category":"3","type":"2","level":"6","title":"대지대군주","title_en":"Land6","delete":"0","top":"7","left":"5","bottom":"8","right":"2","updated":"2013-08-09 8:30:25"},{"index":"60","category":"3","type":"2","level":"6","title":"골드나이트","title_en":"Human7","delete":"0","top":"1","left":"3","bottom":"8","right":"8","updated":"2013-08-09 8:31:07"},{"index":"61","category":"3","type":"2","level":"6","title":"가고일","title_en":"Undead7","delete":"0","top":"8","left":"2","bottom":"8","right":"2","updated":"2013-08-09 8:48:06"},{"index":"62","category":"3","type":"2","level":"6","title":"하이페리온","title_en":"Robot7","delete":"0","top":"6","left":"5","bottom":"4","right":"8","updated":"2013-08-09 8:48:40"},{"index":"63","category":"3","type":"2","level":"6","title":"사자","title_en":"Monster6","delete":"0","top":"4","left":"6","bottom":"5","right":"8","updated":"2013-08-09 8:49:49"},{"index":"64","category":"3","type":"2","level":"6","title":"흑마법사","title_en":"Elf7","delete":"0","top":"1","left":"8","bottom":"4","right":"8","updated":"2013-08-09 8:50:54"},{"index":"65","category":"3","type":"2","level":"6","title":"도끼드워프","title_en":"Dwarf7","delete":"0","top":"6","left":"4","bottom":"8","right":"5","updated":"2013-08-09 8:51:32"},{"index":"66","category":"3","type":"2","level":"6","title":"귀신호랑이","title_en":"Monster7","delete":"0","top":"7","left":"1","bottom":"8","right":"5","updated":"2013-08-09 8:51:55"},{"index":"67","category":"4","type":"2","level":"7","title":"물가오리","title_en":"Water7","delete":"0","top":"8","left":"8","bottom":"4","right":"4","updated":"2013-08-09 8:54:17"},{"index":"68","category":"4","type":"2","level":"7","title":"불탄","title_en":"Fire7","delete":"0","top":"8","left":"4","bottom":"4","right":"8","updated":"2013-08-09 8:54:27"},{"index":"69","category":"4","type":"2","level":"7","title":"강풍","title_en":"Wind7","delete":"0","top":"8","left":"8","bottom":"2","right":"5","updated":"2013-08-09 8:55:49"},{"index":"70","category":"4","type":"2","level":"7","title":"록타","title_en":"Land7","delete":"0","top":"5","left":"8","bottom":"6","right":"6","updated":"2013-08-09 8:56:16"},{"index":"71","category":"4","type":"2","level":"7","title":"로빈후드","title_en":"Human8","delete":"0","top":"8","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:58:42"},{"index":"72","category":"4","type":"2","level":"7","title":"데쓰드래곤","title_en":"Undead8","delete":"0","top":"8","left":"8","bottom":"5","right":"3","updated":"2013-08-09 8:58:51"},{"index":"73","category":"4","type":"2","level":"7","title":"아이언로봇","title_en":"Robot8","delete":"0","top":"8","left":"4","bottom":"5","right":"8","updated":"2013-08-09 8:59:38"},{"index":"74","category":"4","type":"2","level":"7","title":"불곰","title_en":"Monster8","delete":"0","top":"5","left":"5","bottom":"8","right":"7","updated":"2013-08-09 9:00:33"},{"index":"75","category":"4","type":"2","level":"7","title":"피의마법사","title_en":"Elf8","delete":"0","top":"6","left":"7","bottom":"4","right":"8","updated":"2013-08-09 9:00:44"},{"index":"76","category":"4","type":"2","level":"7","title":"강철드워프","title_en":"Dwarf8","delete":"0","top":"1","left":"7","bottom":"7","right":"8","updated":"2013-08-09 9:02:04"},{"index":"77","category":"4","type":"2","level":"7","title":"새끼용","title_en":"Dragon1","delete":"0","top":"7","left":"8","bottom":"2","right":"7","updated":"2013-08-09 9:02:29"},{"index":"78","category":"4","type":"2","level":"8","title":"폭포대왕","title_en":"Water8","delete":"0","top":"4","left":"9","bottom":"8","right":"4","updated":"2013-08-10 3:19:06"},{"index":"79","category":"4","type":"2","level":"8","title":"불사신","title_en":"Fire8","delete":"0","top":"9","left":"3","bottom":"7","right":"6","updated":"2013-08-10 3:24:12"},{"index":"80","category":"4","type":"2","level":"8","title":"썬더퓨리","title_en":"Wind8","delete":"0","top":"3","left":"6","bottom":"9","right":"7","updated":"2013-08-10 3:26:00"},{"index":"81","category":"4","type":"2","level":"8","title":"잉카누스","title_en":"Land8","delete":"0","top":"9","left":"2","bottom":"9","right":"3","updated":"2013-08-10 3:27:24"},{"index":"82","category":"4","type":"2","level":"8","title":"헤라클래스","title_en":"Human9","delete":"0","top":"9","left":"4","bottom":"8","right":"4","updated":"2013-08-10 3:28:01"},{"index":"83","category":"4","type":"2","level":"8","title":"리치","title_en":"Undead9","delete":"0","top":"2","left":"4","bottom":"9","right":"9","updated":"2013-08-10 3:29:55"},{"index":"84","category":"4","type":"2","level":"8","title":"골렘전차","title_en":"Robot9","delete":"0","top":"6","left":"9","bottom":"4","right":"7","updated":"2013-08-10 3:31:57"},{"index":"85","category":"4","type":"2","level":"8","title":"메두사","title_en":"Monster9","delete":"0","top":"9","left":"8","bottom":"2","right":"6","updated":"2013-08-10 3:33:03"},{"index":"86","category":"4","type":"2","level":"8","title":"간달프","title_en":"Elf9","delete":"0","top":"8","left":"2","bottom":"6","right":"9","updated":"2013-08-10 3:34:02"},{"index":"87","category":"4","type":"2","level":"8","title":"스트로베리","title_en":"Dwarf9","delete":"0","top":"5","left":"9","bottom":"9","right":"1","updated":"2013-08-10 3:35:34"},{"index":"88","category":"4","type":"2","level":"8","title":"비룡","title_en":"Dragon2","delete":"0","top":"9","left":"9","bottom":"2","right":"5","updated":"2013-08-10 3:38:35"},{"index":"89","category":"5","type":"3","level":"9","title":"옥타퍼스","title_en":"Water9","delete":"0","top":"8","left":"4","bottom":"10","right":"4","updated":"2013-08-10 13:14:31"},{"index":"90","category":"5","type":"3","level":"9","title":"불사조","title_en":"Fire9","delete":"0","top":"5","left":"3","bottom":"8","right":"10","updated":"2013-08-10 13:15:44"},{"index":"91","category":"5","type":"3","level":"9","title":"썬더스톰","title_en":"Wind9","delete":"0","top":"7","left":"7","bottom":"1","right":"10","updated":"2013-08-10 13:16:20"},{"index":"92","category":"5","type":"3","level":"9","title":"히말라야","title_en":"Land9","delete":"0","top":"8","left":"5","bottom":"3","right":"10","updated":"2013-08-10 13:16:45"},{"index":"93","category":"5","type":"3","level":"9","title":"황천용","title_en":"Dragon3","delete":"0","top":"10","left":"7","bottom":"7","right":"1","updated":"2013-08-10 13:17:24"},{"index":"94","category":"5","type":"3","level":"9","title":"전투용","title_en":"Dragon4","delete":"0","top":"7","left":"10","bottom":"6","right":"4","updated":"2013-08-10 13:17:47"},{"index":"95","category":"5","type":"3","level":"9","title":"궁극의 병기","title_en":"Robot10","delete":"0","top":"9","left":"2","bottom":"4","right":"10","updated":"2013-08-10 13:19:02"},{"index":"96","category":"5","type":"3","level":"9","title":"유니콘","title_en":"Monster10","delete":"0","top":"7","left":"10","bottom":"7","right":"2","updated":"2013-08-10 13:20:04"},{"index":"97","category":"5","type":"3","level":"9","title":"창기룡","title_en":"Dragon5","delete":"0","top":"10","left":"6","bottom":"2","right":"8","updated":"2013-08-10 13:20:51"},{"index":"98","category":"5","type":"3","level":"9","title":"마법지룡","title_en":"Dragon6","delete":"0","top":"3","left":"10","bottom":"10","right":"1","updated":"2013-08-10 13:21:36"},{"index":"99","category":"5","type":"3","level":"9","title":"그린드래곤","title_en":"Dragon7","delete":"0","top":"4","left":"10","bottom":"9","right":"4","updated":"2013-08-10 13:22:26"},{"index":"100","category":"5","type":"3","level":"10","title":"포세이돈","title_en":"Water10","delete":"0","top":"10","left":"8","bottom":"2","right":"7","updated":"2013-08-10 13:23:06"},{"index":"101","category":"5","type":"3","level":"10","title":"이그니시우스","title_en":"Fire10","delete":"0","top":"6","left":"10","bottom":"6","right":"7","updated":"2013-08-10 13:23:40"},{"index":"102","category":"5","type":"3","level":"10","title":"바람신 토르","title_en":"Wind10","delete":"0","top":"5","left":"9","bottom":"3","right":"10","updated":"2013-08-10 13:24:01"},{"index":"103","category":"5","type":"3","level":"10","title":"콜로서스","title_en":"Land10","delete":"0","top":"10","left":"4","bottom":"6","right":"8","updated":"2013-08-10 13:24:37"},{"index":"104","category":"5","type":"3","level":"10","title":"알렉산다르","title_en":"Human10","delete":"0","top":"9","left":"2","bottom":"10","right":"6","updated":"2013-08-10 13:25:03"},{"index":"105","category":"5","type":"3","level":"10","title":"데쓰나이트","title_en":"Undead10","delete":"0","top":"2","left":"10","bottom":"9","right":"6","updated":"2013-08-10 13:25:15"},{"index":"106","category":"5","type":"3","level":"10","title":"데몬헌터","title_en":"Elf10","delete":"0","top":"8","left":"6","bottom":"10","right":"5","updated":"2013-08-10 13:25:59"},{"index":"107","category":"5","type":"3","level":"10","title":"아이언포지","title_en":"Dwarf10","delete":"0","top":"4","left":"10","bottom":"2","right":"10","updated":"2013-08-10 13:26:24"},{"index":"108","category":"5","type":"3","level":"10","title":"레드드래곤","title_en":"Dragon8","delete":"0","top":"10","left":"3","bottom":"3","right":"10","updated":"2013-08-10 13:27:00"},{"index":"109","category":"5","type":"3","level":"10","title":"블루드래곤","title_en":"Dragon9","delete":"0","top":"6","left":"4","bottom":"10","right":"9","updated":"2013-08-10 13:27:18"},{"index":"110","category":"5","type":"3","level":"10","title":"블랙드래곤","title_en":"Dragon10","delete":"0","top":"10","left":"9","bottom":"6","right":"4","updated":"2013-08-10 13:28:06"}]
@@ -1776,12 +2300,12 @@ runtimeScene.getVariables().get("nowCard").setString(randomElement.title_en)
 
 
 };
-gdjs.shopSceneCode.eventsList22 = function(runtimeScene) {
+gdjs.shopSceneCode.eventsList29 = function(runtimeScene) {
 
 {
 
 
-gdjs.shopSceneCode.userFunc0xac1400(runtimeScene);
+gdjs.shopSceneCode.userFunc0xac4da8(runtimeScene);
 
 }
 
@@ -1810,7 +2334,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.shopSceneCode.eventsList23 = function(runtimeScene) {
+};gdjs.shopSceneCode.eventsList30 = function(runtimeScene) {
 
 {
 
@@ -1819,13 +2343,13 @@ let isConditionTrue_0 = false;
 {
 
 { //Subevents
-gdjs.shopSceneCode.eventsList22(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList29(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0xac1dd8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xac57c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = 
 [{"index":"1","category":"1","type":"1","level":"1","title":"물조각","title_en":"Water1","delete":"0","top":"1","left":"5","bottom":"1","right":"4","updated":"2013-06-29 14:22:54"},{"index":"2","category":"1","type":"1","level":"1","title":"불조각","title_en":"Fire1","delete":"0","top":"5","left":"3","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"3","category":"1","type":"1","level":"1","title":"바람조각","title_en":"Wind1","delete":"0","top":"1","left":"5","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"4","category":"1","type":"1","level":"1","title":"대지조각","title_en":"Land1","delete":"0","top":"6","left":"2","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"5","category":"1","type":"1","level":"1","title":"보병","title_en":"Human1","delete":"0","top":"2","left":"5","bottom":"1","right":"3","updated":"2013-06-29 14:22:54"},{"index":"6","category":"1","type":"1","level":"1","title":"좀비","title_en":"Undead1","delete":"0","top":"2","left":"4","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"7","category":"1","type":"1","level":"1","title":"소형로봇A","title_en":"Robot1","delete":"0","top":"1","left":"1","bottom":"4","right":"5","updated":"2013-06-29 14:22:54"},{"index":"8","category":"1","type":"1","level":"1","title":"늑대개","title_en":"Monster1","delete":"0","top":"3","left":"1","bottom":"2","right":"5","updated":"2013-06-29 14:22:54"},{"index":"9","category":"1","type":"1","level":"1","title":"엘프병사","title_en":"Elf1","delete":"0","top":"2","left":"1","bottom":"6","right":"1","updated":"2013-06-29 14:22:54"},{"index":"10","category":"1","type":"1","level":"1","title":"호빗","title_en":"Dwarf1","delete":"0","top":"4","left":"3","bottom":"4","right":"2","updated":"2013-06-29 14:22:54"},{"index":"11","category":"1","type":"1","level":"1","title":"궁수","title_en":"Human2","delete":"0","top":"2","left":"6","bottom":"2","right":"1","updated":"2013-06-29 14:22:54"},{"index":"12","category":"1","type":"1","level":"2","title":"물정령","title_en":"Water2","delete":"0","top":"7","left":"1","bottom":"3","right":"1","updated":"2013-06-29 14:22:54"},{"index":"13","category":"1","type":"1","level":"2","title":"불정령","title_en":"Fire2","delete":"0","top":"6","left":"3","bottom":"2","right":"2","updated":"2013-06-29 14:22:54"},{"index":"14","category":"1","type":"1","level":"2","title":"바람정령","title_en":"Wind2","delete":"0","top":"5","left":"4","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"15","category":"1","type":"1","level":"2","title":"대지정령","title_en":"Land2","delete":"0","top":"6","left":"3","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"16","category":"1","type":"1","level":"2","title":"정예병","title_en":"Human3","delete":"0","top":"3","left":"3","bottom":"5","right":"4","updated":"2013-06-29 14:22:54"},{"index":"17","category":"1","type":"1","level":"2","title":"악성좀비","title_en":"Undead2","delete":"0","top":"5","left":"5","bottom":"2","right":"3","updated":"2013-08-09 6:36:34"},{"index":"18","category":"1","type":"1","level":"2","title":"시계로봇","title_en":"Robot2","delete":"0","top":"5","left":"5","bottom":"3","right":"1","updated":"2013-08-09 6:37:13"},{"index":"19","category":"1","type":"1","level":"2","title":"불황소","title_en":"Monster2","delete":"0","top":"5","left":"2","bottom":"5","right":"2","updated":"2013-08-09 6:37:44"},{"index":"20","category":"1","type":"1","level":"2","title":"엘프궁수","title_en":"Elf2","delete":"0","top":"4","left":"2","bottom":"5","right":"4","updated":"2013-08-09 7:03:10"},{"index":"21","category":"1","type":"1","level":"2","title":"전투호빗","title_en":"Dwarf2","delete":"0","top":"3","left":"7","bottom":"1","right":"2","updated":"2013-08-09 7:03:38"},{"index":"22","category":"1","type":"1","level":"2","title":"폭탄좀비","title_en":"Undead3","delete":"0","top":"5","left":"3","bottom":"5","right":"2","updated":"2013-08-09 7:04:26"},{"index":"23","category":"1","type":"1","level":"3","title":"상위물정령","title_en":"Water3","delete":"0","top":"6","left":"2","bottom":"3","right":"6","updated":"2013-08-09 7:05:30"},{"index":"24","category":"1","type":"1","level":"3","title":"불상위정령","title_en":"Fire3","delete":"0","top":"6","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:05:39"},{"index":"25","category":"1","type":"1","level":"3","title":"바람상위정령","title_en":"Wind3","delete":"0","top":"3","left":"5","bottom":"5","right":"5","updated":"2013-08-09 7:05:58"},{"index":"26","category":"1","type":"1","level":"3","title":"대지상위정령","title_en":"Land3","delete":"0","top":"7","left":"3","bottom":"1","right":"5","updated":"2013-08-09 7:06:59"},{"index":"27","category":"1","type":"1","level":"3","title":"암살자","title_en":"Human4","delete":"0","top":"7","left":"3","bottom":"5","right":"1","updated":"2013-08-09 7:27:10"},{"index":"28","category":"1","type":"1","level":"3","title":"시체거미","title_en":"Undead4","delete":"0","top":"5","left":"3","bottom":"3","right":"6","updated":"2013-08-09 7:27:56"},{"index":"29","category":"1","type":"1","level":"3","title":"대형로봇A","title_en":"Robot3","delete":"0","top":"5","left":"4","bottom":"2","right":"6","updated":"2013-08-09 7:31:30"},{"index":"30","category":"1","type":"1","level":"3","title":"아나콘다","title_en":"Monster3","delete":"0","top":"4","left":"2","bottom":"7","right":"4","updated":"2013-08-09 7:32:09"},{"index":"31","category":"1","type":"1","level":"3","title":"엘프마법사","title_en":"Elf3","delete":"0","top":"6","left":"3","bottom":"6","right":"2","updated":"2013-08-09 7:32:53"},{"index":"32","category":"1","type":"1","level":"3","title":"도둑호빗","title_en":"Dwarf3","delete":"0","top":"3","left":"4","bottom":"4","right":"6","updated":"2013-08-09 7:33:56"},{"index":"33","category":"1","type":"1","level":"3","title":"엘프군주","title_en":"Elf4","delete":"0","top":"7","left":"5","bottom":"3","right":"2","updated":"2013-08-09 7:34:26"},{"index":"34","category":"2","type":"1","level":"4","title":"물소환수","title_en":"Water4","delete":"0","top":"2","left":"7","bottom":"6","right":"3","updated":"2013-08-09 7:35:22"},{"index":"35","category":"2","type":"1","level":"4","title":"불소환수","title_en":"Fire4","delete":"0","top":"6","left":"5","bottom":"4","right":"5","updated":"2013-08-09 7:38:35"},{"index":"36","category":"2","type":"1","level":"4","title":"바람소환수","title_en":"Wind4","delete":"0","top":"4","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:38:43"},{"index":"37","category":"2","type":"1","level":"4","title":"대지소환수","title_en":"Land4","delete":"0","top":"2","left":"3","bottom":"6","right":"7","updated":"2013-08-09 7:39:45"},{"index":"38","category":"2","type":"1","level":"4","title":"나이트","title_en":"Human5","delete":"0","top":"1","left":"7","bottom":"4","right":"6","updated":"2013-08-09 7:40:18"},{"index":"39","category":"2","type":"1","level":"4","title":"어보미네이션","title_en":"Undead5","delete":"0","top":"7","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:40:34"},{"index":"40","category":"2","type":"1","level":"4","title":"자폭로봇","title_en":"Robot4","delete":"0","top":"7","left":"4","bottom":"4","right":"4","updated":"2013-08-09 7:41:30"},{"index":"41","category":"2","type":"1","level":"4","title":"독수리","title_en":"Monster4","delete":"0","top":"3","left":"6","bottom":"3","right":"7","updated":"2013-08-09 7:43:03"},{"index":"42","category":"2","type":"1","level":"4","title":"엘프대마법사","title_en":"Elf5","delete":"0","top":"6","left":"3","bottom":"7","right":"2","updated":"2013-08-09 7:43:56"},{"index":"43","category":"2","type":"1","level":"4","title":"전투드워프","title_en":"Dwarf4","delete":"0","top":"4","left":"6","bottom":"5","right":"5","updated":"2013-08-09 7:44:43"},{"index":"44","category":"2","type":"1","level":"4","title":"골드드워프","title_en":"Dwarf5","delete":"0","top":"7","left":"3","bottom":"4","right":"5","updated":"2013-08-09 7:48:14"},{"index":"45","category":"2","type":"1","level":"5","title":"물군주","title_en":"Water5","delete":"0","top":"6","left":"5","bottom":"6","right":"5","updated":"2013-08-09 7:49:39"},{"index":"46","category":"2","type":"1","level":"5","title":"불군주","title_en":"Fire5","delete":"0","top":"3","left":"7","bottom":"5","right":"6","updated":"2013-08-09 7:50:25"},{"index":"47","category":"2","type":"1","level":"5","title":"바람군주","title_en":"Wind5","delete":"0","top":"7","left":"3","bottom":"5","right":"6","updated":"2013-08-09 7:51:02"},{"index":"48","category":"2","type":"1","level":"5","title":"대지군주","title_en":"Land5","delete":"0","top":"3","left":"1","bottom":"2","right":"10","updated":"2013-08-09 7:51:30"},{"index":"49","category":"2","type":"1","level":"5","title":"대장군","title_en":"Human6","delete":"0","top":"6","left":"7","bottom":"6","right":"2","updated":"2013-08-09 7:52:15"},{"index":"50","category":"2","type":"1","level":"5","title":"네크로멘서","title_en":"Undead6","delete":"0","top":"5","left":"4","bottom":"7","right":"5","updated":"2013-08-09 7:52:57"},{"index":"51","category":"2","type":"1","level":"5","title":"거대로봇","title_en":"Robot5","delete":"0","top":"7","left":"2","bottom":"4","right":"7","updated":"2013-08-09 7:53:28"},{"index":"52","category":"2","type":"1","level":"5","title":"호랑이","title_en":"Monster5","delete":"0","top":"7","left":"4","bottom":"7","right":"2","updated":"2013-08-09 7:54:20"},{"index":"53","category":"2","type":"1","level":"5","title":"엘프소환사","title_en":"Elf6","delete":"0","top":"5","left":"6","bottom":"7","right":"3","updated":"2013-08-09 7:55:05"},{"index":"54","category":"2","type":"1","level":"5","title":"폭탄드워프","title_en":"Dwarf6","delete":"0","top":"4","left":"4","bottom":"7","right":"8","updated":"2013-08-09 7:55:30"},{"index":"55","category":"2","type":"1","level":"5","title":"공성전차로봇","title_en":"Robot6","delete":"0","top":"6","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:56:16"},{"index":"56","category":"3","type":"2","level":"6","title":"물대군주","title_en":"Water6","delete":"0","top":"2","left":"4","bottom":"8","right":"8","updated":"2013-08-09 8:00:03"},{"index":"57","category":"3","type":"2","level":"6","title":"불대군주","title_en":"Fire6","delete":"0","top":"7","left":"4","bottom":"3","right":"8","updated":"2013-08-09 8:29:12"},{"index":"58","category":"3","type":"2","level":"6","title":"바람대군주","title_en":"Wind6","delete":"0","top":"4","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:29:52"},{"index":"59","category":"3","type":"2","level":"6","title":"대지대군주","title_en":"Land6","delete":"0","top":"7","left":"5","bottom":"8","right":"2","updated":"2013-08-09 8:30:25"},{"index":"60","category":"3","type":"2","level":"6","title":"골드나이트","title_en":"Human7","delete":"0","top":"1","left":"3","bottom":"8","right":"8","updated":"2013-08-09 8:31:07"},{"index":"61","category":"3","type":"2","level":"6","title":"가고일","title_en":"Undead7","delete":"0","top":"8","left":"2","bottom":"8","right":"2","updated":"2013-08-09 8:48:06"},{"index":"62","category":"3","type":"2","level":"6","title":"하이페리온","title_en":"Robot7","delete":"0","top":"6","left":"5","bottom":"4","right":"8","updated":"2013-08-09 8:48:40"},{"index":"63","category":"3","type":"2","level":"6","title":"사자","title_en":"Monster6","delete":"0","top":"4","left":"6","bottom":"5","right":"8","updated":"2013-08-09 8:49:49"},{"index":"64","category":"3","type":"2","level":"6","title":"흑마법사","title_en":"Elf7","delete":"0","top":"1","left":"8","bottom":"4","right":"8","updated":"2013-08-09 8:50:54"},{"index":"65","category":"3","type":"2","level":"6","title":"도끼드워프","title_en":"Dwarf7","delete":"0","top":"6","left":"4","bottom":"8","right":"5","updated":"2013-08-09 8:51:32"},{"index":"66","category":"3","type":"2","level":"6","title":"귀신호랑이","title_en":"Monster7","delete":"0","top":"7","left":"1","bottom":"8","right":"5","updated":"2013-08-09 8:51:55"},{"index":"67","category":"4","type":"2","level":"7","title":"물가오리","title_en":"Water7","delete":"0","top":"8","left":"8","bottom":"4","right":"4","updated":"2013-08-09 8:54:17"},{"index":"68","category":"4","type":"2","level":"7","title":"불탄","title_en":"Fire7","delete":"0","top":"8","left":"4","bottom":"4","right":"8","updated":"2013-08-09 8:54:27"},{"index":"69","category":"4","type":"2","level":"7","title":"강풍","title_en":"Wind7","delete":"0","top":"8","left":"8","bottom":"2","right":"5","updated":"2013-08-09 8:55:49"},{"index":"70","category":"4","type":"2","level":"7","title":"록타","title_en":"Land7","delete":"0","top":"5","left":"8","bottom":"6","right":"6","updated":"2013-08-09 8:56:16"},{"index":"71","category":"4","type":"2","level":"7","title":"로빈후드","title_en":"Human8","delete":"0","top":"8","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:58:42"},{"index":"72","category":"4","type":"2","level":"7","title":"데쓰드래곤","title_en":"Undead8","delete":"0","top":"8","left":"8","bottom":"5","right":"3","updated":"2013-08-09 8:58:51"},{"index":"73","category":"4","type":"2","level":"7","title":"아이언로봇","title_en":"Robot8","delete":"0","top":"8","left":"4","bottom":"5","right":"8","updated":"2013-08-09 8:59:38"},{"index":"74","category":"4","type":"2","level":"7","title":"불곰","title_en":"Monster8","delete":"0","top":"5","left":"5","bottom":"8","right":"7","updated":"2013-08-09 9:00:33"},{"index":"75","category":"4","type":"2","level":"7","title":"피의마법사","title_en":"Elf8","delete":"0","top":"6","left":"7","bottom":"4","right":"8","updated":"2013-08-09 9:00:44"},{"index":"76","category":"4","type":"2","level":"7","title":"강철드워프","title_en":"Dwarf8","delete":"0","top":"1","left":"7","bottom":"7","right":"8","updated":"2013-08-09 9:02:04"},{"index":"77","category":"4","type":"2","level":"7","title":"새끼용","title_en":"Dragon1","delete":"0","top":"7","left":"8","bottom":"2","right":"7","updated":"2013-08-09 9:02:29"},{"index":"78","category":"4","type":"2","level":"8","title":"폭포대왕","title_en":"Water8","delete":"0","top":"4","left":"9","bottom":"8","right":"4","updated":"2013-08-10 3:19:06"},{"index":"79","category":"4","type":"2","level":"8","title":"불사신","title_en":"Fire8","delete":"0","top":"9","left":"3","bottom":"7","right":"6","updated":"2013-08-10 3:24:12"},{"index":"80","category":"4","type":"2","level":"8","title":"썬더퓨리","title_en":"Wind8","delete":"0","top":"3","left":"6","bottom":"9","right":"7","updated":"2013-08-10 3:26:00"},{"index":"81","category":"4","type":"2","level":"8","title":"잉카누스","title_en":"Land8","delete":"0","top":"9","left":"2","bottom":"9","right":"3","updated":"2013-08-10 3:27:24"},{"index":"82","category":"4","type":"2","level":"8","title":"헤라클래스","title_en":"Human9","delete":"0","top":"9","left":"4","bottom":"8","right":"4","updated":"2013-08-10 3:28:01"},{"index":"83","category":"4","type":"2","level":"8","title":"리치","title_en":"Undead9","delete":"0","top":"2","left":"4","bottom":"9","right":"9","updated":"2013-08-10 3:29:55"},{"index":"84","category":"4","type":"2","level":"8","title":"골렘전차","title_en":"Robot9","delete":"0","top":"6","left":"9","bottom":"4","right":"7","updated":"2013-08-10 3:31:57"},{"index":"85","category":"4","type":"2","level":"8","title":"메두사","title_en":"Monster9","delete":"0","top":"9","left":"8","bottom":"2","right":"6","updated":"2013-08-10 3:33:03"},{"index":"86","category":"4","type":"2","level":"8","title":"간달프","title_en":"Elf9","delete":"0","top":"8","left":"2","bottom":"6","right":"9","updated":"2013-08-10 3:34:02"},{"index":"87","category":"4","type":"2","level":"8","title":"스트로베리","title_en":"Dwarf9","delete":"0","top":"5","left":"9","bottom":"9","right":"1","updated":"2013-08-10 3:35:34"},{"index":"88","category":"4","type":"2","level":"8","title":"비룡","title_en":"Dragon2","delete":"0","top":"9","left":"9","bottom":"2","right":"5","updated":"2013-08-10 3:38:35"},{"index":"89","category":"5","type":"3","level":"9","title":"옥타퍼스","title_en":"Water9","delete":"0","top":"8","left":"4","bottom":"10","right":"4","updated":"2013-08-10 13:14:31"},{"index":"90","category":"5","type":"3","level":"9","title":"불사조","title_en":"Fire9","delete":"0","top":"5","left":"3","bottom":"8","right":"10","updated":"2013-08-10 13:15:44"},{"index":"91","category":"5","type":"3","level":"9","title":"썬더스톰","title_en":"Wind9","delete":"0","top":"7","left":"7","bottom":"1","right":"10","updated":"2013-08-10 13:16:20"},{"index":"92","category":"5","type":"3","level":"9","title":"히말라야","title_en":"Land9","delete":"0","top":"8","left":"5","bottom":"3","right":"10","updated":"2013-08-10 13:16:45"},{"index":"93","category":"5","type":"3","level":"9","title":"황천용","title_en":"Dragon3","delete":"0","top":"10","left":"7","bottom":"7","right":"1","updated":"2013-08-10 13:17:24"},{"index":"94","category":"5","type":"3","level":"9","title":"전투용","title_en":"Dragon4","delete":"0","top":"7","left":"10","bottom":"6","right":"4","updated":"2013-08-10 13:17:47"},{"index":"95","category":"5","type":"3","level":"9","title":"궁극의 병기","title_en":"Robot10","delete":"0","top":"9","left":"2","bottom":"4","right":"10","updated":"2013-08-10 13:19:02"},{"index":"96","category":"5","type":"3","level":"9","title":"유니콘","title_en":"Monster10","delete":"0","top":"7","left":"10","bottom":"7","right":"2","updated":"2013-08-10 13:20:04"},{"index":"97","category":"5","type":"3","level":"9","title":"창기룡","title_en":"Dragon5","delete":"0","top":"10","left":"6","bottom":"2","right":"8","updated":"2013-08-10 13:20:51"},{"index":"98","category":"5","type":"3","level":"9","title":"마법지룡","title_en":"Dragon6","delete":"0","top":"3","left":"10","bottom":"10","right":"1","updated":"2013-08-10 13:21:36"},{"index":"99","category":"5","type":"3","level":"9","title":"그린드래곤","title_en":"Dragon7","delete":"0","top":"4","left":"10","bottom":"9","right":"4","updated":"2013-08-10 13:22:26"},{"index":"100","category":"5","type":"3","level":"10","title":"포세이돈","title_en":"Water10","delete":"0","top":"10","left":"8","bottom":"2","right":"7","updated":"2013-08-10 13:23:06"},{"index":"101","category":"5","type":"3","level":"10","title":"이그니시우스","title_en":"Fire10","delete":"0","top":"6","left":"10","bottom":"6","right":"7","updated":"2013-08-10 13:23:40"},{"index":"102","category":"5","type":"3","level":"10","title":"바람신 토르","title_en":"Wind10","delete":"0","top":"5","left":"9","bottom":"3","right":"10","updated":"2013-08-10 13:24:01"},{"index":"103","category":"5","type":"3","level":"10","title":"콜로서스","title_en":"Land10","delete":"0","top":"10","left":"4","bottom":"6","right":"8","updated":"2013-08-10 13:24:37"},{"index":"104","category":"5","type":"3","level":"10","title":"알렉산다르","title_en":"Human10","delete":"0","top":"9","left":"2","bottom":"10","right":"6","updated":"2013-08-10 13:25:03"},{"index":"105","category":"5","type":"3","level":"10","title":"데쓰나이트","title_en":"Undead10","delete":"0","top":"2","left":"10","bottom":"9","right":"6","updated":"2013-08-10 13:25:15"},{"index":"106","category":"5","type":"3","level":"10","title":"데몬헌터","title_en":"Elf10","delete":"0","top":"8","left":"6","bottom":"10","right":"5","updated":"2013-08-10 13:25:59"},{"index":"107","category":"5","type":"3","level":"10","title":"아이언포지","title_en":"Dwarf10","delete":"0","top":"4","left":"10","bottom":"2","right":"10","updated":"2013-08-10 13:26:24"},{"index":"108","category":"5","type":"3","level":"10","title":"레드드래곤","title_en":"Dragon8","delete":"0","top":"10","left":"3","bottom":"3","right":"10","updated":"2013-08-10 13:27:00"},{"index":"109","category":"5","type":"3","level":"10","title":"블루드래곤","title_en":"Dragon9","delete":"0","top":"6","left":"4","bottom":"10","right":"9","updated":"2013-08-10 13:27:18"},{"index":"110","category":"5","type":"3","level":"10","title":"블랙드래곤","title_en":"Dragon10","delete":"0","top":"10","left":"9","bottom":"6","right":"4","updated":"2013-08-10 13:28:06"}]
@@ -1877,7 +2401,7 @@ localStorage.setItem("SNS",nowSNS)
 console.log("!!!"+ nowSNS)
 
 };
-gdjs.shopSceneCode.eventsList24 = function(runtimeScene) {
+gdjs.shopSceneCode.eventsList31 = function(runtimeScene) {
 
 {
 
@@ -1892,18 +2416,18 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.shopSceneCode.userFunc0xac1dd8(runtimeScene);
+gdjs.shopSceneCode.userFunc0xac57c8(runtimeScene);
 
 }
 
 
-};gdjs.shopSceneCode.userFunc0xac1ec0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.shopSceneCode.userFunc0xac58b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(SNS)
     runtimeScene.getGame().getVariables().get("SNS").setNumber(SNS)
 };
-gdjs.shopSceneCode.eventsList25 = function(runtimeScene) {
+gdjs.shopSceneCode.eventsList32 = function(runtimeScene) {
 
 {
 
@@ -1921,7 +2445,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.shopSceneCode.userFunc0xac6ff8(runtimeScene);
+gdjs.shopSceneCode.userFunc0x8fdab0(runtimeScene);
 
 }
 
@@ -2095,7 +2619,7 @@ gdjs.shopSceneCode.localVariables.pop();
 let isConditionTrue_0 = false;
 {
 {gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 720, 2980, "", 0);
+}{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 720, 3800, "", 0);
 }}
 
 }
@@ -2331,6 +2855,67 @@ gdjs.copyArray(runtimeScene.getObjects("goButton"), gdjs.shopSceneCode.GDgoButto
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("goButton4"), gdjs.shopSceneCode.GDgoButton4Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(44).getAsBoolean();
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects, runtimeScene, true, false);
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.shopSceneCode.GDcardObject2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("goButton"), gdjs.shopSceneCode.GDgoButtonObjects1);
+{runtimeScene.getScene().getVariables().getFromIndex(46).setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "touchTimer"));
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(46).getAsString() + " is pressed", "info", "");
+}{runtimeScene.getGame().getVariables().getFromIndex(3).setString((( gdjs.shopSceneCode.GDcardObject2Objects1.length === 0 ) ? "" :gdjs.shopSceneCode.GDcardObject2Objects1[0].getBehavior("Animation").getAnimationName()));
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
+}{runtimeScene.getScene().getVariables().getFromIndex(45).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(45).getAsNumber());
+}{runtimeScene.getScene().getVariables().getFromIndex(44).setBoolean(true);
+}{runtimeScene.getScene().getVariables().getFromIndex(52).setNumber(((gdjs.shopSceneCode.GDgoButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.shopSceneCode.GDgoButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber());
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(52).getAsString() + " is pressed22", "info", "");
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("goButton4"), gdjs.shopSceneCode.GDgoButton4Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(44).getAsBoolean();
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.shopSceneCode.mapOfGDgdjs_9546shopSceneCode_9546GDgoButton4Objects1Objects, runtimeScene, true, false);
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("goButton"), gdjs.shopSceneCode.GDgoButtonObjects1);
+{runtimeScene.getScene().getVariables().getFromIndex(44).setBoolean(false);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
+}{gdjs.evtTools.debuggerTools.log("CLICK", "info", "");
+}{runtimeScene.getScene().getVariables().getFromIndex(45).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
+}{runtimeScene.getScene().getVariables().getFromIndex(51).setNumber(((gdjs.shopSceneCode.GDgoButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.shopSceneCode.GDgoButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber());
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(51).getAsString() + " is pressed11", "info", "");
+}}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -2380,7 +2965,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getScene().getVariables().getFromIndex(46).setNumber(0);
 }
 { //Subevents
-gdjs.shopSceneCode.eventsList19(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList26(runtimeScene);} //End of subevents
 }
 
 }
@@ -2417,7 +3002,7 @@ gdjs.copyArray(runtimeScene.getObjects("DialogLayer"), gdjs.shopSceneCode.GDDial
 }{runtimeScene.getScene().getVariables().getFromIndex(48).setBoolean(true);
 }
 { //Subevents
-gdjs.shopSceneCode.eventsList20(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList27(runtimeScene);} //End of subevents
 }
 
 }
@@ -2490,7 +3075,7 @@ gdjs.copyArray(runtimeScene.getObjects("DialogBack2"), gdjs.shopSceneCode.GDDial
 }
 }
 { //Subevents
-gdjs.shopSceneCode.eventsList21(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList28(runtimeScene);} //End of subevents
 }
 gdjs.shopSceneCode.localVariables.pop();
 
@@ -2590,7 +3175,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.shopSceneCode.eventsList23(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList30(runtimeScene);} //End of subevents
 }
 
 }
@@ -2621,7 +3206,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.shopSceneCode.GDN
 }
 }
 { //Subevents
-gdjs.shopSceneCode.eventsList24(runtimeScene);} //End of subevents
+gdjs.shopSceneCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 }
@@ -2630,7 +3215,7 @@ gdjs.shopSceneCode.eventsList24(runtimeScene);} //End of subevents
 {
 
 
-gdjs.shopSceneCode.userFunc0xac1ec0(runtimeScene);
+gdjs.shopSceneCode.userFunc0xac58b0(runtimeScene);
 
 }
 
@@ -3034,8 +3619,48 @@ gdjs.shopSceneCode.GDtitleLabel12Objects2.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects3.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects4.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects5.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects1.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects2.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects3.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects4.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects5.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects1.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects2.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects3.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects4.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects5.length = 0;
 
-gdjs.shopSceneCode.eventsList25(runtimeScene);
+gdjs.shopSceneCode.eventsList32(runtimeScene);
 gdjs.shopSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.shopSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.shopSceneCode.GDNewSprite3Objects3.length = 0;
@@ -3416,6 +4041,46 @@ gdjs.shopSceneCode.GDtitleLabel12Objects2.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects3.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects4.length = 0;
 gdjs.shopSceneCode.GDtitleLabel12Objects5.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects1.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects2.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects3.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects4.length = 0;
+gdjs.shopSceneCode.GDtitle6Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel13Objects5.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects1.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects2.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects3.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects4.length = 0;
+gdjs.shopSceneCode.GDgoButton4Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite9Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel14Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite10Objects5.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects1.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects2.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects3.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects4.length = 0;
+gdjs.shopSceneCode.GDNewSprite11Objects5.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects1.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects2.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects3.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects4.length = 0;
+gdjs.shopSceneCode.GDtitleLabel15Objects5.length = 0;
 
 
 return;
