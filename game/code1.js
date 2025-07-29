@@ -305,7 +305,7 @@ gdjs.playSceneCode.GDgameLabelObjects6= [];
 gdjs.playSceneCode.GDgameLabelObjects7= [];
 
 
-gdjs.playSceneCode.userFunc0x8cd6f0 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x1820e70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -315,7 +315,7 @@ gdjs.playSceneCode.userFunc0x8cd6f0 = function GDJSInlineCode(runtimeScene) {
 };
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.playSceneCode.GDNewTiledSpriteObjects1});
 gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.playSceneCode.GDbottomMenuObjects1});
-gdjs.playSceneCode.userFunc0x90d770 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x11b0980 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -365,7 +365,7 @@ gdjs.playSceneCode.GDcolorLayoutObjects4.length = 0;
 }
 
 
-};gdjs.playSceneCode.userFunc0xe1c918 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.playSceneCode.userFunc0x8ea1b8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // setInterval(function(){
 //     if(document.querySelector("#watermark-background")){
@@ -504,7 +504,7 @@ gdjs.playSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.playSceneCode.userFunc0x90d770(runtimeScene);
+gdjs.playSceneCode.userFunc0x11b0980(runtimeScene);
 
 }
 
@@ -635,7 +635,7 @@ gdjs.copyArray(gdjs.playSceneCode.GDNewTiledSpriteObjects1, gdjs.playSceneCode.G
 
 var objects = [];
 objects.push.apply(objects,gdjs.playSceneCode.GDNewTiledSpriteObjects2);
-gdjs.playSceneCode.userFunc0xe1c918(runtimeScene, objects);
+gdjs.playSceneCode.userFunc0x8ea1b8(runtimeScene, objects);
 
 }
 
@@ -1082,7 +1082,7 @@ gdjs.playSceneCode.eventsList4(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDNewSprite3Objects1Objects = Hashtable.newFrom({"NewSprite3": gdjs.playSceneCode.GDNewSprite3Objects1});
-gdjs.playSceneCode.userFunc0xcb93d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x181fd50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1214,7 +1214,7 @@ gdjs.playSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.playSceneCode.userFunc0xcb93d8(runtimeScene);
+gdjs.playSceneCode.userFunc0x181fd50(runtimeScene);
 
 }
 
@@ -1384,7 +1384,7 @@ gdjs.playSceneCode.eventsList9(runtimeScene);} //Subevents end.
 
 
 };gdjs.playSceneCode.mapOfGDgdjs_9546playSceneCode_9546GDLeft_95959595arrowObjects1Objects = Hashtable.newFrom({"Left_arrow": gdjs.playSceneCode.GDLeft_9595arrowObjects1});
-gdjs.playSceneCode.userFunc0x8d1780 = function GDJSInlineCode(runtimeScene) {
+gdjs.playSceneCode.userFunc0x11b0600 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 setTimeout(function(){
     window.location.href = "https://snshero.com"
@@ -1406,12 +1406,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x8d1780(runtimeScene);
+gdjs.playSceneCode.userFunc0x11b0600(runtimeScene);
 
 }
 
 
-};gdjs.playSceneCode.userFunc0x8d1c08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0xb476c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var cardList = JSON.parse(localStorage.getItem('cardList')) 
 
@@ -1711,7 +1711,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x8d1c08(runtimeScene);
+gdjs.playSceneCode.userFunc0xb476c0(runtimeScene);
 
 }
 
@@ -2172,7 +2172,7 @@ gdjs.playSceneCode.eventsList21(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.userFunc0x8c7b00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x165f660 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     setTimeout(function(){
         let blueCount = runtimeScene.getVariables().get("blueCount").getAsNumber();
@@ -2372,7 +2372,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0x8c7b00(runtimeScene);
+gdjs.playSceneCode.userFunc0x165f660(runtimeScene);
 
 }
 
@@ -2390,7 +2390,7 @@ gdjs.playSceneCode.eventsList23(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.playSceneCode.userFunc0xc8b8b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.playSceneCode.userFunc0x165fdc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // var nowGo = runtimeScene.getVariables().get("nowGo").getAsString()
 // if(nowGo) window.location.href = "https://snshero.com/game"
@@ -2412,7 +2412,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.playSceneCode.userFunc0xc8b8b0(runtimeScene);
+gdjs.playSceneCode.userFunc0x165fdc8(runtimeScene);
 
 }
 
@@ -2524,7 +2524,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.playSceneCode.userFunc0x8cd6f0(runtimeScene);
+gdjs.playSceneCode.userFunc0x1820e70(runtimeScene);
 
 }
 
