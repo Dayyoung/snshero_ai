@@ -190,7 +190,7 @@ gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
 gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
 
 
-gdjs.settingSceneCode.userFunc0x1d8c248 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x8cd6f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -200,7 +200,7 @@ gdjs.settingSceneCode.userFunc0x1d8c248 = function GDJSInlineCode(runtimeScene) 
 };
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
 gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0xbe7e00 = function GDJSInlineCode(runtimeScene) {
+gdjs.settingSceneCode.userFunc0x90d0b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     var isBGM = localStorage.getItem("isBGM")
     if(!isBGM) isBGM= "true" 
@@ -230,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xbe7e00(runtimeScene);
+gdjs.settingSceneCode.userFunc0x90d0b8(runtimeScene);
 
 }
 
@@ -463,7 +463,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.settingSceneCode.userFunc0xaeec88 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8bb230 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", true)
 };
@@ -482,12 +482,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xaeec88(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8bb230(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x953570 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8bb620 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isBGM", false)
 };
@@ -496,12 +496,12 @@ gdjs.settingSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x953570(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8bb620(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1be5e28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x8bba20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", true)
 };
@@ -510,7 +510,7 @@ gdjs.settingSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x1be5e28(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8bba20(runtimeScene);
 
 }
 
@@ -525,7 +525,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.settingSceneCode.userFunc0x1be6248 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x90c750 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.setItem("isSound", false)
 };
@@ -534,12 +534,12 @@ gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x1be6248(runtimeScene);
+gdjs.settingSceneCode.userFunc0x90c750(runtimeScene);
 
 }
 
 
-};gdjs.settingSceneCode.userFunc0xafaff8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x90cb40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 localStorage.removeItem("myCard1")
 localStorage.removeItem("myCard2")
@@ -571,7 +571,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.settingSceneCode.userFunc0xafaff8(runtimeScene);
+gdjs.settingSceneCode.userFunc0x90cb40(runtimeScene);
 
 }
 
@@ -589,7 +589,7 @@ gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.settingSceneCode.userFunc0xaf46b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.settingSceneCode.userFunc0x96f198 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var Http = new XMLHttpRequest()
 
@@ -704,7 +704,7 @@ gdjs.settingSceneCode.eventsList11(runtimeScene);} //End of subevents
 {
 
 
-gdjs.settingSceneCode.userFunc0xaf46b0(runtimeScene);
+gdjs.settingSceneCode.userFunc0x96f198(runtimeScene);
 
 }
 
@@ -740,7 +740,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.settingSceneCode.userFunc0x1d8c248(runtimeScene);
+gdjs.settingSceneCode.userFunc0x8cd6f0(runtimeScene);
 
 }
 
