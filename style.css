@@ -154,6 +154,7 @@
   left: calc(50% - 201px);
   top: 147px;
   object-fit: cover;
+  top:80px;
 }
 .buy-now-button {
   width: 220px;
