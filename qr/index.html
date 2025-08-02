@@ -1,0 +1,93 @@
+
+
+<meta name='viewport' content='initial-scale=1, user-scalable=no, viewport-fit=cover'>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<style>
+
+@media (min-width: 500px) {
+  img{
+    max-width: 400px !important;  
+  }
+  div{
+    max-width: 400px !important;  
+  }
+}
+
+
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+
+  <img src="btc.jpg" style="max-width:100dvw"></img>
+
+  <div class="label" style="width:100dvw; max-width:100dvw; position: absolute;">
+    <h2 class="mountLabel">100SNS (0.02323 BTC) </h1>
+    <h3 class="countLabel">Timeout : 00:12</h3>
+    <!-- <label id="minutes">00</label>:<label id="seconds">00</label> -->
+
+  </div>
+</center>
+
+<script>
+
+  
+  var url = new URL(window.location.href);
+  var nowMount = url.searchParams.get("mount", 0);
+
+  $(function(){
+
+    var targetWidth = $("img").width()
+    var targetHeight = $("img").height()
+
+    console.log(targetWidth)
+    console.log(targetHeight)
+
+    var labelWidth = $(".label").width()
+
+    $('.label').css("left", "calc(50% - "+labelWidth+"px / 2)")
+    $('.label').css("top", targetHeight/2 + 60)
+
+    if(nowMount && nowMount != 0){
+      $('.mountLabel').html(nowMount+" SNS")
+    }
+
+
+    var minutesLabel = document.getElementById("minutes");
+    var secondsLabel = document.getElementById("seconds");
+    var totalSeconds = 0;
+
+    totalSeconds = 60 * 5
+
+    totalSeconds = 5
+
+    setInterval(setTime, 1000);
+
+    function setTime() {
+      --totalSeconds;
+      var leftSec = pad(totalSeconds % 60);
+      var leftMin = pad(parseInt(totalSeconds / 60));
+
+      $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
+
+
+      if(totalSeconds <= 0){
+        window.location.href = "/thankyou?type=100sns"
+      }
+
+    }
+
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+
+
+
+
+  })
+</script>
