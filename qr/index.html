@@ -2,6 +2,7 @@
 
 <meta name='viewport' content='initial-scale=1, user-scalable=no, viewport-fit=cover'>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
 <style>
 
@@ -22,11 +23,19 @@
   <img src="btc.jpg" style="max-width:100dvw"></img>
 
   <div class="label" style="width:100dvw; max-width:100dvw; position: absolute;">
-    <h2 class="mountLabel">100SNS (0.02323 BTC) </h1>
-    <h3 class="countLabel">Timeout : 00:12</h3>
+    <h2 class="mountLabel"></h1>
+    <h3 class="countLabel"> </h3>
     <!-- <label id="minutes">00</label>:<label id="seconds">00</label> -->
 
   </div>
+
+  <div class="topLabel" style="width:100dvw; height: 50px; max-width:100dvw; position: absolute; background: transparent;">
+  </div>
+
+  <div class="bottomLabel" style="width:100dvw; height: 50px; max-width:100dvw; position: absolute; background: transparent;">
+  </div>
+
+
 </center>
 
 <script>
@@ -36,6 +45,10 @@
   var nowMount = url.searchParams.get("mount", 0);
 
   $(function(){
+
+    new Clipboard('.bottomLabel');
+    $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
+                
 
     var targetWidth = $("img").width()
     var targetHeight = $("img").height()
@@ -48,9 +61,21 @@
     $('.label').css("left", "calc(50% - "+labelWidth+"px / 2)")
     $('.label').css("top", targetHeight/2 + 60)
 
-    if(nowMount && nowMount != 0){
-      $('.mountLabel').html(nowMount+" SNS")
-    }
+    $('.topLabel').css("left", "calc(50% - "+labelWidth+"px / 2)")    
+    $('.topLabel').css("top", 0)    
+
+    $('.bottomLabel').css("left", "calc(50% - "+labelWidth+"px / 2)")
+    $('.bottomLabel').css("top", targetHeight - 50 )
+
+    $(".topLabel").click(function(){
+      alert("test")
+
+    })
+    // $(".bottomLabel").click(function(){
+      
+    // })
+
+    getCoinPrice("bitcoin")
 
 
     var minutesLabel = document.getElementById("minutes");
@@ -59,7 +84,7 @@
 
     totalSeconds = 60 * 5
 
-    totalSeconds = 5
+//    totalSeconds = 5
 
     setInterval(setTime, 1000);
 
@@ -72,7 +97,9 @@
 
 
       if(totalSeconds <= 0){
-        window.location.href = "/thankyou?type=100sns"
+        //window.location.href = "/thankyou?type=100sns"
+        $('.countLabel').html("Time is over.")
+
       }
 
     }
@@ -86,8 +113,30 @@
       }
     }
 
-
-
-
   })
+
+
+    function getCoinPrice(coinName){
+
+      $.get( "https://api.coingecko.com/api/v3/simple/price?ids="+coinName+"&vs_currencies=USD", function( data ) {
+        var firstItem = data[Object.keys(data)[0]];
+        firstItem = firstItem[Object.keys(firstItem)[0]]
+        console.log(data)
+        console.log(1/firstItem) // price for 1$
+
+        var coinForDollar = 1/firstItem
+
+        if(nowMount && nowMount != 0){
+          var dollar = nowMount / 100
+          var snsForDis = (dollar * coinForDollar).toFixed(6)
+
+          if(coinName=="bitcoin") coinName = "BTC"
+
+          $('.mountLabel').html(nowMount+" SNS (" +" "+snsForDis+ " "+ coinName+")")
+        }
+        
+        });
+        
+      }
+
 </script>
