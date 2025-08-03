@@ -15,6 +15,19 @@
   }
 }
 
+.toastDiv {
+  text-align: center !important;
+  position: fixed !important;  
+  bottom: 300px !important;
+  background-color: white !important;
+  color: black !important;
+  font: 500 1em Arial, Helvetica,sans-erif !important;
+  padding: 0.2em 0.8em !important;
+  border-radius: 0.4em !important;
+  box-shadow: inset 0px 0px 0px 0.1em rgba(0,0,0,0.3), 0px 0px 0.2em 0.1em rgba(0,0,0,0.3) !important;
+  z-index: 99999 !important;
+  display: none;  
+}
 
 </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,12 +81,13 @@
     $('.bottomLabel').css("top", targetHeight - 50 )
 
     $(".topLabel").click(function(){
-      alert("test")
+      //alert("test")
+      history.back();
 
     })
-    // $(".bottomLabel").click(function(){
-      
-    // })
+    $(".bottomLabel").click(function(){
+      showToast("Address is copied.")
+    })
 
     getCoinPrice("bitcoin")
 
@@ -138,5 +152,27 @@
         });
         
       }
+
+
+  function showToast(text) {
+
+    //var toast = $('.toast');
+
+    var toast = $('<div class="toastDiv">'+text+'</div>')
+
+    $('body').append(toast)
+      
+      //Set the content of the Toast
+      //toast.text($('.toasttext').val());
+      
+      //Center the Toast horizontally in the header
+      toast.css({
+        left: ($(document).width() - toast.outerWidth(true))/2
+      });
+      
+      toast.fadeIn(200).delay(1500).fadeOut(200);
+
+  }
+
 
 </script>
