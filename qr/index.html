@@ -59,10 +59,11 @@
 
   $(function(){
 
+ $("img").on("load", function() {
+   
     new Clipboard('.bottomLabel');
     $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
-                
-
+               
     var targetWidth = $("img").width()
     var targetHeight = $("img").height()
 
@@ -126,6 +127,8 @@
         return valString;
       }
     }
+
+   })
 
   })
 
