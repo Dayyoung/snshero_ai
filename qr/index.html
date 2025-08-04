@@ -59,6 +59,12 @@
   var transactionID = timestamp = new Date().getTime();
   var mount = url.searchParams.get("mount", 0);
   var type = url.searchParams.get("type", 0);
+  var usd = url.searchParams.get("usd", 0);
+
+  if(usd && usd != 0){
+    mount = usd * 100 //currency
+  }
+
   var STATUS = 0
 
   var transactionInterval = setInterval(function(){
@@ -198,7 +204,7 @@
         var coinForDollar = 1/firstItem
 
         if(mount && mount != 0){
-          var dollar = mount / 100
+          var dollar = mount
           var snsForDis = (dollar * coinForDollar).toFixed(6)
 
           if(coinName=="bitcoin") coinName = "BTC"
