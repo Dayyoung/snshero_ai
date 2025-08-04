@@ -131,7 +131,17 @@
 
     $(".topLabel").click(function(){
       //alert("test")
-      history.back();
+
+      try{
+        history.back();
+      }catch(e){
+
+      }
+      try{
+        self.close()
+      }catch(e){
+
+      }
 
     })
     $(".bottomLabel").click(function(){
