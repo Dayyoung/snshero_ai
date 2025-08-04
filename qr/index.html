@@ -46,7 +46,7 @@
   <div class="topLabel" style="width:100dvw; height: 150px; max-width:100dvw; position: absolute; background: transparent;">
   </div>
 
-  <div class="bottomLabel" style="width:100dvw; height: 150px; max-width:100dvw; position: absolute; background: transparent;">
+  <div class="bottomLabel" style="width:100dvw; height: 300px; max-width:100dvw; position: absolute; background: transparent;">
   </div>
 
 
@@ -99,7 +99,18 @@
    
     //alert("init")
     new Clipboard('.bottomLabel');
-    $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
+
+    if(type=="BTC"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
+    }else if(type=="ETH"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
+    }else if(type=="SOL"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"DGUrsmyfqBnkA8cjSpTv4PLjPqE5qfBCV471GgobxREq")
+    }else if(type=="TT"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
+    }else if(type=="TRX"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
+    }
                
     var targetWidth = $(".qrImage").width()
     var targetHeight = $(".qrImage").height()
