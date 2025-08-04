@@ -1,485 +1,304 @@
-gdjs.settingSceneCode = {};
-gdjs.settingSceneCode.localVariables = [];
-gdjs.settingSceneCode.GDNewSprite3Objects1= [];
-gdjs.settingSceneCode.GDNewSprite3Objects2= [];
-gdjs.settingSceneCode.GDNewSprite3Objects3= [];
-gdjs.settingSceneCode.GDNewSprite3Objects4= [];
-gdjs.settingSceneCode.GDNewSprite3Objects5= [];
-gdjs.settingSceneCode.GDNewSprite3Objects6= [];
-gdjs.settingSceneCode.GDNewSprite3Objects7= [];
-gdjs.settingSceneCode.GDNewSprite3Objects8= [];
-gdjs.settingSceneCode.GDNewSprite3Objects9= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects1= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects2= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects3= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects4= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects5= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects6= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects7= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects8= [];
-gdjs.settingSceneCode.GDNewTiledSpriteObjects9= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects1= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects2= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects3= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects4= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects5= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects6= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects7= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects8= [];
-gdjs.settingSceneCode.GDNewTiledSprite2Objects9= [];
-gdjs.settingSceneCode.GDredLayoutObjects1= [];
-gdjs.settingSceneCode.GDredLayoutObjects2= [];
-gdjs.settingSceneCode.GDredLayoutObjects3= [];
-gdjs.settingSceneCode.GDredLayoutObjects4= [];
-gdjs.settingSceneCode.GDredLayoutObjects5= [];
-gdjs.settingSceneCode.GDredLayoutObjects6= [];
-gdjs.settingSceneCode.GDredLayoutObjects7= [];
-gdjs.settingSceneCode.GDredLayoutObjects8= [];
-gdjs.settingSceneCode.GDredLayoutObjects9= [];
-gdjs.settingSceneCode.GDblueLayoutObjects1= [];
-gdjs.settingSceneCode.GDblueLayoutObjects2= [];
-gdjs.settingSceneCode.GDblueLayoutObjects3= [];
-gdjs.settingSceneCode.GDblueLayoutObjects4= [];
-gdjs.settingSceneCode.GDblueLayoutObjects5= [];
-gdjs.settingSceneCode.GDblueLayoutObjects6= [];
-gdjs.settingSceneCode.GDblueLayoutObjects7= [];
-gdjs.settingSceneCode.GDblueLayoutObjects8= [];
-gdjs.settingSceneCode.GDblueLayoutObjects9= [];
-gdjs.settingSceneCode.GDNewSprite2Objects1= [];
-gdjs.settingSceneCode.GDNewSprite2Objects2= [];
-gdjs.settingSceneCode.GDNewSprite2Objects3= [];
-gdjs.settingSceneCode.GDNewSprite2Objects4= [];
-gdjs.settingSceneCode.GDNewSprite2Objects5= [];
-gdjs.settingSceneCode.GDNewSprite2Objects6= [];
-gdjs.settingSceneCode.GDNewSprite2Objects7= [];
-gdjs.settingSceneCode.GDNewSprite2Objects8= [];
-gdjs.settingSceneCode.GDNewSprite2Objects9= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects1= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects2= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects3= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects4= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects5= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects6= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects7= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects8= [];
-gdjs.settingSceneCode.GDNewPanelSpriteObjects9= [];
-gdjs.settingSceneCode.GDlevelTextObjects1= [];
-gdjs.settingSceneCode.GDlevelTextObjects2= [];
-gdjs.settingSceneCode.GDlevelTextObjects3= [];
-gdjs.settingSceneCode.GDlevelTextObjects4= [];
-gdjs.settingSceneCode.GDlevelTextObjects5= [];
-gdjs.settingSceneCode.GDlevelTextObjects6= [];
-gdjs.settingSceneCode.GDlevelTextObjects7= [];
-gdjs.settingSceneCode.GDlevelTextObjects8= [];
-gdjs.settingSceneCode.GDlevelTextObjects9= [];
-gdjs.settingSceneCode.GDcardObjectObjects1= [];
-gdjs.settingSceneCode.GDcardObjectObjects2= [];
-gdjs.settingSceneCode.GDcardObjectObjects3= [];
-gdjs.settingSceneCode.GDcardObjectObjects4= [];
-gdjs.settingSceneCode.GDcardObjectObjects5= [];
-gdjs.settingSceneCode.GDcardObjectObjects6= [];
-gdjs.settingSceneCode.GDcardObjectObjects7= [];
-gdjs.settingSceneCode.GDcardObjectObjects8= [];
-gdjs.settingSceneCode.GDcardObjectObjects9= [];
-gdjs.settingSceneCode.GDDownloadObjects1= [];
-gdjs.settingSceneCode.GDDownloadObjects2= [];
-gdjs.settingSceneCode.GDDownloadObjects3= [];
-gdjs.settingSceneCode.GDDownloadObjects4= [];
-gdjs.settingSceneCode.GDDownloadObjects5= [];
-gdjs.settingSceneCode.GDDownloadObjects6= [];
-gdjs.settingSceneCode.GDDownloadObjects7= [];
-gdjs.settingSceneCode.GDDownloadObjects8= [];
-gdjs.settingSceneCode.GDDownloadObjects9= [];
-gdjs.settingSceneCode.GDBuyObjects1= [];
-gdjs.settingSceneCode.GDBuyObjects2= [];
-gdjs.settingSceneCode.GDBuyObjects3= [];
-gdjs.settingSceneCode.GDBuyObjects4= [];
-gdjs.settingSceneCode.GDBuyObjects5= [];
-gdjs.settingSceneCode.GDBuyObjects6= [];
-gdjs.settingSceneCode.GDBuyObjects7= [];
-gdjs.settingSceneCode.GDBuyObjects8= [];
-gdjs.settingSceneCode.GDBuyObjects9= [];
-gdjs.settingSceneCode.GDConfigObjects1= [];
-gdjs.settingSceneCode.GDConfigObjects2= [];
-gdjs.settingSceneCode.GDConfigObjects3= [];
-gdjs.settingSceneCode.GDConfigObjects4= [];
-gdjs.settingSceneCode.GDConfigObjects5= [];
-gdjs.settingSceneCode.GDConfigObjects6= [];
-gdjs.settingSceneCode.GDConfigObjects7= [];
-gdjs.settingSceneCode.GDConfigObjects8= [];
-gdjs.settingSceneCode.GDConfigObjects9= [];
-gdjs.settingSceneCode.GDApplyObjects1= [];
-gdjs.settingSceneCode.GDApplyObjects2= [];
-gdjs.settingSceneCode.GDApplyObjects3= [];
-gdjs.settingSceneCode.GDApplyObjects4= [];
-gdjs.settingSceneCode.GDApplyObjects5= [];
-gdjs.settingSceneCode.GDApplyObjects6= [];
-gdjs.settingSceneCode.GDApplyObjects7= [];
-gdjs.settingSceneCode.GDApplyObjects8= [];
-gdjs.settingSceneCode.GDApplyObjects9= [];
-gdjs.settingSceneCode.GDBackObjects1= [];
-gdjs.settingSceneCode.GDBackObjects2= [];
-gdjs.settingSceneCode.GDBackObjects3= [];
-gdjs.settingSceneCode.GDBackObjects4= [];
-gdjs.settingSceneCode.GDBackObjects5= [];
-gdjs.settingSceneCode.GDBackObjects6= [];
-gdjs.settingSceneCode.GDBackObjects7= [];
-gdjs.settingSceneCode.GDBackObjects8= [];
-gdjs.settingSceneCode.GDBackObjects9= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects1= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects2= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects3= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects4= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects5= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects6= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects7= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects8= [];
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects9= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects1= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects2= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects3= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects4= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects5= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects6= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects7= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects8= [];
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects9= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects1= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects2= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects3= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects4= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects5= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects6= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects7= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects8= [];
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects9= [];
-gdjs.settingSceneCode.GDHeartObjects1= [];
-gdjs.settingSceneCode.GDHeartObjects2= [];
-gdjs.settingSceneCode.GDHeartObjects3= [];
-gdjs.settingSceneCode.GDHeartObjects4= [];
-gdjs.settingSceneCode.GDHeartObjects5= [];
-gdjs.settingSceneCode.GDHeartObjects6= [];
-gdjs.settingSceneCode.GDHeartObjects7= [];
-gdjs.settingSceneCode.GDHeartObjects8= [];
-gdjs.settingSceneCode.GDHeartObjects9= [];
-gdjs.settingSceneCode.GDHelpObjects1= [];
-gdjs.settingSceneCode.GDHelpObjects2= [];
-gdjs.settingSceneCode.GDHelpObjects3= [];
-gdjs.settingSceneCode.GDHelpObjects4= [];
-gdjs.settingSceneCode.GDHelpObjects5= [];
-gdjs.settingSceneCode.GDHelpObjects6= [];
-gdjs.settingSceneCode.GDHelpObjects7= [];
-gdjs.settingSceneCode.GDHelpObjects8= [];
-gdjs.settingSceneCode.GDHelpObjects9= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects1= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects2= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects3= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects4= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects5= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects6= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects7= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects8= [];
-gdjs.settingSceneCode.GDLeft_9595arrowObjects9= [];
-gdjs.settingSceneCode.GDMenuObjects1= [];
-gdjs.settingSceneCode.GDMenuObjects2= [];
-gdjs.settingSceneCode.GDMenuObjects3= [];
-gdjs.settingSceneCode.GDMenuObjects4= [];
-gdjs.settingSceneCode.GDMenuObjects5= [];
-gdjs.settingSceneCode.GDMenuObjects6= [];
-gdjs.settingSceneCode.GDMenuObjects7= [];
-gdjs.settingSceneCode.GDMenuObjects8= [];
-gdjs.settingSceneCode.GDMenuObjects9= [];
-gdjs.settingSceneCode.GDPauseObjects1= [];
-gdjs.settingSceneCode.GDPauseObjects2= [];
-gdjs.settingSceneCode.GDPauseObjects3= [];
-gdjs.settingSceneCode.GDPauseObjects4= [];
-gdjs.settingSceneCode.GDPauseObjects5= [];
-gdjs.settingSceneCode.GDPauseObjects6= [];
-gdjs.settingSceneCode.GDPauseObjects7= [];
-gdjs.settingSceneCode.GDPauseObjects8= [];
-gdjs.settingSceneCode.GDPauseObjects9= [];
-gdjs.settingSceneCode.GDPlayObjects1= [];
-gdjs.settingSceneCode.GDPlayObjects2= [];
-gdjs.settingSceneCode.GDPlayObjects3= [];
-gdjs.settingSceneCode.GDPlayObjects4= [];
-gdjs.settingSceneCode.GDPlayObjects5= [];
-gdjs.settingSceneCode.GDPlayObjects6= [];
-gdjs.settingSceneCode.GDPlayObjects7= [];
-gdjs.settingSceneCode.GDPlayObjects8= [];
-gdjs.settingSceneCode.GDPlayObjects9= [];
-gdjs.settingSceneCode.GDPlusObjects1= [];
-gdjs.settingSceneCode.GDPlusObjects2= [];
-gdjs.settingSceneCode.GDPlusObjects3= [];
-gdjs.settingSceneCode.GDPlusObjects4= [];
-gdjs.settingSceneCode.GDPlusObjects5= [];
-gdjs.settingSceneCode.GDPlusObjects6= [];
-gdjs.settingSceneCode.GDPlusObjects7= [];
-gdjs.settingSceneCode.GDPlusObjects8= [];
-gdjs.settingSceneCode.GDPlusObjects9= [];
-gdjs.settingSceneCode.GDNextObjects1= [];
-gdjs.settingSceneCode.GDNextObjects2= [];
-gdjs.settingSceneCode.GDNextObjects3= [];
-gdjs.settingSceneCode.GDNextObjects4= [];
-gdjs.settingSceneCode.GDNextObjects5= [];
-gdjs.settingSceneCode.GDNextObjects6= [];
-gdjs.settingSceneCode.GDNextObjects7= [];
-gdjs.settingSceneCode.GDNextObjects8= [];
-gdjs.settingSceneCode.GDNextObjects9= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects1= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects2= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects3= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects4= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects5= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects6= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects7= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects8= [];
-gdjs.settingSceneCode.GDRight_9595arrowObjects9= [];
-gdjs.settingSceneCode.GDShareObjects1= [];
-gdjs.settingSceneCode.GDShareObjects2= [];
-gdjs.settingSceneCode.GDShareObjects3= [];
-gdjs.settingSceneCode.GDShareObjects4= [];
-gdjs.settingSceneCode.GDShareObjects5= [];
-gdjs.settingSceneCode.GDShareObjects6= [];
-gdjs.settingSceneCode.GDShareObjects7= [];
-gdjs.settingSceneCode.GDShareObjects8= [];
-gdjs.settingSceneCode.GDShareObjects9= [];
-gdjs.settingSceneCode.GDRetryObjects1= [];
-gdjs.settingSceneCode.GDRetryObjects2= [];
-gdjs.settingSceneCode.GDRetryObjects3= [];
-gdjs.settingSceneCode.GDRetryObjects4= [];
-gdjs.settingSceneCode.GDRetryObjects5= [];
-gdjs.settingSceneCode.GDRetryObjects6= [];
-gdjs.settingSceneCode.GDRetryObjects7= [];
-gdjs.settingSceneCode.GDRetryObjects8= [];
-gdjs.settingSceneCode.GDRetryObjects9= [];
-gdjs.settingSceneCode.GDWorldObjects1= [];
-gdjs.settingSceneCode.GDWorldObjects2= [];
-gdjs.settingSceneCode.GDWorldObjects3= [];
-gdjs.settingSceneCode.GDWorldObjects4= [];
-gdjs.settingSceneCode.GDWorldObjects5= [];
-gdjs.settingSceneCode.GDWorldObjects6= [];
-gdjs.settingSceneCode.GDWorldObjects7= [];
-gdjs.settingSceneCode.GDWorldObjects8= [];
-gdjs.settingSceneCode.GDWorldObjects9= [];
-gdjs.settingSceneCode.GDStarObjects1= [];
-gdjs.settingSceneCode.GDStarObjects2= [];
-gdjs.settingSceneCode.GDStarObjects3= [];
-gdjs.settingSceneCode.GDStarObjects4= [];
-gdjs.settingSceneCode.GDStarObjects5= [];
-gdjs.settingSceneCode.GDStarObjects6= [];
-gdjs.settingSceneCode.GDStarObjects7= [];
-gdjs.settingSceneCode.GDStarObjects8= [];
-gdjs.settingSceneCode.GDStarObjects9= [];
-gdjs.settingSceneCode.GDAdsObjects1= [];
-gdjs.settingSceneCode.GDAdsObjects2= [];
-gdjs.settingSceneCode.GDAdsObjects3= [];
-gdjs.settingSceneCode.GDAdsObjects4= [];
-gdjs.settingSceneCode.GDAdsObjects5= [];
-gdjs.settingSceneCode.GDAdsObjects6= [];
-gdjs.settingSceneCode.GDAdsObjects7= [];
-gdjs.settingSceneCode.GDAdsObjects8= [];
-gdjs.settingSceneCode.GDAdsObjects9= [];
-gdjs.settingSceneCode.GDcardObject2Objects1= [];
-gdjs.settingSceneCode.GDcardObject2Objects2= [];
-gdjs.settingSceneCode.GDcardObject2Objects3= [];
-gdjs.settingSceneCode.GDcardObject2Objects4= [];
-gdjs.settingSceneCode.GDcardObject2Objects5= [];
-gdjs.settingSceneCode.GDcardObject2Objects6= [];
-gdjs.settingSceneCode.GDcardObject2Objects7= [];
-gdjs.settingSceneCode.GDcardObject2Objects8= [];
-gdjs.settingSceneCode.GDcardObject2Objects9= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects1= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects2= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects3= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects4= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects5= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects6= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects7= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects8= [];
-gdjs.settingSceneCode.GDcardForEnemyObjects9= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects1= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects2= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects3= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects4= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects5= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects6= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects7= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects8= [];
-gdjs.settingSceneCode.GDcolorLayoutObjects9= [];
-gdjs.settingSceneCode.GDaiDialogObjects1= [];
-gdjs.settingSceneCode.GDaiDialogObjects2= [];
-gdjs.settingSceneCode.GDaiDialogObjects3= [];
-gdjs.settingSceneCode.GDaiDialogObjects4= [];
-gdjs.settingSceneCode.GDaiDialogObjects5= [];
-gdjs.settingSceneCode.GDaiDialogObjects6= [];
-gdjs.settingSceneCode.GDaiDialogObjects7= [];
-gdjs.settingSceneCode.GDaiDialogObjects8= [];
-gdjs.settingSceneCode.GDaiDialogObjects9= [];
-gdjs.settingSceneCode.GDbottomMenuObjects1= [];
-gdjs.settingSceneCode.GDbottomMenuObjects2= [];
-gdjs.settingSceneCode.GDbottomMenuObjects3= [];
-gdjs.settingSceneCode.GDbottomMenuObjects4= [];
-gdjs.settingSceneCode.GDbottomMenuObjects5= [];
-gdjs.settingSceneCode.GDbottomMenuObjects6= [];
-gdjs.settingSceneCode.GDbottomMenuObjects7= [];
-gdjs.settingSceneCode.GDbottomMenuObjects8= [];
-gdjs.settingSceneCode.GDbottomMenuObjects9= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects1= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects2= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects3= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects4= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects5= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects6= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects7= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects8= [];
-gdjs.settingSceneCode.GDsoundOnOffObjects9= [];
-gdjs.settingSceneCode.GDtitleObjects1= [];
-gdjs.settingSceneCode.GDtitleObjects2= [];
-gdjs.settingSceneCode.GDtitleObjects3= [];
-gdjs.settingSceneCode.GDtitleObjects4= [];
-gdjs.settingSceneCode.GDtitleObjects5= [];
-gdjs.settingSceneCode.GDtitleObjects6= [];
-gdjs.settingSceneCode.GDtitleObjects7= [];
-gdjs.settingSceneCode.GDtitleObjects8= [];
-gdjs.settingSceneCode.GDtitleObjects9= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects1= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects2= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects3= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects4= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects5= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects6= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects7= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects8= [];
-gdjs.settingSceneCode.GDbgmOnOffObjects9= [];
-gdjs.settingSceneCode.GDborderLayoutObjects1= [];
-gdjs.settingSceneCode.GDborderLayoutObjects2= [];
-gdjs.settingSceneCode.GDborderLayoutObjects3= [];
-gdjs.settingSceneCode.GDborderLayoutObjects4= [];
-gdjs.settingSceneCode.GDborderLayoutObjects5= [];
-gdjs.settingSceneCode.GDborderLayoutObjects6= [];
-gdjs.settingSceneCode.GDborderLayoutObjects7= [];
-gdjs.settingSceneCode.GDborderLayoutObjects8= [];
-gdjs.settingSceneCode.GDborderLayoutObjects9= [];
-gdjs.settingSceneCode.GDtitleLabelObjects1= [];
-gdjs.settingSceneCode.GDtitleLabelObjects2= [];
-gdjs.settingSceneCode.GDtitleLabelObjects3= [];
-gdjs.settingSceneCode.GDtitleLabelObjects4= [];
-gdjs.settingSceneCode.GDtitleLabelObjects5= [];
-gdjs.settingSceneCode.GDtitleLabelObjects6= [];
-gdjs.settingSceneCode.GDtitleLabelObjects7= [];
-gdjs.settingSceneCode.GDtitleLabelObjects8= [];
-gdjs.settingSceneCode.GDtitleLabelObjects9= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects1= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects2= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects3= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects4= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects5= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects6= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects7= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects8= [];
-gdjs.settingSceneCode.GDsoundLabel2Objects9= [];
-gdjs.settingSceneCode.GDbgmLabelObjects1= [];
-gdjs.settingSceneCode.GDbgmLabelObjects2= [];
-gdjs.settingSceneCode.GDbgmLabelObjects3= [];
-gdjs.settingSceneCode.GDbgmLabelObjects4= [];
-gdjs.settingSceneCode.GDbgmLabelObjects5= [];
-gdjs.settingSceneCode.GDbgmLabelObjects6= [];
-gdjs.settingSceneCode.GDbgmLabelObjects7= [];
-gdjs.settingSceneCode.GDbgmLabelObjects8= [];
-gdjs.settingSceneCode.GDbgmLabelObjects9= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects1= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects2= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects3= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects4= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects5= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects6= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects7= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects8= [];
-gdjs.settingSceneCode.GDlogoutLabelObjects9= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects1= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects2= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects3= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects4= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects5= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects6= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects7= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects8= [];
-gdjs.settingSceneCode.GDsaveDataLabelObjects9= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects4= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects5= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects6= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects7= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects8= [];
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects9= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects5= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects6= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects7= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects8= [];
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects9= [];
-gdjs.settingSceneCode.GDaiDialog2Objects1= [];
-gdjs.settingSceneCode.GDaiDialog2Objects2= [];
-gdjs.settingSceneCode.GDaiDialog2Objects3= [];
-gdjs.settingSceneCode.GDaiDialog2Objects4= [];
-gdjs.settingSceneCode.GDaiDialog2Objects5= [];
-gdjs.settingSceneCode.GDaiDialog2Objects6= [];
-gdjs.settingSceneCode.GDaiDialog2Objects7= [];
-gdjs.settingSceneCode.GDaiDialog2Objects8= [];
-gdjs.settingSceneCode.GDaiDialog2Objects9= [];
-gdjs.settingSceneCode.GDnewCard2Objects1= [];
-gdjs.settingSceneCode.GDnewCard2Objects2= [];
-gdjs.settingSceneCode.GDnewCard2Objects3= [];
-gdjs.settingSceneCode.GDnewCard2Objects4= [];
-gdjs.settingSceneCode.GDnewCard2Objects5= [];
-gdjs.settingSceneCode.GDnewCard2Objects6= [];
-gdjs.settingSceneCode.GDnewCard2Objects7= [];
-gdjs.settingSceneCode.GDnewCard2Objects8= [];
-gdjs.settingSceneCode.GDnewCard2Objects9= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects1= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects2= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects3= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects4= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects5= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects6= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects7= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects8= [];
-gdjs.settingSceneCode.GDcardForEnemy2Objects9= [];
-gdjs.settingSceneCode.GDnewCardObjects1= [];
-gdjs.settingSceneCode.GDnewCardObjects2= [];
-gdjs.settingSceneCode.GDnewCardObjects3= [];
-gdjs.settingSceneCode.GDnewCardObjects4= [];
-gdjs.settingSceneCode.GDnewCardObjects5= [];
-gdjs.settingSceneCode.GDnewCardObjects6= [];
-gdjs.settingSceneCode.GDnewCardObjects7= [];
-gdjs.settingSceneCode.GDnewCardObjects8= [];
-gdjs.settingSceneCode.GDnewCardObjects9= [];
-gdjs.settingSceneCode.GDtableCardObjects1= [];
-gdjs.settingSceneCode.GDtableCardObjects2= [];
-gdjs.settingSceneCode.GDtableCardObjects3= [];
-gdjs.settingSceneCode.GDtableCardObjects4= [];
-gdjs.settingSceneCode.GDtableCardObjects5= [];
-gdjs.settingSceneCode.GDtableCardObjects6= [];
-gdjs.settingSceneCode.GDtableCardObjects7= [];
-gdjs.settingSceneCode.GDtableCardObjects8= [];
-gdjs.settingSceneCode.GDtableCardObjects9= [];
-gdjs.settingSceneCode.GDcardObject3Objects1= [];
-gdjs.settingSceneCode.GDcardObject3Objects2= [];
-gdjs.settingSceneCode.GDcardObject3Objects3= [];
-gdjs.settingSceneCode.GDcardObject3Objects4= [];
-gdjs.settingSceneCode.GDcardObject3Objects5= [];
-gdjs.settingSceneCode.GDcardObject3Objects6= [];
-gdjs.settingSceneCode.GDcardObject3Objects7= [];
-gdjs.settingSceneCode.GDcardObject3Objects8= [];
-gdjs.settingSceneCode.GDcardObject3Objects9= [];
+gdjs.cardSceneCode = {};
+gdjs.cardSceneCode.localVariables = [];
+gdjs.cardSceneCode.forEachIndex2 = 0;
+
+gdjs.cardSceneCode.forEachObjects2 = [];
+
+gdjs.cardSceneCode.forEachTemporary2 = null;
+
+gdjs.cardSceneCode.forEachTotalCount2 = 0;
+
+gdjs.cardSceneCode.GDNewSprite3Objects1= [];
+gdjs.cardSceneCode.GDNewSprite3Objects2= [];
+gdjs.cardSceneCode.GDNewSprite3Objects3= [];
+gdjs.cardSceneCode.GDNewSprite3Objects4= [];
+gdjs.cardSceneCode.GDNewSprite3Objects5= [];
+gdjs.cardSceneCode.GDNewSprite3Objects6= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects1= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects2= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects3= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects4= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects5= [];
+gdjs.cardSceneCode.GDNewTiledSpriteObjects6= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects1= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects2= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects3= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects4= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects5= [];
+gdjs.cardSceneCode.GDNewTiledSprite2Objects6= [];
+gdjs.cardSceneCode.GDredLayoutObjects1= [];
+gdjs.cardSceneCode.GDredLayoutObjects2= [];
+gdjs.cardSceneCode.GDredLayoutObjects3= [];
+gdjs.cardSceneCode.GDredLayoutObjects4= [];
+gdjs.cardSceneCode.GDredLayoutObjects5= [];
+gdjs.cardSceneCode.GDredLayoutObjects6= [];
+gdjs.cardSceneCode.GDblueLayoutObjects1= [];
+gdjs.cardSceneCode.GDblueLayoutObjects2= [];
+gdjs.cardSceneCode.GDblueLayoutObjects3= [];
+gdjs.cardSceneCode.GDblueLayoutObjects4= [];
+gdjs.cardSceneCode.GDblueLayoutObjects5= [];
+gdjs.cardSceneCode.GDblueLayoutObjects6= [];
+gdjs.cardSceneCode.GDNewSprite2Objects1= [];
+gdjs.cardSceneCode.GDNewSprite2Objects2= [];
+gdjs.cardSceneCode.GDNewSprite2Objects3= [];
+gdjs.cardSceneCode.GDNewSprite2Objects4= [];
+gdjs.cardSceneCode.GDNewSprite2Objects5= [];
+gdjs.cardSceneCode.GDNewSprite2Objects6= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects1= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects2= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects3= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects4= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects5= [];
+gdjs.cardSceneCode.GDNewPanelSpriteObjects6= [];
+gdjs.cardSceneCode.GDlevelTextObjects1= [];
+gdjs.cardSceneCode.GDlevelTextObjects2= [];
+gdjs.cardSceneCode.GDlevelTextObjects3= [];
+gdjs.cardSceneCode.GDlevelTextObjects4= [];
+gdjs.cardSceneCode.GDlevelTextObjects5= [];
+gdjs.cardSceneCode.GDlevelTextObjects6= [];
+gdjs.cardSceneCode.GDcardObjectObjects1= [];
+gdjs.cardSceneCode.GDcardObjectObjects2= [];
+gdjs.cardSceneCode.GDcardObjectObjects3= [];
+gdjs.cardSceneCode.GDcardObjectObjects4= [];
+gdjs.cardSceneCode.GDcardObjectObjects5= [];
+gdjs.cardSceneCode.GDcardObjectObjects6= [];
+gdjs.cardSceneCode.GDDownloadObjects1= [];
+gdjs.cardSceneCode.GDDownloadObjects2= [];
+gdjs.cardSceneCode.GDDownloadObjects3= [];
+gdjs.cardSceneCode.GDDownloadObjects4= [];
+gdjs.cardSceneCode.GDDownloadObjects5= [];
+gdjs.cardSceneCode.GDDownloadObjects6= [];
+gdjs.cardSceneCode.GDBuyObjects1= [];
+gdjs.cardSceneCode.GDBuyObjects2= [];
+gdjs.cardSceneCode.GDBuyObjects3= [];
+gdjs.cardSceneCode.GDBuyObjects4= [];
+gdjs.cardSceneCode.GDBuyObjects5= [];
+gdjs.cardSceneCode.GDBuyObjects6= [];
+gdjs.cardSceneCode.GDConfigObjects1= [];
+gdjs.cardSceneCode.GDConfigObjects2= [];
+gdjs.cardSceneCode.GDConfigObjects3= [];
+gdjs.cardSceneCode.GDConfigObjects4= [];
+gdjs.cardSceneCode.GDConfigObjects5= [];
+gdjs.cardSceneCode.GDConfigObjects6= [];
+gdjs.cardSceneCode.GDApplyObjects1= [];
+gdjs.cardSceneCode.GDApplyObjects2= [];
+gdjs.cardSceneCode.GDApplyObjects3= [];
+gdjs.cardSceneCode.GDApplyObjects4= [];
+gdjs.cardSceneCode.GDApplyObjects5= [];
+gdjs.cardSceneCode.GDApplyObjects6= [];
+gdjs.cardSceneCode.GDBackObjects1= [];
+gdjs.cardSceneCode.GDBackObjects2= [];
+gdjs.cardSceneCode.GDBackObjects3= [];
+gdjs.cardSceneCode.GDBackObjects4= [];
+gdjs.cardSceneCode.GDBackObjects5= [];
+gdjs.cardSceneCode.GDBackObjects6= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects1= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects2= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects3= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects4= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects5= [];
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects6= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects1= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects2= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects3= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects4= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects5= [];
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects6= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects1= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects2= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects3= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects4= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects5= [];
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects6= [];
+gdjs.cardSceneCode.GDHeartObjects1= [];
+gdjs.cardSceneCode.GDHeartObjects2= [];
+gdjs.cardSceneCode.GDHeartObjects3= [];
+gdjs.cardSceneCode.GDHeartObjects4= [];
+gdjs.cardSceneCode.GDHeartObjects5= [];
+gdjs.cardSceneCode.GDHeartObjects6= [];
+gdjs.cardSceneCode.GDHelpObjects1= [];
+gdjs.cardSceneCode.GDHelpObjects2= [];
+gdjs.cardSceneCode.GDHelpObjects3= [];
+gdjs.cardSceneCode.GDHelpObjects4= [];
+gdjs.cardSceneCode.GDHelpObjects5= [];
+gdjs.cardSceneCode.GDHelpObjects6= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects1= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects2= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects3= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects4= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects5= [];
+gdjs.cardSceneCode.GDLeft_9595arrowObjects6= [];
+gdjs.cardSceneCode.GDMenuObjects1= [];
+gdjs.cardSceneCode.GDMenuObjects2= [];
+gdjs.cardSceneCode.GDMenuObjects3= [];
+gdjs.cardSceneCode.GDMenuObjects4= [];
+gdjs.cardSceneCode.GDMenuObjects5= [];
+gdjs.cardSceneCode.GDMenuObjects6= [];
+gdjs.cardSceneCode.GDPauseObjects1= [];
+gdjs.cardSceneCode.GDPauseObjects2= [];
+gdjs.cardSceneCode.GDPauseObjects3= [];
+gdjs.cardSceneCode.GDPauseObjects4= [];
+gdjs.cardSceneCode.GDPauseObjects5= [];
+gdjs.cardSceneCode.GDPauseObjects6= [];
+gdjs.cardSceneCode.GDPlayObjects1= [];
+gdjs.cardSceneCode.GDPlayObjects2= [];
+gdjs.cardSceneCode.GDPlayObjects3= [];
+gdjs.cardSceneCode.GDPlayObjects4= [];
+gdjs.cardSceneCode.GDPlayObjects5= [];
+gdjs.cardSceneCode.GDPlayObjects6= [];
+gdjs.cardSceneCode.GDPlusObjects1= [];
+gdjs.cardSceneCode.GDPlusObjects2= [];
+gdjs.cardSceneCode.GDPlusObjects3= [];
+gdjs.cardSceneCode.GDPlusObjects4= [];
+gdjs.cardSceneCode.GDPlusObjects5= [];
+gdjs.cardSceneCode.GDPlusObjects6= [];
+gdjs.cardSceneCode.GDNextObjects1= [];
+gdjs.cardSceneCode.GDNextObjects2= [];
+gdjs.cardSceneCode.GDNextObjects3= [];
+gdjs.cardSceneCode.GDNextObjects4= [];
+gdjs.cardSceneCode.GDNextObjects5= [];
+gdjs.cardSceneCode.GDNextObjects6= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects1= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects2= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects3= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects4= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects5= [];
+gdjs.cardSceneCode.GDRight_9595arrowObjects6= [];
+gdjs.cardSceneCode.GDShareObjects1= [];
+gdjs.cardSceneCode.GDShareObjects2= [];
+gdjs.cardSceneCode.GDShareObjects3= [];
+gdjs.cardSceneCode.GDShareObjects4= [];
+gdjs.cardSceneCode.GDShareObjects5= [];
+gdjs.cardSceneCode.GDShareObjects6= [];
+gdjs.cardSceneCode.GDRetryObjects1= [];
+gdjs.cardSceneCode.GDRetryObjects2= [];
+gdjs.cardSceneCode.GDRetryObjects3= [];
+gdjs.cardSceneCode.GDRetryObjects4= [];
+gdjs.cardSceneCode.GDRetryObjects5= [];
+gdjs.cardSceneCode.GDRetryObjects6= [];
+gdjs.cardSceneCode.GDWorldObjects1= [];
+gdjs.cardSceneCode.GDWorldObjects2= [];
+gdjs.cardSceneCode.GDWorldObjects3= [];
+gdjs.cardSceneCode.GDWorldObjects4= [];
+gdjs.cardSceneCode.GDWorldObjects5= [];
+gdjs.cardSceneCode.GDWorldObjects6= [];
+gdjs.cardSceneCode.GDStarObjects1= [];
+gdjs.cardSceneCode.GDStarObjects2= [];
+gdjs.cardSceneCode.GDStarObjects3= [];
+gdjs.cardSceneCode.GDStarObjects4= [];
+gdjs.cardSceneCode.GDStarObjects5= [];
+gdjs.cardSceneCode.GDStarObjects6= [];
+gdjs.cardSceneCode.GDAdsObjects1= [];
+gdjs.cardSceneCode.GDAdsObjects2= [];
+gdjs.cardSceneCode.GDAdsObjects3= [];
+gdjs.cardSceneCode.GDAdsObjects4= [];
+gdjs.cardSceneCode.GDAdsObjects5= [];
+gdjs.cardSceneCode.GDAdsObjects6= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects1= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects2= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects3= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects4= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects5= [];
+gdjs.cardSceneCode.GDcardForEnemyObjects6= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects1= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects2= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects3= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects4= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects5= [];
+gdjs.cardSceneCode.GDcolorLayoutObjects6= [];
+gdjs.cardSceneCode.GDaiDialogObjects1= [];
+gdjs.cardSceneCode.GDaiDialogObjects2= [];
+gdjs.cardSceneCode.GDaiDialogObjects3= [];
+gdjs.cardSceneCode.GDaiDialogObjects4= [];
+gdjs.cardSceneCode.GDaiDialogObjects5= [];
+gdjs.cardSceneCode.GDaiDialogObjects6= [];
+gdjs.cardSceneCode.GDbottomMenuObjects1= [];
+gdjs.cardSceneCode.GDbottomMenuObjects2= [];
+gdjs.cardSceneCode.GDbottomMenuObjects3= [];
+gdjs.cardSceneCode.GDbottomMenuObjects4= [];
+gdjs.cardSceneCode.GDbottomMenuObjects5= [];
+gdjs.cardSceneCode.GDbottomMenuObjects6= [];
+gdjs.cardSceneCode.GDlistViewObjects1= [];
+gdjs.cardSceneCode.GDlistViewObjects2= [];
+gdjs.cardSceneCode.GDlistViewObjects3= [];
+gdjs.cardSceneCode.GDlistViewObjects4= [];
+gdjs.cardSceneCode.GDlistViewObjects5= [];
+gdjs.cardSceneCode.GDlistViewObjects6= [];
+gdjs.cardSceneCode.GDguideLineObjects1= [];
+gdjs.cardSceneCode.GDguideLineObjects2= [];
+gdjs.cardSceneCode.GDguideLineObjects3= [];
+gdjs.cardSceneCode.GDguideLineObjects4= [];
+gdjs.cardSceneCode.GDguideLineObjects5= [];
+gdjs.cardSceneCode.GDguideLineObjects6= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects1= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects2= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects3= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects4= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects5= [];
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects6= [];
+gdjs.cardSceneCode.GDtopButtonObjects1= [];
+gdjs.cardSceneCode.GDtopButtonObjects2= [];
+gdjs.cardSceneCode.GDtopButtonObjects3= [];
+gdjs.cardSceneCode.GDtopButtonObjects4= [];
+gdjs.cardSceneCode.GDtopButtonObjects5= [];
+gdjs.cardSceneCode.GDtopButtonObjects6= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects1= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects2= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects3= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects4= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects5= [];
+gdjs.cardSceneCode.GDgrayLayoutObjects6= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects2= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects3= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects4= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects5= [];
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects6= [];
+gdjs.cardSceneCode.GDbottomButtonObjects1= [];
+gdjs.cardSceneCode.GDbottomButtonObjects2= [];
+gdjs.cardSceneCode.GDbottomButtonObjects3= [];
+gdjs.cardSceneCode.GDbottomButtonObjects4= [];
+gdjs.cardSceneCode.GDbottomButtonObjects5= [];
+gdjs.cardSceneCode.GDbottomButtonObjects6= [];
+gdjs.cardSceneCode.GDStarRatingObjects1= [];
+gdjs.cardSceneCode.GDStarRatingObjects2= [];
+gdjs.cardSceneCode.GDStarRatingObjects3= [];
+gdjs.cardSceneCode.GDStarRatingObjects4= [];
+gdjs.cardSceneCode.GDStarRatingObjects5= [];
+gdjs.cardSceneCode.GDStarRatingObjects6= [];
+gdjs.cardSceneCode.GDnewCard2Objects1= [];
+gdjs.cardSceneCode.GDnewCard2Objects2= [];
+gdjs.cardSceneCode.GDnewCard2Objects3= [];
+gdjs.cardSceneCode.GDnewCard2Objects4= [];
+gdjs.cardSceneCode.GDnewCard2Objects5= [];
+gdjs.cardSceneCode.GDnewCard2Objects6= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects1= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects2= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects3= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects4= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects5= [];
+gdjs.cardSceneCode.GDcardForEnemy2Objects6= [];
+gdjs.cardSceneCode.GDnewCardObjects1= [];
+gdjs.cardSceneCode.GDnewCardObjects2= [];
+gdjs.cardSceneCode.GDnewCardObjects3= [];
+gdjs.cardSceneCode.GDnewCardObjects4= [];
+gdjs.cardSceneCode.GDnewCardObjects5= [];
+gdjs.cardSceneCode.GDnewCardObjects6= [];
+gdjs.cardSceneCode.GDtableCardObjects1= [];
+gdjs.cardSceneCode.GDtableCardObjects2= [];
+gdjs.cardSceneCode.GDtableCardObjects3= [];
+gdjs.cardSceneCode.GDtableCardObjects4= [];
+gdjs.cardSceneCode.GDtableCardObjects5= [];
+gdjs.cardSceneCode.GDtableCardObjects6= [];
+gdjs.cardSceneCode.GDcardObject3Objects1= [];
+gdjs.cardSceneCode.GDcardObject3Objects2= [];
+gdjs.cardSceneCode.GDcardObject3Objects3= [];
+gdjs.cardSceneCode.GDcardObject3Objects4= [];
+gdjs.cardSceneCode.GDcardObject3Objects5= [];
+gdjs.cardSceneCode.GDcardObject3Objects6= [];
 
 
-gdjs.settingSceneCode.userFunc0xbebed0 = function GDJSInlineCode(runtimeScene) {
+gdjs.cardSceneCode.userFunc0x92d350 = function GDJSInlineCode(runtimeScene) {
 "use strict";
       var buttonDiv = document.getElementById("buttonDiv")
       var buttonDiv2 = document.getElementById("buttonDiv2")
@@ -487,339 +306,261 @@ gdjs.settingSceneCode.userFunc0xbebed0 = function GDJSInlineCode(runtimeScene) {
       if(buttonDiv)buttonDiv.style.display = "none";
       if(buttonDiv2)buttonDiv2.style.display = "none";
 };
-gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects = Hashtable.newFrom({"NewTiledSprite": gdjs.settingSceneCode.GDNewTiledSpriteObjects1});
-gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.userFunc0x8d9880 = function GDJSInlineCode(runtimeScene) {
+gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDbottomButtonObjects1Objects = Hashtable.newFrom({"bottomButton": gdjs.cardSceneCode.GDbottomButtonObjects1});
+gdjs.cardSceneCode.userFunc0x92c6f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
-    var isBGM = localStorage.getItem("isBGM")
-    if(!isBGM) isBGM= "true" 
-    isBGM = JSON.parse(isBGM)
-    runtimeScene.getGame().getVariables().get("isBGM").setBoolean(isBGM)
-    
-        
-    var isSound = localStorage.getItem("isSound")
-    if(!isSound) isSound= "true" 
-    isSound = JSON.parse(isSound)
-    runtimeScene.getGame().getVariables().get("isSound").setBoolean(isSound)
+var cardList = 
+[{"index":"1","category":"1","type":"1","level":"1","title":"물조각","title_en":"Water1","delete":"0","top":"1","left":"5","bottom":"1","right":"4","updated":"2013-06-29 14:22:54"},{"index":"2","category":"1","type":"1","level":"1","title":"불조각","title_en":"Fire1","delete":"0","top":"5","left":"3","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"3","category":"1","type":"1","level":"1","title":"바람조각","title_en":"Wind1","delete":"0","top":"1","left":"5","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"4","category":"1","type":"1","level":"1","title":"대지조각","title_en":"Land1","delete":"0","top":"6","left":"2","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"5","category":"1","type":"1","level":"1","title":"보병","title_en":"Human1","delete":"0","top":"2","left":"5","bottom":"1","right":"3","updated":"2013-06-29 14:22:54"},{"index":"6","category":"1","type":"1","level":"1","title":"좀비","title_en":"Undead1","delete":"0","top":"2","left":"4","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"7","category":"1","type":"1","level":"1","title":"소형로봇A","title_en":"Robot1","delete":"0","top":"1","left":"1","bottom":"4","right":"5","updated":"2013-06-29 14:22:54"},{"index":"8","category":"1","type":"1","level":"1","title":"늑대개","title_en":"Monster1","delete":"0","top":"3","left":"1","bottom":"2","right":"5","updated":"2013-06-29 14:22:54"},{"index":"9","category":"1","type":"1","level":"1","title":"엘프병사","title_en":"Elf1","delete":"0","top":"2","left":"1","bottom":"6","right":"1","updated":"2013-06-29 14:22:54"},{"index":"10","category":"1","type":"1","level":"1","title":"호빗","title_en":"Dwarf1","delete":"0","top":"4","left":"3","bottom":"4","right":"2","updated":"2013-06-29 14:22:54"},{"index":"11","category":"1","type":"1","level":"1","title":"궁수","title_en":"Human2","delete":"0","top":"2","left":"6","bottom":"2","right":"1","updated":"2013-06-29 14:22:54"},{"index":"12","category":"1","type":"1","level":"2","title":"물정령","title_en":"Water2","delete":"0","top":"7","left":"1","bottom":"3","right":"1","updated":"2013-06-29 14:22:54"},{"index":"13","category":"1","type":"1","level":"2","title":"불정령","title_en":"Fire2","delete":"0","top":"6","left":"3","bottom":"2","right":"2","updated":"2013-06-29 14:22:54"},{"index":"14","category":"1","type":"1","level":"2","title":"바람정령","title_en":"Wind2","delete":"0","top":"5","left":"4","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"15","category":"1","type":"1","level":"2","title":"대지정령","title_en":"Land2","delete":"0","top":"6","left":"3","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"16","category":"1","type":"1","level":"2","title":"정예병","title_en":"Human3","delete":"0","top":"3","left":"3","bottom":"5","right":"4","updated":"2013-06-29 14:22:54"},{"index":"17","category":"1","type":"1","level":"2","title":"악성좀비","title_en":"Undead2","delete":"0","top":"5","left":"5","bottom":"2","right":"3","updated":"2013-08-09 6:36:34"},{"index":"18","category":"1","type":"1","level":"2","title":"시계로봇","title_en":"Robot2","delete":"0","top":"5","left":"5","bottom":"3","right":"1","updated":"2013-08-09 6:37:13"},{"index":"19","category":"1","type":"1","level":"2","title":"불황소","title_en":"Monster2","delete":"0","top":"5","left":"2","bottom":"5","right":"2","updated":"2013-08-09 6:37:44"},{"index":"20","category":"1","type":"1","level":"2","title":"엘프궁수","title_en":"Elf2","delete":"0","top":"4","left":"2","bottom":"5","right":"4","updated":"2013-08-09 7:03:10"},{"index":"21","category":"1","type":"1","level":"2","title":"전투호빗","title_en":"Dwarf2","delete":"0","top":"3","left":"7","bottom":"1","right":"2","updated":"2013-08-09 7:03:38"},{"index":"22","category":"1","type":"1","level":"2","title":"폭탄좀비","title_en":"Undead3","delete":"0","top":"5","left":"3","bottom":"5","right":"2","updated":"2013-08-09 7:04:26"},{"index":"23","category":"1","type":"1","level":"3","title":"상위물정령","title_en":"Water3","delete":"0","top":"6","left":"2","bottom":"3","right":"6","updated":"2013-08-09 7:05:30"},{"index":"24","category":"1","type":"1","level":"3","title":"불상위정령","title_en":"Fire3","delete":"0","top":"6","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:05:39"},{"index":"25","category":"1","type":"1","level":"3","title":"바람상위정령","title_en":"Wind3","delete":"0","top":"3","left":"5","bottom":"5","right":"5","updated":"2013-08-09 7:05:58"},{"index":"26","category":"1","type":"1","level":"3","title":"대지상위정령","title_en":"Land3","delete":"0","top":"7","left":"3","bottom":"1","right":"5","updated":"2013-08-09 7:06:59"},{"index":"27","category":"1","type":"1","level":"3","title":"암살자","title_en":"Human4","delete":"0","top":"7","left":"3","bottom":"5","right":"1","updated":"2013-08-09 7:27:10"},{"index":"28","category":"1","type":"1","level":"3","title":"시체거미","title_en":"Undead4","delete":"0","top":"5","left":"3","bottom":"3","right":"6","updated":"2013-08-09 7:27:56"},{"index":"29","category":"1","type":"1","level":"3","title":"대형로봇A","title_en":"Robot3","delete":"0","top":"5","left":"4","bottom":"2","right":"6","updated":"2013-08-09 7:31:30"},{"index":"30","category":"1","type":"1","level":"3","title":"아나콘다","title_en":"Monster3","delete":"0","top":"4","left":"2","bottom":"7","right":"4","updated":"2013-08-09 7:32:09"},{"index":"31","category":"1","type":"1","level":"3","title":"엘프마법사","title_en":"Elf3","delete":"0","top":"6","left":"3","bottom":"6","right":"2","updated":"2013-08-09 7:32:53"},{"index":"32","category":"1","type":"1","level":"3","title":"도둑호빗","title_en":"Dwarf3","delete":"0","top":"3","left":"4","bottom":"4","right":"6","updated":"2013-08-09 7:33:56"},{"index":"33","category":"1","type":"1","level":"3","title":"엘프군주","title_en":"Elf4","delete":"0","top":"7","left":"5","bottom":"3","right":"2","updated":"2013-08-09 7:34:26"},{"index":"34","category":"2","type":"1","level":"4","title":"물소환수","title_en":"Water4","delete":"0","top":"2","left":"7","bottom":"6","right":"3","updated":"2013-08-09 7:35:22"},{"index":"35","category":"2","type":"1","level":"4","title":"불소환수","title_en":"Fire4","delete":"0","top":"6","left":"5","bottom":"4","right":"5","updated":"2013-08-09 7:38:35"},{"index":"36","category":"2","type":"1","level":"4","title":"바람소환수","title_en":"Wind4","delete":"0","top":"4","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:38:43"},{"index":"37","category":"2","type":"1","level":"4","title":"대지소환수","title_en":"Land4","delete":"0","top":"2","left":"3","bottom":"6","right":"7","updated":"2013-08-09 7:39:45"},{"index":"38","category":"2","type":"1","level":"4","title":"나이트","title_en":"Human5","delete":"0","top":"1","left":"7","bottom":"4","right":"6","updated":"2013-08-09 7:40:18"},{"index":"39","category":"2","type":"1","level":"4","title":"어보미네이션","title_en":"Undead5","delete":"0","top":"7","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:40:34"},{"index":"40","category":"2","type":"1","level":"4","title":"자폭로봇","title_en":"Robot4","delete":"0","top":"7","left":"4","bottom":"4","right":"4","updated":"2013-08-09 7:41:30"},{"index":"41","category":"2","type":"1","level":"4","title":"독수리","title_en":"Monster4","delete":"0","top":"3","left":"6","bottom":"3","right":"7","updated":"2013-08-09 7:43:03"},{"index":"42","category":"2","type":"1","level":"4","title":"엘프대마법사","title_en":"Elf5","delete":"0","top":"6","left":"3","bottom":"7","right":"2","updated":"2013-08-09 7:43:56"},{"index":"43","category":"2","type":"1","level":"4","title":"전투드워프","title_en":"Dwarf4","delete":"0","top":"4","left":"6","bottom":"5","right":"5","updated":"2013-08-09 7:44:43"},{"index":"44","category":"2","type":"1","level":"4","title":"골드드워프","title_en":"Dwarf5","delete":"0","top":"7","left":"3","bottom":"4","right":"5","updated":"2013-08-09 7:48:14"},{"index":"45","category":"2","type":"1","level":"5","title":"물군주","title_en":"Water5","delete":"0","top":"6","left":"5","bottom":"6","right":"5","updated":"2013-08-09 7:49:39"},{"index":"46","category":"2","type":"1","level":"5","title":"불군주","title_en":"Fire5","delete":"0","top":"3","left":"7","bottom":"5","right":"6","updated":"2013-08-09 7:50:25"},{"index":"47","category":"2","type":"1","level":"5","title":"바람군주","title_en":"Wind5","delete":"0","top":"7","left":"3","bottom":"5","right":"6","updated":"2013-08-09 7:51:02"},{"index":"48","category":"2","type":"1","level":"5","title":"대지군주","title_en":"Land5","delete":"0","top":"3","left":"1","bottom":"2","right":"10","updated":"2013-08-09 7:51:30"},{"index":"49","category":"2","type":"1","level":"5","title":"대장군","title_en":"Human6","delete":"0","top":"6","left":"7","bottom":"6","right":"2","updated":"2013-08-09 7:52:15"},{"index":"50","category":"2","type":"1","level":"5","title":"네크로멘서","title_en":"Undead6","delete":"0","top":"5","left":"4","bottom":"7","right":"5","updated":"2013-08-09 7:52:57"},{"index":"51","category":"2","type":"1","level":"5","title":"거대로봇","title_en":"Robot5","delete":"0","top":"7","left":"2","bottom":"4","right":"7","updated":"2013-08-09 7:53:28"},{"index":"52","category":"2","type":"1","level":"5","title":"호랑이","title_en":"Monster5","delete":"0","top":"7","left":"4","bottom":"7","right":"2","updated":"2013-08-09 7:54:20"},{"index":"53","category":"2","type":"1","level":"5","title":"엘프소환사","title_en":"Elf6","delete":"0","top":"5","left":"6","bottom":"7","right":"3","updated":"2013-08-09 7:55:05"},{"index":"54","category":"2","type":"1","level":"5","title":"폭탄드워프","title_en":"Dwarf6","delete":"0","top":"4","left":"4","bottom":"7","right":"8","updated":"2013-08-09 7:55:30"},{"index":"55","category":"2","type":"1","level":"5","title":"공성전차로봇","title_en":"Robot6","delete":"0","top":"6","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:56:16"},{"index":"56","category":"3","type":"2","level":"6","title":"물대군주","title_en":"Water6","delete":"0","top":"2","left":"4","bottom":"8","right":"8","updated":"2013-08-09 8:00:03"},{"index":"57","category":"3","type":"2","level":"6","title":"불대군주","title_en":"Fire6","delete":"0","top":"7","left":"4","bottom":"3","right":"8","updated":"2013-08-09 8:29:12"},{"index":"58","category":"3","type":"2","level":"6","title":"바람대군주","title_en":"Wind6","delete":"0","top":"4","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:29:52"},{"index":"59","category":"3","type":"2","level":"6","title":"대지대군주","title_en":"Land6","delete":"0","top":"7","left":"5","bottom":"8","right":"2","updated":"2013-08-09 8:30:25"},{"index":"60","category":"3","type":"2","level":"6","title":"골드나이트","title_en":"Human7","delete":"0","top":"1","left":"3","bottom":"8","right":"8","updated":"2013-08-09 8:31:07"},{"index":"61","category":"3","type":"2","level":"6","title":"가고일","title_en":"Undead7","delete":"0","top":"8","left":"2","bottom":"8","right":"2","updated":"2013-08-09 8:48:06"},{"index":"62","category":"3","type":"2","level":"6","title":"하이페리온","title_en":"Robot7","delete":"0","top":"6","left":"5","bottom":"4","right":"8","updated":"2013-08-09 8:48:40"},{"index":"63","category":"3","type":"2","level":"6","title":"사자","title_en":"Monster6","delete":"0","top":"4","left":"6","bottom":"5","right":"8","updated":"2013-08-09 8:49:49"},{"index":"64","category":"3","type":"2","level":"6","title":"흑마법사","title_en":"Elf7","delete":"0","top":"1","left":"8","bottom":"4","right":"8","updated":"2013-08-09 8:50:54"},{"index":"65","category":"3","type":"2","level":"6","title":"도끼드워프","title_en":"Dwarf7","delete":"0","top":"6","left":"4","bottom":"8","right":"5","updated":"2013-08-09 8:51:32"},{"index":"66","category":"3","type":"2","level":"6","title":"귀신호랑이","title_en":"Monster7","delete":"0","top":"7","left":"1","bottom":"8","right":"5","updated":"2013-08-09 8:51:55"},{"index":"67","category":"4","type":"2","level":"7","title":"물가오리","title_en":"Water7","delete":"0","top":"8","left":"8","bottom":"4","right":"4","updated":"2013-08-09 8:54:17"},{"index":"68","category":"4","type":"2","level":"7","title":"불탄","title_en":"Fire7","delete":"0","top":"8","left":"4","bottom":"4","right":"8","updated":"2013-08-09 8:54:27"},{"index":"69","category":"4","type":"2","level":"7","title":"강풍","title_en":"Wind7","delete":"0","top":"8","left":"8","bottom":"2","right":"5","updated":"2013-08-09 8:55:49"},{"index":"70","category":"4","type":"2","level":"7","title":"록타","title_en":"Land7","delete":"0","top":"5","left":"8","bottom":"6","right":"6","updated":"2013-08-09 8:56:16"},{"index":"71","category":"4","type":"2","level":"7","title":"로빈후드","title_en":"Human8","delete":"0","top":"8","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:58:42"},{"index":"72","category":"4","type":"2","level":"7","title":"데쓰드래곤","title_en":"Undead8","delete":"0","top":"8","left":"8","bottom":"5","right":"3","updated":"2013-08-09 8:58:51"},{"index":"73","category":"4","type":"2","level":"7","title":"아이언로봇","title_en":"Robot8","delete":"0","top":"8","left":"4","bottom":"5","right":"8","updated":"2013-08-09 8:59:38"},{"index":"74","category":"4","type":"2","level":"7","title":"불곰","title_en":"Monster8","delete":"0","top":"5","left":"5","bottom":"8","right":"7","updated":"2013-08-09 9:00:33"},{"index":"75","category":"4","type":"2","level":"7","title":"피의마법사","title_en":"Elf8","delete":"0","top":"6","left":"7","bottom":"4","right":"8","updated":"2013-08-09 9:00:44"},{"index":"76","category":"4","type":"2","level":"7","title":"강철드워프","title_en":"Dwarf8","delete":"0","top":"1","left":"7","bottom":"7","right":"8","updated":"2013-08-09 9:02:04"},{"index":"77","category":"4","type":"2","level":"7","title":"새끼용","title_en":"Dragon1","delete":"0","top":"7","left":"8","bottom":"2","right":"7","updated":"2013-08-09 9:02:29"},{"index":"78","category":"4","type":"2","level":"8","title":"폭포대왕","title_en":"Water8","delete":"0","top":"4","left":"9","bottom":"8","right":"4","updated":"2013-08-10 3:19:06"},{"index":"79","category":"4","type":"2","level":"8","title":"불사신","title_en":"Fire8","delete":"0","top":"9","left":"3","bottom":"7","right":"6","updated":"2013-08-10 3:24:12"},{"index":"80","category":"4","type":"2","level":"8","title":"썬더퓨리","title_en":"Wind8","delete":"0","top":"3","left":"6","bottom":"9","right":"7","updated":"2013-08-10 3:26:00"},{"index":"81","category":"4","type":"2","level":"8","title":"잉카누스","title_en":"Land8","delete":"0","top":"9","left":"2","bottom":"9","right":"3","updated":"2013-08-10 3:27:24"},{"index":"82","category":"4","type":"2","level":"8","title":"헤라클래스","title_en":"Human9","delete":"0","top":"9","left":"4","bottom":"8","right":"4","updated":"2013-08-10 3:28:01"},{"index":"83","category":"4","type":"2","level":"8","title":"리치","title_en":"Undead9","delete":"0","top":"2","left":"4","bottom":"9","right":"9","updated":"2013-08-10 3:29:55"},{"index":"84","category":"4","type":"2","level":"8","title":"골렘전차","title_en":"Robot9","delete":"0","top":"6","left":"9","bottom":"4","right":"7","updated":"2013-08-10 3:31:57"},{"index":"85","category":"4","type":"2","level":"8","title":"메두사","title_en":"Monster9","delete":"0","top":"9","left":"8","bottom":"2","right":"6","updated":"2013-08-10 3:33:03"},{"index":"86","category":"4","type":"2","level":"8","title":"간달프","title_en":"Elf9","delete":"0","top":"8","left":"2","bottom":"6","right":"9","updated":"2013-08-10 3:34:02"},{"index":"87","category":"4","type":"2","level":"8","title":"스트로베리","title_en":"Dwarf9","delete":"0","top":"5","left":"9","bottom":"9","right":"1","updated":"2013-08-10 3:35:34"},{"index":"88","category":"4","type":"2","level":"8","title":"비룡","title_en":"Dragon2","delete":"0","top":"9","left":"9","bottom":"2","right":"5","updated":"2013-08-10 3:38:35"},{"index":"89","category":"5","type":"3","level":"9","title":"옥타퍼스","title_en":"Water9","delete":"0","top":"8","left":"4","bottom":"10","right":"4","updated":"2013-08-10 13:14:31"},{"index":"90","category":"5","type":"3","level":"9","title":"불사조","title_en":"Fire9","delete":"0","top":"5","left":"3","bottom":"8","right":"10","updated":"2013-08-10 13:15:44"},{"index":"91","category":"5","type":"3","level":"9","title":"썬더스톰","title_en":"Wind9","delete":"0","top":"7","left":"7","bottom":"1","right":"10","updated":"2013-08-10 13:16:20"},{"index":"92","category":"5","type":"3","level":"9","title":"히말라야","title_en":"Land9","delete":"0","top":"8","left":"5","bottom":"3","right":"10","updated":"2013-08-10 13:16:45"},{"index":"93","category":"5","type":"3","level":"9","title":"황천용","title_en":"Dragon3","delete":"0","top":"10","left":"7","bottom":"7","right":"1","updated":"2013-08-10 13:17:24"},{"index":"94","category":"5","type":"3","level":"9","title":"전투용","title_en":"Dragon4","delete":"0","top":"7","left":"10","bottom":"6","right":"4","updated":"2013-08-10 13:17:47"},{"index":"95","category":"5","type":"3","level":"9","title":"궁극의 병기","title_en":"Robot10","delete":"0","top":"9","left":"2","bottom":"4","right":"10","updated":"2013-08-10 13:19:02"},{"index":"96","category":"5","type":"3","level":"9","title":"유니콘","title_en":"Monster10","delete":"0","top":"7","left":"10","bottom":"7","right":"2","updated":"2013-08-10 13:20:04"},{"index":"97","category":"5","type":"3","level":"9","title":"창기룡","title_en":"Dragon5","delete":"0","top":"10","left":"6","bottom":"2","right":"8","updated":"2013-08-10 13:20:51"},{"index":"98","category":"5","type":"3","level":"9","title":"마법지룡","title_en":"Dragon6","delete":"0","top":"3","left":"10","bottom":"10","right":"1","updated":"2013-08-10 13:21:36"},{"index":"99","category":"5","type":"3","level":"9","title":"그린드래곤","title_en":"Dragon7","delete":"0","top":"4","left":"10","bottom":"9","right":"4","updated":"2013-08-10 13:22:26"},{"index":"100","category":"5","type":"3","level":"10","title":"포세이돈","title_en":"Water10","delete":"0","top":"10","left":"8","bottom":"2","right":"7","updated":"2013-08-10 13:23:06"},{"index":"101","category":"5","type":"3","level":"10","title":"이그니시우스","title_en":"Fire10","delete":"0","top":"6","left":"10","bottom":"6","right":"7","updated":"2013-08-10 13:23:40"},{"index":"102","category":"5","type":"3","level":"10","title":"바람신 토르","title_en":"Wind10","delete":"0","top":"5","left":"9","bottom":"3","right":"10","updated":"2013-08-10 13:24:01"},{"index":"103","category":"5","type":"3","level":"10","title":"콜로서스","title_en":"Land10","delete":"0","top":"10","left":"4","bottom":"6","right":"8","updated":"2013-08-10 13:24:37"},{"index":"104","category":"5","type":"3","level":"10","title":"알렉산다르","title_en":"Human10","delete":"0","top":"9","left":"2","bottom":"10","right":"6","updated":"2013-08-10 13:25:03"},{"index":"105","category":"5","type":"3","level":"10","title":"데쓰나이트","title_en":"Undead10","delete":"0","top":"2","left":"10","bottom":"9","right":"6","updated":"2013-08-10 13:25:15"},{"index":"106","category":"5","type":"3","level":"10","title":"데몬헌터","title_en":"Elf10","delete":"0","top":"8","left":"6","bottom":"10","right":"5","updated":"2013-08-10 13:25:59"},{"index":"107","category":"5","type":"3","level":"10","title":"아이언포지","title_en":"Dwarf10","delete":"0","top":"4","left":"10","bottom":"2","right":"10","updated":"2013-08-10 13:26:24"},{"index":"108","category":"5","type":"3","level":"10","title":"레드드래곤","title_en":"Dragon8","delete":"0","top":"10","left":"3","bottom":"3","right":"10","updated":"2013-08-10 13:27:00"},{"index":"109","category":"5","type":"3","level":"10","title":"블루드래곤","title_en":"Dragon9","delete":"0","top":"6","left":"4","bottom":"10","right":"9","updated":"2013-08-10 13:27:18"},{"index":"110","category":"5","type":"3","level":"10","title":"블랙드래곤","title_en":"Dragon10","delete":"0","top":"10","left":"9","bottom":"6","right":"4","updated":"2013-08-10 13:28:06"}]
 
-    
+var myAllCard = localStorage.getItem("myAllCard")
+if(myAllCard){
+    myAllCard = myAllCard.replace(/['"]+/g, '') //remove. ""
+    myAllCard = myAllCard.split(",")
+}else{
+    myAllCard = []
+}
+console.log(myAllCard)
+
+let MyAllCard = runtimeScene.getVariables().get("MyAllCard");
+
+var gIndex = 0
+for(let i = 0; i< cardList.length; i++){
+    for(let j = 0; j< myAllCard.length; j++){
+
+            //console.log(j)
+        if(myAllCard[j]&&cardList[i].index==(j+1)){
+            //console.log(cardList[i].title_en)
+            MyAllCard.getChild(gIndex).getChild("top").setNumber(cardList[i].top)
+            MyAllCard.getChild(gIndex).getChild("left").setNumber(cardList[i].left)
+            MyAllCard.getChild(gIndex).getChild("right").setNumber(cardList[i].right)
+            MyAllCard.getChild(gIndex).getChild("bottom").setNumber(cardList[i].bottom)
+            MyAllCard.getChild(gIndex).getChild("title_en").setString(cardList[i].title_en)
+            MyAllCard.getChild(gIndex).getChild("count").setNumber(myAllCard[j])
+            gIndex++
+        }
+    }
+
+    // var keyText = "cardList"
+    // runtimeScene.getVariables().get(keyText).getChild(i).getChild("top").setNumber(cardList[i].top)
+    // runtimeScene.getVariables().get(keyText).getChild(i).getChild("left").setNumber(cardList[i].left)
+    // runtimeScene.getVariables().get(keyText).getChild(i).getChild("right").setNumber(cardList[i].right)
+    // runtimeScene.getVariables().get(keyText).getChild(i).getChild("bottom").setNumber(cardList[i].bottom)
+    // runtimeScene.getVariables().get(keyText).getChild(i).getChild("title_en").setString(cardList[i].title_en)
+}
+
+
+
 };
-gdjs.settingSceneCode.eventsList0 = function(runtimeScene) {
+gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDgrayLayoutObjects2Objects = Hashtable.newFrom({"grayLayout": gdjs.cardSceneCode.GDgrayLayoutObjects2});
+gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDgrayLayoutObjects5Objects = Hashtable.newFrom({"grayLayout": gdjs.cardSceneCode.GDgrayLayoutObjects5});
+gdjs.cardSceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
+gdjs.copyArray(gdjs.cardSceneCode.GDgrayLayoutObjects2, gdjs.cardSceneCode.GDgrayLayoutObjects5);
 
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x8d9880(runtimeScene);
-
-}
-
-
-{
+gdjs.copyArray(gdjs.cardSceneCode.GDnewCard2Objects2, gdjs.cardSceneCode.GDnewCard2Objects5);
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+{isConditionTrue_0 = (gdjs.cardSceneCode.localVariables[0].getFromIndex(1).getAsString() == (( gdjs.cardSceneCode.GDnewCard2Objects5.length === 0 ) ? "" :gdjs.cardSceneCode.GDnewCard2Objects5[0].getBehavior("Animation").getAnimationName()));
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmOnOffObjects2);
-{for(var i = 0, len = gdjs.settingSceneCode.GDbgmOnOffObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDbgmOnOffObjects2[i].SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDgrayLayoutObjects5Objects, (( gdjs.cardSceneCode.GDnewCard2Objects5.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects5[0].getPointX("")), (( gdjs.cardSceneCode.GDnewCard2Objects5.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects5[0].getPointY("")), false);
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.cardSceneCode.GDgrayLayoutObjects5 */
+/* Reuse gdjs.cardSceneCode.GDnewCard2Objects5 */
+{for(var i = 0, len = gdjs.cardSceneCode.GDnewCard2Objects5.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDnewCard2Objects5[i].returnVariable(gdjs.cardSceneCode.GDnewCard2Objects5[i].getVariables().getFromIndex(1)).setNumber(5);
+}
+}{gdjs.evtTools.debuggerTools.log(gdjs.cardSceneCode.localVariables[0].getFromIndex(1).getAsString(), "info", "");
+}{for(var i = 0, len = gdjs.cardSceneCode.GDgrayLayoutObjects5.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDgrayLayoutObjects5[i].deleteFromScene(runtimeScene);
 }
 }}
 
 }
 
 
+};gdjs.cardSceneCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+const valueIteratorReference4 = runtimeScene.getScene().getVariables().getFromIndex(49);
+const iterableReference4 = runtimeScene.getScene().getVariables().getFromIndex(48);
+if(!iterableReference4.isPrimitive()) {
+for(
+    const iteratorKey4 in 
+    iterableReference4.getType() === "structure"
+      ? iterableReference4.getAllChildren()
+      : iterableReference4.getType() === "array"
+        ? iterableReference4.getAllChildrenArray()
+        : []
+) {
+    const structureChildVariable4 = iterableReference4.getChild(iteratorKey4)
+    valueIteratorReference4.castTo(structureChildVariable4.getType())
+    if(structureChildVariable4.isPrimitive()) {
+        valueIteratorReference4.setValue(structureChildVariable4.getValue());
+    } else if (structureChildVariable4.getType() === "structure") {
+        // Structures are passed by reference like JS objects
+        valueIteratorReference4.replaceChildren(structureChildVariable4.getAllChildren());
+    } else if (structureChildVariable4.getType() === "array") {
+        // Arrays are passed by reference like JS objects
+        valueIteratorReference4.replaceChildrenArray(structureChildVariable4.getAllChildrenArray());
+    } else console.warn("Cannot identify type: ", type);
+
+let isConditionTrue_0 = false;
+if (true)
+{
+{gdjs.cardSceneCode.localVariables[0].getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(49).getChild("title_en").getAsString());
+}
+{ //Subevents: 
+gdjs.cardSceneCode.eventsList0(runtimeScene);} //Subevents end.
+}
+}
+}
+
+}
+
+
+};gdjs.cardSceneCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.cardSceneCode.userFunc0x92c6f0(runtimeScene);
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("newCard2"), gdjs.cardSceneCode.GDnewCard2Objects1);
+
+for (gdjs.cardSceneCode.forEachIndex2 = 0;gdjs.cardSceneCode.forEachIndex2 < gdjs.cardSceneCode.GDnewCard2Objects1.length;++gdjs.cardSceneCode.forEachIndex2) {
+gdjs.cardSceneCode.GDgrayLayoutObjects2.length = 0;
+
+gdjs.cardSceneCode.GDnewCard2Objects2.length = 0;
+
+
+gdjs.cardSceneCode.forEachTemporary2 = gdjs.cardSceneCode.GDnewCard2Objects1[gdjs.cardSceneCode.forEachIndex2];
+gdjs.cardSceneCode.GDnewCard2Objects2.push(gdjs.cardSceneCode.forEachTemporary2);
+let isConditionTrue_0 = false;
+if (true) {
+{for(var i = 0, len = gdjs.cardSceneCode.GDnewCard2Objects2.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDnewCard2Objects2[i].returnVariable(gdjs.cardSceneCode.GDnewCard2Objects2[i].getVariables().getFromIndex(0)).setNumber(gdjs.cardSceneCode.localVariables[0].getFromIndex(0).getAsNumber());
+}
+}{for(var i = 0, len = gdjs.cardSceneCode.GDnewCard2Objects2.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDnewCard2Objects2[i].getBehavior("Animation").setAnimationIndex(gdjs.cardSceneCode.localVariables[0].getFromIndex(0).getAsNumber());
+}
+}{gdjs.cardSceneCode.localVariables[0].getFromIndex(0).add(1);
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDgrayLayoutObjects2Objects, (( gdjs.cardSceneCode.GDnewCard2Objects2.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects2[0].getPointX("")), (( gdjs.cardSceneCode.GDnewCard2Objects2.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects2[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.cardSceneCode.GDgrayLayoutObjects2.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDgrayLayoutObjects2[i].getBehavior("Resizable").setSize((( gdjs.cardSceneCode.GDnewCard2Objects2.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects2[0].getWidth()), (( gdjs.cardSceneCode.GDnewCard2Objects2.length === 0 ) ? 0 :gdjs.cardSceneCode.GDnewCard2Objects2[0].getHeight()));
+}
+}
+{ //Subevents: 
+gdjs.cardSceneCode.eventsList1(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};gdjs.cardSceneCode.eventsList3 = function(runtimeScene) {
+
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() < 1280 / 2);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmOnOffObjects2);
-{for(var i = 0, len = gdjs.settingSceneCode.GDbgmOnOffObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDbgmOnOffObjects2[i].SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(1280 / 2);
 }}
 
 }
 
 
+};gdjs.cardSceneCode.eventsList4 = function(runtimeScene) {
+
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(1).getAsBoolean();
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() > 13000 - (1280 / 2));
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDsoundOnOffObjects2);
-{for(var i = 0, len = gdjs.settingSceneCode.GDsoundOnOffObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDsoundOnOffObjects2[i].SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(13000 - (1280 / 2));
 }}
 
 }
 
 
-{
+};gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDnewCard2Objects1Objects = Hashtable.newFrom({"newCard2": gdjs.cardSceneCode.GDnewCard2Objects1});
+gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDnewCard2Objects1Objects = Hashtable.newFrom({"newCard2": gdjs.cardSceneCode.GDnewCard2Objects1});
+gdjs.cardSceneCode.userFunc0x13d9678 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var cardList = 
+[{"index":"1","category":"1","type":"1","level":"1","title":"물조각","title_en":"Water1","delete":"0","top":"1","left":"5","bottom":"1","right":"4","updated":"2013-06-29 14:22:54"},{"index":"2","category":"1","type":"1","level":"1","title":"불조각","title_en":"Fire1","delete":"0","top":"5","left":"3","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"3","category":"1","type":"1","level":"1","title":"바람조각","title_en":"Wind1","delete":"0","top":"1","left":"5","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"4","category":"1","type":"1","level":"1","title":"대지조각","title_en":"Land1","delete":"0","top":"6","left":"2","bottom":"1","right":"1","updated":"2013-06-29 14:22:54"},{"index":"5","category":"1","type":"1","level":"1","title":"보병","title_en":"Human1","delete":"0","top":"2","left":"5","bottom":"1","right":"3","updated":"2013-06-29 14:22:54"},{"index":"6","category":"1","type":"1","level":"1","title":"좀비","title_en":"Undead1","delete":"0","top":"2","left":"4","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"7","category":"1","type":"1","level":"1","title":"소형로봇A","title_en":"Robot1","delete":"0","top":"1","left":"1","bottom":"4","right":"5","updated":"2013-06-29 14:22:54"},{"index":"8","category":"1","type":"1","level":"1","title":"늑대개","title_en":"Monster1","delete":"0","top":"3","left":"1","bottom":"2","right":"5","updated":"2013-06-29 14:22:54"},{"index":"9","category":"1","type":"1","level":"1","title":"엘프병사","title_en":"Elf1","delete":"0","top":"2","left":"1","bottom":"6","right":"1","updated":"2013-06-29 14:22:54"},{"index":"10","category":"1","type":"1","level":"1","title":"호빗","title_en":"Dwarf1","delete":"0","top":"4","left":"3","bottom":"4","right":"2","updated":"2013-06-29 14:22:54"},{"index":"11","category":"1","type":"1","level":"1","title":"궁수","title_en":"Human2","delete":"0","top":"2","left":"6","bottom":"2","right":"1","updated":"2013-06-29 14:22:54"},{"index":"12","category":"1","type":"1","level":"2","title":"물정령","title_en":"Water2","delete":"0","top":"7","left":"1","bottom":"3","right":"1","updated":"2013-06-29 14:22:54"},{"index":"13","category":"1","type":"1","level":"2","title":"불정령","title_en":"Fire2","delete":"0","top":"6","left":"3","bottom":"2","right":"2","updated":"2013-06-29 14:22:54"},{"index":"14","category":"1","type":"1","level":"2","title":"바람정령","title_en":"Wind2","delete":"0","top":"5","left":"4","bottom":"3","right":"3","updated":"2013-06-29 14:22:54"},{"index":"15","category":"1","type":"1","level":"2","title":"대지정령","title_en":"Land2","delete":"0","top":"6","left":"3","bottom":"4","right":"1","updated":"2013-06-29 14:22:54"},{"index":"16","category":"1","type":"1","level":"2","title":"정예병","title_en":"Human3","delete":"0","top":"3","left":"3","bottom":"5","right":"4","updated":"2013-06-29 14:22:54"},{"index":"17","category":"1","type":"1","level":"2","title":"악성좀비","title_en":"Undead2","delete":"0","top":"5","left":"5","bottom":"2","right":"3","updated":"2013-08-09 6:36:34"},{"index":"18","category":"1","type":"1","level":"2","title":"시계로봇","title_en":"Robot2","delete":"0","top":"5","left":"5","bottom":"3","right":"1","updated":"2013-08-09 6:37:13"},{"index":"19","category":"1","type":"1","level":"2","title":"불황소","title_en":"Monster2","delete":"0","top":"5","left":"2","bottom":"5","right":"2","updated":"2013-08-09 6:37:44"},{"index":"20","category":"1","type":"1","level":"2","title":"엘프궁수","title_en":"Elf2","delete":"0","top":"4","left":"2","bottom":"5","right":"4","updated":"2013-08-09 7:03:10"},{"index":"21","category":"1","type":"1","level":"2","title":"전투호빗","title_en":"Dwarf2","delete":"0","top":"3","left":"7","bottom":"1","right":"2","updated":"2013-08-09 7:03:38"},{"index":"22","category":"1","type":"1","level":"2","title":"폭탄좀비","title_en":"Undead3","delete":"0","top":"5","left":"3","bottom":"5","right":"2","updated":"2013-08-09 7:04:26"},{"index":"23","category":"1","type":"1","level":"3","title":"상위물정령","title_en":"Water3","delete":"0","top":"6","left":"2","bottom":"3","right":"6","updated":"2013-08-09 7:05:30"},{"index":"24","category":"1","type":"1","level":"3","title":"불상위정령","title_en":"Fire3","delete":"0","top":"6","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:05:39"},{"index":"25","category":"1","type":"1","level":"3","title":"바람상위정령","title_en":"Wind3","delete":"0","top":"3","left":"5","bottom":"5","right":"5","updated":"2013-08-09 7:05:58"},{"index":"26","category":"1","type":"1","level":"3","title":"대지상위정령","title_en":"Land3","delete":"0","top":"7","left":"3","bottom":"1","right":"5","updated":"2013-08-09 7:06:59"},{"index":"27","category":"1","type":"1","level":"3","title":"암살자","title_en":"Human4","delete":"0","top":"7","left":"3","bottom":"5","right":"1","updated":"2013-08-09 7:27:10"},{"index":"28","category":"1","type":"1","level":"3","title":"시체거미","title_en":"Undead4","delete":"0","top":"5","left":"3","bottom":"3","right":"6","updated":"2013-08-09 7:27:56"},{"index":"29","category":"1","type":"1","level":"3","title":"대형로봇A","title_en":"Robot3","delete":"0","top":"5","left":"4","bottom":"2","right":"6","updated":"2013-08-09 7:31:30"},{"index":"30","category":"1","type":"1","level":"3","title":"아나콘다","title_en":"Monster3","delete":"0","top":"4","left":"2","bottom":"7","right":"4","updated":"2013-08-09 7:32:09"},{"index":"31","category":"1","type":"1","level":"3","title":"엘프마법사","title_en":"Elf3","delete":"0","top":"6","left":"3","bottom":"6","right":"2","updated":"2013-08-09 7:32:53"},{"index":"32","category":"1","type":"1","level":"3","title":"도둑호빗","title_en":"Dwarf3","delete":"0","top":"3","left":"4","bottom":"4","right":"6","updated":"2013-08-09 7:33:56"},{"index":"33","category":"1","type":"1","level":"3","title":"엘프군주","title_en":"Elf4","delete":"0","top":"7","left":"5","bottom":"3","right":"2","updated":"2013-08-09 7:34:26"},{"index":"34","category":"2","type":"1","level":"4","title":"물소환수","title_en":"Water4","delete":"0","top":"2","left":"7","bottom":"6","right":"3","updated":"2013-08-09 7:35:22"},{"index":"35","category":"2","type":"1","level":"4","title":"불소환수","title_en":"Fire4","delete":"0","top":"6","left":"5","bottom":"4","right":"5","updated":"2013-08-09 7:38:35"},{"index":"36","category":"2","type":"1","level":"4","title":"바람소환수","title_en":"Wind4","delete":"0","top":"4","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:38:43"},{"index":"37","category":"2","type":"1","level":"4","title":"대지소환수","title_en":"Land4","delete":"0","top":"2","left":"3","bottom":"6","right":"7","updated":"2013-08-09 7:39:45"},{"index":"38","category":"2","type":"1","level":"4","title":"나이트","title_en":"Human5","delete":"0","top":"1","left":"7","bottom":"4","right":"6","updated":"2013-08-09 7:40:18"},{"index":"39","category":"2","type":"1","level":"4","title":"어보미네이션","title_en":"Undead5","delete":"0","top":"7","left":"6","bottom":"1","right":"3","updated":"2013-08-09 7:40:34"},{"index":"40","category":"2","type":"1","level":"4","title":"자폭로봇","title_en":"Robot4","delete":"0","top":"7","left":"4","bottom":"4","right":"4","updated":"2013-08-09 7:41:30"},{"index":"41","category":"2","type":"1","level":"4","title":"독수리","title_en":"Monster4","delete":"0","top":"3","left":"6","bottom":"3","right":"7","updated":"2013-08-09 7:43:03"},{"index":"42","category":"2","type":"1","level":"4","title":"엘프대마법사","title_en":"Elf5","delete":"0","top":"6","left":"3","bottom":"7","right":"2","updated":"2013-08-09 7:43:56"},{"index":"43","category":"2","type":"1","level":"4","title":"전투드워프","title_en":"Dwarf4","delete":"0","top":"4","left":"6","bottom":"5","right":"5","updated":"2013-08-09 7:44:43"},{"index":"44","category":"2","type":"1","level":"4","title":"골드드워프","title_en":"Dwarf5","delete":"0","top":"7","left":"3","bottom":"4","right":"5","updated":"2013-08-09 7:48:14"},{"index":"45","category":"2","type":"1","level":"5","title":"물군주","title_en":"Water5","delete":"0","top":"6","left":"5","bottom":"6","right":"5","updated":"2013-08-09 7:49:39"},{"index":"46","category":"2","type":"1","level":"5","title":"불군주","title_en":"Fire5","delete":"0","top":"3","left":"7","bottom":"5","right":"6","updated":"2013-08-09 7:50:25"},{"index":"47","category":"2","type":"1","level":"5","title":"바람군주","title_en":"Wind5","delete":"0","top":"7","left":"3","bottom":"5","right":"6","updated":"2013-08-09 7:51:02"},{"index":"48","category":"2","type":"1","level":"5","title":"대지군주","title_en":"Land5","delete":"0","top":"3","left":"1","bottom":"2","right":"10","updated":"2013-08-09 7:51:30"},{"index":"49","category":"2","type":"1","level":"5","title":"대장군","title_en":"Human6","delete":"0","top":"6","left":"7","bottom":"6","right":"2","updated":"2013-08-09 7:52:15"},{"index":"50","category":"2","type":"1","level":"5","title":"네크로멘서","title_en":"Undead6","delete":"0","top":"5","left":"4","bottom":"7","right":"5","updated":"2013-08-09 7:52:57"},{"index":"51","category":"2","type":"1","level":"5","title":"거대로봇","title_en":"Robot5","delete":"0","top":"7","left":"2","bottom":"4","right":"7","updated":"2013-08-09 7:53:28"},{"index":"52","category":"2","type":"1","level":"5","title":"호랑이","title_en":"Monster5","delete":"0","top":"7","left":"4","bottom":"7","right":"2","updated":"2013-08-09 7:54:20"},{"index":"53","category":"2","type":"1","level":"5","title":"엘프소환사","title_en":"Elf6","delete":"0","top":"5","left":"6","bottom":"7","right":"3","updated":"2013-08-09 7:55:05"},{"index":"54","category":"2","type":"1","level":"5","title":"폭탄드워프","title_en":"Dwarf6","delete":"0","top":"4","left":"4","bottom":"7","right":"8","updated":"2013-08-09 7:55:30"},{"index":"55","category":"2","type":"1","level":"5","title":"공성전차로봇","title_en":"Robot6","delete":"0","top":"6","left":"7","bottom":"2","right":"6","updated":"2013-08-09 7:56:16"},{"index":"56","category":"3","type":"2","level":"6","title":"물대군주","title_en":"Water6","delete":"0","top":"2","left":"4","bottom":"8","right":"8","updated":"2013-08-09 8:00:03"},{"index":"57","category":"3","type":"2","level":"6","title":"불대군주","title_en":"Fire6","delete":"0","top":"7","left":"4","bottom":"3","right":"8","updated":"2013-08-09 8:29:12"},{"index":"58","category":"3","type":"2","level":"6","title":"바람대군주","title_en":"Wind6","delete":"0","top":"4","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:29:52"},{"index":"59","category":"3","type":"2","level":"6","title":"대지대군주","title_en":"Land6","delete":"0","top":"7","left":"5","bottom":"8","right":"2","updated":"2013-08-09 8:30:25"},{"index":"60","category":"3","type":"2","level":"6","title":"골드나이트","title_en":"Human7","delete":"0","top":"1","left":"3","bottom":"8","right":"8","updated":"2013-08-09 8:31:07"},{"index":"61","category":"3","type":"2","level":"6","title":"가고일","title_en":"Undead7","delete":"0","top":"8","left":"2","bottom":"8","right":"2","updated":"2013-08-09 8:48:06"},{"index":"62","category":"3","type":"2","level":"6","title":"하이페리온","title_en":"Robot7","delete":"0","top":"6","left":"5","bottom":"4","right":"8","updated":"2013-08-09 8:48:40"},{"index":"63","category":"3","type":"2","level":"6","title":"사자","title_en":"Monster6","delete":"0","top":"4","left":"6","bottom":"5","right":"8","updated":"2013-08-09 8:49:49"},{"index":"64","category":"3","type":"2","level":"6","title":"흑마법사","title_en":"Elf7","delete":"0","top":"1","left":"8","bottom":"4","right":"8","updated":"2013-08-09 8:50:54"},{"index":"65","category":"3","type":"2","level":"6","title":"도끼드워프","title_en":"Dwarf7","delete":"0","top":"6","left":"4","bottom":"8","right":"5","updated":"2013-08-09 8:51:32"},{"index":"66","category":"3","type":"2","level":"6","title":"귀신호랑이","title_en":"Monster7","delete":"0","top":"7","left":"1","bottom":"8","right":"5","updated":"2013-08-09 8:51:55"},{"index":"67","category":"4","type":"2","level":"7","title":"물가오리","title_en":"Water7","delete":"0","top":"8","left":"8","bottom":"4","right":"4","updated":"2013-08-09 8:54:17"},{"index":"68","category":"4","type":"2","level":"7","title":"불탄","title_en":"Fire7","delete":"0","top":"8","left":"4","bottom":"4","right":"8","updated":"2013-08-09 8:54:27"},{"index":"69","category":"4","type":"2","level":"7","title":"강풍","title_en":"Wind7","delete":"0","top":"8","left":"8","bottom":"2","right":"5","updated":"2013-08-09 8:55:49"},{"index":"70","category":"4","type":"2","level":"7","title":"록타","title_en":"Land7","delete":"0","top":"5","left":"8","bottom":"6","right":"6","updated":"2013-08-09 8:56:16"},{"index":"71","category":"4","type":"2","level":"7","title":"로빈후드","title_en":"Human8","delete":"0","top":"8","left":"3","bottom":"7","right":"8","updated":"2013-08-09 8:58:42"},{"index":"72","category":"4","type":"2","level":"7","title":"데쓰드래곤","title_en":"Undead8","delete":"0","top":"8","left":"8","bottom":"5","right":"3","updated":"2013-08-09 8:58:51"},{"index":"73","category":"4","type":"2","level":"7","title":"아이언로봇","title_en":"Robot8","delete":"0","top":"8","left":"4","bottom":"5","right":"8","updated":"2013-08-09 8:59:38"},{"index":"74","category":"4","type":"2","level":"7","title":"불곰","title_en":"Monster8","delete":"0","top":"5","left":"5","bottom":"8","right":"7","updated":"2013-08-09 9:00:33"},{"index":"75","category":"4","type":"2","level":"7","title":"피의마법사","title_en":"Elf8","delete":"0","top":"6","left":"7","bottom":"4","right":"8","updated":"2013-08-09 9:00:44"},{"index":"76","category":"4","type":"2","level":"7","title":"강철드워프","title_en":"Dwarf8","delete":"0","top":"1","left":"7","bottom":"7","right":"8","updated":"2013-08-09 9:02:04"},{"index":"77","category":"4","type":"2","level":"7","title":"새끼용","title_en":"Dragon1","delete":"0","top":"7","left":"8","bottom":"2","right":"7","updated":"2013-08-09 9:02:29"},{"index":"78","category":"4","type":"2","level":"8","title":"폭포대왕","title_en":"Water8","delete":"0","top":"4","left":"9","bottom":"8","right":"4","updated":"2013-08-10 3:19:06"},{"index":"79","category":"4","type":"2","level":"8","title":"불사신","title_en":"Fire8","delete":"0","top":"9","left":"3","bottom":"7","right":"6","updated":"2013-08-10 3:24:12"},{"index":"80","category":"4","type":"2","level":"8","title":"썬더퓨리","title_en":"Wind8","delete":"0","top":"3","left":"6","bottom":"9","right":"7","updated":"2013-08-10 3:26:00"},{"index":"81","category":"4","type":"2","level":"8","title":"잉카누스","title_en":"Land8","delete":"0","top":"9","left":"2","bottom":"9","right":"3","updated":"2013-08-10 3:27:24"},{"index":"82","category":"4","type":"2","level":"8","title":"헤라클래스","title_en":"Human9","delete":"0","top":"9","left":"4","bottom":"8","right":"4","updated":"2013-08-10 3:28:01"},{"index":"83","category":"4","type":"2","level":"8","title":"리치","title_en":"Undead9","delete":"0","top":"2","left":"4","bottom":"9","right":"9","updated":"2013-08-10 3:29:55"},{"index":"84","category":"4","type":"2","level":"8","title":"골렘전차","title_en":"Robot9","delete":"0","top":"6","left":"9","bottom":"4","right":"7","updated":"2013-08-10 3:31:57"},{"index":"85","category":"4","type":"2","level":"8","title":"메두사","title_en":"Monster9","delete":"0","top":"9","left":"8","bottom":"2","right":"6","updated":"2013-08-10 3:33:03"},{"index":"86","category":"4","type":"2","level":"8","title":"간달프","title_en":"Elf9","delete":"0","top":"8","left":"2","bottom":"6","right":"9","updated":"2013-08-10 3:34:02"},{"index":"87","category":"4","type":"2","level":"8","title":"스트로베리","title_en":"Dwarf9","delete":"0","top":"5","left":"9","bottom":"9","right":"1","updated":"2013-08-10 3:35:34"},{"index":"88","category":"4","type":"2","level":"8","title":"비룡","title_en":"Dragon2","delete":"0","top":"9","left":"9","bottom":"2","right":"5","updated":"2013-08-10 3:38:35"},{"index":"89","category":"5","type":"3","level":"9","title":"옥타퍼스","title_en":"Water9","delete":"0","top":"8","left":"4","bottom":"10","right":"4","updated":"2013-08-10 13:14:31"},{"index":"90","category":"5","type":"3","level":"9","title":"불사조","title_en":"Fire9","delete":"0","top":"5","left":"3","bottom":"8","right":"10","updated":"2013-08-10 13:15:44"},{"index":"91","category":"5","type":"3","level":"9","title":"썬더스톰","title_en":"Wind9","delete":"0","top":"7","left":"7","bottom":"1","right":"10","updated":"2013-08-10 13:16:20"},{"index":"92","category":"5","type":"3","level":"9","title":"히말라야","title_en":"Land9","delete":"0","top":"8","left":"5","bottom":"3","right":"10","updated":"2013-08-10 13:16:45"},{"index":"93","category":"5","type":"3","level":"9","title":"황천용","title_en":"Dragon3","delete":"0","top":"10","left":"7","bottom":"7","right":"1","updated":"2013-08-10 13:17:24"},{"index":"94","category":"5","type":"3","level":"9","title":"전투용","title_en":"Dragon4","delete":"0","top":"7","left":"10","bottom":"6","right":"4","updated":"2013-08-10 13:17:47"},{"index":"95","category":"5","type":"3","level":"9","title":"궁극의 병기","title_en":"Robot10","delete":"0","top":"9","left":"2","bottom":"4","right":"10","updated":"2013-08-10 13:19:02"},{"index":"96","category":"5","type":"3","level":"9","title":"유니콘","title_en":"Monster10","delete":"0","top":"7","left":"10","bottom":"7","right":"2","updated":"2013-08-10 13:20:04"},{"index":"97","category":"5","type":"3","level":"9","title":"창기룡","title_en":"Dragon5","delete":"0","top":"10","left":"6","bottom":"2","right":"8","updated":"2013-08-10 13:20:51"},{"index":"98","category":"5","type":"3","level":"9","title":"마법지룡","title_en":"Dragon6","delete":"0","top":"3","left":"10","bottom":"10","right":"1","updated":"2013-08-10 13:21:36"},{"index":"99","category":"5","type":"3","level":"9","title":"그린드래곤","title_en":"Dragon7","delete":"0","top":"4","left":"10","bottom":"9","right":"4","updated":"2013-08-10 13:22:26"},{"index":"100","category":"5","type":"3","level":"10","title":"포세이돈","title_en":"Water10","delete":"0","top":"10","left":"8","bottom":"2","right":"7","updated":"2013-08-10 13:23:06"},{"index":"101","category":"5","type":"3","level":"10","title":"이그니시우스","title_en":"Fire10","delete":"0","top":"6","left":"10","bottom":"6","right":"7","updated":"2013-08-10 13:23:40"},{"index":"102","category":"5","type":"3","level":"10","title":"바람신 토르","title_en":"Wind10","delete":"0","top":"5","left":"9","bottom":"3","right":"10","updated":"2013-08-10 13:24:01"},{"index":"103","category":"5","type":"3","level":"10","title":"콜로서스","title_en":"Land10","delete":"0","top":"10","left":"4","bottom":"6","right":"8","updated":"2013-08-10 13:24:37"},{"index":"104","category":"5","type":"3","level":"10","title":"알렉산다르","title_en":"Human10","delete":"0","top":"9","left":"2","bottom":"10","right":"6","updated":"2013-08-10 13:25:03"},{"index":"105","category":"5","type":"3","level":"10","title":"데쓰나이트","title_en":"Undead10","delete":"0","top":"2","left":"10","bottom":"9","right":"6","updated":"2013-08-10 13:25:15"},{"index":"106","category":"5","type":"3","level":"10","title":"데몬헌터","title_en":"Elf10","delete":"0","top":"8","left":"6","bottom":"10","right":"5","updated":"2013-08-10 13:25:59"},{"index":"107","category":"5","type":"3","level":"10","title":"아이언포지","title_en":"Dwarf10","delete":"0","top":"4","left":"10","bottom":"2","right":"10","updated":"2013-08-10 13:26:24"},{"index":"108","category":"5","type":"3","level":"10","title":"레드드래곤","title_en":"Dragon8","delete":"0","top":"10","left":"3","bottom":"3","right":"10","updated":"2013-08-10 13:27:00"},{"index":"109","category":"5","type":"3","level":"10","title":"블루드래곤","title_en":"Dragon9","delete":"0","top":"6","left":"4","bottom":"10","right":"9","updated":"2013-08-10 13:27:18"},{"index":"110","category":"5","type":"3","level":"10","title":"블랙드래곤","title_en":"Dragon10","delete":"0","top":"10","left":"9","bottom":"6","right":"4","updated":"2013-08-10 13:28:06"}]
 
+var cardIndexForSelect = runtimeScene.getGame().getVariables().get("cardIndexForSelect").getAsNumber();
+//console.log(cardIndexForSelect + "!!!!!!")
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(1).getAsBoolean();
+var keyText = runtimeScene.getGame().getVariables().get("touchName").getAsString();
+
+var hasCard = false
+
+for(let i = 0; i < 4; i++){
+    
+    var nowCard = localStorage.getItem("myCard"+(i+1))
+    
+        console.log(keyText)
+        console.log(nowCard)
+
+    if(nowCard.indexOf(keyText) != -1){
+        //console.log("find")
+        //alert("find")
+        hasCard = true
+        runtimeScene.getVariables().get("hasCard").setBoolean(true)
+    }
 }
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDsoundOnOffObjects1);
-{for(var i = 0, len = gdjs.settingSceneCode.GDsoundOnOffObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDsoundOnOffObjects1[i].SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects = Hashtable.newFrom({"bottomMenu": gdjs.settingSceneCode.GDbottomMenuObjects1});
-gdjs.settingSceneCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(44).getAsBoolean();
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "playScene", false);
-}}
-
+if(hasCard){
+}else{
+    for(let i = 0; i< cardList.length; i++){
+        console.log(keyText + "!!!!!!")
+        if(keyText == cardList[i].title_en){
+            //console.log("matched")
+            localStorage.setItem("myCard"+(cardIndexForSelect+1),JSON.stringify(cardList[i]))
+        }
+    }
 }
 
-
-};gdjs.settingSceneCode.asyncCallback32997188 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32997188(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.asyncCallback32996356 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-{gdjs.evtTools.sound.playSound(runtimeScene, "game-level-complete-143022.mp3", false, 30, 1);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32996356(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.asyncCallback32996284 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects6);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects6.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects6[i].getBehavior("Text").setText("Searching for a match opponent *****");
-}
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList5 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-for (const obj of gdjs.settingSceneCode.GDaiDialog2Objects5) asyncObjectsList.addObject("aiDialog2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32996284(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.asyncCallback32995980 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects5);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects5.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects5[i].getBehavior("Text").setText("Searching for a match opponent ***");
-}
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList6 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-for (const obj of gdjs.settingSceneCode.GDaiDialog2Objects4) asyncObjectsList.addObject("aiDialog2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32995980(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.asyncCallback32995508 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects4);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects4.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects4[i].getBehavior("Text").setText("Searching for a match opponent **");
-}
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList6(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList7 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-for (const obj of gdjs.settingSceneCode.GDaiDialog2Objects3) asyncObjectsList.addObject("aiDialog2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32995508(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.asyncCallback32994580 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects3);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects3.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects3[i].getBehavior("Text").setText("Searching for a match opponent *");
-}
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList7(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList8 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-for (const obj of gdjs.settingSceneCode.GDaiDialog2Objects2) asyncObjectsList.addObject("aiDialog2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback32994580(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList9 = function(runtimeScene) {
+};
+gdjs.cardSceneCode.eventsList5 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) > gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 0 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) < gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 1 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) > gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 1 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) < gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 2 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(50).getAsBoolean();
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "deckScene", false);
@@ -828,366 +569,47 @@ if (isConditionTrue_0) {
 }
 
 
+};gdjs.cardSceneCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+gdjs.cardSceneCode.userFunc0x13d9678(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+
+{ //Subevents
+gdjs.cardSceneCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDNewTwoChoicesDialogBoxObjects1Objects = Hashtable.newFrom({"NewTwoChoicesDialogBox": gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1});
+gdjs.cardSceneCode.eventsList7 = function(runtimeScene) {
+
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) > gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 3 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) < gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 4 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() > 13000 - (1280 / 2));
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "shopScene", false);
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(13000 - (1280 / 2));
 }}
 
 }
 
 
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) > gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 2 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) < gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 3 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(44).getAsBoolean();
-}
-}
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects2);
-gdjs.copyArray(gdjs.settingSceneCode.GDbottomMenuObjects1, gdjs.settingSceneCode.GDbottomMenuObjects2);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects2[i].hide(false);
-}
-}{runtimeScene.getScene().getVariables().getFromIndex(44).setBoolean(true);
-}{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects2[i].setPosition((( gdjs.settingSceneCode.GDbottomMenuObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDbottomMenuObjects2[0].getCenterXInScene()) - 300,(( gdjs.settingSceneCode.GDbottomMenuObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDbottomMenuObjects2[0].getCenterYInScene()) - 600);
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects2[i].getBehavior("Text").setText("Searching for a match opponent ");
-}
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList8(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) > gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 4 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) < gdjs.settingSceneCode.localVariables[0].getFromIndex(0).getAsNumber() / 5 * 5 + runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber();
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "settingScene", false);
-}}
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x15d8f68 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-localStorage.setItem("isBGM", true)
-};
-gdjs.settingSceneCode.eventsList10 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x15d8f68(runtimeScene);
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x1d61968 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-localStorage.setItem("isBGM", false)
-};
-gdjs.settingSceneCode.eventsList11 = function(runtimeScene) {
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x1d61968(runtimeScene);
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x15dcdc8 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-localStorage.setItem("isSound", true)
-};
-gdjs.settingSceneCode.eventsList12 = function(runtimeScene) {
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x15dcdc8(runtimeScene);
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x8d8e60 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-localStorage.setItem("isSound", false)
-};
-gdjs.settingSceneCode.eventsList13 = function(runtimeScene) {
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x8d8e60(runtimeScene);
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x1d61300 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-try{
-
-localStorage.removeItem("myCard1")
-localStorage.removeItem("myCard2")
-localStorage.removeItem("myCard3")
-localStorage.removeItem("myCard4")
-localStorage.removeItem("myCard5")
-
-localStorage.removeItem("SNS")
-localStorage.removeItem("UID")
-localStorage.removeItem("UTYPE")
-localStorage.removeItem("myAllCard")
-localStorage.removeItem("myCardPower")
-}catch(e){
-
-}
-
-};
-gdjs.settingSceneCode.asyncCallback33006556 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList14 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback33006556(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList15 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "homeScene", false);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList14(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList16 = function(runtimeScene) {
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x1d61300(runtimeScene);
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList15(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.settingSceneCode.userFunc0x8d8798 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-var Http = new XMLHttpRequest()
-
-var UID = localStorage.getItem("UID")
-var UTYPE = localStorage.getItem("UTYPE")
-
-if(UID && UTYPE && UTYPE=="G"){
-runtimeScene.getVariables().get("loginRequired").setBoolean(false)
-
-
-var myCard1 = JSON.parse(localStorage.getItem('myCard1'))
-var myCard2 = JSON.parse(localStorage.getItem('myCard2'))
-var myCard3 = JSON.parse(localStorage.getItem('myCard3'))
-var myCard4 = JSON.parse(localStorage.getItem('myCard4'))
-var myCard5 = JSON.parse(localStorage.getItem('myCard5'))
-var myCardList = []
-myCardList.push(myCard1)
-myCardList.push(myCard2)
-myCardList.push(myCard3)
-myCardList.push(myCard4)
-myCardList.push(myCard5)
-console.log(myCardList)
-
-var UDATA = JSON.stringify(myCardList)
-var CDATA = localStorage.getItem("myAllCard")
-var SNS = localStorage.getItem("SNS")
-
-var url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScBiRCBDsBRdfuVdna7sYNoIH9f84ZbwylGk9GiYQm9WEal3g/formResponse'
-url += '?entry.666607724='+UID+'&entry.1280968874='+UDATA+'&entry.2017061005='+CDATA+'&entry.183500206='+SNS
-Http.open('GET', url);
-Http.send();
-
-}else{
-    runtimeScene.getVariables().get("loginRequired").setBoolean(true)
-}
-};
-gdjs.settingSceneCode.asyncCallback33008580 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2);
-gdjs.copyArray(asyncObjectsList.getObjects("saveDataLabel"), gdjs.settingSceneCode.GDsaveDataLabelObjects2);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects2[0].getX()));
-}
-}gdjs.settingSceneCode.localVariables.length = 0;
-}
-gdjs.settingSceneCode.eventsList17 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.settingSceneCode.localVariables);
-for (const obj of gdjs.settingSceneCode.GDsaveDataLabelObjects1) asyncObjectsList.addObject("saveDataLabel", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.settingSceneCode.asyncCallback33008580(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList18 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(43).getAsBoolean();
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2);
-gdjs.copyArray(gdjs.settingSceneCode.GDsaveDataLabelObjects1, gdjs.settingSceneCode.GDsaveDataLabelObjects2);
-
-{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].setX((( gdjs.settingSceneCode.GDsaveDataLabelObjects2.length === 0 ) ? 0 :gdjs.settingSceneCode.GDsaveDataLabelObjects2[0].getX()));
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2[i].getBehavior("Text").setText("Google Login is required.");
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(43).getAsBoolean();
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList17(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList19 = function(runtimeScene) {
-
-{
-
-
-gdjs.settingSceneCode.userFunc0x8d8798(runtimeScene);
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList18(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.settingSceneCode.eventsList20 = function(runtimeScene) {
+};gdjs.cardSceneCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -1196,7 +618,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.window.isFullScreen(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "settingScene");
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "cardScene");
 }}
 
 }
@@ -1205,7 +627,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.settingSceneCode.userFunc0xbebed0(runtimeScene);
+gdjs.cardSceneCode.userFunc0x92d350(runtimeScene);
 
 }
 
@@ -1222,312 +644,276 @@ variables._declare("cardIndex", variable);
 }
 {
 const variable = new gdjs.Variable();
-variable.setNumber(0);
-variables._declare("loopIndex", variable);
-}
-{
-const variable = new gdjs.Variable();
-variable.setNumber(0);
-variables._declare("myCardIndex", variable);
-}
-{
-const variable = new gdjs.Variable();
 variable.setString("");
-variables._declare("myCardText", variable);
+variables._declare("hasCardName", variable);
 }
-gdjs.settingSceneCode.localVariables.push(variables);
+gdjs.cardSceneCode.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Config"), gdjs.settingSceneCode.GDConfigObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Left_arrow"), gdjs.settingSceneCode.GDLeft_9595arrowObjects1);
-gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.settingSceneCode.GDNewSprite3Objects1);
-gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.settingSceneCode.GDNewTiledSpriteObjects1);
-gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1);
-gdjs.copyArray(runtimeScene.getObjects("aiDialog"), gdjs.settingSceneCode.GDaiDialogObjects1);
-gdjs.copyArray(runtimeScene.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("bottomMenu"), gdjs.settingSceneCode.GDbottomMenuObjects1);
-gdjs.copyArray(runtimeScene.getObjects("cardForEnemy"), gdjs.settingSceneCode.GDcardForEnemyObjects1);
-gdjs.copyArray(runtimeScene.getObjects("cardObject"), gdjs.settingSceneCode.GDcardObjectObjects1);
-gdjs.copyArray(runtimeScene.getObjects("cardObject2"), gdjs.settingSceneCode.GDcardObject2Objects1);
-{runtimeScene.getScene().getVariables().getFromIndex(23).setNumber((( gdjs.settingSceneCode.GDNewTiledSpriteObjects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDNewTiledSpriteObjects1[0].getX()));
-}{gdjs.evtsExt__AlignObject__ToSceneCentered.func(runtimeScene, gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDNewTiledSpriteObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{runtimeScene.getScene().getVariables().getFromIndex(23).setNumber((( gdjs.settingSceneCode.GDNewTiledSpriteObjects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDNewTiledSpriteObjects1[0].getX()));
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewSprite3Objects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewSprite3Objects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDNewSprite3Objects1[i].getPointX("")));
+gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1);
+gdjs.copyArray(runtimeScene.getObjects("bottomButton"), gdjs.cardSceneCode.GDbottomButtonObjects1);
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(1280 / 2);
+}{for(var i = 0, len = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.settingSceneCode.GDcardObjectObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDcardObjectObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDcardObjectObjects1[i].getPointX("")));
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDcardForEnemyObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDcardForEnemyObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDcardForEnemyObjects1[i].getPointX("")));
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDLeft_9595arrowObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDLeft_9595arrowObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDLeft_9595arrowObjects1[i].getPointX("")));
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDConfigObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDConfigObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDConfigObjects1[i].getPointX("")));
-}
-}{gdjs.evtTools.debuggerTools.log(gdjs.evtTools.common.toString((( gdjs.settingSceneCode.GDcardObject2Objects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDcardObject2Objects1[0].getPointX(""))), "info", "");
-}{for(var i = 0, len = gdjs.settingSceneCode.GDcardObjectObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDcardObjectObjects1[i].getBehavior("Animation").pauseAnimation();
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDcardForEnemyObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDcardForEnemyObjects1[i].getBehavior("Animation").pauseAnimation();
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects1[i].hide();
-}
-}{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialogObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialogObjects1[i].setX(runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber() + (gdjs.settingSceneCode.GDaiDialogObjects1[i].getPointX("")));
-}
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "click.mp3");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "click.mp3");
-}{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.settingSceneCode.GDbottomMenuObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDbottomMenuObjects1[i].setY((gdjs.settingSceneCode.GDbottomMenuObjects1[i].getPointY("")) - 50);
-}
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "end.mp3");
-}{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide();
-}
+}{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDbottomButtonObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.settingSceneCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.cardSceneCode.eventsList2(runtimeScene);} //End of subevents
 }
-gdjs.settingSceneCode.localVariables.pop();
+gdjs.cardSceneCode.localVariables.pop();
 
 }
 
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("bottomMenu"), gdjs.settingSceneCode.GDbottomMenuObjects1);
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 720, 13000, "", 0);
+}}
+
+}
+
 
 {
-const variables = new gdjs.VariablesContainer();
-{
-const variable = new gdjs.Variable();
-variable.setNumber(0);
-variables._declare("bottomMenuWidth", variable);
-}
-gdjs.settingSceneCode.localVariables.push(variables);
-}
+
+
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.settingSceneCode.mapOfGDgdjs_9546settingSceneCode_9546GDbottomMenuObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.isScrollingUp(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() - 100);
+}
+{ //Subevents
+gdjs.cardSceneCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isScrollingDown(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() + 100);
+}
+{ //Subevents
+gdjs.cardSceneCode.eventsList4(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene));
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.setCameraY(runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber(), "", 0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("topButton"), gdjs.cardSceneCode.GDtopButtonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.cardSceneCode.GDtopButtonObjects1.length;i<l;++i) {
+    if ( gdjs.cardSceneCode.GDtopButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.cardSceneCode.GDtopButtonObjects1[k] = gdjs.cardSceneCode.GDtopButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.cardSceneCode.GDtopButtonObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "deckScene", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("newCard2"), gdjs.cardSceneCode.GDnewCard2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDnewCard2Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.settingSceneCode.GDbottomMenuObjects1 */
-{gdjs.settingSceneCode.localVariables[0].getFromIndex(0).setNumber((( gdjs.settingSceneCode.GDbottomMenuObjects1.length === 0 ) ? 0 :gdjs.settingSceneCode.GDbottomMenuObjects1[0].getWidth()));
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList9(runtimeScene);} //End of subevents
-}
-gdjs.settingSceneCode.localVariables.pop();
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmOnOffObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDbgmOnOffObjects1[i].HasJustBeenChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDbgmOnOffObjects1[k] = gdjs.settingSceneCode.GDbgmOnOffObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDbgmOnOffObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
+{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(44).getAsBoolean();
+}
+}
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "daisy.mp3", 1, true, 5, 1);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList10(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("bgmOnOff"), gdjs.settingSceneCode.GDbgmOnOffObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDbgmOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDbgmOnOffObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDbgmOnOffObjects1[k] = gdjs.settingSceneCode.GDbgmOnOffObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDbgmOnOffObjects1.length = k;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
-}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList11(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDsoundOnOffObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsoundOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDsoundOnOffObjects1[i].HasJustBeenChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDsoundOnOffObjects1[k] = gdjs.settingSceneCode.GDsoundOnOffObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDsoundOnOffObjects1.length = k;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).setBoolean(true);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "flip.mp3", false, 100, 1);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList12(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("soundOnOff"), gdjs.settingSceneCode.GDsoundOnOffObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsoundOnOffObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDsoundOnOffObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDsoundOnOffObjects1[k] = gdjs.settingSceneCode.GDsoundOnOffObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDsoundOnOffObjects1.length = k;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).setBoolean(false);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList13(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("logoutLabel"), gdjs.settingSceneCode.GDlogoutLabelObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDlogoutLabelObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDlogoutLabelObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDlogoutLabelObjects1[k] = gdjs.settingSceneCode.GDlogoutLabelObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDlogoutLabelObjects1.length = k;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("0");
-}{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
-}
-{ //Subevents
-gdjs.settingSceneCode.eventsList16(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("saveDataLabel"), gdjs.settingSceneCode.GDsaveDataLabelObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDsaveDataLabelObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDsaveDataLabelObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDsaveDataLabelObjects1[k] = gdjs.settingSceneCode.GDsaveDataLabelObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = k;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.settingSceneCode.eventsList19(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].IsYesClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[k] = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1 */
-{for(var i = 0, len = gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("aiDialog2"), gdjs.settingSceneCode.GDaiDialog2Objects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.settingSceneCode.GDaiDialog2Objects1.length;i<l;++i) {
-    if ( gdjs.settingSceneCode.GDaiDialog2Objects1[i].IsYesClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.settingSceneCode.GDaiDialog2Objects1[k] = gdjs.settingSceneCode.GDaiDialog2Objects1[i];
-        ++k;
-    }
-}
-gdjs.settingSceneCode.GDaiDialog2Objects1.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.settingSceneCode.GDaiDialog2Objects1 */
+/* Reuse gdjs.cardSceneCode.GDnewCard2Objects1 */
 {runtimeScene.getScene().getVariables().getFromIndex(44).setBoolean(false);
-}{for(var i = 0, len = gdjs.settingSceneCode.GDaiDialog2Objects1.length ;i < len;++i) {
-    gdjs.settingSceneCode.GDaiDialog2Objects1[i].hide();
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
+}{gdjs.evtTools.debuggerTools.log("CLICK", "info", "");
+}{runtimeScene.getScene().getVariables().getFromIndex(46).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
+}{runtimeScene.getScene().getVariables().getFromIndex(47).setString((( gdjs.cardSceneCode.GDnewCard2Objects1.length === 0 ) ? "" :gdjs.cardSceneCode.GDnewCard2Objects1[0].getBehavior("Animation").getAnimationName()));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("newCard2"), gdjs.cardSceneCode.GDnewCard2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDnewCard2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.cardSceneCode.GDnewCard2Objects1 */
+{runtimeScene.getScene().getVariables().getFromIndex(44).setBoolean(true);
+}{gdjs.evtTools.debuggerTools.log(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "touchTimer")) + "is pressed", "info", "");
+}{runtimeScene.getScene().getVariables().getFromIndex(45).setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "touchTimer"));
+}{runtimeScene.getGame().getVariables().getFromIndex(3).setString((( gdjs.cardSceneCode.GDnewCard2Objects1.length === 0 ) ? "" :gdjs.cardSceneCode.GDnewCard2Objects1[0].getBehavior("Animation").getAnimationName()));
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
+}{runtimeScene.getScene().getVariables().getFromIndex(46).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(46).getAsNumber());
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("newCard2"), gdjs.cardSceneCode.GDnewCard2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(45).getAsNumber() >= 0.2);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(46).getAsNumber() <= Math.abs(5));
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(47).getAsString() == runtimeScene.getGame().getVariables().getFromIndex(3).getAsString());
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.cardSceneCode.GDnewCard2Objects1.length;i<l;++i) {
+    if ( gdjs.cardSceneCode.GDnewCard2Objects1[i].getBehavior("Animation").getAnimationName() == runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() ) {
+        isConditionTrue_0 = true;
+        gdjs.cardSceneCode.GDnewCard2Objects1[k] = gdjs.cardSceneCode.GDnewCard2Objects1[i];
+        ++k;
+    }
+}
+gdjs.cardSceneCode.GDnewCard2Objects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.cardSceneCode.GDnewCard2Objects1.length;i<l;++i) {
+    if ( gdjs.cardSceneCode.GDnewCard2Objects1[i].getVariableNumber(gdjs.cardSceneCode.GDnewCard2Objects1[i].getVariables().getFromIndex(1)) == 5 ) {
+        isConditionTrue_0 = true;
+        gdjs.cardSceneCode.GDnewCard2Objects1[k] = gdjs.cardSceneCode.GDnewCard2Objects1[i];
+        ++k;
+    }
+}
+gdjs.cardSceneCode.GDnewCard2Objects1.length = k;
+}
+}
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.debuggerTools.log("CLICK2", "info", "");
+}
+{ //Subevents
+gdjs.cardSceneCode.eventsList6(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(50).getAsBoolean();
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.cardSceneCode.GDNewTiledSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1);
+{runtimeScene.getScene().getVariables().getFromIndex(50).setBoolean(false);
+}{gdjs.evtsExt__AlignObject__ToSceneCentered.func(runtimeScene, gdjs.cardSceneCode.mapOfGDgdjs_9546cardSceneCode_9546GDNewTwoChoicesDialogBoxObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].setX((( gdjs.cardSceneCode.GDNewTiledSpriteObjects1.length === 0 ) ? 0 :gdjs.cardSceneCode.GDNewTiledSpriteObjects1[0].getX()) + 75);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewTwoChoicesDialogBox"), gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length;i<l;++i) {
+    if ( gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].IsYesClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[k] = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i];
+        ++k;
+    }
+}
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1 */
+{for(var i = 0, len = gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length ;i < len;++i) {
+    gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1[i].hide();
 }
 }}
 
@@ -1539,6 +925,30 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("bottomButton"), gdjs.cardSceneCode.GDbottomButtonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.cardSceneCode.GDbottomButtonObjects1.length;i<l;++i) {
+    if ( gdjs.cardSceneCode.GDbottomButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.cardSceneCode.GDbottomButtonObjects1[k] = gdjs.cardSceneCode.GDbottomButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.cardSceneCode.GDbottomButtonObjects1.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() + 1280);
+}
+{ //Subevents
+gdjs.cardSceneCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 }
@@ -1546,969 +956,591 @@ let isConditionTrue_0 = false;
 
 };
 
-gdjs.settingSceneCode.func = function(runtimeScene) {
+gdjs.cardSceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects2.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects3.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects4.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects5.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects6.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects7.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects8.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects9.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects1.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects2.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects3.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects4.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects5.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects6.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects7.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects8.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects9.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects1.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects2.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects3.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects4.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects5.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects6.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects7.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects8.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects9.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects1.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects2.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects3.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects4.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects5.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects6.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects7.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects8.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects9.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects1.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects2.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects3.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects4.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects5.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects6.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects7.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects8.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects9.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects1.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects2.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects3.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects4.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects5.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects6.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects7.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects8.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects1.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects2.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects3.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects4.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects5.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects6.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects7.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects8.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects9.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects1.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects2.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects3.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects4.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects5.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects6.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects7.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects8.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects9.length = 0;
-gdjs.settingSceneCode.GDBuyObjects1.length = 0;
-gdjs.settingSceneCode.GDBuyObjects2.length = 0;
-gdjs.settingSceneCode.GDBuyObjects3.length = 0;
-gdjs.settingSceneCode.GDBuyObjects4.length = 0;
-gdjs.settingSceneCode.GDBuyObjects5.length = 0;
-gdjs.settingSceneCode.GDBuyObjects6.length = 0;
-gdjs.settingSceneCode.GDBuyObjects7.length = 0;
-gdjs.settingSceneCode.GDBuyObjects8.length = 0;
-gdjs.settingSceneCode.GDBuyObjects9.length = 0;
-gdjs.settingSceneCode.GDConfigObjects1.length = 0;
-gdjs.settingSceneCode.GDConfigObjects2.length = 0;
-gdjs.settingSceneCode.GDConfigObjects3.length = 0;
-gdjs.settingSceneCode.GDConfigObjects4.length = 0;
-gdjs.settingSceneCode.GDConfigObjects5.length = 0;
-gdjs.settingSceneCode.GDConfigObjects6.length = 0;
-gdjs.settingSceneCode.GDConfigObjects7.length = 0;
-gdjs.settingSceneCode.GDConfigObjects8.length = 0;
-gdjs.settingSceneCode.GDConfigObjects9.length = 0;
-gdjs.settingSceneCode.GDApplyObjects1.length = 0;
-gdjs.settingSceneCode.GDApplyObjects2.length = 0;
-gdjs.settingSceneCode.GDApplyObjects3.length = 0;
-gdjs.settingSceneCode.GDApplyObjects4.length = 0;
-gdjs.settingSceneCode.GDApplyObjects5.length = 0;
-gdjs.settingSceneCode.GDApplyObjects6.length = 0;
-gdjs.settingSceneCode.GDApplyObjects7.length = 0;
-gdjs.settingSceneCode.GDApplyObjects8.length = 0;
-gdjs.settingSceneCode.GDApplyObjects9.length = 0;
-gdjs.settingSceneCode.GDBackObjects1.length = 0;
-gdjs.settingSceneCode.GDBackObjects2.length = 0;
-gdjs.settingSceneCode.GDBackObjects3.length = 0;
-gdjs.settingSceneCode.GDBackObjects4.length = 0;
-gdjs.settingSceneCode.GDBackObjects5.length = 0;
-gdjs.settingSceneCode.GDBackObjects6.length = 0;
-gdjs.settingSceneCode.GDBackObjects7.length = 0;
-gdjs.settingSceneCode.GDBackObjects8.length = 0;
-gdjs.settingSceneCode.GDBackObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDHeartObjects1.length = 0;
-gdjs.settingSceneCode.GDHeartObjects2.length = 0;
-gdjs.settingSceneCode.GDHeartObjects3.length = 0;
-gdjs.settingSceneCode.GDHeartObjects4.length = 0;
-gdjs.settingSceneCode.GDHeartObjects5.length = 0;
-gdjs.settingSceneCode.GDHeartObjects6.length = 0;
-gdjs.settingSceneCode.GDHeartObjects7.length = 0;
-gdjs.settingSceneCode.GDHeartObjects8.length = 0;
-gdjs.settingSceneCode.GDHeartObjects9.length = 0;
-gdjs.settingSceneCode.GDHelpObjects1.length = 0;
-gdjs.settingSceneCode.GDHelpObjects2.length = 0;
-gdjs.settingSceneCode.GDHelpObjects3.length = 0;
-gdjs.settingSceneCode.GDHelpObjects4.length = 0;
-gdjs.settingSceneCode.GDHelpObjects5.length = 0;
-gdjs.settingSceneCode.GDHelpObjects6.length = 0;
-gdjs.settingSceneCode.GDHelpObjects7.length = 0;
-gdjs.settingSceneCode.GDHelpObjects8.length = 0;
-gdjs.settingSceneCode.GDHelpObjects9.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects1.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects2.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects3.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects4.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects5.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects6.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects7.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects8.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects9.length = 0;
-gdjs.settingSceneCode.GDMenuObjects1.length = 0;
-gdjs.settingSceneCode.GDMenuObjects2.length = 0;
-gdjs.settingSceneCode.GDMenuObjects3.length = 0;
-gdjs.settingSceneCode.GDMenuObjects4.length = 0;
-gdjs.settingSceneCode.GDMenuObjects5.length = 0;
-gdjs.settingSceneCode.GDMenuObjects6.length = 0;
-gdjs.settingSceneCode.GDMenuObjects7.length = 0;
-gdjs.settingSceneCode.GDMenuObjects8.length = 0;
-gdjs.settingSceneCode.GDMenuObjects9.length = 0;
-gdjs.settingSceneCode.GDPauseObjects1.length = 0;
-gdjs.settingSceneCode.GDPauseObjects2.length = 0;
-gdjs.settingSceneCode.GDPauseObjects3.length = 0;
-gdjs.settingSceneCode.GDPauseObjects4.length = 0;
-gdjs.settingSceneCode.GDPauseObjects5.length = 0;
-gdjs.settingSceneCode.GDPauseObjects6.length = 0;
-gdjs.settingSceneCode.GDPauseObjects7.length = 0;
-gdjs.settingSceneCode.GDPauseObjects8.length = 0;
-gdjs.settingSceneCode.GDPauseObjects9.length = 0;
-gdjs.settingSceneCode.GDPlayObjects1.length = 0;
-gdjs.settingSceneCode.GDPlayObjects2.length = 0;
-gdjs.settingSceneCode.GDPlayObjects3.length = 0;
-gdjs.settingSceneCode.GDPlayObjects4.length = 0;
-gdjs.settingSceneCode.GDPlayObjects5.length = 0;
-gdjs.settingSceneCode.GDPlayObjects6.length = 0;
-gdjs.settingSceneCode.GDPlayObjects7.length = 0;
-gdjs.settingSceneCode.GDPlayObjects8.length = 0;
-gdjs.settingSceneCode.GDPlayObjects9.length = 0;
-gdjs.settingSceneCode.GDPlusObjects1.length = 0;
-gdjs.settingSceneCode.GDPlusObjects2.length = 0;
-gdjs.settingSceneCode.GDPlusObjects3.length = 0;
-gdjs.settingSceneCode.GDPlusObjects4.length = 0;
-gdjs.settingSceneCode.GDPlusObjects5.length = 0;
-gdjs.settingSceneCode.GDPlusObjects6.length = 0;
-gdjs.settingSceneCode.GDPlusObjects7.length = 0;
-gdjs.settingSceneCode.GDPlusObjects8.length = 0;
-gdjs.settingSceneCode.GDPlusObjects9.length = 0;
-gdjs.settingSceneCode.GDNextObjects1.length = 0;
-gdjs.settingSceneCode.GDNextObjects2.length = 0;
-gdjs.settingSceneCode.GDNextObjects3.length = 0;
-gdjs.settingSceneCode.GDNextObjects4.length = 0;
-gdjs.settingSceneCode.GDNextObjects5.length = 0;
-gdjs.settingSceneCode.GDNextObjects6.length = 0;
-gdjs.settingSceneCode.GDNextObjects7.length = 0;
-gdjs.settingSceneCode.GDNextObjects8.length = 0;
-gdjs.settingSceneCode.GDNextObjects9.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects1.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects2.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects3.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects4.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects5.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects6.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects7.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects8.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects9.length = 0;
-gdjs.settingSceneCode.GDShareObjects1.length = 0;
-gdjs.settingSceneCode.GDShareObjects2.length = 0;
-gdjs.settingSceneCode.GDShareObjects3.length = 0;
-gdjs.settingSceneCode.GDShareObjects4.length = 0;
-gdjs.settingSceneCode.GDShareObjects5.length = 0;
-gdjs.settingSceneCode.GDShareObjects6.length = 0;
-gdjs.settingSceneCode.GDShareObjects7.length = 0;
-gdjs.settingSceneCode.GDShareObjects8.length = 0;
-gdjs.settingSceneCode.GDShareObjects9.length = 0;
-gdjs.settingSceneCode.GDRetryObjects1.length = 0;
-gdjs.settingSceneCode.GDRetryObjects2.length = 0;
-gdjs.settingSceneCode.GDRetryObjects3.length = 0;
-gdjs.settingSceneCode.GDRetryObjects4.length = 0;
-gdjs.settingSceneCode.GDRetryObjects5.length = 0;
-gdjs.settingSceneCode.GDRetryObjects6.length = 0;
-gdjs.settingSceneCode.GDRetryObjects7.length = 0;
-gdjs.settingSceneCode.GDRetryObjects8.length = 0;
-gdjs.settingSceneCode.GDRetryObjects9.length = 0;
-gdjs.settingSceneCode.GDWorldObjects1.length = 0;
-gdjs.settingSceneCode.GDWorldObjects2.length = 0;
-gdjs.settingSceneCode.GDWorldObjects3.length = 0;
-gdjs.settingSceneCode.GDWorldObjects4.length = 0;
-gdjs.settingSceneCode.GDWorldObjects5.length = 0;
-gdjs.settingSceneCode.GDWorldObjects6.length = 0;
-gdjs.settingSceneCode.GDWorldObjects7.length = 0;
-gdjs.settingSceneCode.GDWorldObjects8.length = 0;
-gdjs.settingSceneCode.GDWorldObjects9.length = 0;
-gdjs.settingSceneCode.GDStarObjects1.length = 0;
-gdjs.settingSceneCode.GDStarObjects2.length = 0;
-gdjs.settingSceneCode.GDStarObjects3.length = 0;
-gdjs.settingSceneCode.GDStarObjects4.length = 0;
-gdjs.settingSceneCode.GDStarObjects5.length = 0;
-gdjs.settingSceneCode.GDStarObjects6.length = 0;
-gdjs.settingSceneCode.GDStarObjects7.length = 0;
-gdjs.settingSceneCode.GDStarObjects8.length = 0;
-gdjs.settingSceneCode.GDStarObjects9.length = 0;
-gdjs.settingSceneCode.GDAdsObjects1.length = 0;
-gdjs.settingSceneCode.GDAdsObjects2.length = 0;
-gdjs.settingSceneCode.GDAdsObjects3.length = 0;
-gdjs.settingSceneCode.GDAdsObjects4.length = 0;
-gdjs.settingSceneCode.GDAdsObjects5.length = 0;
-gdjs.settingSceneCode.GDAdsObjects6.length = 0;
-gdjs.settingSceneCode.GDAdsObjects7.length = 0;
-gdjs.settingSceneCode.GDAdsObjects8.length = 0;
-gdjs.settingSceneCode.GDAdsObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects1.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects2.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects3.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects4.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects5.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects6.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects7.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects8.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects9.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects1.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects2.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects3.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects4.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects5.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects6.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects7.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects8.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects9.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects1.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects2.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects3.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects4.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects5.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects6.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects7.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects8.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects9.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects1.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects2.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects3.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects4.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects5.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects6.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects7.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects8.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects9.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects1.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects2.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects3.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects4.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects5.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects6.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects7.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects8.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects9.length = 0;
-gdjs.settingSceneCode.GDtitleObjects1.length = 0;
-gdjs.settingSceneCode.GDtitleObjects2.length = 0;
-gdjs.settingSceneCode.GDtitleObjects3.length = 0;
-gdjs.settingSceneCode.GDtitleObjects4.length = 0;
-gdjs.settingSceneCode.GDtitleObjects5.length = 0;
-gdjs.settingSceneCode.GDtitleObjects6.length = 0;
-gdjs.settingSceneCode.GDtitleObjects7.length = 0;
-gdjs.settingSceneCode.GDtitleObjects8.length = 0;
-gdjs.settingSceneCode.GDtitleObjects9.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects1.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects2.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects3.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects4.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects5.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects6.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects7.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects8.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects9.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects1.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects2.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects3.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects4.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects5.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects6.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects7.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects8.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects9.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects4.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects5.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects6.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects7.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects8.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects9.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects5.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects6.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects7.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects8.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects9.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects1.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects2.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects3.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects4.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects5.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects6.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects7.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects8.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects9.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects1.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects2.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects3.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects4.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects5.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects6.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects7.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects8.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects9.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects1.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects2.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects3.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects4.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects5.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects6.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects7.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects8.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects9.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects1.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects2.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects3.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects4.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects5.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects6.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects7.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects8.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects9.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects1.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects2.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects3.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects4.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects5.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects6.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects7.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects8.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects1.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects2.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects3.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects4.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects5.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects6.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects7.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects8.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects9.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects1.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects2.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects3.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects4.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects5.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects6.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects1.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects2.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects3.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects4.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects5.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects6.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects1.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects2.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects3.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects4.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects5.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects6.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects1.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects2.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects3.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects4.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects5.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects6.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects1.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects2.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects3.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects4.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects5.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects6.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects1.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects2.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects3.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects4.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects5.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects6.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects1.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects2.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects3.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects4.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects5.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects6.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects1.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects2.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects3.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects4.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects5.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects6.length = 0;
+gdjs.cardSceneCode.GDBuyObjects1.length = 0;
+gdjs.cardSceneCode.GDBuyObjects2.length = 0;
+gdjs.cardSceneCode.GDBuyObjects3.length = 0;
+gdjs.cardSceneCode.GDBuyObjects4.length = 0;
+gdjs.cardSceneCode.GDBuyObjects5.length = 0;
+gdjs.cardSceneCode.GDBuyObjects6.length = 0;
+gdjs.cardSceneCode.GDConfigObjects1.length = 0;
+gdjs.cardSceneCode.GDConfigObjects2.length = 0;
+gdjs.cardSceneCode.GDConfigObjects3.length = 0;
+gdjs.cardSceneCode.GDConfigObjects4.length = 0;
+gdjs.cardSceneCode.GDConfigObjects5.length = 0;
+gdjs.cardSceneCode.GDConfigObjects6.length = 0;
+gdjs.cardSceneCode.GDApplyObjects1.length = 0;
+gdjs.cardSceneCode.GDApplyObjects2.length = 0;
+gdjs.cardSceneCode.GDApplyObjects3.length = 0;
+gdjs.cardSceneCode.GDApplyObjects4.length = 0;
+gdjs.cardSceneCode.GDApplyObjects5.length = 0;
+gdjs.cardSceneCode.GDApplyObjects6.length = 0;
+gdjs.cardSceneCode.GDBackObjects1.length = 0;
+gdjs.cardSceneCode.GDBackObjects2.length = 0;
+gdjs.cardSceneCode.GDBackObjects3.length = 0;
+gdjs.cardSceneCode.GDBackObjects4.length = 0;
+gdjs.cardSceneCode.GDBackObjects5.length = 0;
+gdjs.cardSceneCode.GDBackObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDHeartObjects1.length = 0;
+gdjs.cardSceneCode.GDHeartObjects2.length = 0;
+gdjs.cardSceneCode.GDHeartObjects3.length = 0;
+gdjs.cardSceneCode.GDHeartObjects4.length = 0;
+gdjs.cardSceneCode.GDHeartObjects5.length = 0;
+gdjs.cardSceneCode.GDHeartObjects6.length = 0;
+gdjs.cardSceneCode.GDHelpObjects1.length = 0;
+gdjs.cardSceneCode.GDHelpObjects2.length = 0;
+gdjs.cardSceneCode.GDHelpObjects3.length = 0;
+gdjs.cardSceneCode.GDHelpObjects4.length = 0;
+gdjs.cardSceneCode.GDHelpObjects5.length = 0;
+gdjs.cardSceneCode.GDHelpObjects6.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects1.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects2.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects3.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects4.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects5.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects6.length = 0;
+gdjs.cardSceneCode.GDMenuObjects1.length = 0;
+gdjs.cardSceneCode.GDMenuObjects2.length = 0;
+gdjs.cardSceneCode.GDMenuObjects3.length = 0;
+gdjs.cardSceneCode.GDMenuObjects4.length = 0;
+gdjs.cardSceneCode.GDMenuObjects5.length = 0;
+gdjs.cardSceneCode.GDMenuObjects6.length = 0;
+gdjs.cardSceneCode.GDPauseObjects1.length = 0;
+gdjs.cardSceneCode.GDPauseObjects2.length = 0;
+gdjs.cardSceneCode.GDPauseObjects3.length = 0;
+gdjs.cardSceneCode.GDPauseObjects4.length = 0;
+gdjs.cardSceneCode.GDPauseObjects5.length = 0;
+gdjs.cardSceneCode.GDPauseObjects6.length = 0;
+gdjs.cardSceneCode.GDPlayObjects1.length = 0;
+gdjs.cardSceneCode.GDPlayObjects2.length = 0;
+gdjs.cardSceneCode.GDPlayObjects3.length = 0;
+gdjs.cardSceneCode.GDPlayObjects4.length = 0;
+gdjs.cardSceneCode.GDPlayObjects5.length = 0;
+gdjs.cardSceneCode.GDPlayObjects6.length = 0;
+gdjs.cardSceneCode.GDPlusObjects1.length = 0;
+gdjs.cardSceneCode.GDPlusObjects2.length = 0;
+gdjs.cardSceneCode.GDPlusObjects3.length = 0;
+gdjs.cardSceneCode.GDPlusObjects4.length = 0;
+gdjs.cardSceneCode.GDPlusObjects5.length = 0;
+gdjs.cardSceneCode.GDPlusObjects6.length = 0;
+gdjs.cardSceneCode.GDNextObjects1.length = 0;
+gdjs.cardSceneCode.GDNextObjects2.length = 0;
+gdjs.cardSceneCode.GDNextObjects3.length = 0;
+gdjs.cardSceneCode.GDNextObjects4.length = 0;
+gdjs.cardSceneCode.GDNextObjects5.length = 0;
+gdjs.cardSceneCode.GDNextObjects6.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects1.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects2.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects3.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects4.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects5.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects6.length = 0;
+gdjs.cardSceneCode.GDShareObjects1.length = 0;
+gdjs.cardSceneCode.GDShareObjects2.length = 0;
+gdjs.cardSceneCode.GDShareObjects3.length = 0;
+gdjs.cardSceneCode.GDShareObjects4.length = 0;
+gdjs.cardSceneCode.GDShareObjects5.length = 0;
+gdjs.cardSceneCode.GDShareObjects6.length = 0;
+gdjs.cardSceneCode.GDRetryObjects1.length = 0;
+gdjs.cardSceneCode.GDRetryObjects2.length = 0;
+gdjs.cardSceneCode.GDRetryObjects3.length = 0;
+gdjs.cardSceneCode.GDRetryObjects4.length = 0;
+gdjs.cardSceneCode.GDRetryObjects5.length = 0;
+gdjs.cardSceneCode.GDRetryObjects6.length = 0;
+gdjs.cardSceneCode.GDWorldObjects1.length = 0;
+gdjs.cardSceneCode.GDWorldObjects2.length = 0;
+gdjs.cardSceneCode.GDWorldObjects3.length = 0;
+gdjs.cardSceneCode.GDWorldObjects4.length = 0;
+gdjs.cardSceneCode.GDWorldObjects5.length = 0;
+gdjs.cardSceneCode.GDWorldObjects6.length = 0;
+gdjs.cardSceneCode.GDStarObjects1.length = 0;
+gdjs.cardSceneCode.GDStarObjects2.length = 0;
+gdjs.cardSceneCode.GDStarObjects3.length = 0;
+gdjs.cardSceneCode.GDStarObjects4.length = 0;
+gdjs.cardSceneCode.GDStarObjects5.length = 0;
+gdjs.cardSceneCode.GDStarObjects6.length = 0;
+gdjs.cardSceneCode.GDAdsObjects1.length = 0;
+gdjs.cardSceneCode.GDAdsObjects2.length = 0;
+gdjs.cardSceneCode.GDAdsObjects3.length = 0;
+gdjs.cardSceneCode.GDAdsObjects4.length = 0;
+gdjs.cardSceneCode.GDAdsObjects5.length = 0;
+gdjs.cardSceneCode.GDAdsObjects6.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects1.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects2.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects3.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects4.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects5.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects6.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects1.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects2.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects3.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects4.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects5.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects6.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects1.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects2.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects3.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects4.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects5.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects6.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects1.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects2.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects3.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects4.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects5.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects6.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects1.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects2.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects3.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects4.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects5.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects6.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects1.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects2.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects3.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects4.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects5.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects6.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects2.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects3.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects4.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects5.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects6.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects1.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects2.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects3.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects4.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects5.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects6.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects1.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects2.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects3.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects4.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects5.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects6.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects1.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects2.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects3.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects4.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects5.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects6.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects1.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects2.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects3.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects4.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects5.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects6.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects1.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects2.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects3.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects4.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects5.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects6.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects1.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects2.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects3.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects4.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects5.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects6.length = 0;
 
-gdjs.settingSceneCode.eventsList20(runtimeScene);
-gdjs.settingSceneCode.GDNewSprite3Objects1.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects2.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects3.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects4.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects5.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects6.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects7.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects8.length = 0;
-gdjs.settingSceneCode.GDNewSprite3Objects9.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects1.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects2.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects3.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects4.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects5.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects6.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects7.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects8.length = 0;
-gdjs.settingSceneCode.GDNewTiledSpriteObjects9.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects1.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects2.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects3.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects4.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects5.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects6.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects7.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects8.length = 0;
-gdjs.settingSceneCode.GDNewTiledSprite2Objects9.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDredLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDblueLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects1.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects2.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects3.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects4.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects5.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects6.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects7.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects8.length = 0;
-gdjs.settingSceneCode.GDNewSprite2Objects9.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects1.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects2.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects3.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects4.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects5.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects6.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects7.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects8.length = 0;
-gdjs.settingSceneCode.GDNewPanelSpriteObjects9.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects1.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects2.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects3.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects4.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects5.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects6.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects7.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects8.length = 0;
-gdjs.settingSceneCode.GDlevelTextObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects1.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects2.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects3.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects4.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects5.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects6.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects7.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects8.length = 0;
-gdjs.settingSceneCode.GDcardObjectObjects9.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects1.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects2.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects3.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects4.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects5.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects6.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects7.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects8.length = 0;
-gdjs.settingSceneCode.GDDownloadObjects9.length = 0;
-gdjs.settingSceneCode.GDBuyObjects1.length = 0;
-gdjs.settingSceneCode.GDBuyObjects2.length = 0;
-gdjs.settingSceneCode.GDBuyObjects3.length = 0;
-gdjs.settingSceneCode.GDBuyObjects4.length = 0;
-gdjs.settingSceneCode.GDBuyObjects5.length = 0;
-gdjs.settingSceneCode.GDBuyObjects6.length = 0;
-gdjs.settingSceneCode.GDBuyObjects7.length = 0;
-gdjs.settingSceneCode.GDBuyObjects8.length = 0;
-gdjs.settingSceneCode.GDBuyObjects9.length = 0;
-gdjs.settingSceneCode.GDConfigObjects1.length = 0;
-gdjs.settingSceneCode.GDConfigObjects2.length = 0;
-gdjs.settingSceneCode.GDConfigObjects3.length = 0;
-gdjs.settingSceneCode.GDConfigObjects4.length = 0;
-gdjs.settingSceneCode.GDConfigObjects5.length = 0;
-gdjs.settingSceneCode.GDConfigObjects6.length = 0;
-gdjs.settingSceneCode.GDConfigObjects7.length = 0;
-gdjs.settingSceneCode.GDConfigObjects8.length = 0;
-gdjs.settingSceneCode.GDConfigObjects9.length = 0;
-gdjs.settingSceneCode.GDApplyObjects1.length = 0;
-gdjs.settingSceneCode.GDApplyObjects2.length = 0;
-gdjs.settingSceneCode.GDApplyObjects3.length = 0;
-gdjs.settingSceneCode.GDApplyObjects4.length = 0;
-gdjs.settingSceneCode.GDApplyObjects5.length = 0;
-gdjs.settingSceneCode.GDApplyObjects6.length = 0;
-gdjs.settingSceneCode.GDApplyObjects7.length = 0;
-gdjs.settingSceneCode.GDApplyObjects8.length = 0;
-gdjs.settingSceneCode.GDApplyObjects9.length = 0;
-gdjs.settingSceneCode.GDBackObjects1.length = 0;
-gdjs.settingSceneCode.GDBackObjects2.length = 0;
-gdjs.settingSceneCode.GDBackObjects3.length = 0;
-gdjs.settingSceneCode.GDBackObjects4.length = 0;
-gdjs.settingSceneCode.GDBackObjects5.length = 0;
-gdjs.settingSceneCode.GDBackObjects6.length = 0;
-gdjs.settingSceneCode.GDBackObjects7.length = 0;
-gdjs.settingSceneCode.GDBackObjects8.length = 0;
-gdjs.settingSceneCode.GDBackObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Buy_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Play_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects1.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects2.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects3.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects4.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects5.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects6.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects7.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects8.length = 0;
-gdjs.settingSceneCode.GDLarge_9595Exit_9595ButtonObjects9.length = 0;
-gdjs.settingSceneCode.GDHeartObjects1.length = 0;
-gdjs.settingSceneCode.GDHeartObjects2.length = 0;
-gdjs.settingSceneCode.GDHeartObjects3.length = 0;
-gdjs.settingSceneCode.GDHeartObjects4.length = 0;
-gdjs.settingSceneCode.GDHeartObjects5.length = 0;
-gdjs.settingSceneCode.GDHeartObjects6.length = 0;
-gdjs.settingSceneCode.GDHeartObjects7.length = 0;
-gdjs.settingSceneCode.GDHeartObjects8.length = 0;
-gdjs.settingSceneCode.GDHeartObjects9.length = 0;
-gdjs.settingSceneCode.GDHelpObjects1.length = 0;
-gdjs.settingSceneCode.GDHelpObjects2.length = 0;
-gdjs.settingSceneCode.GDHelpObjects3.length = 0;
-gdjs.settingSceneCode.GDHelpObjects4.length = 0;
-gdjs.settingSceneCode.GDHelpObjects5.length = 0;
-gdjs.settingSceneCode.GDHelpObjects6.length = 0;
-gdjs.settingSceneCode.GDHelpObjects7.length = 0;
-gdjs.settingSceneCode.GDHelpObjects8.length = 0;
-gdjs.settingSceneCode.GDHelpObjects9.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects1.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects2.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects3.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects4.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects5.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects6.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects7.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects8.length = 0;
-gdjs.settingSceneCode.GDLeft_9595arrowObjects9.length = 0;
-gdjs.settingSceneCode.GDMenuObjects1.length = 0;
-gdjs.settingSceneCode.GDMenuObjects2.length = 0;
-gdjs.settingSceneCode.GDMenuObjects3.length = 0;
-gdjs.settingSceneCode.GDMenuObjects4.length = 0;
-gdjs.settingSceneCode.GDMenuObjects5.length = 0;
-gdjs.settingSceneCode.GDMenuObjects6.length = 0;
-gdjs.settingSceneCode.GDMenuObjects7.length = 0;
-gdjs.settingSceneCode.GDMenuObjects8.length = 0;
-gdjs.settingSceneCode.GDMenuObjects9.length = 0;
-gdjs.settingSceneCode.GDPauseObjects1.length = 0;
-gdjs.settingSceneCode.GDPauseObjects2.length = 0;
-gdjs.settingSceneCode.GDPauseObjects3.length = 0;
-gdjs.settingSceneCode.GDPauseObjects4.length = 0;
-gdjs.settingSceneCode.GDPauseObjects5.length = 0;
-gdjs.settingSceneCode.GDPauseObjects6.length = 0;
-gdjs.settingSceneCode.GDPauseObjects7.length = 0;
-gdjs.settingSceneCode.GDPauseObjects8.length = 0;
-gdjs.settingSceneCode.GDPauseObjects9.length = 0;
-gdjs.settingSceneCode.GDPlayObjects1.length = 0;
-gdjs.settingSceneCode.GDPlayObjects2.length = 0;
-gdjs.settingSceneCode.GDPlayObjects3.length = 0;
-gdjs.settingSceneCode.GDPlayObjects4.length = 0;
-gdjs.settingSceneCode.GDPlayObjects5.length = 0;
-gdjs.settingSceneCode.GDPlayObjects6.length = 0;
-gdjs.settingSceneCode.GDPlayObjects7.length = 0;
-gdjs.settingSceneCode.GDPlayObjects8.length = 0;
-gdjs.settingSceneCode.GDPlayObjects9.length = 0;
-gdjs.settingSceneCode.GDPlusObjects1.length = 0;
-gdjs.settingSceneCode.GDPlusObjects2.length = 0;
-gdjs.settingSceneCode.GDPlusObjects3.length = 0;
-gdjs.settingSceneCode.GDPlusObjects4.length = 0;
-gdjs.settingSceneCode.GDPlusObjects5.length = 0;
-gdjs.settingSceneCode.GDPlusObjects6.length = 0;
-gdjs.settingSceneCode.GDPlusObjects7.length = 0;
-gdjs.settingSceneCode.GDPlusObjects8.length = 0;
-gdjs.settingSceneCode.GDPlusObjects9.length = 0;
-gdjs.settingSceneCode.GDNextObjects1.length = 0;
-gdjs.settingSceneCode.GDNextObjects2.length = 0;
-gdjs.settingSceneCode.GDNextObjects3.length = 0;
-gdjs.settingSceneCode.GDNextObjects4.length = 0;
-gdjs.settingSceneCode.GDNextObjects5.length = 0;
-gdjs.settingSceneCode.GDNextObjects6.length = 0;
-gdjs.settingSceneCode.GDNextObjects7.length = 0;
-gdjs.settingSceneCode.GDNextObjects8.length = 0;
-gdjs.settingSceneCode.GDNextObjects9.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects1.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects2.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects3.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects4.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects5.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects6.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects7.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects8.length = 0;
-gdjs.settingSceneCode.GDRight_9595arrowObjects9.length = 0;
-gdjs.settingSceneCode.GDShareObjects1.length = 0;
-gdjs.settingSceneCode.GDShareObjects2.length = 0;
-gdjs.settingSceneCode.GDShareObjects3.length = 0;
-gdjs.settingSceneCode.GDShareObjects4.length = 0;
-gdjs.settingSceneCode.GDShareObjects5.length = 0;
-gdjs.settingSceneCode.GDShareObjects6.length = 0;
-gdjs.settingSceneCode.GDShareObjects7.length = 0;
-gdjs.settingSceneCode.GDShareObjects8.length = 0;
-gdjs.settingSceneCode.GDShareObjects9.length = 0;
-gdjs.settingSceneCode.GDRetryObjects1.length = 0;
-gdjs.settingSceneCode.GDRetryObjects2.length = 0;
-gdjs.settingSceneCode.GDRetryObjects3.length = 0;
-gdjs.settingSceneCode.GDRetryObjects4.length = 0;
-gdjs.settingSceneCode.GDRetryObjects5.length = 0;
-gdjs.settingSceneCode.GDRetryObjects6.length = 0;
-gdjs.settingSceneCode.GDRetryObjects7.length = 0;
-gdjs.settingSceneCode.GDRetryObjects8.length = 0;
-gdjs.settingSceneCode.GDRetryObjects9.length = 0;
-gdjs.settingSceneCode.GDWorldObjects1.length = 0;
-gdjs.settingSceneCode.GDWorldObjects2.length = 0;
-gdjs.settingSceneCode.GDWorldObjects3.length = 0;
-gdjs.settingSceneCode.GDWorldObjects4.length = 0;
-gdjs.settingSceneCode.GDWorldObjects5.length = 0;
-gdjs.settingSceneCode.GDWorldObjects6.length = 0;
-gdjs.settingSceneCode.GDWorldObjects7.length = 0;
-gdjs.settingSceneCode.GDWorldObjects8.length = 0;
-gdjs.settingSceneCode.GDWorldObjects9.length = 0;
-gdjs.settingSceneCode.GDStarObjects1.length = 0;
-gdjs.settingSceneCode.GDStarObjects2.length = 0;
-gdjs.settingSceneCode.GDStarObjects3.length = 0;
-gdjs.settingSceneCode.GDStarObjects4.length = 0;
-gdjs.settingSceneCode.GDStarObjects5.length = 0;
-gdjs.settingSceneCode.GDStarObjects6.length = 0;
-gdjs.settingSceneCode.GDStarObjects7.length = 0;
-gdjs.settingSceneCode.GDStarObjects8.length = 0;
-gdjs.settingSceneCode.GDStarObjects9.length = 0;
-gdjs.settingSceneCode.GDAdsObjects1.length = 0;
-gdjs.settingSceneCode.GDAdsObjects2.length = 0;
-gdjs.settingSceneCode.GDAdsObjects3.length = 0;
-gdjs.settingSceneCode.GDAdsObjects4.length = 0;
-gdjs.settingSceneCode.GDAdsObjects5.length = 0;
-gdjs.settingSceneCode.GDAdsObjects6.length = 0;
-gdjs.settingSceneCode.GDAdsObjects7.length = 0;
-gdjs.settingSceneCode.GDAdsObjects8.length = 0;
-gdjs.settingSceneCode.GDAdsObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects1.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects2.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects3.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects4.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects5.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects6.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects7.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects8.length = 0;
-gdjs.settingSceneCode.GDcardObject2Objects9.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects1.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects2.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects3.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects4.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects5.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects6.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects7.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects8.length = 0;
-gdjs.settingSceneCode.GDcardForEnemyObjects9.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDcolorLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects1.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects2.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects3.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects4.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects5.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects6.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects7.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects8.length = 0;
-gdjs.settingSceneCode.GDaiDialogObjects9.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects1.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects2.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects3.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects4.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects5.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects6.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects7.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects8.length = 0;
-gdjs.settingSceneCode.GDbottomMenuObjects9.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects1.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects2.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects3.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects4.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects5.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects6.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects7.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects8.length = 0;
-gdjs.settingSceneCode.GDsoundOnOffObjects9.length = 0;
-gdjs.settingSceneCode.GDtitleObjects1.length = 0;
-gdjs.settingSceneCode.GDtitleObjects2.length = 0;
-gdjs.settingSceneCode.GDtitleObjects3.length = 0;
-gdjs.settingSceneCode.GDtitleObjects4.length = 0;
-gdjs.settingSceneCode.GDtitleObjects5.length = 0;
-gdjs.settingSceneCode.GDtitleObjects6.length = 0;
-gdjs.settingSceneCode.GDtitleObjects7.length = 0;
-gdjs.settingSceneCode.GDtitleObjects8.length = 0;
-gdjs.settingSceneCode.GDtitleObjects9.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects1.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects2.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects3.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects4.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects5.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects6.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects7.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects8.length = 0;
-gdjs.settingSceneCode.GDbgmOnOffObjects9.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects1.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects2.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects3.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects4.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects5.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects6.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects7.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects8.length = 0;
-gdjs.settingSceneCode.GDborderLayoutObjects9.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDtitleLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects1.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects2.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects3.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects4.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects5.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects6.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects7.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects8.length = 0;
-gdjs.settingSceneCode.GDsoundLabel2Objects9.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDbgmLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDlogoutLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects1.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects2.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects3.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects4.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects5.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects6.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects7.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects8.length = 0;
-gdjs.settingSceneCode.GDsaveDataLabelObjects9.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects1.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects2.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects3.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects4.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects5.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects6.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects7.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects8.length = 0;
-gdjs.settingSceneCode.GDload_9595Data_9595_9595Overried_9595_95952Objects9.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects2.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects3.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects4.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects5.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects6.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects7.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects8.length = 0;
-gdjs.settingSceneCode.GDNewTwoChoicesDialogBoxObjects9.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects1.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects2.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects3.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects4.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects5.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects6.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects7.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects8.length = 0;
-gdjs.settingSceneCode.GDaiDialog2Objects9.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects1.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects2.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects3.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects4.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects5.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects6.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects7.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects8.length = 0;
-gdjs.settingSceneCode.GDnewCard2Objects9.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects1.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects2.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects3.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects4.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects5.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects6.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects7.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects8.length = 0;
-gdjs.settingSceneCode.GDcardForEnemy2Objects9.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects1.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects2.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects3.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects4.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects5.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects6.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects7.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects8.length = 0;
-gdjs.settingSceneCode.GDnewCardObjects9.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects1.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects2.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects3.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects4.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects5.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects6.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects7.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects8.length = 0;
-gdjs.settingSceneCode.GDtableCardObjects9.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects1.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects2.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects3.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects4.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects5.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects6.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects7.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects8.length = 0;
-gdjs.settingSceneCode.GDcardObject3Objects9.length = 0;
+gdjs.cardSceneCode.eventsList8(runtimeScene);
+gdjs.cardSceneCode.GDNewSprite3Objects1.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects2.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects3.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects4.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects5.length = 0;
+gdjs.cardSceneCode.GDNewSprite3Objects6.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects1.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects2.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects3.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects4.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects5.length = 0;
+gdjs.cardSceneCode.GDNewTiledSpriteObjects6.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects1.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects2.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects3.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects4.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects5.length = 0;
+gdjs.cardSceneCode.GDNewTiledSprite2Objects6.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDredLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDblueLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects1.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects2.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects3.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects4.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects5.length = 0;
+gdjs.cardSceneCode.GDNewSprite2Objects6.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects1.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects2.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects3.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects4.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects5.length = 0;
+gdjs.cardSceneCode.GDNewPanelSpriteObjects6.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects1.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects2.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects3.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects4.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects5.length = 0;
+gdjs.cardSceneCode.GDlevelTextObjects6.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects1.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects2.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects3.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects4.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects5.length = 0;
+gdjs.cardSceneCode.GDcardObjectObjects6.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects1.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects2.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects3.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects4.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects5.length = 0;
+gdjs.cardSceneCode.GDDownloadObjects6.length = 0;
+gdjs.cardSceneCode.GDBuyObjects1.length = 0;
+gdjs.cardSceneCode.GDBuyObjects2.length = 0;
+gdjs.cardSceneCode.GDBuyObjects3.length = 0;
+gdjs.cardSceneCode.GDBuyObjects4.length = 0;
+gdjs.cardSceneCode.GDBuyObjects5.length = 0;
+gdjs.cardSceneCode.GDBuyObjects6.length = 0;
+gdjs.cardSceneCode.GDConfigObjects1.length = 0;
+gdjs.cardSceneCode.GDConfigObjects2.length = 0;
+gdjs.cardSceneCode.GDConfigObjects3.length = 0;
+gdjs.cardSceneCode.GDConfigObjects4.length = 0;
+gdjs.cardSceneCode.GDConfigObjects5.length = 0;
+gdjs.cardSceneCode.GDConfigObjects6.length = 0;
+gdjs.cardSceneCode.GDApplyObjects1.length = 0;
+gdjs.cardSceneCode.GDApplyObjects2.length = 0;
+gdjs.cardSceneCode.GDApplyObjects3.length = 0;
+gdjs.cardSceneCode.GDApplyObjects4.length = 0;
+gdjs.cardSceneCode.GDApplyObjects5.length = 0;
+gdjs.cardSceneCode.GDApplyObjects6.length = 0;
+gdjs.cardSceneCode.GDBackObjects1.length = 0;
+gdjs.cardSceneCode.GDBackObjects2.length = 0;
+gdjs.cardSceneCode.GDBackObjects3.length = 0;
+gdjs.cardSceneCode.GDBackObjects4.length = 0;
+gdjs.cardSceneCode.GDBackObjects5.length = 0;
+gdjs.cardSceneCode.GDBackObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Buy_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Play_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDLarge_9595Exit_9595ButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDHeartObjects1.length = 0;
+gdjs.cardSceneCode.GDHeartObjects2.length = 0;
+gdjs.cardSceneCode.GDHeartObjects3.length = 0;
+gdjs.cardSceneCode.GDHeartObjects4.length = 0;
+gdjs.cardSceneCode.GDHeartObjects5.length = 0;
+gdjs.cardSceneCode.GDHeartObjects6.length = 0;
+gdjs.cardSceneCode.GDHelpObjects1.length = 0;
+gdjs.cardSceneCode.GDHelpObjects2.length = 0;
+gdjs.cardSceneCode.GDHelpObjects3.length = 0;
+gdjs.cardSceneCode.GDHelpObjects4.length = 0;
+gdjs.cardSceneCode.GDHelpObjects5.length = 0;
+gdjs.cardSceneCode.GDHelpObjects6.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects1.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects2.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects3.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects4.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects5.length = 0;
+gdjs.cardSceneCode.GDLeft_9595arrowObjects6.length = 0;
+gdjs.cardSceneCode.GDMenuObjects1.length = 0;
+gdjs.cardSceneCode.GDMenuObjects2.length = 0;
+gdjs.cardSceneCode.GDMenuObjects3.length = 0;
+gdjs.cardSceneCode.GDMenuObjects4.length = 0;
+gdjs.cardSceneCode.GDMenuObjects5.length = 0;
+gdjs.cardSceneCode.GDMenuObjects6.length = 0;
+gdjs.cardSceneCode.GDPauseObjects1.length = 0;
+gdjs.cardSceneCode.GDPauseObjects2.length = 0;
+gdjs.cardSceneCode.GDPauseObjects3.length = 0;
+gdjs.cardSceneCode.GDPauseObjects4.length = 0;
+gdjs.cardSceneCode.GDPauseObjects5.length = 0;
+gdjs.cardSceneCode.GDPauseObjects6.length = 0;
+gdjs.cardSceneCode.GDPlayObjects1.length = 0;
+gdjs.cardSceneCode.GDPlayObjects2.length = 0;
+gdjs.cardSceneCode.GDPlayObjects3.length = 0;
+gdjs.cardSceneCode.GDPlayObjects4.length = 0;
+gdjs.cardSceneCode.GDPlayObjects5.length = 0;
+gdjs.cardSceneCode.GDPlayObjects6.length = 0;
+gdjs.cardSceneCode.GDPlusObjects1.length = 0;
+gdjs.cardSceneCode.GDPlusObjects2.length = 0;
+gdjs.cardSceneCode.GDPlusObjects3.length = 0;
+gdjs.cardSceneCode.GDPlusObjects4.length = 0;
+gdjs.cardSceneCode.GDPlusObjects5.length = 0;
+gdjs.cardSceneCode.GDPlusObjects6.length = 0;
+gdjs.cardSceneCode.GDNextObjects1.length = 0;
+gdjs.cardSceneCode.GDNextObjects2.length = 0;
+gdjs.cardSceneCode.GDNextObjects3.length = 0;
+gdjs.cardSceneCode.GDNextObjects4.length = 0;
+gdjs.cardSceneCode.GDNextObjects5.length = 0;
+gdjs.cardSceneCode.GDNextObjects6.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects1.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects2.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects3.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects4.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects5.length = 0;
+gdjs.cardSceneCode.GDRight_9595arrowObjects6.length = 0;
+gdjs.cardSceneCode.GDShareObjects1.length = 0;
+gdjs.cardSceneCode.GDShareObjects2.length = 0;
+gdjs.cardSceneCode.GDShareObjects3.length = 0;
+gdjs.cardSceneCode.GDShareObjects4.length = 0;
+gdjs.cardSceneCode.GDShareObjects5.length = 0;
+gdjs.cardSceneCode.GDShareObjects6.length = 0;
+gdjs.cardSceneCode.GDRetryObjects1.length = 0;
+gdjs.cardSceneCode.GDRetryObjects2.length = 0;
+gdjs.cardSceneCode.GDRetryObjects3.length = 0;
+gdjs.cardSceneCode.GDRetryObjects4.length = 0;
+gdjs.cardSceneCode.GDRetryObjects5.length = 0;
+gdjs.cardSceneCode.GDRetryObjects6.length = 0;
+gdjs.cardSceneCode.GDWorldObjects1.length = 0;
+gdjs.cardSceneCode.GDWorldObjects2.length = 0;
+gdjs.cardSceneCode.GDWorldObjects3.length = 0;
+gdjs.cardSceneCode.GDWorldObjects4.length = 0;
+gdjs.cardSceneCode.GDWorldObjects5.length = 0;
+gdjs.cardSceneCode.GDWorldObjects6.length = 0;
+gdjs.cardSceneCode.GDStarObjects1.length = 0;
+gdjs.cardSceneCode.GDStarObjects2.length = 0;
+gdjs.cardSceneCode.GDStarObjects3.length = 0;
+gdjs.cardSceneCode.GDStarObjects4.length = 0;
+gdjs.cardSceneCode.GDStarObjects5.length = 0;
+gdjs.cardSceneCode.GDStarObjects6.length = 0;
+gdjs.cardSceneCode.GDAdsObjects1.length = 0;
+gdjs.cardSceneCode.GDAdsObjects2.length = 0;
+gdjs.cardSceneCode.GDAdsObjects3.length = 0;
+gdjs.cardSceneCode.GDAdsObjects4.length = 0;
+gdjs.cardSceneCode.GDAdsObjects5.length = 0;
+gdjs.cardSceneCode.GDAdsObjects6.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects1.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects2.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects3.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects4.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects5.length = 0;
+gdjs.cardSceneCode.GDcardForEnemyObjects6.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDcolorLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects1.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects2.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects3.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects4.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects5.length = 0;
+gdjs.cardSceneCode.GDaiDialogObjects6.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects1.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects2.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects3.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects4.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects5.length = 0;
+gdjs.cardSceneCode.GDbottomMenuObjects6.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects1.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects2.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects3.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects4.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects5.length = 0;
+gdjs.cardSceneCode.GDlistViewObjects6.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects1.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects2.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects3.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects4.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects5.length = 0;
+gdjs.cardSceneCode.GDguideLineObjects6.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects1.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects2.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects3.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects4.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects5.length = 0;
+gdjs.cardSceneCode.GDSkeleton_9595MageObjects6.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDtopButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects1.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects2.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects3.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects4.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects5.length = 0;
+gdjs.cardSceneCode.GDgrayLayoutObjects6.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects1.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects2.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects3.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects4.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects5.length = 0;
+gdjs.cardSceneCode.GDNewTwoChoicesDialogBoxObjects6.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects1.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects2.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects3.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects4.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects5.length = 0;
+gdjs.cardSceneCode.GDbottomButtonObjects6.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects1.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects2.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects3.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects4.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects5.length = 0;
+gdjs.cardSceneCode.GDStarRatingObjects6.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects1.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects2.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects3.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects4.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects5.length = 0;
+gdjs.cardSceneCode.GDnewCard2Objects6.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects1.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects2.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects3.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects4.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects5.length = 0;
+gdjs.cardSceneCode.GDcardForEnemy2Objects6.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects1.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects2.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects3.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects4.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects5.length = 0;
+gdjs.cardSceneCode.GDnewCardObjects6.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects1.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects2.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects3.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects4.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects5.length = 0;
+gdjs.cardSceneCode.GDtableCardObjects6.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects1.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects2.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects3.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects4.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects5.length = 0;
+gdjs.cardSceneCode.GDcardObject3Objects6.length = 0;
 
 
 return;
 
 }
 
-gdjs['settingSceneCode'] = gdjs.settingSceneCode;
+gdjs['cardSceneCode'] = gdjs.cardSceneCode;

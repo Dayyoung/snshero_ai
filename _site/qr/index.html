@@ -43,10 +43,10 @@
 
   </div>
 
-  <div class="topLabel" style="width:100dvw; height: 50px; max-width:100dvw; position: absolute; background: transparent;">
+  <div class="topLabel" style="width:100dvw; height: 150px; max-width:100dvw; position: absolute; background: transparent;">
   </div>
 
-  <div class="bottomLabel" style="width:100dvw; height: 50px; max-width:100dvw; position: absolute; background: transparent;">
+  <div class="bottomLabel" style="width:100dvw; height: 300px; max-width:100dvw; position: absolute; background: transparent;">
   </div>
 
 
@@ -59,10 +59,20 @@
   var transactionID = timestamp = new Date().getTime();
   var mount = url.searchParams.get("mount", 0);
   var type = url.searchParams.get("type", 0);
+  var usd = url.searchParams.get("usd", 0);
+
+  if(usd && usd != 0){
+    mount = usd * 100 //currency
+  }
+
   var STATUS = 0
 
   var transactionInterval = setInterval(function(){
-    var transactionList = GsheetToJSON("https://docs.google.com/spreadsheets/d/1zl66vk1yUNS3faq6RXNqN_SgE1EgxBASmZuNRYNVi8s/edit?usp=sharing")
+    var docUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTY9DBqSsFH3rgHEONY6aQ-UQdRKTuiEvH1WUVAsuMkMvz0N35khocP8usWlSNScTlxKX_YMiajn3a4/pubhtml?gid=1436912764&single=true"
+
+    docUrl = "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTY9DBqSsFH3rgHEONY6aQ-UQdRKTuiEvH1WUVAsuMkMvz0N35khocP8usWlSNScTlxKX_YMiajn3a4/pubhtml/sheet?headers=false&gid=1436912764"
+    var transactionList = GsheetToJSON(docUrl)
+   // var transactionList = GsheetToJSON("https://docs.google.com/spreadsheets/d/1zl66vk1yUNS3faq6RXNqN_SgE1EgxBASmZuNRYNVi8s/edit?usp=sharing")
     for(transactionItem of transactionList){
       if(transactionItem && transactionItem.transactionID && transactionItem.transactionID == transactionID){
         console.log(transactionItem) 
@@ -93,7 +103,18 @@
    
     //alert("init")
     new Clipboard('.bottomLabel');
-    $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
+
+    if(type=="BTC"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
+    }else if(type=="ETH"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
+    }else if(type=="SOL"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"DGUrsmyfqBnkA8cjSpTv4PLjPqE5qfBCV471GgobxREq")
+    }else if(type=="TT"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
+    }else if(type=="TRX"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
+    }
                
     var targetWidth = $(".qrImage").width()
     var targetHeight = $(".qrImage").height()
@@ -114,7 +135,17 @@
 
     $(".topLabel").click(function(){
       //alert("test")
-      history.back();
+
+      try{
+        history.back();
+      }catch(e){
+
+      }
+      try{
+        self.close()
+      }catch(e){
+
+      }
 
     })
     $(".bottomLabel").click(function(){
@@ -128,9 +159,9 @@
     var secondsLabel = document.getElementById("seconds");
     var totalSeconds = 0;
 
-    totalSeconds = 60 * 5
+    totalSeconds = 60 * 15
 
-    totalSeconds = 5
+    //totalSeconds = 5
 
     setInterval(setTime, 1000);
 
@@ -144,18 +175,19 @@
          totalSeconds = totalSeconds - 55
          $('.mountLabel').html("Transaction is Completed!")
          $('.countLabel').html("Redirecting page ...")
+
+         setTimeout(function(){
+          window.location.href = "/thankyou?mount="+mount     
+         },2000)
+
       }else{
         $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
 
       }
 
 
-      if(totalSeconds <= 0){
-        if(STATUS == 3){
-          window.location.href = "/thankyou?mount="+mount          
-        }else{         
-          $('.countLabel').html("Time is over.") 
-        }
+      if(totalSeconds <= 0){               
+          $('.countLabel').html("Time is over.")         
       }
 
     }
@@ -198,15 +230,15 @@
         var coinForDollar = 1/firstItem
 
         if(mount && mount != 0){
-          var dollar = mount / 100
+          var dollar = mount
           var snsForDis = (dollar * coinForDollar).toFixed(6)
 
           if(coinName=="bitcoin") coinName = "BTC"
-          if(type != "tt")
+          if(type != "TT")
           {
             $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ type+")")
           }else{
-            $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ "USDT" +")") 
+            $('.mountLabel').html(mount+" SNS (" +" "+mount+ " "+ "USDT" +")") 
           }
           simpleRequest("https://docs.google.com/forms/d/e/1FAIpQLSc1643l3DZII9d0ccLQ5KY4poLQy4oXGtWBELWXAstMr8_qlQ/formResponse?entry.2135301602="+transactionID+"&entry.123292328="+type+"&entry.2112558213="+mount+"&entry.1325157987="+snsForDis+"&entry.1131580105=1")
 
@@ -252,6 +284,7 @@
             success: function(res){   
 
             var table = $(res).find('td')
+
             
             tableList = [];
 
@@ -260,7 +293,6 @@
             var startIndex;
 
             table.each(function(i,item){
-
 
               if($(item).has("div").length > 0){
                 tableData = $(item).find('div').html()
@@ -287,6 +319,8 @@
 
         }
       });
+
+
     return tableList;
   }
 

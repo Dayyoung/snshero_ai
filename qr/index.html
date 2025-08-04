@@ -68,7 +68,11 @@
   var STATUS = 0
 
   var transactionInterval = setInterval(function(){
-    var transactionList = GsheetToJSON("https://docs.google.com/spreadsheets/d/1zl66vk1yUNS3faq6RXNqN_SgE1EgxBASmZuNRYNVi8s/edit?usp=sharing")
+    var docUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTY9DBqSsFH3rgHEONY6aQ-UQdRKTuiEvH1WUVAsuMkMvz0N35khocP8usWlSNScTlxKX_YMiajn3a4/pubhtml?gid=1436912764&single=true"
+
+    docUrl = "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTY9DBqSsFH3rgHEONY6aQ-UQdRKTuiEvH1WUVAsuMkMvz0N35khocP8usWlSNScTlxKX_YMiajn3a4/pubhtml/sheet?headers=false&gid=1436912764"
+    var transactionList = GsheetToJSON(docUrl)
+   // var transactionList = GsheetToJSON("https://docs.google.com/spreadsheets/d/1zl66vk1yUNS3faq6RXNqN_SgE1EgxBASmZuNRYNVi8s/edit?usp=sharing")
     for(transactionItem of transactionList){
       if(transactionItem && transactionItem.transactionID && transactionItem.transactionID == transactionID){
         console.log(transactionItem) 
@@ -280,6 +284,7 @@
             success: function(res){   
 
             var table = $(res).find('td')
+
             
             tableList = [];
 
@@ -288,7 +293,6 @@
             var startIndex;
 
             table.each(function(i,item){
-
 
               if($(item).has("div").length > 0){
                 tableData = $(item).find('div').html()
@@ -315,6 +319,8 @@
 
         }
       });
+
+
     return tableList;
   }
 
