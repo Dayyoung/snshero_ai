@@ -45,6 +45,9 @@ var urlParams = new URLSearchParams(window.location.search);
 var type;
 type = urlParams.get('type');
 
+var mount;
+mount = urlParams.get('mount');
+
 if(type == "100sns"){
   var SNS = localStorage.getItem("SNS")
   if(!SNS) SNS = 0 
@@ -59,6 +62,12 @@ if(type == "10000sns"){
   var SNS = localStorage.getItem("SNS")
   if(!SNS) SNS = 0 
   localStorage.setItem("SNS",parseInt(SNS)+10000)
+}
+
+if(mount){
+  var SNS = localStorage.getItem("SNS")
+  if(!SNS) SNS = 0 
+  localStorage.setItem("SNS",parseInt(SNS)+parseInt(mount))
 }
 //type=10000sns
 

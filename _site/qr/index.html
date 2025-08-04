@@ -33,7 +33,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <center>
 
-  <img src="btc.jpg" style="max-width:100dvw"></img>
+  <img class="qrImage" src="btc.PNG" style="max-width:100dvw"></img>
+  <img class="resultImage" src="complete.PNG" style="max-width:100dvw;display: none;"></img>
 
   <div class="label" style="width:100dvw; max-width:100dvw; position: absolute;">
     <h2 class="mountLabel"></h1>
@@ -55,16 +56,47 @@
 
   
   var url = new URL(window.location.href);
-  var nowMount = url.searchParams.get("mount", 0);
+  var transactionID = timestamp = new Date().getTime();
+  var mount = url.searchParams.get("mount", 0);
+  var type = url.searchParams.get("type", 0);
+  var STATUS = 0
+
+  var transactionInterval = setInterval(function(){
+    var transactionList = GsheetToJSON("https://docs.google.com/spreadsheets/d/1zl66vk1yUNS3faq6RXNqN_SgE1EgxBASmZuNRYNVi8s/edit?usp=sharing")
+    for(transactionItem of transactionList){
+      if(transactionItem && transactionItem.transactionID && transactionItem.transactionID == transactionID){
+        console.log(transactionItem) 
+        if(transactionItem.Status.indexOf(3)!= -1){
+          $('.qrImage').hide()
+          $('.resultImage').show()
+          STATUS = 3
+        }
+      }
+    }
+  },3000)
 
   $(function(){
 
+  if(type=="BTC"){
+    $(".qrImage").attr("src","btc.PNG")
+  }else if(type=="ETH"){
+    $(".qrImage").attr("src","eth.PNG")
+  }else if(type=="SOL"){
+    $(".qrImage").attr("src","sol.PNG")    
+  }else if(type=="TT"){
+    $(".qrImage").attr("src","tt.PNG")    
+  }else if(type=="TRX"){
+    $(".qrImage").attr("src","trx.PNG")
+  }
+
+ $(".qrImage").on("load", function() {
+   
+    //alert("init")
     new Clipboard('.bottomLabel');
     $('.bottomLabel').attr("data-clipboard-text" ,"bc1pctdc0htf4creydjh|32adl69dscjcgf8nrlz5shskl9srycua70qgmfpg8")
-                
-
-    var targetWidth = $("img").width()
-    var targetHeight = $("img").height()
+               
+    var targetWidth = $(".qrImage").width()
+    var targetHeight = $(".qrImage").height()
 
     console.log(targetWidth)
     console.log(targetHeight)
@@ -89,7 +121,7 @@
       showToast("Address is copied.")
     })
 
-    getCoinPrice("bitcoin")
+    getCoinPrice(type)
 
 
     var minutesLabel = document.getElementById("minutes");
@@ -98,22 +130,32 @@
 
     totalSeconds = 60 * 5
 
-//    totalSeconds = 5
+    totalSeconds = 5
 
     setInterval(setTime, 1000);
 
     function setTime() {
+      console.log(totalSeconds)
       --totalSeconds;
       var leftSec = pad(totalSeconds % 60);
       var leftMin = pad(parseInt(totalSeconds / 60));
 
-      $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
+      if(STATUS == 3){
+         totalSeconds = totalSeconds - 55
+         $('.mountLabel').html("Transaction is Completed!")
+         $('.countLabel').html("Redirecting page ...")
+      }else{
+        $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
+
+      }
 
 
       if(totalSeconds <= 0){
-        //window.location.href = "/thankyou?type=100sns"
-        $('.countLabel').html("Time is over.")
-
+        if(STATUS == 3){
+          window.location.href = "/thankyou?mount="+mount          
+        }else{         
+          $('.countLabel').html("Time is over.") 
+        }
       }
 
     }
@@ -127,10 +169,25 @@
       }
     }
 
+   })
+
   })
 
 
-    function getCoinPrice(coinName){
+    function getCoinPrice(type){
+
+
+        if(type=="BTC"){
+          var coinName = "bitcoin"
+        }else if(type=="ETH"){
+          var coinName = "ethereum"
+        }else if(type=="SOL"){
+          var coinName = "solana"  
+        }else if(type=="TT"){
+          var coinName = "tether" 
+        }else if(type=="TRX"){
+          var coinName = "tron"
+        }
 
       $.get( "https://api.coingecko.com/api/v3/simple/price?ids="+coinName+"&vs_currencies=USD", function( data ) {
         var firstItem = data[Object.keys(data)[0]];
@@ -140,13 +197,20 @@
 
         var coinForDollar = 1/firstItem
 
-        if(nowMount && nowMount != 0){
-          var dollar = nowMount / 100
+        if(mount && mount != 0){
+          var dollar = mount / 100
           var snsForDis = (dollar * coinForDollar).toFixed(6)
 
           if(coinName=="bitcoin") coinName = "BTC"
+          if(type != "tt")
+          {
+            $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ type+")")
+          }else{
+            $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ "USDT" +")") 
+          }
+          simpleRequest("https://docs.google.com/forms/d/e/1FAIpQLSc1643l3DZII9d0ccLQ5KY4poLQy4oXGtWBELWXAstMr8_qlQ/formResponse?entry.2135301602="+transactionID+"&entry.123292328="+type+"&entry.2112558213="+mount+"&entry.1325157987="+snsForDis+"&entry.1131580105=1")
 
-          $('.mountLabel').html(nowMount+" SNS (" +" "+snsForDis+ " "+ coinName+")")
+
         }
         
         });
@@ -174,5 +238,62 @@
 
   }
 
+  function GsheetToJSON(requestUrl) {
+
+    var tableList; 
+    var tableColumnList = ['timeStamp','transactionID','Type','Mount','Status'];
+
+    $.ajax({
+            type: "get",            
+            url: requestUrl,         
+            async: false,
+            cache: false,              
+            data: "",                
+            success: function(res){   
+
+            var table = $(res).find('td')
+            
+            tableList = [];
+
+            var tableItem;
+            var tableData;
+            var startIndex;
+
+            table.each(function(i,item){
+
+
+              if($(item).has("div").length > 0){
+                tableData = $(item).find('div').html()
+              }else{
+                tableData = $(item).html();
+              }
+
+              if(tableData.indexOf(':') != -1){
+                tableList.push(tableItem);
+                tableItem = {};
+                startIndex = 0;
+              }
+
+              if(tableItem){
+                tableItem[tableColumnList[startIndex]] = tableData;
+                startIndex = startIndex + 1;
+              }
+
+            });
+
+            if(tableItem){
+              tableList.push(tableItem);
+            }
+
+        }
+      });
+    return tableList;
+  }
+
+  function simpleRequest(url){
+   var Http = new XMLHttpRequest()
+   Http.open('GET', url);
+   Http.send();
+  }
 
 </script>
