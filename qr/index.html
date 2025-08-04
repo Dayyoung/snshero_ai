@@ -150,18 +150,19 @@
          totalSeconds = totalSeconds - 55
          $('.mountLabel').html("Transaction is Completed!")
          $('.countLabel').html("Redirecting page ...")
+
+         setTimeout(function(){
+          window.location.href = "/thankyou?mount="+mount     
+         },2000)
+
       }else{
         $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
 
       }
 
 
-      if(totalSeconds <= 0){
-        if(STATUS == 3){
-          window.location.href = "/thankyou?mount="+mount          
-        }else{         
-          $('.countLabel').html("Time is over.") 
-        }
+      if(totalSeconds <= 0){               
+          $('.countLabel').html("Time is over.")         
       }
 
     }
@@ -212,7 +213,7 @@
           {
             $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ type+")")
           }else{
-            $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ "USDT" +")") 
+            $('.mountLabel').html(mount+" SNS (" +" "+mount+ " "+ "USDT" +")") 
           }
           simpleRequest("https://docs.google.com/forms/d/e/1FAIpQLSc1643l3DZII9d0ccLQ5KY4poLQy4oXGtWBELWXAstMr8_qlQ/formResponse?entry.2135301602="+transactionID+"&entry.123292328="+type+"&entry.2112558213="+mount+"&entry.1325157987="+snsForDis+"&entry.1131580105=1")
 
