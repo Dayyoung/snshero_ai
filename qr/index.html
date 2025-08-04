@@ -93,10 +93,24 @@
     $(".qrImage").attr("src","eth.PNG")
   }else if(type=="SOL"){
     $(".qrImage").attr("src","sol.PNG")    
-  }else if(type=="TT"){
-    $(".qrImage").attr("src","tt.PNG")    
+  }else if(type=="USDT"){
+    $(".qrImage").attr("src","usdt.PNG")    
   }else if(type=="TRX"){
     $(".qrImage").attr("src","trx.PNG")
+  }else if(type=="USDC"){
+    $(".qrImage").attr("src","usdc.PNG")
+  }else if(type=="OKX"){
+    $(".qrImage").attr("src","okx.PNG")
+  }else if(type=="BNB"){
+    $(".qrImage").attr("src","bnb.PNG")
+  }else if(type=="TON"){
+    $(".qrImage").attr("src","ton.PNG")
+  }else if(type=="DOGE"){
+    $(".qrImage").attr("src","doge.PNG")
+  }else if(type=="PI"){
+    $(".qrImage").attr("src","pi.PNG")
+  }else if(type=="XRP"){
+    $(".qrImage").attr("src","xrp.PNG")
   }
 
  $(".qrImage").on("load", function() {
@@ -110,11 +124,27 @@
       $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
     }else if(type=="SOL"){
       $('.bottomLabel').attr("data-clipboard-text" ,"DGUrsmyfqBnkA8cjSpTv4PLjPqE5qfBCV471GgobxREq")
-    }else if(type=="TT"){
+    }else if(type=="USDT"){
       $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
     }else if(type=="TRX"){
       $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
+    }else if(type=="USDC"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"DGUrsmyfqBnkA8cjSpTv4PLjPqE5qfBCV471GgobxREq")
+    }else if(type=="OKX"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
+    }else if(type=="BNB"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
+    }else if(type=="TON"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"UQDJzoRmMJoF4jL5H5xM9DIdkb9qHmdFxddL4jd36qoGmObN")
+    }else if(type=="DOGE"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"DCgwCiMd66t18YXAKRJtoUNpbt9sn5mR6m")
+    }else if(type=="PI"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"GCPX6CQBM73C064EKQO5SUJRE4TENMSGZVMLY6HVXJAWQVIGXOLV6ZFB")
+    }else if(type=="XRP"){
+      $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
     }
+
+
                
     var targetWidth = $(".qrImage").width()
     var targetHeight = $(".qrImage").height()
@@ -215,10 +245,26 @@
           var coinName = "ethereum"
         }else if(type=="SOL"){
           var coinName = "solana"  
-        }else if(type=="TT"){
+        }else if(type=="USDT"){
           var coinName = "tether" 
         }else if(type=="TRX"){
           var coinName = "tron"
+        }else if(type=="USDC"){
+          var coinName = "tether" //some
+        //}else if(type=="OKX"){
+        //   var coinName = "okx"
+        // }else if(type=="BNB"){
+        //   var coinName = "bnb"
+        }else if(type=="TON"){
+          var coinName = "the-open-network"
+        }else if(type=="DOGE"){
+          var coinName = "dogecoin"
+        }
+        else if(type=="PI"){
+          var coinName = "ripple"
+        }
+        else if(type=="XRP"){
+          var coinName = "ripple"
         }
 
       $.get( "https://api.coingecko.com/api/v3/simple/price?ids="+coinName+"&vs_currencies=USD", function( data ) {
@@ -229,17 +275,21 @@
 
         var coinForDollar = 1/firstItem
 
+        if(type == "PI"){
+          coinForDollar = (coinForDollar * 0.12)
+
+          // * 0.1 = /10
+          // * 0.01 = /100
+          // * 0.000000313 = /3130000
+        }
+
         if(mount && mount != 0){
           var dollar = mount
           var snsForDis = (dollar * coinForDollar).toFixed(6)
 
-          if(coinName=="bitcoin") coinName = "BTC"
-          if(type != "TT")
-          {
-            $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ type+")")
-          }else{
-            $('.mountLabel').html(mount+" SNS (" +" "+mount+ " "+ "USDT" +")") 
-          }
+          
+          $('.mountLabel').html(mount+" SNS (" +" "+snsForDis+ " "+ type+")")
+         
           simpleRequest("https://docs.google.com/forms/d/e/1FAIpQLSc1643l3DZII9d0ccLQ5KY4poLQy4oXGtWBELWXAstMr8_qlQ/formResponse?entry.2135301602="+transactionID+"&entry.123292328="+type+"&entry.2112558213="+mount+"&entry.1325157987="+snsForDis+"&entry.1131580105=1")
 
 
