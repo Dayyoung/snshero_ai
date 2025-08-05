@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Sticker__DefineHelperClasses !== "undefined") {
 gdjs.evtsExt__Sticker__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xc2cdb8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xfcab50 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._stickerExtension) {
     return;
@@ -20,8 +20,10 @@ gdjs.registerObjectDeletedFromSceneCallback(function (runtimeScene, deletedObjec
     if (!extension) {
         return;
     }
+    /** @type {Set<gdjs.RuntimeBehavior>} */
     const allStickers = runtimeScene._stickerExtension.allStickers;
     for (const behavior of allStickers) {
+        /** @type {Sticker} */
         const sticker = behavior._sticker;
         if (sticker.isStuckTo(deletedObject)) {
             if (behavior._getIsDestroyedWithParent()) {
@@ -264,7 +266,7 @@ gdjs.evtsExt__Sticker__DefineHelperClasses.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xc2cdb8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xfcab50(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

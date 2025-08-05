@@ -379,7 +379,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1688cb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x169acd8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -419,12 +419,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1688cb8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x169acd8(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d33b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1132130 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -454,12 +454,12 @@ gdjs.paymentSceneCode.eventsList3 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d33b0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1132130(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0xe76d78 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x11323b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -489,12 +489,12 @@ gdjs.paymentSceneCode.eventsList4 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0xe76d78(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x11323b0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x93dcc8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x140d710 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -524,12 +524,12 @@ gdjs.paymentSceneCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x93dcc8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x140d710(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d1df0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x100ff68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -559,12 +559,12 @@ gdjs.paymentSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d1df0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x100ff68(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1688b60 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x14102f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -594,12 +594,12 @@ gdjs.paymentSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1688b60(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x14102f0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0xe78a08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x112f7d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -629,12 +629,12 @@ gdjs.paymentSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0xe78a08(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x112f7d0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d3a10 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x16580e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -664,12 +664,12 @@ gdjs.paymentSceneCode.eventsList9 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d3a10(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x16580e0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0xe75af8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1410ff0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -699,12 +699,12 @@ gdjs.paymentSceneCode.eventsList10 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0xe75af8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1410ff0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d2ff0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x165b258 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -734,12 +734,12 @@ gdjs.paymentSceneCode.eventsList11 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d2ff0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x165b258(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d2ab0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x165b760 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -769,12 +769,12 @@ gdjs.paymentSceneCode.eventsList12 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d2ab0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x165b760(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x19d2c90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1657aa0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -804,12 +804,12 @@ gdjs.paymentSceneCode.eventsList13 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x19d2c90(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1657aa0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1488460 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1411170 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -839,7 +839,7 @@ gdjs.paymentSceneCode.eventsList14 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1488460(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1411170(runtimeScene);
 
 }
 
@@ -910,7 +910,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.GDpaymentLabel7Objects1);
 {for(var i = 0, len = gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length ;i < len;++i) {
-    gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].SetLabelTextOp("My Coin : " + runtimeScene.getGame().getVariables().getFromIndex(7).getAsString() + " SNS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].SetLabelTextOp("<<          My Coin : " + runtimeScene.getGame().getVariables().getFromIndex(7).getAsString() + " SNS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -919,18 +919,18 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.G
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("paymentLabel"), gdjs.paymentSceneCode.GDpaymentLabelObjects1);
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.GDpaymentLabel7Objects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabelObjects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabelObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.paymentSceneCode.GDpaymentLabelObjects1[k] = gdjs.paymentSceneCode.GDpaymentLabelObjects1[i];
+        gdjs.paymentSceneCode.GDpaymentLabel7Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i];
         ++k;
     }
 }
-gdjs.paymentSceneCode.GDpaymentLabelObjects1.length = k;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "shopScene", false);
 }}
