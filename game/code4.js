@@ -282,6 +282,54 @@ gdjs.paymentSceneCode.GDNewSprite13Objects3= [];
 gdjs.paymentSceneCode.GDNewSprite14Objects1= [];
 gdjs.paymentSceneCode.GDNewSprite14Objects2= [];
 gdjs.paymentSceneCode.GDNewSprite14Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel7Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel7Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel7Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel8Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel8Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel8Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel9Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel9Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel9Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel10Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel10Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel10Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite15Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite15Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite15Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite16Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite16Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite16Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite17Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite17Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite17Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel11Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel11Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel11Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel12Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel12Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel12Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel13Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel13Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel13Objects3= [];
+gdjs.paymentSceneCode.GDpaymentLabel14Objects1= [];
+gdjs.paymentSceneCode.GDpaymentLabel14Objects2= [];
+gdjs.paymentSceneCode.GDpaymentLabel14Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite18Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite18Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite18Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite19Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite19Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite19Objects3= [];
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects1= [];
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects2= [];
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite20Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite20Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite20Objects3= [];
+gdjs.paymentSceneCode.GDNewSprite21Objects1= [];
+gdjs.paymentSceneCode.GDNewSprite21Objects2= [];
+gdjs.paymentSceneCode.GDNewSprite21Objects3= [];
 gdjs.paymentSceneCode.GDnewCard2Objects1= [];
 gdjs.paymentSceneCode.GDnewCard2Objects2= [];
 gdjs.paymentSceneCode.GDnewCard2Objects3= [];
@@ -299,7 +347,39 @@ gdjs.paymentSceneCode.GDcardObject3Objects2= [];
 gdjs.paymentSceneCode.GDcardObject3Objects3= [];
 
 
-gdjs.paymentSceneCode.userFunc0x92d350 = function GDJSInlineCode(runtimeScene) {
+gdjs.paymentSceneCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() < 1280 / 2);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(1280 / 2);
+}}
+
+}
+
+
+};gdjs.paymentSceneCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() > 2400 - (1280 / 2));
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(2400 - (1280 / 2));
+}}
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x1688cb8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -324,7 +404,7 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList0 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -339,20 +419,20 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.paymentSceneCode.userFunc0x92d350(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1688cb8(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x92c6f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x19d33b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
-    var  popupUrl = "https://snshero.com/qr/?usd=1&type=TT"
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=USDT"
 }else if(selectedPayment == 1000){
-    var  popupUrl = "https://snshero.com/qr/?usd=10&type=TT"
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=USDT"
 }else if(selectedPayment == 10000){
-    var  popupUrl = "https://snshero.com/qr/?usd=100&type=TT"
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=USDT"
 }
 
 var newWin = window.open(popupUrl, "_blank");             
@@ -369,17 +449,17 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList1 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList3 = function(runtimeScene) {
 
 {
 
 
-gdjs.paymentSceneCode.userFunc0x92c6f0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x19d33b0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0xa06788 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0xe76d78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -404,17 +484,17 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList2 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList4 = function(runtimeScene) {
 
 {
 
 
-gdjs.paymentSceneCode.userFunc0xa06788(runtimeScene);
+gdjs.paymentSceneCode.userFunc0xe76d78(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0xa07588 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x93dcc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -439,17 +519,17 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList3 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList5 = function(runtimeScene) {
 
 {
 
 
-gdjs.paymentSceneCode.userFunc0xa07588(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x93dcc8(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x13d9558 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x19d1df0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -474,17 +554,17 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList4 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList6 = function(runtimeScene) {
 
 {
 
 
-gdjs.paymentSceneCode.userFunc0x13d9558(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x19d1df0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x13d9678 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1688b60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -509,17 +589,333 @@ if(!newWin || newWin.closed || typeof newWin.closed=='undefined')
     } 
 }
 };
-gdjs.paymentSceneCode.eventsList5 = function(runtimeScene) {
+gdjs.paymentSceneCode.eventsList7 = function(runtimeScene) {
 
 {
 
 
-gdjs.paymentSceneCode.userFunc0x13d9678(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1688b60(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.eventsList6 = function(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0xe78a08 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=USDC"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=USDC"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=USDC"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList8 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0xe78a08(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x19d3a10 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=BNB"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=BNB"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=BNB"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0x19d3a10(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0xe75af8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=OKB"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=OKB"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=OKB"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList10 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0xe75af8(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x19d2ff0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=XRP"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=XRP"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=XRP"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0x19d2ff0(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x19d2ab0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=TON"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=TON"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=TON"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList12 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0x19d2ab0(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x19d2c90 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=DOGE"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=DOGE"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=DOGE"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList13 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0x19d2c90(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.userFunc0x1488460 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
+if(selectedPayment == 100){
+    var  popupUrl = "https://snshero.com/qr/?usd=1&type=PI"
+}else if(selectedPayment == 1000){
+    var  popupUrl = "https://snshero.com/qr/?usd=10&type=PI"
+}else if(selectedPayment == 10000){
+    var  popupUrl = "https://snshero.com/qr/?usd=100&type=PI"
+}
+
+var newWin = window.open(popupUrl, "_blank");             
+
+if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
+{ 
+    //POPUP BLOCKED
+    var nowUrl = window.location.href
+    if(nowUrl.indexOf("https://snshero.com") == -1 && nowUrl.indexOf("http://localhost") == -1){
+        alert("It is available at snshero.com.")  
+        window.open("https://snshero.com/game");      
+    }else{
+        window.location.href = popupUrl
+    } 
+}
+};
+gdjs.paymentSceneCode.eventsList14 = function(runtimeScene) {
+
+{
+
+
+gdjs.paymentSceneCode.userFunc0x1488460(runtimeScene);
+
+}
+
+
+};gdjs.paymentSceneCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 720, 2400, "", 0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isScrollingUp(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() - 100);
+}
+{ //Subevents
+gdjs.paymentSceneCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isScrollingDown(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(43).setNumber(runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber() + 100);
+}
+{ //Subevents
+gdjs.paymentSceneCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene));
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.setCameraY(runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(43).getAsNumber(), "", 0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.GDpaymentLabel7Objects1);
+{for(var i = 0, len = gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length ;i < len;++i) {
+    gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].SetLabelTextOp("My Coin : " + runtimeScene.getGame().getVariables().getFromIndex(7).getAsString() + " SNS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
 
 {
 
@@ -559,7 +955,7 @@ gdjs.paymentSceneCode.GDpaymentLabel1Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList0(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -582,7 +978,7 @@ gdjs.paymentSceneCode.GDpaymentLabel2Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -605,7 +1001,7 @@ gdjs.paymentSceneCode.GDpaymentLabel3Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -628,7 +1024,7 @@ gdjs.paymentSceneCode.GDpaymentLabel4Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
@@ -651,7 +1047,7 @@ gdjs.paymentSceneCode.GDpaymentLabel5Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -674,7 +1070,168 @@ gdjs.paymentSceneCode.GDpaymentLabel6Objects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.paymentSceneCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.paymentSceneCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel8"), gdjs.paymentSceneCode.GDpaymentLabel8Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel8Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel8Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel8Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel8Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel8Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList8(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel9"), gdjs.paymentSceneCode.GDpaymentLabel9Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel9Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel9Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel9Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel9Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel9Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList9(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel10"), gdjs.paymentSceneCode.GDpaymentLabel10Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel10Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel10Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel10Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel10Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel10Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList10(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel11"), gdjs.paymentSceneCode.GDpaymentLabel11Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel11Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel11Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel11Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel11Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel11Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList11(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel12"), gdjs.paymentSceneCode.GDpaymentLabel12Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel12Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel12Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel12Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel12Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel12Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList12(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel13"), gdjs.paymentSceneCode.GDpaymentLabel13Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel13Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel13Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel13Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel13Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel13Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("paymentLabel14"), gdjs.paymentSceneCode.GDpaymentLabel14Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel14Objects1.length;i<l;++i) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel14Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.paymentSceneCode.GDpaymentLabel14Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel14Objects1[i];
+        ++k;
+    }
+}
+gdjs.paymentSceneCode.GDpaymentLabel14Objects1.length = k;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.paymentSceneCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
@@ -977,6 +1534,54 @@ gdjs.paymentSceneCode.GDNewSprite13Objects3.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects1.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects2.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects3.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects1.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects2.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects3.length = 0;
@@ -993,7 +1598,7 @@ gdjs.paymentSceneCode.GDcardObject3Objects1.length = 0;
 gdjs.paymentSceneCode.GDcardObject3Objects2.length = 0;
 gdjs.paymentSceneCode.GDcardObject3Objects3.length = 0;
 
-gdjs.paymentSceneCode.eventsList6(runtimeScene);
+gdjs.paymentSceneCode.eventsList15(runtimeScene);
 gdjs.paymentSceneCode.GDNewSprite3Objects1.length = 0;
 gdjs.paymentSceneCode.GDNewSprite3Objects2.length = 0;
 gdjs.paymentSceneCode.GDNewSprite3Objects3.length = 0;
@@ -1276,6 +1881,54 @@ gdjs.paymentSceneCode.GDNewSprite13Objects3.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects1.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects2.length = 0;
 gdjs.paymentSceneCode.GDNewSprite14Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel7Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel8Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel9Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel10Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite15Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite16Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite17Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel11Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel12Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel13Objects3.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects1.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects2.length = 0;
+gdjs.paymentSceneCode.GDpaymentLabel14Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite18Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite19Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewTiledSprite3Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite20Objects3.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects1.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects2.length = 0;
+gdjs.paymentSceneCode.GDNewSprite21Objects3.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects1.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects2.length = 0;
 gdjs.paymentSceneCode.GDnewCard2Objects3.length = 0;

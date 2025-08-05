@@ -294,7 +294,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__TwoChoicesDialogBoxes__TwoChoicesDialog
 gdjs.evtsExt__TwoChoicesDialogBoxes__TwoChoicesDialogBox.TwoChoicesDialogBox.prototype.doStepPostEventsContext.GDYesButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30372908);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(10111548);
 }
 }
 if (isConditionTrue_0) {
@@ -347,7 +347,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30376996);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(10107172);
 }
 }
 if (isConditionTrue_0) {
@@ -398,7 +398,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30380628);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(35835788);
 }
 }
 if (isConditionTrue_0) {
@@ -448,7 +448,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30384268);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(35840924);
 }
 }
 }

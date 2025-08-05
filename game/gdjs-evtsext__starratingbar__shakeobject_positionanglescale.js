@@ -1948,7 +1948,7 @@ gdjs.copyArray(gdjs.evtsExt__StarRatingBar__ShakeObject_PositionAngleScale.Shake
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30681156);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(36151052);
 }
 }
 if (isConditionTrue_0) {
