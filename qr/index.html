@@ -99,8 +99,8 @@
     $(".qrImage").attr("src","trx.PNG")
   }else if(type=="USDC"){
     $(".qrImage").attr("src","usdc.PNG")
-  }else if(type=="OKX"){
-    $(".qrImage").attr("src","okx.PNG")
+  }else if(type=="OKB"){
+    $(".qrImage").attr("src","okb.PNG")
   }else if(type=="BNB"){
     $(".qrImage").attr("src","bnb.PNG")
   }else if(type=="TON"){
@@ -130,7 +130,7 @@
       $('.bottomLabel').attr("data-clipboard-text" ,"TCYytM1g3xjPo9KR7Sky4ibpZgB9MxL7PH")
     }else if(type=="USDC"){
       $('.bottomLabel').attr("data-clipboard-text" ,"DGUrsmyfqBnkA8cjSpTv4PLjPqE5qfBCV471GgobxREq")
-    }else if(type=="OKX"){
+    }else if(type=="OKB"){
       $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
     }else if(type=="BNB"){
       $('.bottomLabel').attr("data-clipboard-text" ,"0x59448a8bb4d0944568b7344519f59e2960b8d8c6")
@@ -251,19 +251,17 @@
           var coinName = "tron"
         }else if(type=="USDC"){
           var coinName = "tether" //some
-        //}else if(type=="OKX"){
-        //   var coinName = "okx"
-        // }else if(type=="BNB"){
-        //   var coinName = "bnb"
+        }else if(type=="OKB"){
+          var coinName = "okb"
+        }else if(type=="BNB"){
+          var coinName = "binancecoin"
         }else if(type=="TON"){
           var coinName = "the-open-network"
         }else if(type=="DOGE"){
           var coinName = "dogecoin"
-        }
-        else if(type=="PI"){
+        }else if(type=="PI"){
           var coinName = "ripple"
-        }
-        else if(type=="XRP"){
+        }else if(type=="XRP"){
           var coinName = "ripple"
         }
 
@@ -276,11 +274,7 @@
         var coinForDollar = 1/firstItem
 
         if(type == "PI"){
-          coinForDollar = (coinForDollar * 0.12)
-
-          // * 0.1 = /10
-          // * 0.01 = /100
-          // * 0.000000313 = /3130000
+          coinForDollar = (coinForDollar / 0.12)
         }
 
         if(mount && mount != 0){
