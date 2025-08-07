@@ -379,7 +379,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab57b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x176f7d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(SNS)
@@ -397,7 +397,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab6258 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1770278 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -437,12 +437,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab6258(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1770278(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab65a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x17705c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -472,12 +472,12 @@ gdjs.paymentSceneCode.eventsList4 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab65a0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x17705c0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab68e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1770900 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -507,12 +507,12 @@ gdjs.paymentSceneCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab68e0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1770900(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab6c08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1770c28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -542,12 +542,12 @@ gdjs.paymentSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab6c08(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1770c28(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab6f30 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1770f50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -577,12 +577,12 @@ gdjs.paymentSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab6f30(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1770f50(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab7270 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1771290 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -612,12 +612,12 @@ gdjs.paymentSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab7270(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1771290(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab75b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x17715d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -647,12 +647,12 @@ gdjs.paymentSceneCode.eventsList9 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab75b0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x17715d0(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab78f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1771910 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -682,12 +682,12 @@ gdjs.paymentSceneCode.eventsList10 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab78f0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1771910(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab7c30 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1771c50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -717,12 +717,12 @@ gdjs.paymentSceneCode.eventsList11 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab7c30(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1771c50(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab7f70 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1771f58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -752,12 +752,12 @@ gdjs.paymentSceneCode.eventsList12 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab7f70(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1771f58(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab8280 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1772260 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -787,12 +787,12 @@ gdjs.paymentSceneCode.eventsList13 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab8280(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1772260(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab8588 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1772568 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -822,12 +822,12 @@ gdjs.paymentSceneCode.eventsList14 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab8588(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1772568(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1ab8890 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1772870 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -857,7 +857,7 @@ gdjs.paymentSceneCode.eventsList15 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab8890(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1772870(runtimeScene);
 
 }
 
@@ -928,9 +928,15 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(2).getAsBoolean();
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
 }{runtimeScene.getScene().getVariables().getFromIndex(45).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
-}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(51).getAsString() + " is pressed11", "info", "");
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(52).getAsString() + " is pressed11", "info", "");
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setBoolean(true);
 }}
 
 }
@@ -943,10 +949,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(46).setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "touchTimer"));
-}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(46).getAsString() + " is pressed", "info", "");
+{runtimeScene.getScene().getVariables().getFromIndex(47).setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "touchTimer"));
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(47).getAsString() + " is pressed", "info", "");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "touchTimer");
 }{runtimeScene.getScene().getVariables().getFromIndex(45).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(45).getAsNumber());
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setBoolean(false);
 }}
 
 }
@@ -955,7 +962,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1ab57b0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x176f7d0(runtimeScene);
 
 }
 
