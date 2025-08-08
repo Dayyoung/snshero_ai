@@ -147,15 +147,6 @@
   top: 443px;
   object-fit: cover;
 }
-.kids-in-balloon5 {
-  width: 418px;
-  height: 229px;
-  position: absolute;
-  left: calc(50% - 201px);
-  top: 147px;
-  object-fit: cover;
-  top:80px;
-}
 .buy-now-button {
   width: 220px;
   height: 39px;
@@ -172,7 +163,7 @@
   left: 0px;
   top: 0px;
 }
-.comming-soon {
+.play-now {
   color: #ffe1cc;
   text-align: center;
   font-family: "Baloo2-SemiBold", sans-serif;
@@ -209,7 +200,8 @@
   line-height: 140%;
   font-weight: 600;
   position: absolute;
-  left: calc(50% - 272px);
+  left: 50%;
+  translate: -50%;
   top: 355px;
   width: 559px;
 }
@@ -221,7 +213,18 @@
   line-height: 140%;
   font-weight: 600;
   position: absolute;
-  left: calc(50% - 272px);
-  top: 105px;
+  left: 50%;
+  translate: -50%;
+  top: 45px;
   width: 559px;
+}
+.logo-1 {
+  width: 499px;
+  height: 246px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 109px;
+  object-fit: cover;
+  aspect-ratio: 499/246;
 }
