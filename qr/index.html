@@ -216,14 +216,14 @@
       }else{
         $('.countLabel').html("Timeout - " + leftMin + ":" + leftSec)
 
-         // setTimeout(function(){
-         //  window.location.href = "/thankyou?mount="+mount     
-         // },2000)
       }
 
 
       if(totalSeconds <= 0){               
           $('.countLabel').html("Time is over.")         
+           setTimeout(function(){
+            window.location.href = "/thankyou?mount="+mount     
+           },2000)
       }
 
     }
