@@ -43,12 +43,12 @@ eventsFunctionContext.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.localVariables[1].getFromIndex(0).setNumber(gdjs.evtsExt__PinchGesture__InversedX.func(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber(), eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber(), eventsFunctionContext.getArgument("Layer"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber());
-}{eventsFunctionContext.localVariables[1].getFromIndex(1).setNumber(gdjs.evtsExt__PinchGesture__InversedY.func(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber(), eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber(), eventsFunctionContext.getArgument("Layer"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber());
+{eventsFunctionContext.localVariables[1].getFromIndex(0).setNumber(gdjs.evtsExt__PinchGesture__InversedX.func(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber(), eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber(), eventsFunctionContext.getArgument("Layer"), eventsFunctionContext) - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber());
+}{eventsFunctionContext.localVariables[1].getFromIndex(1).setNumber(gdjs.evtsExt__PinchGesture__InversedY.func(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber(), eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber(), eventsFunctionContext.getArgument("Layer"), eventsFunctionContext) - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber());
 }{gdjs.evtTools.camera.setCameraX(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).getAsNumber() + eventsFunctionContext.localVariables[1].getFromIndex(0).getAsNumber(), eventsFunctionContext.getArgument("Layer"), 0);
 }{gdjs.evtTools.camera.setCameraY(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(4).getAsNumber() + eventsFunctionContext.localVariables[1].getFromIndex(1).getAsNumber(), eventsFunctionContext.getArgument("Layer"), 0);
-}{gdjs.evtTools.camera.setCameraRotation(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(5).getAsNumber() - gdjs.evtsExt__PinchGesture__Rotation.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), eventsFunctionContext.getArgument("Layer"), 0);
-}{gdjs.evtTools.camera.setCameraZoom(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(6).getAsNumber() * gdjs.evtsExt__PinchGesture__Scaling.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), eventsFunctionContext.getArgument("Layer"), 0);
+}{gdjs.evtTools.camera.setCameraRotation(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(5).getAsNumber() - gdjs.evtsExt__PinchGesture__Rotation.func(runtimeScene, eventsFunctionContext), eventsFunctionContext.getArgument("Layer"), 0);
+}{gdjs.evtTools.camera.setCameraZoom(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(6).getAsNumber() * gdjs.evtsExt__PinchGesture__Scaling.func(runtimeScene, eventsFunctionContext), eventsFunctionContext.getArgument("Layer"), 0);
 }}
 eventsFunctionContext.localVariables.pop();
 
@@ -135,7 +135,7 @@ gdjs.evtsExt__PinchGesture__PinchCamera.eventsList2(runtimeScene, eventsFunction
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29317380);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(33410796);
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).setNumber(gdjs.evtTools.camera.getCameraX(runtimeScene, eventsFunctionContext.getArgument("Layer"), 0));
@@ -203,7 +203,7 @@ eventsFunctionContext.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtsExt__PinchGesture__IsPinching.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+isConditionTrue_0 = gdjs.evtsExt__PinchGesture__IsPinching.func(runtimeScene, eventsFunctionContext);
 if (isConditionTrue_0) {
 
 { //Subevents

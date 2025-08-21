@@ -15,7 +15,7 @@ gdjs.evtsExt__PinchGesture__Rotation.eventsList0 = function(runtimeScene, events
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.sceneVariablesForExtension.getFromIndex(11).getAsNumber() - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(8).getAsNumber(); }}}
+{eventsFunctionContext.returnValue = eventsFunctionContext.sceneVariablesForExtension.getFromIndex(11).getAsNumber() - eventsFunctionContext.sceneVariablesForExtension.getFromIndex(8).getAsNumber();}}
 
 }
 

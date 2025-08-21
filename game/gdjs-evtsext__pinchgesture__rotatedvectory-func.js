@@ -15,7 +15,7 @@ gdjs.evtsExt__PinchGesture__RotatedVectorY.eventsList0 = function(runtimeScene, 
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = Math.sin(gdjs.toRad(eventsFunctionContext.getArgument("Angle"))) * eventsFunctionContext.getArgument("VectorX") + Math.cos(gdjs.toRad(eventsFunctionContext.getArgument("Angle"))) * eventsFunctionContext.getArgument("VectorY"); }}}
+{eventsFunctionContext.returnValue = Math.sin(gdjs.toRad(eventsFunctionContext.getArgument("Angle"))) * eventsFunctionContext.getArgument("VectorX") + Math.cos(gdjs.toRad(eventsFunctionContext.getArgument("Angle"))) * eventsFunctionContext.getArgument("VectorY");}}
 
 }
 

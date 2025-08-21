@@ -15,7 +15,7 @@ gdjs.evtsExt__PinchGesture__Scaling.eventsList0 = function(runtimeScene, eventsF
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.sceneVariablesForExtension.getFromIndex(12).getAsNumber() / eventsFunctionContext.sceneVariablesForExtension.getFromIndex(7).getAsNumber(); }}}
+{eventsFunctionContext.returnValue = eventsFunctionContext.sceneVariablesForExtension.getFromIndex(12).getAsNumber() / eventsFunctionContext.sceneVariablesForExtension.getFromIndex(7).getAsNumber();}}
 
 }
 

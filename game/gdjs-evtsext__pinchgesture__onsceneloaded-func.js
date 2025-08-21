@@ -15,9 +15,9 @@ gdjs.evtsExt__PinchGesture__onSceneLoaded.eventsList0 = function(runtimeScene, e
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtsExt__PinchGesture__SetCameraPinchLayer.func(runtimeScene, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__PinchGesture__SetCameraPinchConstraint.func(runtimeScene, "No constraint", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__PinchGesture__EnableCameraPinch.func(runtimeScene, false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__PinchGesture__SetCameraPinchLayer.func(runtimeScene, "", eventsFunctionContext);
+}{gdjs.evtsExt__PinchGesture__SetCameraPinchConstraint.func(runtimeScene, "No constraint", eventsFunctionContext);
+}{gdjs.evtsExt__PinchGesture__EnableCameraPinch.func(runtimeScene, false, eventsFunctionContext);
 }}
 
 }

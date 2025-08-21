@@ -15,7 +15,7 @@ gdjs.evtsExt__PinchGesture__TranslationY.eventsList0 = function(runtimeScene, ev
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = gdjs.evtsExt__PinchGesture__CurrentCenterY.func(runtimeScene, eventsFunctionContext.getArgument("Layer"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) - gdjs.evtsExt__PinchGesture__BeginningCenterY.func(runtimeScene, eventsFunctionContext.getArgument("Layer"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)); }}}
+{eventsFunctionContext.returnValue = gdjs.evtsExt__PinchGesture__CurrentCenterY.func(runtimeScene, eventsFunctionContext.getArgument("Layer"), eventsFunctionContext) - gdjs.evtsExt__PinchGesture__BeginningCenterY.func(runtimeScene, eventsFunctionContext.getArgument("Layer"), eventsFunctionContext);}}
 
 }
 

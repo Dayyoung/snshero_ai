@@ -375,7 +375,7 @@ gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.pickAllObjects((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.mapOfGDgdjs_9546evtsExt_9595_9595StarRatingBar_9595_9595StarRatingBar_9546StarRatingBar_9546prototype_9546doStepPostEventsContext_9546GDStarObjects1Objects);
+isConditionTrue_0 = gdjs.evtTools.object.pickAllObjects(eventsFunctionContext, gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.mapOfGDgdjs_9546evtsExt_9595_9595StarRatingBar_9595_9595StarRatingBar_9546StarRatingBar_9546prototype_9546doStepPostEventsContext_9546GDStarObjects1Objects);
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -398,7 +398,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.GDStarObjects1, gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.GDStarObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.GDStarObjects2.length ;i < len;++i) {
-    gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.GDStarObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("ShakeObject_PositionAngleScale")).ShakeObject_PositionAngleScale(0.5, 5, 0, 0, 25, 0.1, false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.doStepPostEventsContext.GDStarObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("ShakeObject_PositionAngleScale")).ShakeObject_PositionAngleScale(0.5, 5, 0, 0, 25, 0.1, false, eventsFunctionContext);
 }
 }}
 
@@ -531,7 +531,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29883940);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(33842812);
 }
 }
 if (isConditionTrue_0) {
@@ -552,7 +552,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29884780);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(33843932);
 }
 }
 if (isConditionTrue_0) {
@@ -680,7 +680,7 @@ gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.RateContext.e
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0]._getRate(); }}}
+{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0]._getRate();}}
 
 }
 
@@ -810,7 +810,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDStarObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDStarObjects3.length ;i < len;++i) {
-    gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDStarObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("ShakeObject_PositionAngleScale")).ShakeObject_PositionAngleScale(0.5, 5, 0, 0, 25, 0.1, false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDStarObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("ShakeObject_PositionAngleScale")).ShakeObject_PositionAngleScale(0.5, 5, 0, 0, 25, 0.1, false, eventsFunctionContext);
 }
 }}
 
@@ -915,7 +915,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__StarRat
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i].Rate((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) < 0 ) {
+    if ( gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i].Rate(eventsFunctionContext) < 0 ) {
         isConditionTrue_0 = true;
         gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[k] = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i];
         ++k;
@@ -936,7 +936,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__StarRat
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i].Rate((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber() ) {
+    if ( gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i].Rate(eventsFunctionContext) > eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber() ) {
         isConditionTrue_0 = true;
         gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[k] = gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.GDObjectObjects2[i];
         ++k;
@@ -956,7 +956,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Star"), gdjs.evtsExt__StarRatin
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.pickAllObjects((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.mapOfGDgdjs_9546evtsExt_9595_9595StarRatingBar_9595_9595StarRatingBar_9546StarRatingBar_9546prototype_9546SetRateContext_9546GDStarObjects1Objects);
+isConditionTrue_0 = gdjs.evtTools.object.pickAllObjects(eventsFunctionContext, gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.mapOfGDgdjs_9546evtsExt_9595_9595StarRatingBar_9595_9595StarRatingBar_9546StarRatingBar_9546prototype_9546SetRateContext_9546GDStarObjects1Objects);
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -982,7 +982,7 @@ eventsFunctionContext.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.localVariables[0].getFromIndex(0).setNumber(gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.mapOfEmptyGDStarObjects));
+{eventsFunctionContext.localVariables[0].getFromIndex(0).setNumber(gdjs.evtTools.object.getSceneInstancesCount(eventsFunctionContext, gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.mapOfEmptyGDStarObjects));
 }
 { //Subevents
 gdjs.evtsExt__StarRatingBar__StarRatingBar.StarRatingBar.prototype.SetRateContext.eventsList3(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -1112,7 +1112,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = eventsFunctionContext.getObjects("Object")[0]._getDisabled();
 }
 if (isConditionTrue_0) {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
+{eventsFunctionContext.returnValue = true;}}
 
 }
 

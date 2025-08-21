@@ -379,7 +379,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x2080738 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x11a27f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var SNS = localStorage.getItem("SNS")
 if(SNS)
@@ -397,7 +397,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1893528 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x13693d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -437,12 +437,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1893528(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x13693d8(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x8c5ff8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1369720 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -472,12 +472,12 @@ gdjs.paymentSceneCode.eventsList4 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x8c5ff8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1369720(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1893ad0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1369a60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -507,12 +507,12 @@ gdjs.paymentSceneCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1893ad0(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1369a60(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1893da8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x1369d88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -542,12 +542,12 @@ gdjs.paymentSceneCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1893da8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x1369d88(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x18940e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136a0c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -577,12 +577,12 @@ gdjs.paymentSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x18940e8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136a0c8(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1894428 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136a408 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -612,12 +612,12 @@ gdjs.paymentSceneCode.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1894428(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136a408(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1894768 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136a748 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -647,12 +647,12 @@ gdjs.paymentSceneCode.eventsList9 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1894768(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136a748(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1894aa8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136aa58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -682,12 +682,12 @@ gdjs.paymentSceneCode.eventsList10 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1894aa8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136aa58(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1894de8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136ad68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -717,12 +717,12 @@ gdjs.paymentSceneCode.eventsList11 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1894de8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136ad68(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1895128 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136b078 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -752,12 +752,12 @@ gdjs.paymentSceneCode.eventsList12 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1895128(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136b078(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1895468 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136b380 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -787,12 +787,12 @@ gdjs.paymentSceneCode.eventsList13 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1895468(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136b380(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x18957a8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136b688 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -822,12 +822,12 @@ gdjs.paymentSceneCode.eventsList14 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x18957a8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136b688(runtimeScene);
 
 }
 
 
-};gdjs.paymentSceneCode.userFunc0x1895ae8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.paymentSceneCode.userFunc0x136b990 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedPayment = runtimeScene.getGame().getVariables().get("selectedPayment").getAsNumber()
 if(selectedPayment == 100){
@@ -857,7 +857,7 @@ gdjs.paymentSceneCode.eventsList15 = function(runtimeScene) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x1895ae8(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x136b990(runtimeScene);
 
 }
 
@@ -869,7 +869,7 @@ gdjs.paymentSceneCode.userFunc0x1895ae8(runtimeScene);
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", null);
 }{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 720, 2400, "", 0);
 }}
 
@@ -962,7 +962,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.paymentSceneCode.userFunc0x2080738(runtimeScene);
+gdjs.paymentSceneCode.userFunc0x11a27f0(runtimeScene);
 
 }
 
@@ -974,7 +974,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.GDpaymentLabel7Objects1);
 {for(var i = 0, len = gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length ;i < len;++i) {
-    gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].SetLabelTextOp("<<          My Coin : " + runtimeScene.getGame().getVariables().getFromIndex(7).getAsString() + " SNS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].SetLabelTextOp("<<          My Coin : " + runtimeScene.getGame().getVariables().getFromIndex(7).getAsString() + " SNS", null);
 }
 }
 { //Subevents
@@ -991,7 +991,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel7"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel7Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel7Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel7Objects1[i];
         ++k;
@@ -1017,7 +1017,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel1"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel1Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel1Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel1Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel1Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel1Objects1[i];
         ++k;
@@ -1045,7 +1045,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel2"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel2Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel2Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel2Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel2Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel2Objects1[i];
         ++k;
@@ -1073,7 +1073,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel3"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel3Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel3Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel3Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel3Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel3Objects1[i];
         ++k;
@@ -1101,7 +1101,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel4"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel4Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel4Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel4Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel4Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel4Objects1[i];
         ++k;
@@ -1129,7 +1129,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel5"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel5Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel5Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel5Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel5Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel5Objects1[i];
         ++k;
@@ -1157,7 +1157,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel6"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel6Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel6Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel6Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel6Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel6Objects1[i];
         ++k;
@@ -1185,7 +1185,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel8"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel8Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel8Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel8Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel8Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel8Objects1[i];
         ++k;
@@ -1213,7 +1213,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel9"), gdjs.paymentSceneCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel9Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel9Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel9Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel9Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel9Objects1[i];
         ++k;
@@ -1241,7 +1241,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel10"), gdjs.paymentSceneCode.
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel10Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel10Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel10Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel10Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel10Objects1[i];
         ++k;
@@ -1269,7 +1269,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel11"), gdjs.paymentSceneCode.
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel11Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel11Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel11Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel11Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel11Objects1[i];
         ++k;
@@ -1297,7 +1297,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel12"), gdjs.paymentSceneCode.
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel12Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel12Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel12Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel12Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel12Objects1[i];
         ++k;
@@ -1325,7 +1325,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel13"), gdjs.paymentSceneCode.
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel13Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel13Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel13Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel13Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel13Objects1[i];
         ++k;
@@ -1353,7 +1353,7 @@ gdjs.copyArray(runtimeScene.getObjects("paymentLabel14"), gdjs.paymentSceneCode.
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.paymentSceneCode.GDpaymentLabel14Objects1.length;i<l;++i) {
-    if ( gdjs.paymentSceneCode.GDpaymentLabel14Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+    if ( gdjs.paymentSceneCode.GDpaymentLabel14Objects1[i].IsClicked(null) ) {
         isConditionTrue_0 = true;
         gdjs.paymentSceneCode.GDpaymentLabel14Objects1[k] = gdjs.paymentSceneCode.GDpaymentLabel14Objects1[i];
         ++k;

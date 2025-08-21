@@ -15,7 +15,7 @@ gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.eventsList0 = functio
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29407524);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(33477860);
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.sceneVariablesForExtension.getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorX(runtimeScene, eventsFunctionContext.getArgument("Layer"), eventsFunctionContext.getArgument("Camera")));
@@ -74,7 +74,7 @@ isConditionTrue_2 = false;
 isConditionTrue_2 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-{isConditionTrue_2 = !(typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("InputButton") : false);
+{isConditionTrue_2 = !eventsFunctionContext.getArgument("InputButton");
 }
 }
 isConditionTrue_1 = isConditionTrue_2;

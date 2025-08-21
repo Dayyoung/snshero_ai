@@ -15,7 +15,7 @@ gdjs.evtsExt__PinchGesture__TouchCanvasY.eventsList0 = function(runtimeScene, ev
 
 let isConditionTrue_0 = false;
 {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = gdjs.evtsExt__PinchGesture__TransformToCanvasY.func(runtimeScene, gdjs.evtTools.input.getTouchX(runtimeScene, eventsFunctionContext.getArgument("TouchId"), "", 0), gdjs.evtTools.input.getTouchY(runtimeScene, eventsFunctionContext.getArgument("TouchId"), "", 0), "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)); }}}
+{eventsFunctionContext.returnValue = gdjs.evtsExt__PinchGesture__TransformToCanvasY.func(runtimeScene, gdjs.evtTools.input.getTouchX(runtimeScene, eventsFunctionContext.getArgument("TouchId"), "", 0), gdjs.evtTools.input.getTouchY(runtimeScene, eventsFunctionContext.getArgument("TouchId"), "", 0), "", eventsFunctionContext);}}
 
 }
 
